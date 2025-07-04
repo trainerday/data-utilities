@@ -80,10 +80,8 @@ node_modules/
 
 # Output files
 output/
-*.json
 *.csv
 *.xlsx
-*.txt
 !README.md
 !requirements.txt
 
@@ -102,10 +100,23 @@ config.py
 secrets.py
 *.key
 *.pem
-*.crt*.mp4
+*.crt
+*service-account*.json
+*api-access*.json
+
+# Large files
+*.mp4
 *.mp3
-mongo_users.json
 *.sqlite3
 *.bin
 *.pack
-*_data/
+
+# Large data files
+mongo_users.json
+mixpanel/mixpanel_data/
+forum/consolidated_forum_data.json
+forum/forum_data_for_chromadb.json
+
+# Repository directories (contains git repos)
+*/repos/
+**/repos/

@@ -1,0 +1,110 @@
+{
+  "topic": {
+    "id": 58635,
+    "title": "Garmin Sync on Github",
+    "fancy_title": "Garmin Sync on Github",
+    "slug": "garmin-sync-on-github",
+    "posts_count": 1,
+    "reply_count": 0,
+    "highest_post_number": 1,
+    "image_url": "https://forums.trainerday.com/uploads/default/optimized/2X/0/0d4b3123a9594d2a670228bd1f4d428a025752bd_2_1024x512.png",
+    "created_at": "2025-04-09T13:45:15.862Z",
+    "last_posted_at": "2025-04-09T13:45:16.046Z",
+    "bumped": true,
+    "bumped_at": "2025-04-09T13:45:16.046Z",
+    "archetype": "regular",
+    "unseen": false,
+    "pinned": false,
+    "unpinned": null,
+    "visible": true,
+    "closed": false,
+    "archived": false,
+    "bookmarked": null,
+    "liked": null,
+    "tags_descriptions": {},
+    "views": 129,
+    "like_count": 1,
+    "has_summary": false,
+    "last_poster_username": "Alex",
+    "category_id": 1,
+    "pinned_globally": false,
+    "featured_link": null,
+    "can_vote": false,
+    "posters": [
+      {
+        "extras": "latest single",
+        "description": "Original Poster, Most Recent Poster",
+        "user_id": 1,
+        "primary_group_id": 41,
+        "flair_group_id": 41
+      }
+    ]
+  },
+  "posts": [
+    {
+      "id": 75420,
+      "name": "",
+      "username": "Alex",
+      "avatar_template": "/user_avatar/forums.trainerday.com/alex/{size}/1331_2.png",
+      "created_at": "2025-04-09T13:45:16.046Z",
+      "cooked": "<p>I talked to the guy that created this.  He created a way to send complete activities from TD&gt;Dropbox&gt;Garmin</p>\n<aside class=\"onebox allowlistedgeneric\" data-onebox-src=\"https://github.com/sloan58/trainerday-garminconnect-sync\">\n  <header class=\"source\">\n      <img src=\"https://github.githubassets.com/favicons/favicon.svg\" class=\"site-icon\" width=\"32\" height=\"32\">\n\n      <a href=\"https://github.com/sloan58/trainerday-garminconnect-sync\" target=\"_blank\" rel=\"noopener\">GitHub</a>\n  </header>\n\n  <article class=\"onebox-body\">\n    <div class=\"aspect-image\" style=\"--aspect-ratio:690/344;\"><img src=\"https://forums.trainerday.com/uploads/default/optimized/2X/0/0d4b3123a9594d2a670228bd1f4d428a025752bd_2_690x345.png\" class=\"thumbnail\" data-dominant-color=\"EAEBED\" width=\"690\" height=\"345\"></div>\n\n<h3><a href=\"https://github.com/sloan58/trainerday-garminconnect-sync\" target=\"_blank\" rel=\"noopener\">GitHub - sloan58/trainerday-garminconnect-sync: Sync TrainerDay activities to...</a></h3>\n\n  <p>Sync TrainerDay activities to Garmin Connect (via Dropbox) - sloan58/trainerday-garminconnect-sync</p>\n\n\n  </article>\n\n  <div class=\"onebox-metadata\">\n    \n    \n  </div>\n\n  <div style=\"clear: both\"></div>\n</aside>\n",
+      "post_number": 1,
+      "post_type": 1,
+      "updated_at": "2025-04-09T13:45:16.046Z",
+      "reply_count": 0,
+      "reply_to_post_number": null,
+      "quote_count": 0,
+      "incoming_link_count": 2,
+      "reads": 17,
+      "readers_count": 16,
+      "score": 28.4,
+      "yours": false,
+      "topic_id": 58635,
+      "topic_slug": "garmin-sync-on-github",
+      "display_username": "",
+      "primary_group_name": "English",
+      "flair_name": "English",
+      "flair_url": null,
+      "flair_bg_color": "",
+      "flair_color": "",
+      "flair_group_id": 41,
+      "version": 1,
+      "can_edit": false,
+      "can_delete": false,
+      "can_recover": false,
+      "can_see_hidden_post": false,
+      "can_wiki": false,
+      "link_counts": [
+        {
+          "url": "https://github.com/sloan58/trainerday-garminconnect-sync",
+          "internal": false,
+          "reflection": false,
+          "title": "GitHub - sloan58/trainerday-garminconnect-sync: Sync TrainerDay activities to Garmin Connect (via Dropbox)",
+          "clicks": 12
+        }
+      ],
+      "read": true,
+      "user_title": "",
+      "bookmarked": false,
+      "actions_summary": [
+        {
+          "id": 2,
+          "count": 1
+        }
+      ],
+      "moderator": false,
+      "admin": true,
+      "staff": true,
+      "user_id": 1,
+      "hidden": false,
+      "trust_level": 4,
+      "deleted_at": null,
+      "user_deleted": false,
+      "edit_reason": null,
+      "can_view_edit_history": true,
+      "wiki": false,
+      "can_vote": false
+    }
+  ],
+  "downloaded_at": "2025-06-27T07:01:06.270816"
+}

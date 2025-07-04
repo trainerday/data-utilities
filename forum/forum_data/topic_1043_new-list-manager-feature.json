@@ -1,0 +1,109 @@
+{
+  "topic": {
+    "id": 1043,
+    "title": "New List manager feature",
+    "fancy_title": "New List manager feature",
+    "slug": "new-list-manager-feature",
+    "posts_count": 1,
+    "reply_count": 0,
+    "highest_post_number": 1,
+    "image_url": "https://forums.trainerday.com/uploads/default/original/1X/682c955fce50e185c67cdd5a5b91f48a7f66168e.png",
+    "created_at": "2021-11-25T10:46:15.375Z",
+    "last_posted_at": "2021-11-25T10:46:15.483Z",
+    "bumped": true,
+    "bumped_at": "2021-11-25T10:46:15.483Z",
+    "archetype": "regular",
+    "unseen": false,
+    "pinned": false,
+    "unpinned": null,
+    "visible": true,
+    "closed": false,
+    "archived": false,
+    "bookmarked": null,
+    "liked": null,
+    "tags_descriptions": {},
+    "views": 513,
+    "like_count": 2,
+    "has_summary": false,
+    "last_poster_username": "Alex",
+    "category_id": 28,
+    "pinned_globally": false,
+    "featured_link": null,
+    "can_vote": false,
+    "posters": [
+      {
+        "extras": "latest single",
+        "description": "Original Poster, Most Recent Poster",
+        "user_id": 1,
+        "primary_group_id": 41,
+        "flair_group_id": 41
+      }
+    ]
+  },
+  "posts": [
+    {
+      "id": 4190,
+      "name": "",
+      "username": "Alex",
+      "avatar_template": "/user_avatar/forums.trainerday.com/alex/{size}/1331_2.png",
+      "created_at": "2021-11-25T10:46:15.483Z",
+      "cooked": "<p>We added a new list managment feature on My Workouts page to make it easier to manage your lists.   See below.  One feature I am thinking of is the ability to merge lists or an easier way to move workouts from one list to another.  Generally I am looking for ideas or ways to make this the best workout library manager out there, but this was just adding a smaller improvement first.  Maybe something more like a folder/file manager.</p>\n<p><div class=\"lightbox-wrapper\"><a class=\"lightbox\" href=\"https://forums.trainerday.com/uploads/default/original/1X/682c955fce50e185c67cdd5a5b91f48a7f66168e.png\" data-download-href=\"https://forums.trainerday.com/uploads/default/682c955fce50e185c67cdd5a5b91f48a7f66168e\" title=\"image\"><img src=\"https://forums.trainerday.com/uploads/default/optimized/1X/682c955fce50e185c67cdd5a5b91f48a7f66168e_2_690x414.png\" alt=\"image\" data-base62-sha1=\"eRzaWVxv0RgQTm6bL14vL7O37gG\" width=\"690\" height=\"414\" srcset=\"https://forums.trainerday.com/uploads/default/optimized/1X/682c955fce50e185c67cdd5a5b91f48a7f66168e_2_690x414.png, https://forums.trainerday.com/uploads/default/original/1X/682c955fce50e185c67cdd5a5b91f48a7f66168e.png 1.5x, https://forums.trainerday.com/uploads/default/original/1X/682c955fce50e185c67cdd5a5b91f48a7f66168e.png 2x\" data-small-upload=\"https://forums.trainerday.com/uploads/default/optimized/1X/682c955fce50e185c67cdd5a5b91f48a7f66168e_2_10x10.png\"><div class=\"meta\"><svg class=\"fa d-icon d-icon-far-image svg-icon\" aria-hidden=\"true\"><use xlink:href=\"#far-image\"></use></svg><span class=\"filename\">image</span><span class=\"informations\">978\u00d7588 33.4 KB</span><svg class=\"fa d-icon d-icon-discourse-expand svg-icon\" aria-hidden=\"true\"><use xlink:href=\"#discourse-expand\"></use></svg></div></a></div></p>",
+      "post_number": 1,
+      "post_type": 1,
+      "updated_at": "2021-11-25T10:46:15.483Z",
+      "reply_count": 0,
+      "reply_to_post_number": null,
+      "quote_count": 0,
+      "incoming_link_count": 3,
+      "reads": 23,
+      "readers_count": 22,
+      "score": 49.6,
+      "yours": false,
+      "topic_id": 1043,
+      "topic_slug": "new-list-manager-feature",
+      "display_username": "",
+      "primary_group_name": "English",
+      "flair_name": "English",
+      "flair_url": null,
+      "flair_bg_color": "",
+      "flair_color": "",
+      "flair_group_id": 41,
+      "version": 1,
+      "can_edit": false,
+      "can_delete": false,
+      "can_recover": false,
+      "can_see_hidden_post": false,
+      "can_wiki": false,
+      "link_counts": [
+        {
+          "url": "https://forums.trainerday.com/uploads/default/original/1X/682c955fce50e185c67cdd5a5b91f48a7f66168e.png",
+          "internal": true,
+          "reflection": false,
+          "clicks": 0
+        }
+      ],
+      "read": true,
+      "user_title": "",
+      "bookmarked": false,
+      "actions_summary": [
+        {
+          "id": 2,
+          "count": 2
+        }
+      ],
+      "moderator": false,
+      "admin": true,
+      "staff": true,
+      "user_id": 1,
+      "hidden": false,
+      "trust_level": 4,
+      "deleted_at": null,
+      "user_deleted": false,
+      "edit_reason": null,
+      "can_view_edit_history": true,
+      "wiki": false,
+      "can_vote": false
+    }
+  ],
+  "downloaded_at": "2025-06-27T07:43:02.959144"
+}

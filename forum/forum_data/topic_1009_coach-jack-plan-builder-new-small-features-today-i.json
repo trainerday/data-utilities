@@ -1,0 +1,109 @@
+{
+  "topic": {
+    "id": 1009,
+    "title": "Coach Jack Plan Builder New (small) Features Today - Indoor/Outdoor",
+    "fancy_title": "Coach Jack Plan Builder New (small) Features Today - Indoor/Outdoor",
+    "slug": "coach-jack-plan-builder-new-small-features-today-indoor-outdoor",
+    "posts_count": 1,
+    "reply_count": 0,
+    "highest_post_number": 1,
+    "image_url": "https://forums.trainerday.com/uploads/default/original/1X/93703fb3e84afc12962592b61e37e8f8403f78fb.png",
+    "created_at": "2021-11-17T11:13:29.063Z",
+    "last_posted_at": "2021-11-17T11:13:29.167Z",
+    "bumped": true,
+    "bumped_at": "2021-11-17T11:13:29.167Z",
+    "archetype": "regular",
+    "unseen": false,
+    "pinned": false,
+    "unpinned": null,
+    "visible": true,
+    "closed": false,
+    "archived": false,
+    "bookmarked": null,
+    "liked": null,
+    "tags_descriptions": {},
+    "views": 462,
+    "like_count": 1,
+    "has_summary": false,
+    "last_poster_username": "Alex",
+    "category_id": 32,
+    "pinned_globally": false,
+    "featured_link": null,
+    "can_vote": false,
+    "posters": [
+      {
+        "extras": "latest single",
+        "description": "Original Poster, Most Recent Poster",
+        "user_id": 1,
+        "primary_group_id": 41,
+        "flair_group_id": 41
+      }
+    ]
+  },
+  "posts": [
+    {
+      "id": 4031,
+      "name": "",
+      "username": "Alex",
+      "avatar_template": "/user_avatar/forums.trainerday.com/alex/{size}/1331_2.png",
+      "created_at": "2021-11-17T11:13:29.167Z",
+      "cooked": "<p>We made some improvements to the strava / questions feature making it faster the second time you create a plan.</p>\n<p>We also launched some help topics on how to perform some of these workouts.  This is just a start so now I will improve these descriptions a lot but just a helper to make it easier for now.  See below.</p>\n<p><div class=\"lightbox-wrapper\"><a class=\"lightbox\" href=\"https://forums.trainerday.com/uploads/default/original/1X/93703fb3e84afc12962592b61e37e8f8403f78fb.png\" data-download-href=\"https://forums.trainerday.com/uploads/default/93703fb3e84afc12962592b61e37e8f8403f78fb\" title=\"image\"><img src=\"https://forums.trainerday.com/uploads/default/optimized/1X/93703fb3e84afc12962592b61e37e8f8403f78fb_2_690x387.png\" alt=\"image\" data-base62-sha1=\"l2iGaCX7Y2E5yX7kGZa3PNZjTEn\" width=\"690\" height=\"387\" srcset=\"https://forums.trainerday.com/uploads/default/optimized/1X/93703fb3e84afc12962592b61e37e8f8403f78fb_2_690x387.png, https://forums.trainerday.com/uploads/default/original/1X/93703fb3e84afc12962592b61e37e8f8403f78fb.png 1.5x, https://forums.trainerday.com/uploads/default/original/1X/93703fb3e84afc12962592b61e37e8f8403f78fb.png 2x\" data-small-upload=\"https://forums.trainerday.com/uploads/default/optimized/1X/93703fb3e84afc12962592b61e37e8f8403f78fb_2_10x10.png\"><div class=\"meta\"><svg class=\"fa d-icon d-icon-far-image svg-icon\" aria-hidden=\"true\"><use xlink:href=\"#far-image\"></use></svg><span class=\"filename\">image</span><span class=\"informations\">1016\u00d7571 67.3 KB</span><svg class=\"fa d-icon d-icon-discourse-expand svg-icon\" aria-hidden=\"true\"><use xlink:href=\"#discourse-expand\"></use></svg></div></a></div></p>",
+      "post_number": 1,
+      "post_type": 1,
+      "updated_at": "2021-11-17T11:13:48.858Z",
+      "reply_count": 0,
+      "reply_to_post_number": null,
+      "quote_count": 0,
+      "incoming_link_count": 4,
+      "reads": 28,
+      "readers_count": 27,
+      "score": 40.6,
+      "yours": false,
+      "topic_id": 1009,
+      "topic_slug": "coach-jack-plan-builder-new-small-features-today-indoor-outdoor",
+      "display_username": "",
+      "primary_group_name": "English",
+      "flair_name": "English",
+      "flair_url": null,
+      "flair_bg_color": "",
+      "flair_color": "",
+      "flair_group_id": 41,
+      "version": 1,
+      "can_edit": false,
+      "can_delete": false,
+      "can_recover": false,
+      "can_see_hidden_post": false,
+      "can_wiki": false,
+      "link_counts": [
+        {
+          "url": "https://forums.trainerday.com/uploads/default/original/1X/93703fb3e84afc12962592b61e37e8f8403f78fb.png",
+          "internal": true,
+          "reflection": false,
+          "clicks": 0
+        }
+      ],
+      "read": true,
+      "user_title": "",
+      "bookmarked": false,
+      "actions_summary": [
+        {
+          "id": 2,
+          "count": 1
+        }
+      ],
+      "moderator": false,
+      "admin": true,
+      "staff": true,
+      "user_id": 1,
+      "hidden": false,
+      "trust_level": 4,
+      "deleted_at": null,
+      "user_deleted": false,
+      "edit_reason": null,
+      "can_view_edit_history": true,
+      "wiki": false,
+      "can_vote": false
+    }
+  ],
+  "downloaded_at": "2025-06-27T07:43:24.429604"
+}

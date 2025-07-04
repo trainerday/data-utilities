@@ -1,0 +1,109 @@
+{
+  "topic": {
+    "id": 573,
+    "title": "New Activities Tab coming to TD Web site (Mid April 2021)",
+    "fancy_title": "New Activities Tab coming to TD Web site (Mid April 2021)",
+    "slug": "new-activities-tab-coming-to-td-web-site-mid-april-2021",
+    "posts_count": 1,
+    "reply_count": 0,
+    "highest_post_number": 1,
+    "image_url": "https://forums.trainerday.com/uploads/default/optimized/1X/d993ad86ef3643bead31a108e0e24b03ddf87bd8_2_1024x584.jpeg",
+    "created_at": "2021-04-09T12:40:58.663Z",
+    "last_posted_at": "2021-04-09T12:40:58.769Z",
+    "bumped": true,
+    "bumped_at": "2021-04-09T12:40:58.769Z",
+    "archetype": "regular",
+    "unseen": false,
+    "pinned": false,
+    "unpinned": null,
+    "visible": true,
+    "closed": false,
+    "archived": false,
+    "bookmarked": null,
+    "liked": null,
+    "tags_descriptions": {},
+    "views": 580,
+    "like_count": 4,
+    "has_summary": false,
+    "last_poster_username": "Alex",
+    "category_id": 28,
+    "pinned_globally": false,
+    "featured_link": null,
+    "can_vote": false,
+    "posters": [
+      {
+        "extras": "latest single",
+        "description": "Original Poster, Most Recent Poster",
+        "user_id": 1,
+        "primary_group_id": 41,
+        "flair_group_id": 41
+      }
+    ]
+  },
+  "posts": [
+    {
+      "id": 2280,
+      "name": "",
+      "username": "Alex",
+      "avatar_template": "/user_avatar/forums.trainerday.com/alex/{size}/1331_2.png",
+      "created_at": "2021-04-09T12:40:58.769Z",
+      "cooked": "<p>Below you can see the basic idea of what it will look like and the data it will contain.  First it will just have this activity list, but soon after we will add a details page that shows your interval watt/time breakdowns as well.</p>\n<p><div class=\"lightbox-wrapper\"><a class=\"lightbox\" href=\"https://forums.trainerday.com/uploads/default/original/1X/d993ad86ef3643bead31a108e0e24b03ddf87bd8.jpeg\" data-download-href=\"https://forums.trainerday.com/uploads/default/d993ad86ef3643bead31a108e0e24b03ddf87bd8\" title=\"image\"><img src=\"https://forums.trainerday.com/uploads/default/optimized/1X/d993ad86ef3643bead31a108e0e24b03ddf87bd8_2_690x393.jpeg\" alt=\"image\" data-base62-sha1=\"v2M0A8tOq2ENz0vj3Up7RdRqrjO\" width=\"690\" height=\"393\" srcset=\"https://forums.trainerday.com/uploads/default/optimized/1X/d993ad86ef3643bead31a108e0e24b03ddf87bd8_2_690x393.jpeg, https://forums.trainerday.com/uploads/default/optimized/1X/d993ad86ef3643bead31a108e0e24b03ddf87bd8_2_1035x589.jpeg 1.5x, https://forums.trainerday.com/uploads/default/optimized/1X/d993ad86ef3643bead31a108e0e24b03ddf87bd8_2_1380x786.jpeg 2x\" data-small-upload=\"https://forums.trainerday.com/uploads/default/optimized/1X/d993ad86ef3643bead31a108e0e24b03ddf87bd8_2_10x10.png\"><div class=\"meta\"><svg class=\"fa d-icon d-icon-far-image svg-icon\" aria-hidden=\"true\"><use xlink:href=\"#far-image\"></use></svg><span class=\"filename\">image</span><span class=\"informations\">1988\u00d71134 208 KB</span><svg class=\"fa d-icon d-icon-discourse-expand svg-icon\" aria-hidden=\"true\"><use xlink:href=\"#discourse-expand\"></use></svg></div></a></div></p>",
+      "post_number": 1,
+      "post_type": 1,
+      "updated_at": "2021-04-09T12:42:30.456Z",
+      "reply_count": 0,
+      "reply_to_post_number": null,
+      "quote_count": 0,
+      "incoming_link_count": 1,
+      "reads": 23,
+      "readers_count": 22,
+      "score": 69.6,
+      "yours": false,
+      "topic_id": 573,
+      "topic_slug": "new-activities-tab-coming-to-td-web-site-mid-april-2021",
+      "display_username": "",
+      "primary_group_name": "English",
+      "flair_name": "English",
+      "flair_url": null,
+      "flair_bg_color": "",
+      "flair_color": "",
+      "flair_group_id": 41,
+      "version": 1,
+      "can_edit": false,
+      "can_delete": false,
+      "can_recover": false,
+      "can_see_hidden_post": false,
+      "can_wiki": false,
+      "link_counts": [
+        {
+          "url": "https://forums.trainerday.com/uploads/default/original/1X/d993ad86ef3643bead31a108e0e24b03ddf87bd8.jpeg",
+          "internal": true,
+          "reflection": false,
+          "clicks": 0
+        }
+      ],
+      "read": true,
+      "user_title": "",
+      "bookmarked": false,
+      "actions_summary": [
+        {
+          "id": 2,
+          "count": 4
+        }
+      ],
+      "moderator": false,
+      "admin": true,
+      "staff": true,
+      "user_id": 1,
+      "hidden": false,
+      "trust_level": 4,
+      "deleted_at": null,
+      "user_deleted": false,
+      "edit_reason": null,
+      "can_view_edit_history": true,
+      "wiki": false,
+      "can_vote": false
+    }
+  ],
+  "downloaded_at": "2025-06-27T07:46:37.327428"
+}

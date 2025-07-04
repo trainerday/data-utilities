@@ -1,0 +1,212 @@
+{
+  "fixed_files": [
+    "TOP PRIORITIES.md",
+    "priority-board.md",
+    "research-findings/chat-sessions/session-handoff-july-2-part2.md",
+    "company-structure/role-chart.md",
+    "strategic-insights/july-2025-strategic-insights.md",
+    "priority-board-tasks/generate-ideas-improve-conversion.md",
+    "priority-board-tasks/Conversion Step 2 - Onboarding Drip Campaign Optimization.md"
+  ],
+  "total_fixes": 33,
+  "fixes": [
+    {
+      "original": "marketing-kanban",
+      "fixed": "marketing/marketing-kanban",
+      "type": "wikilink",
+      "file": "TOP PRIORITIES.md"
+    },
+    {
+      "original": "generate-ideas-improve-conversion.md",
+      "fixed": "priority-board-tasks/generate-ideas-improve-conversion",
+      "text": "Conversion Step 1 - Pricing Strategy",
+      "file": "priority-board.md"
+    },
+    {
+      "original": "define-trainerday-vision.md",
+      "fixed": "priority-board-tasks/define-trainerday-vision",
+      "text": "Define TrainerDay Vision & Identity",
+      "file": "priority-board.md"
+    },
+    {
+      "original": "define-trainerday-vision.md",
+      "fixed": "priority-board-tasks/define-trainerday-vision",
+      "text": "Define TrainerDay Vision & Identity",
+      "file": "research-findings/chat-sessions/session-handoff-july-2-part2.md"
+    },
+    {
+      "original": "strategic-insights/july-2025-strategic-insights.md",
+      "fixed": "strategic-insights/july-2025-strategic-insights",
+      "text": "July 2025 Strategic Insights",
+      "file": "research-findings/chat-sessions/session-handoff-july-2-part2.md"
+    },
+    {
+      "original": "company-structure/company-overview",
+      "fixed": "company-structure/company-overview",
+      "text": "Company Overview",
+      "file": "research-findings/chat-sessions/session-handoff-july-2-part2.md"
+    },
+    {
+      "original": "priority-board.md",
+      "fixed": "priority-board",
+      "text": "Priority Board",
+      "file": "research-findings/chat-sessions/session-handoff-july-2-part2.md"
+    },
+    {
+      "original": "strategic-insights/july-2025-strategic-insights.md",
+      "fixed": "strategic-insights/july-2025-strategic-insights",
+      "text": "Strategic Insights",
+      "file": "research-findings/chat-sessions/session-handoff-july-2-part2.md"
+    },
+    {
+      "original": "log.md",
+      "fixed": "decisions/log",
+      "text": "Decision Log",
+      "file": "research-findings/chat-sessions/session-handoff-july-2-part2.md"
+    },
+    {
+      "original": "company-structure/roles/strategy-decision-maker",
+      "fixed": "company-structure/roles/strategy-decision-maker",
+      "text": "Decision Maker",
+      "file": "company-structure/role-chart.md"
+    },
+    {
+      "original": "company-structure/roles/strategy-vision-creator",
+      "fixed": "company-structure/roles/strategy-vision-creator",
+      "text": "Strategic Vision Creator",
+      "file": "company-structure/role-chart.md"
+    },
+    {
+      "original": "company-structure/roles/strategy-analyst",
+      "fixed": "company-structure/roles/strategy-analyst",
+      "text": "Analyst",
+      "file": "company-structure/role-chart.md"
+    },
+    {
+      "original": "company-structure/roles/agents/cipher-analyst",
+      "fixed": "company-structure/roles/agents/cipher-analyst",
+      "text": "Meet Cipher \u2192",
+      "file": "company-structure/role-chart.md"
+    },
+    {
+      "original": "company-structure/roles/strategy-finance",
+      "fixed": "company-structure/roles/strategy-finance",
+      "text": "Finance",
+      "file": "company-structure/role-chart.md"
+    },
+    {
+      "original": "company-structure/roles/agents/ledger-finance",
+      "fixed": "company-structure/roles/agents/ledger-finance",
+      "text": "Meet Ledger \u2192",
+      "file": "company-structure/role-chart.md"
+    },
+    {
+      "original": "company-structure/roles/product-manager",
+      "fixed": "company-structure/roles/product-manager",
+      "text": "Product Manager",
+      "file": "company-structure/role-chart.md"
+    },
+    {
+      "original": "company-structure/roles/product-developer",
+      "fixed": "company-structure/roles/product-developer",
+      "text": "Developer",
+      "file": "company-structure/role-chart.md"
+    },
+    {
+      "original": "company-structure/roles/product-ux-ui-designer",
+      "fixed": "company-structure/roles/product-ux-ui-designer",
+      "text": "UX/UI Designer",
+      "file": "company-structure/role-chart.md"
+    },
+    {
+      "original": "company-structure/roles/product-tester",
+      "fixed": "company-structure/roles/product-tester",
+      "text": "Tester",
+      "file": "company-structure/role-chart.md"
+    },
+    {
+      "original": "company-structure/roles/marketing-content-creator",
+      "fixed": "company-structure/roles/marketing-content-creator",
+      "text": "Content Creator",
+      "file": "company-structure/role-chart.md"
+    },
+    {
+      "original": "company-structure/roles/marketing-brand-strategist",
+      "fixed": "company-structure/roles/marketing-brand-strategist",
+      "text": "Brand Strategist",
+      "file": "company-structure/role-chart.md"
+    },
+    {
+      "original": "company-structure/roles/marketing-seo-growth-specialist",
+      "fixed": "company-structure/roles/marketing-seo-growth-specialist",
+      "text": "SEO/Growth Specialist",
+      "file": "company-structure/role-chart.md"
+    },
+    {
+      "original": "company-structure/roles/customer-support-agent",
+      "fixed": "company-structure/roles/customer-support-agent",
+      "text": "Support Agent",
+      "file": "company-structure/role-chart.md"
+    },
+    {
+      "original": "company-structure/roles/customer-community-manager",
+      "fixed": "company-structure/roles/customer-community-manager",
+      "text": "Community Manager",
+      "file": "company-structure/role-chart.md"
+    },
+    {
+      "original": "company-structure/roles/customer-retention-specialist",
+      "fixed": "company-structure/roles/customer-retention-specialist",
+      "text": "Retention Specialist",
+      "file": "company-structure/role-chart.md"
+    },
+    {
+      "original": "company-structure/roles/customer-onboarding-expert",
+      "fixed": "company-structure/roles/customer-onboarding-expert",
+      "text": "Onboarding Expert",
+      "file": "company-structure/role-chart.md"
+    },
+    {
+      "original": "Pasted image 20250702105300.png",
+      "fixed": "Pasted%20image%2020250702105300.png",
+      "type": "wikilink",
+      "file": "strategic-insights/july-2025-strategic-insights.md"
+    },
+    {
+      "original": "Pasted image 20250702105335.png",
+      "fixed": "Pasted%20image%2020250702105335.png",
+      "type": "wikilink",
+      "file": "strategic-insights/july-2025-strategic-insights.md"
+    },
+    {
+      "original": "Pasted image 20250702105011.png",
+      "fixed": "Pasted%20image%2020250702105011.png",
+      "type": "wikilink",
+      "file": "strategic-insights/july-2025-strategic-insights.md"
+    },
+    {
+      "original": "Pasted image 20250702105042.png",
+      "fixed": "Pasted%20image%2020250702105042.png",
+      "type": "wikilink",
+      "file": "strategic-insights/july-2025-strategic-insights.md"
+    },
+    {
+      "original": "Pasted image 20250702105218.png",
+      "fixed": "Pasted%20image%2020250702105218.png",
+      "type": "wikilink",
+      "file": "strategic-insights/july-2025-strategic-insights.md"
+    },
+    {
+      "original": "define-trainerday-vision.md",
+      "fixed": "priority-board-tasks/define-trainerday-vision",
+      "text": "Define TrainerDay Vision & Identity",
+      "file": "priority-board-tasks/generate-ideas-improve-conversion.md"
+    },
+    {
+      "original": "generate-ideas-improve-conversion.md",
+      "fixed": "priority-board-tasks/generate-ideas-improve-conversion",
+      "text": "Conversion Step 1 - Pricing Strategy",
+      "file": "priority-board-tasks/Conversion Step 2 - Onboarding Drip Campaign Optimization.md"
+    }
+  ]
+}

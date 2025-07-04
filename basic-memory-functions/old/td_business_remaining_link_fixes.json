@@ -1,0 +1,163 @@
+{
+  "fixed_files": [
+    "priority-board.md",
+    "research-findings/Core User Segmentation Discovery.md",
+    "company-structure/role-chart.md",
+    "marketing/User Strategy Framework.md",
+    "priority-board-tasks/generate-ideas-improve-conversion.md",
+    "priority-board-tasks/Conversion Step 2 - Onboarding Drip Campaign Optimization.md"
+  ],
+  "total_fixes": 25,
+  "fixes": [
+    {
+      "original": "company-structure/priority-board-tasks/conversion-step-2-onboarding-drip-campaign-optimization",
+      "fixed": "priority-board-tasks/Conversion Step 2 - Onboarding Drip Campaign Optimization",
+      "text": "Conversion Step 2 - Onboarding Drip Campaign Optimization",
+      "file": "priority-board.md"
+    },
+    {
+      "original": "company-structure/priority-board-tasks/conversion-step-2-onboarding-drip-campaign-optimization",
+      "fixed": "priority-board-tasks/Conversion Step 2 - Onboarding Drip Campaign Optimization",
+      "text": "Conversion Step 2 - Onboarding Campaign",
+      "file": "research-findings/Core User Segmentation Discovery.md"
+    },
+    {
+      "original": "research-findings/user-strategy-framework",
+      "fixed": "marketing/User Strategy Framework",
+      "text": "User Strategy Framework",
+      "file": "research-findings/Core User Segmentation Discovery.md"
+    },
+    {
+      "original": "marketing/",
+      "fixed": "marketing",
+      "text": "Marketing Strategy Documents",
+      "file": "research-findings/Core User Segmentation Discovery.md"
+    },
+    {
+      "original": "company-structure/roles/agents/zenith-decision-maker",
+      "fixed": "company-structure/roles/agents/Zenith - Decision Maker",
+      "text": "Meet Zenith \u2192",
+      "file": "company-structure/role-chart.md"
+    },
+    {
+      "original": "company-structure/roles/agents/prism-strategic-vision-creator",
+      "fixed": "company-structure/roles/agents/Prism - Strategic Vision Creator",
+      "text": "Meet Prism \u2192",
+      "file": "company-structure/role-chart.md"
+    },
+    {
+      "original": "company-structure/roles/agents/nexus-product-manager",
+      "fixed": "company-structure/roles/agents/Nexus - Product Manager",
+      "text": "Meet Nexus \u2192",
+      "file": "company-structure/role-chart.md"
+    },
+    {
+      "original": "company-structure/roles/agents/flux-developer",
+      "fixed": "company-structure/roles/agents/Flux - Developer",
+      "text": "Meet Flux \u2192",
+      "file": "company-structure/role-chart.md"
+    },
+    {
+      "original": "company-structure/roles/agents/muse-ux-ui-designer",
+      "fixed": "company-structure/roles/agents/Muse - UX UI Designer",
+      "text": "Meet Muse \u2192",
+      "file": "company-structure/role-chart.md"
+    },
+    {
+      "original": "company-structure/roles/agents/hawk-tester",
+      "fixed": "company-structure/roles/agents/Hawk - Tester",
+      "text": "Meet Hawk \u2192",
+      "file": "company-structure/role-chart.md"
+    },
+    {
+      "original": "company-structure/roles/agents/spark-marketing-director",
+      "fixed": "company-structure/roles/agents/Spark - Marketing Director",
+      "text": "Meet Spark \u2192",
+      "file": "company-structure/role-chart.md"
+    },
+    {
+      "original": "company-structure/roles/agents/echo-content-creator",
+      "fixed": "company-structure/roles/agents/Echo - Content Creator",
+      "text": "Meet Echo \u2192",
+      "file": "company-structure/role-chart.md"
+    },
+    {
+      "original": "company-structure/roles/agents/mosaic-brand-strategist",
+      "fixed": "company-structure/roles/agents/Mosaic - Brand Strategist",
+      "text": "Meet Mosaic \u2192",
+      "file": "company-structure/role-chart.md"
+    },
+    {
+      "original": "company-structure/roles/agents/tide-seo-growth-specialist",
+      "fixed": "company-structure/roles/agents/Tide - SEO Growth Specialist",
+      "text": "Meet Tide \u2192",
+      "file": "company-structure/role-chart.md"
+    },
+    {
+      "original": "company-structure/roles/agents/haven-support-agent",
+      "fixed": "company-structure/roles/agents/Haven - Support Agent",
+      "text": "Meet Haven \u2192",
+      "file": "company-structure/role-chart.md"
+    },
+    {
+      "original": "company-structure/roles/agents/ripple-community-manager",
+      "fixed": "company-structure/roles/agents/Ripple - Community Manager",
+      "text": "Meet Ripple \u2192",
+      "file": "company-structure/role-chart.md"
+    },
+    {
+      "original": "company-structure/roles/agents/compass-retention-specialist",
+      "fixed": "company-structure/roles/agents/Compass - Retention Specialist",
+      "text": "Meet Compass \u2192",
+      "file": "company-structure/role-chart.md"
+    },
+    {
+      "original": "company-structure/roles/agents/bridge-onboarding-expert",
+      "fixed": "company-structure/roles/agents/Bridge - Onboarding Expert",
+      "text": "Meet Bridge \u2192",
+      "file": "company-structure/role-chart.md"
+    },
+    {
+      "original": "research-findings/core-user-segmentation-discovery",
+      "fixed": "research-findings/Core User Segmentation Discovery",
+      "text": "Core User Segmentation Discovery",
+      "file": "marketing/User Strategy Framework.md"
+    },
+    {
+      "original": "research-findings/core-user-segmentation-discovery",
+      "fixed": "research-findings/Core User Segmentation Discovery",
+      "text": "Core User Segmentation Discovery",
+      "file": "marketing/User Strategy Framework.md"
+    },
+    {
+      "original": "company-structure/priority-board-tasks/",
+      "fixed": "company-structure/priority-board-tasks",
+      "text": "Conversion Optimization Strategy",
+      "file": "marketing/User Strategy Framework.md"
+    },
+    {
+      "original": "marketing/",
+      "fixed": "marketing",
+      "text": "Marketing Strategy Framework",
+      "file": "marketing/User Strategy Framework.md"
+    },
+    {
+      "original": "product/",
+      "fixed": "product",
+      "text": "Product Roadmap Alignment",
+      "file": "marketing/User Strategy Framework.md"
+    },
+    {
+      "original": "company-structure/priority-board-tasks/generate-ideas-improve-retention",
+      "fixed": "priority-board-tasks/generate-ideas-improve-retention",
+      "text": "Generate ideas to improve Retention",
+      "file": "priority-board-tasks/generate-ideas-improve-conversion.md"
+    },
+    {
+      "original": "company-structure/priority-board-tasks/generate-ideas-improve-retention",
+      "fixed": "priority-board-tasks/generate-ideas-improve-retention",
+      "text": "Generate ideas to improve Retention",
+      "file": "priority-board-tasks/Conversion Step 2 - Onboarding Drip Campaign Optimization.md"
+    }
+  ]
+}

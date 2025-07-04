@@ -1,0 +1,117 @@
+{
+  "topic": {
+    "id": 1577,
+    "title": "New API method for retrieving your workouts from your calendar",
+    "fancy_title": "New API method for retrieving your workouts from your calendar",
+    "slug": "new-api-method-for-retrieving-your-workouts-from-your-calendar",
+    "posts_count": 1,
+    "reply_count": 0,
+    "highest_post_number": 1,
+    "image_url": null,
+    "created_at": "2022-05-11T10:45:03.248Z",
+    "last_posted_at": "2022-05-11T10:45:03.350Z",
+    "bumped": true,
+    "bumped_at": "2022-05-11T10:45:03.350Z",
+    "archetype": "regular",
+    "unseen": false,
+    "pinned": false,
+    "unpinned": null,
+    "visible": true,
+    "closed": false,
+    "archived": false,
+    "bookmarked": null,
+    "liked": null,
+    "tags_descriptions": {},
+    "views": 533,
+    "like_count": 3,
+    "has_summary": false,
+    "last_poster_username": "Alex",
+    "category_id": 28,
+    "pinned_globally": false,
+    "featured_link": null,
+    "can_vote": false,
+    "posters": [
+      {
+        "extras": "latest single",
+        "description": "Original Poster, Most Recent Poster",
+        "user_id": 1,
+        "primary_group_id": 41,
+        "flair_group_id": 41
+      }
+    ]
+  },
+  "posts": [
+    {
+      "id": 6607,
+      "name": "",
+      "username": "Alex",
+      "avatar_template": "/user_avatar/forums.trainerday.com/alex/{size}/1331_2.png",
+      "created_at": "2022-05-11T10:45:03.350Z",
+      "cooked": "<p>So we are working with multiple compaines on more integrations.  So we are starting to work on our APIs.  We added Oauth support for reading your personal calendar.</p>\n<p>This is a technical swagger documentation (we are improving it today a little)<br>\n<a href=\"https://api.trainerday.com/api-explorer/#/calendar/get_calendar\" class=\"onebox\" target=\"_blank\" rel=\"noopener\">https://api.trainerday.com/api-explorer/#/calendar/get_calendar</a></p>\n<p>If you want to use either our old \u201cget workouts\u201d which is basically like a simple search, or get calendar, which returns calendar data.  Let me know.  Please explain why you want to use it a little and as well which methods you need access to.  The calenar is easier for me to give access to <img src=\"https://forums.trainerday.com/images/emoji/twitter/slight_smile.png?v=9\" title=\":slight_smile:\" class=\"emoji\" alt=\":slight_smile:\"></p>\n<p>Request here</p><aside class=\"onebox allowlistedgeneric\">\n  <header class=\"source\">\n      <img src=\"https://forums.trainerday.com/uploads/default/original/1X/4bafb63d195c49acaa3e778e638a16a0f0c68272.png\" class=\"site-icon\" width=\"32\" height=\"32\">\n      <a href=\"https://trainerday.com/api/\" target=\"_blank\" rel=\"noopener\" title=\"01:06PM - 15 March 2019\">TrainerDay \u2013 15 Mar 19</a>\n  </header>\n  <article class=\"onebox-body\">\n    <div class=\"aspect-image\" style=\"--aspect-ratio:455/335;\"><img src=\"https://forums.trainerday.com/uploads/default/original/2X/5/56bac3ce9b0778180421e4bc515d27ed4eca2a42.jpeg\" class=\"thumbnail\" width=\"455\" height=\"335\"></div>\n\n<h3><a href=\"https://trainerday.com/api/\" target=\"_blank\" rel=\"noopener\">API - TrainerDay</a></h3>\n\n<p>One REST method \"get workouts\" is all you you should need.</p>\n\n\n  </article>\n  <div class=\"onebox-metadata\">\n    \n    \n  </div>\n  <div style=\"clear: both\"></div>\n</aside>\n",
+      "post_number": 1,
+      "post_type": 1,
+      "updated_at": "2022-05-11T10:45:03.350Z",
+      "reply_count": 0,
+      "reply_to_post_number": null,
+      "quote_count": 0,
+      "incoming_link_count": 5,
+      "reads": 24,
+      "readers_count": 23,
+      "score": 74.8,
+      "yours": false,
+      "topic_id": 1577,
+      "topic_slug": "new-api-method-for-retrieving-your-workouts-from-your-calendar",
+      "display_username": "",
+      "primary_group_name": "English",
+      "flair_name": "English",
+      "flair_url": null,
+      "flair_bg_color": "",
+      "flair_color": "",
+      "flair_group_id": 41,
+      "version": 1,
+      "can_edit": false,
+      "can_delete": false,
+      "can_recover": false,
+      "can_see_hidden_post": false,
+      "can_wiki": false,
+      "link_counts": [
+        {
+          "url": "https://trainerday.com/api/",
+          "internal": false,
+          "reflection": false,
+          "title": "API - TrainerDay",
+          "clicks": 9
+        },
+        {
+          "url": "https://api.trainerday.com/api-explorer/#/calendar/get_calendar",
+          "internal": false,
+          "reflection": false,
+          "title": "td-public-api",
+          "clicks": 6
+        }
+      ],
+      "read": true,
+      "user_title": "",
+      "bookmarked": false,
+      "actions_summary": [
+        {
+          "id": 2,
+          "count": 3
+        }
+      ],
+      "moderator": false,
+      "admin": true,
+      "staff": true,
+      "user_id": 1,
+      "hidden": false,
+      "trust_level": 4,
+      "deleted_at": null,
+      "user_deleted": false,
+      "edit_reason": null,
+      "can_view_edit_history": true,
+      "wiki": false,
+      "can_vote": false
+    }
+  ],
+  "downloaded_at": "2025-06-27T07:38:18.792202"
+}

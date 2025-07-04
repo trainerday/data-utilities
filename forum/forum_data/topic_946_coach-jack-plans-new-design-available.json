@@ -1,0 +1,109 @@
+{
+  "topic": {
+    "id": 946,
+    "title": "Coach Jack Plans - New design available",
+    "fancy_title": "Coach Jack Plans - New design available",
+    "slug": "coach-jack-plans-new-design-available",
+    "posts_count": 1,
+    "reply_count": 0,
+    "highest_post_number": 1,
+    "image_url": "https://forums.trainerday.com/uploads/default/optimized/1X/b30be0bdaff2e01f75fbedd3d7e63ad67458a4c3_2_1024x1004.png",
+    "created_at": "2021-11-02T15:12:52.690Z",
+    "last_posted_at": "2021-11-02T15:12:52.799Z",
+    "bumped": true,
+    "bumped_at": "2021-11-02T15:12:52.799Z",
+    "archetype": "regular",
+    "unseen": false,
+    "pinned": false,
+    "unpinned": null,
+    "visible": true,
+    "closed": false,
+    "archived": false,
+    "bookmarked": null,
+    "liked": null,
+    "tags_descriptions": {},
+    "views": 364,
+    "like_count": 5,
+    "has_summary": false,
+    "last_poster_username": "Alex",
+    "category_id": 1,
+    "pinned_globally": false,
+    "featured_link": null,
+    "can_vote": false,
+    "posters": [
+      {
+        "extras": "latest single",
+        "description": "Original Poster, Most Recent Poster",
+        "user_id": 1,
+        "primary_group_id": 41,
+        "flair_group_id": 41
+      }
+    ]
+  },
+  "posts": [
+    {
+      "id": 3790,
+      "name": "",
+      "username": "Alex",
+      "avatar_template": "/user_avatar/forums.trainerday.com/alex/{size}/1331_2.png",
+      "created_at": "2021-11-02T15:12:52.799Z",
+      "cooked": "<p>The functionality is currently the same but the design is cleaner.  We are starting to work on controls for specific hours and event date planning (with multiple blocks) next.</p>\n<p><div class=\"lightbox-wrapper\"><a class=\"lightbox\" href=\"https://forums.trainerday.com/uploads/default/original/1X/b30be0bdaff2e01f75fbedd3d7e63ad67458a4c3.png\" data-download-href=\"https://forums.trainerday.com/uploads/default/b30be0bdaff2e01f75fbedd3d7e63ad67458a4c3\" title=\"image\"><img src=\"https://forums.trainerday.com/uploads/default/optimized/1X/b30be0bdaff2e01f75fbedd3d7e63ad67458a4c3_2_509x500.png\" alt=\"image\" data-base62-sha1=\"pxUUL6W8f8zoYVjJoFSKqqYREIz\" width=\"509\" height=\"500\" srcset=\"https://forums.trainerday.com/uploads/default/optimized/1X/b30be0bdaff2e01f75fbedd3d7e63ad67458a4c3_2_509x500.png, https://forums.trainerday.com/uploads/default/optimized/1X/b30be0bdaff2e01f75fbedd3d7e63ad67458a4c3_2_763x750.png 1.5x, https://forums.trainerday.com/uploads/default/optimized/1X/b30be0bdaff2e01f75fbedd3d7e63ad67458a4c3_2_1018x1000.png 2x\" data-small-upload=\"https://forums.trainerday.com/uploads/default/optimized/1X/b30be0bdaff2e01f75fbedd3d7e63ad67458a4c3_2_10x10.png\"><div class=\"meta\"><svg class=\"fa d-icon d-icon-far-image svg-icon\" aria-hidden=\"true\"><use xlink:href=\"#far-image\"></use></svg><span class=\"filename\">image</span><span class=\"informations\">1207\u00d71184 148 KB</span><svg class=\"fa d-icon d-icon-discourse-expand svg-icon\" aria-hidden=\"true\"><use xlink:href=\"#discourse-expand\"></use></svg></div></a></div></p>",
+      "post_number": 1,
+      "post_type": 1,
+      "updated_at": "2021-11-02T15:12:52.799Z",
+      "reply_count": 0,
+      "reply_to_post_number": null,
+      "quote_count": 0,
+      "incoming_link_count": 4,
+      "reads": 24,
+      "readers_count": 23,
+      "score": 99.8,
+      "yours": false,
+      "topic_id": 946,
+      "topic_slug": "coach-jack-plans-new-design-available",
+      "display_username": "",
+      "primary_group_name": "English",
+      "flair_name": "English",
+      "flair_url": null,
+      "flair_bg_color": "",
+      "flair_color": "",
+      "flair_group_id": 41,
+      "version": 1,
+      "can_edit": false,
+      "can_delete": false,
+      "can_recover": false,
+      "can_see_hidden_post": false,
+      "can_wiki": false,
+      "link_counts": [
+        {
+          "url": "https://forums.trainerday.com/uploads/default/original/1X/b30be0bdaff2e01f75fbedd3d7e63ad67458a4c3.png",
+          "internal": true,
+          "reflection": false,
+          "clicks": 0
+        }
+      ],
+      "read": true,
+      "user_title": "",
+      "bookmarked": false,
+      "actions_summary": [
+        {
+          "id": 2,
+          "count": 5
+        }
+      ],
+      "moderator": false,
+      "admin": true,
+      "staff": true,
+      "user_id": 1,
+      "hidden": false,
+      "trust_level": 4,
+      "deleted_at": null,
+      "user_deleted": false,
+      "edit_reason": null,
+      "can_view_edit_history": true,
+      "wiki": false,
+      "can_vote": false
+    }
+  ],
+  "downloaded_at": "2025-06-27T07:43:50.331567"
+}

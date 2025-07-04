@@ -1,0 +1,4 @@
+CARD: Cadence problem
+DESC: while creating a workout - "Reps" doesnt recognize the cadence and create some more column
+LABELS: 
+---

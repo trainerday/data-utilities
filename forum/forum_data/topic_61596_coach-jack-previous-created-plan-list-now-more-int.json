@@ -1,0 +1,109 @@
+{
+  "topic": {
+    "id": 61596,
+    "title": "Coach Jack Previous Created Plan List - Now More Intuitive",
+    "fancy_title": "Coach Jack Previous Created Plan List - Now More Intuitive",
+    "slug": "coach-jack-previous-created-plan-list-now-more-intuitive",
+    "posts_count": 1,
+    "reply_count": 0,
+    "highest_post_number": 1,
+    "image_url": "https://forums.trainerday.com/uploads/default/optimized/2X/b/b14f182c7800303eb2eeda08e06211530bf17848_2_1024x297.png",
+    "created_at": "2025-06-06T16:35:05.835Z",
+    "last_posted_at": "2025-06-06T16:35:06.020Z",
+    "bumped": true,
+    "bumped_at": "2025-06-07T13:01:25.908Z",
+    "archetype": "regular",
+    "unseen": false,
+    "pinned": false,
+    "unpinned": null,
+    "visible": true,
+    "closed": false,
+    "archived": false,
+    "bookmarked": null,
+    "liked": null,
+    "tags_descriptions": {},
+    "views": 245,
+    "like_count": 2,
+    "has_summary": false,
+    "last_poster_username": "Alex",
+    "category_id": 28,
+    "pinned_globally": false,
+    "featured_link": null,
+    "can_vote": false,
+    "posters": [
+      {
+        "extras": "latest single",
+        "description": "Original Poster, Most Recent Poster",
+        "user_id": 1,
+        "primary_group_id": 41,
+        "flair_group_id": 41
+      }
+    ]
+  },
+  "posts": [
+    {
+      "id": 78851,
+      "name": "",
+      "username": "Alex",
+      "avatar_template": "/user_avatar/forums.trainerday.com/alex/{size}/1331_2.png",
+      "created_at": "2025-06-06T16:35:06.020Z",
+      "cooked": "<p>So we have moved the list of Coach Jack plan history into My Plans, but they work a bit different.  See below you can edit these plans and it will take you to the CJ plan builder.  I know for any veterans here this is no big deal but overall just simplifies things.</p>\n<p><div class=\"lightbox-wrapper\"><a class=\"lightbox\" href=\"https://forums.trainerday.com/uploads/default/original/2X/b/b14f182c7800303eb2eeda08e06211530bf17848.png\" data-download-href=\"https://forums.trainerday.com/uploads/default/b14f182c7800303eb2eeda08e06211530bf17848\" title=\"image\"><img src=\"https://forums.trainerday.com/uploads/default/optimized/2X/b/b14f182c7800303eb2eeda08e06211530bf17848_2_690x200.png\" alt=\"image\" data-base62-sha1=\"pixYdGfhobe7J2J5lUDIBwLL9yM\" width=\"690\" height=\"200\" srcset=\"https://forums.trainerday.com/uploads/default/optimized/2X/b/b14f182c7800303eb2eeda08e06211530bf17848_2_690x200.png, https://forums.trainerday.com/uploads/default/optimized/2X/b/b14f182c7800303eb2eeda08e06211530bf17848_2_1035x300.png 1.5x, https://forums.trainerday.com/uploads/default/optimized/2X/b/b14f182c7800303eb2eeda08e06211530bf17848_2_1380x400.png 2x\" data-dominant-color=\"EEEFF4\"><div class=\"meta\"><svg class=\"fa d-icon d-icon-far-image svg-icon\" aria-hidden=\"true\"><use href=\"#far-image\"></use></svg><span class=\"filename\">image</span><span class=\"informations\">2430\u00d7706 113 KB</span><svg class=\"fa d-icon d-icon-discourse-expand svg-icon\" aria-hidden=\"true\"><use href=\"#discourse-expand\"></use></svg></div></a></div></p>",
+      "post_number": 1,
+      "post_type": 1,
+      "updated_at": "2025-06-07T13:01:59.143Z",
+      "reply_count": 0,
+      "reply_to_post_number": null,
+      "quote_count": 0,
+      "incoming_link_count": 72,
+      "reads": 45,
+      "readers_count": 44,
+      "score": 399.0,
+      "yours": false,
+      "topic_id": 61596,
+      "topic_slug": "coach-jack-previous-created-plan-list-now-more-intuitive",
+      "display_username": "",
+      "primary_group_name": "English",
+      "flair_name": "English",
+      "flair_url": null,
+      "flair_bg_color": "",
+      "flair_color": "",
+      "flair_group_id": 41,
+      "version": 3,
+      "can_edit": false,
+      "can_delete": false,
+      "can_recover": false,
+      "can_see_hidden_post": false,
+      "can_wiki": false,
+      "link_counts": [
+        {
+          "url": "https://forums.trainerday.com/uploads/default/original/2X/b/b14f182c7800303eb2eeda08e06211530bf17848.png",
+          "internal": true,
+          "reflection": false,
+          "clicks": 0
+        }
+      ],
+      "read": true,
+      "user_title": "",
+      "bookmarked": false,
+      "actions_summary": [
+        {
+          "id": 2,
+          "count": 2
+        }
+      ],
+      "moderator": false,
+      "admin": true,
+      "staff": true,
+      "user_id": 1,
+      "hidden": false,
+      "trust_level": 4,
+      "deleted_at": null,
+      "user_deleted": false,
+      "edit_reason": null,
+      "can_view_edit_history": true,
+      "wiki": false,
+      "can_vote": false
+    }
+  ],
+  "downloaded_at": "2025-06-27T06:58:32.732619"
+}

@@ -1,0 +1,447 @@
+{
+  "monthly_stats": {
+    "2020-11": {
+      "Yearly for Special Offers": 2,
+      "Winter 2020": 15,
+      "Bells and Whistles App": 8,
+      "Bells and Whistles Monthly": 24,
+      "Bells and Whistles": 4
+    },
+    "2020-12": {
+      "Bells and Whistles": 16,
+      "Bells and Whistles App": 17,
+      "Winter 2020": 43,
+      "Bells and Whistles Monthly": 88,
+      "Yearly for Special Offers": 1
+    },
+    "2021-01": {
+      "Bells and Whistles App": 27,
+      "Bells and Whistles": 24,
+      "Bells and Whistles Monthly": 100,
+      "Winter 2020": 35,
+      "Yearly for Special Offers": 2
+    },
+    "2021-02": {
+      "Bells and Whistles": 25,
+      "Bells and Whistles Monthly": 95,
+      "Winter 2020": 16,
+      "Bells and Whistles App": 20,
+      "The Green Plan": 2,
+      "Group Memberships": 1,
+      "Monthly for Special Offers": 1
+    },
+    "2021-03": {
+      "Bells and Whistles Monthly": 61,
+      "Bells and Whistles": 24,
+      "Bells and Whistles App": 23,
+      "Winter 2020": 1,
+      "Yearly for Special Offers": 1
+    },
+    "2021-04": {
+      "Premium": 66,
+      "Premium App": 21,
+      "Premium Yearly": 13,
+      "The Green Plan": 4
+    },
+    "2021-05": {
+      "Premium": 66,
+      "Premium Yearly": 9,
+      "Premium App": 17,
+      "Monthly for Special Offers": 1,
+      "Yearly for Special Offers": 3,
+      "Premium - 4 months": 1
+    },
+    "2021-06": {
+      "Premium": 49,
+      "Yearly for Special Offers": 2,
+      "Premium Yearly": 9,
+      "Premium App": 16,
+      "The Green Plan": 2,
+      "Premium - 4 months": 1
+    },
+    "2021-07": {
+      "Premium App": 28,
+      "Premium": 53,
+      "Premium Yearly": 10,
+      "The Green Plan": 1,
+      "Premium - 4 months": 1
+    },
+    "2021-08": {
+      "Premium App": 22,
+      "Premium": 55,
+      "Premium Yearly": 6,
+      "Yearly for Special Offers": 4,
+      "Premium - 4 months": 2
+    },
+    "2021-09": {
+      "Premium": 64,
+      "Premium Yearly": 7,
+      "Premium App": 21,
+      "Yearly for Special Offers": 1,
+      "Premium - 4 months": 1
+    },
+    "2021-10": {
+      "Premium": 160,
+      "Premium App": 28,
+      "Premium Yearly": 21,
+      "Premium - 4 months": 2,
+      "7-Days for 1$": 9
+    },
+    "2021-11": {
+      "Premium App": 43,
+      "Premium": 170,
+      "7-Days for 1$": 5,
+      "Premium Yearly": 33,
+      "Premium Web Only": 1,
+      "Premium - 4 months": 1
+    },
+    "2021-12": {
+      "Premium": 160,
+      "Premium Yearly": 23,
+      "Premium App": 51,
+      "TotalCyclist": 1,
+      "Yearly for Special Offers": 1,
+      "Premium - 4 months": 1
+    },
+    "2022-01": {
+      "Premium App": 84,
+      "Premium Yearly": 55,
+      "Premium": 203,
+      "7-Days for 1$": 2,
+      "Premium - 4 months": 1,
+      "Premium Web Only": 1,
+      "TotalCyclist": 1,
+      "Yearly for Special Offers": 1
+    },
+    "2022-02": {
+      "Premium": 159,
+      "Premium Yearly": 37,
+      "Premium App": 16,
+      "TotalCyclist": 1
+    },
+    "2022-03": {
+      "Premium": 137,
+      "Premium Yearly": 30,
+      "Premium - 4 months": 1
+    },
+    "2022-04": {
+      "Premium": 104,
+      "Premium Yearly": 31,
+      "Premium App": 1,
+      "Yearly for Special Offers": 1,
+      "Premium - 4 months": 4
+    },
+    "2022-05": {
+      "Premium": 90,
+      "Premium Yearly": 18,
+      "Premium - 4 months": 3,
+      "7-Days for 1$": 1
+    },
+    "2022-06": {
+      "Premium": 84,
+      "Premium Yearly": 18,
+      "7-Days for 1$": 2,
+      "Premium App": 16,
+      "Premium - 4 months": 1
+    },
+    "2022-07": {
+      "Premium": 87,
+      "Premium Yearly": 16,
+      "Premium App": 60,
+      "Premium - 4 months": 1,
+      "7-Days for 1$": 1
+    },
+    "2022-08": {
+      "Premium": 104,
+      "7-Days for 1$": 1,
+      "Premium App": 46,
+      "Premium Yearly": 14,
+      "1 day test": 2,
+      "Premium Vasa SwimERG": 2,
+      "Premium - 4 months": 3,
+      "TotalCyclist": 1
+    },
+    "2022-09": {
+      "Premium": 172,
+      "Premium App": 88,
+      "Premium Yearly": 28,
+      "Premium - 4 months": 1
+    },
+    "2022-10": {
+      "Premium Yearly": 41,
+      "Premium": 213,
+      "7-Days for 1$": 2,
+      "Premium App": 114,
+      "Premium Vasa SwimERG": 5,
+      "Premium - 4 months": 2
+    },
+    "2022-11": {
+      "Premium": 253,
+      "Premium Yearly": 50,
+      "Premium App": 155,
+      "Premium Vasa SwimERG": 8,
+      "7-Days for 1$": 1
+    },
+    "2022-12": {
+      "Premium": 232,
+      "Premium App": 121,
+      "Premium Yearly": 55,
+      "7-Days for 1$": 2,
+      "Premium - 4 months": 3,
+      "Premium Vasa SwimERG": 5
+    },
+    "2023-01": {
+      "Premium App": 132,
+      "Premium Yearly": 53,
+      "Premium": 263,
+      "Premium Vasa SwimERG": 6,
+      "7-Days for 1$": 2,
+      "Premium - 4 months": 2
+    },
+    "2023-02": {
+      "Premium App": 84,
+      "Premium": 190,
+      "Premium Yearly": 31,
+      "Premium - 4 months": 2,
+      "Premium Vasa SwimERG": 1
+    },
+    "2023-03": {
+      "Premium App": 97,
+      "Premium": 210,
+      "Premium Yearly": 40,
+      "7-Days for 1$": 2
+    },
+    "2023-04": {
+      "Premium App": 86,
+      "Premium": 174,
+      "Premium Yearly": 33,
+      "Premium Vasa SwimERG": 2
+    },
+    "2023-05": {
+      "Premium": 189,
+      "Premium App": 72,
+      "Premium Yearly": 36,
+      "The Green Plan": 1,
+      "Premium Vasa SwimERG": 4
+    },
+    "2023-06": {
+      "Premium": 141,
+      "Premium App": 57,
+      "Premium Yearly": 26,
+      "Premium Vasa SwimERG": 2
+    },
+    "2023-07": {
+      "Premium": 182,
+      "Premium App": 106,
+      "Premium - 4 months": 1,
+      "Premium Yearly": 39,
+      "Premium Vasa SwimERG": 1
+    },
+    "2023-08": {
+      "Premium": 244,
+      "Premium Yearly": 61,
+      "Premium App": 158,
+      "Premium Vasa SwimERG": 2,
+      "7-Days for 1$": 3,
+      "Premium - 4 months": 1,
+      "Yearly for Special Offers": 1
+    },
+    "2023-09": {
+      "Premium": 229,
+      "Premium Yearly": 59,
+      "Premium App": 161,
+      "Yearly for Special Offers": 2
+    },
+    "2023-10": {
+      "Premium App": 302,
+      "Premium": 382,
+      "Premium Yearly": 81,
+      "Premium Vasa SwimERG": 1,
+      "Premium - 4 months": 2,
+      "Metodo Pit": 6,
+      "Yearly for Special Offers": 2
+    },
+    "2023-11": {
+      "Premium App": 335,
+      "Premium Yearly": 90,
+      "Premium": 450,
+      "Metodo Pit": 14,
+      "Premium Vasa SwimERG": 4,
+      "Premium - 4 months": 1,
+      "Yearly for Special Offers": 1
+    },
+    "2023-12": {
+      "Premium App": 274,
+      "Premium Yearly": 82,
+      "Premium": 321,
+      "Metodo Pit": 2,
+      "Premium Vasa SwimERG": 3,
+      "Premium - 4 months": 3
+    },
+    "2024-01": {
+      "Premium App": 380,
+      "Premium Yearly": 98,
+      "Premium": 396,
+      "Premium - 4 months": 1,
+      "Metodo Pit": 2,
+      "Yearly for Special Offers": 2,
+      "Premium Vasa SwimERG": 4
+    },
+    "2024-02": {
+      "Premium": 266,
+      "Premium App": 310,
+      "Premium Yearly": 45,
+      "Premium - 4 months": 1,
+      "The Green Plan": 2,
+      "Metodo Pit": 2,
+      "Premium Vasa SwimERG": 5,
+      "Yearly for Special Offers": 1
+    },
+    "2024-03": {
+      "Premium": 252,
+      "Premium App": 275,
+      "Premium Yearly": 59,
+      "Premium Vasa SwimERG": 2,
+      "Metodo Pit": 2
+    },
+    "2024-04": {
+      "Premium": 209,
+      "Premium App": 268,
+      "Premium Yearly": 40,
+      "DCS": 4,
+      "Metodo Pit": 3,
+      "The Green Plan": 2
+    },
+    "2024-05": {
+      "Premium": 233,
+      "Premium App": 309,
+      "Premium Yearly": 49,
+      "Premium - 4 months": 1,
+      "Premium Vasa SwimERG": 1,
+      "Metodo Pit": 3
+    },
+    "2024-06": {
+      "Premium": 200,
+      "Premium App": 246,
+      "Premium Yearly": 32,
+      "Premium Vasa SwimERG": 2,
+      "Yearly for Special Offers": 1,
+      "The Green Plan": 2
+    },
+    "2024-07": {
+      "Premium App": 293,
+      "Premium": 209,
+      "Premium Yearly": 53
+    },
+    "2024-08": {
+      "Premium App": 279,
+      "Premium": 209,
+      "Premium Yearly": 65,
+      "Premium Vasa SwimERG": 1
+    },
+    "2024-09": {
+      "Premium": 333,
+      "Premium App": 329,
+      "Premium Yearly": 73,
+      "Premium Vasa SwimERG": 2,
+      "Metodo Pit": 1
+    },
+    "2024-10": {
+      "Premium": 389,
+      "Premium App": 435,
+      "Premium Yearly": 83,
+      "Metodo Pit": 3,
+      "Premium Weekly": 2,
+      "Premium - 4 months": 1,
+      "Yearly for Special Offers": 1
+    },
+    "2024-11": {
+      "Premium App": 447,
+      "Premium": 387,
+      "Premium Yearly": 95,
+      "Metodo Pit": 5,
+      "Premium - 4 months": 2,
+      "Yearly for Special Offers": 1
+    },
+    "2024-12": {
+      "Premium": 322,
+      "Premium App": 252,
+      "Premium Yearly": 95,
+      "The Green Plan": 1,
+      "Premium - 4 months": 2
+    },
+    "2025-01": {
+      "Premium App": 173,
+      "Premium": 384,
+      "Premium Yearly": 107,
+      "Premium - 4 months": 33,
+      "Metodo Pit": 6
+    },
+    "2025-02": {
+      "Premium App": 232,
+      "Premium": 246,
+      "Premium Yearly": 60,
+      "Premium - 4 months": 21
+    },
+    "2025-03": {
+      "Premium Yearly": 65,
+      "Premium": 222,
+      "Premium App": 190,
+      "Premium - 4 months": 20
+    },
+    "2025-04": {
+      "Premium App": 179,
+      "Premium": 161,
+      "Premium Yearly": 64,
+      "Premium - 4 months": 18,
+      "Premium Vasa SwimERG": 1
+    },
+    "2025-05": {
+      "Premium App": 188,
+      "Premium": 144,
+      "Premium - 4 months": 22,
+      "Premium Yearly": 45,
+      "The Green Plan": 2
+    },
+    "2025-06": {
+      "Premium": 153,
+      "Premium Yearly": 45,
+      "Premium App": 142,
+      "Premium - 4 months": 8,
+      "Metodo Pit": 4,
+      "Premium Vasa SwimERG": 1
+    },
+    "2025-07": {
+      "Premium App": 12,
+      "Premium": 13,
+      "Premium Yearly": 4
+    }
+  },
+  "type_totals": {
+    "Yearly for Special Offers": 31,
+    "Winter 2020": 110,
+    "Bells and Whistles App": 95,
+    "Bells and Whistles Monthly": 368,
+    "Bells and Whistles": 93,
+    "The Green Plan": 19,
+    "Group Memberships": 1,
+    "Monthly for Special Offers": 2,
+    "Premium": 10384,
+    "Premium App": 7751,
+    "Premium Yearly": 2332,
+    "Premium - 4 months": 172,
+    "7-Days for 1$": 33,
+    "Premium Web Only": 2,
+    "TotalCyclist": 4,
+    "1 day test": 2,
+    "Premium Vasa SwimERG": 65,
+    "Metodo Pit": 53,
+    "DCS": 4,
+    "Premium Weekly": 2
+  },
+  "total_activations": 21523,
+  "date_range": {
+    "start": "2020-11",
+    "end": "2025-07"
+  }
+}

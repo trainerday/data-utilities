@@ -1,0 +1,52 @@
+{
+  "fixed_files": [
+    {
+      "file": "important-links.md",
+      "title": "Important Links",
+      "permalink": "important-links",
+      "had_frontmatter": false,
+      "had_simple_permalink": true
+    },
+    {
+      "file": "TOP PRIORITIES.md",
+      "title": "Top Priorities",
+      "permalink": "TOP PRIORITIES",
+      "had_frontmatter": false,
+      "had_simple_permalink": true
+    },
+    {
+      "file": "claude.md",
+      "title": "Claude",
+      "permalink": "claude",
+      "had_frontmatter": false,
+      "had_simple_permalink": true
+    },
+    {
+      "file": "company-structure/roles/strategy-finance.md",
+      "title": "Strategy Finance",
+      "permalink": "company-structure/roles/strategy-finance",
+      "had_frontmatter": false,
+      "had_simple_permalink": true
+    },
+    {
+      "file": "company-structure/roles/agents/cipher-analyst.md",
+      "title": "Cipher Analyst",
+      "permalink": "company-structure/roles/agents/cipher-analyst",
+      "had_frontmatter": false,
+      "had_simple_permalink": true
+    },
+    {
+      "file": "marketing/marketing-kanban.md",
+      "title": "Marketing Kanban",
+      "permalink": "marketing/marketing-kanban",
+      "had_frontmatter": true,
+      "had_simple_permalink": true
+    }
+  ],
+  "total_fixes": 6,
+  "breakdown": {
+    "simple_conversions": 6,
+    "incomplete_updates": 0,
+    "new_additions": 0
+  }
+}

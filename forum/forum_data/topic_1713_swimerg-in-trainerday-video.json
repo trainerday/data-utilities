@@ -1,0 +1,116 @@
+{
+  "topic": {
+    "id": 1713,
+    "title": "SwimERG in TrainerDay Video",
+    "fancy_title": "SwimERG in TrainerDay Video",
+    "slug": "swimerg-in-trainerday-video",
+    "posts_count": 1,
+    "reply_count": 0,
+    "highest_post_number": 1,
+    "image_url": "https://forums.trainerday.com/uploads/default/optimized/2X/5/5b0a8ef4b6156da3b2e397392e63fc506e37a98e_2_472x1024.jpeg",
+    "created_at": "2022-08-31T12:16:47.816Z",
+    "last_posted_at": "2022-08-31T12:16:47.885Z",
+    "bumped": true,
+    "bumped_at": "2022-08-31T12:46:19.515Z",
+    "archetype": "regular",
+    "unseen": false,
+    "pinned": false,
+    "unpinned": null,
+    "visible": true,
+    "closed": false,
+    "archived": false,
+    "bookmarked": null,
+    "liked": null,
+    "tags_descriptions": {},
+    "views": 486,
+    "like_count": 2,
+    "has_summary": false,
+    "last_poster_username": "Alex",
+    "category_id": 18,
+    "pinned_globally": false,
+    "featured_link": null,
+    "can_vote": false,
+    "posters": [
+      {
+        "extras": "latest single",
+        "description": "Original Poster, Most Recent Poster",
+        "user_id": 1,
+        "primary_group_id": 41,
+        "flair_group_id": 41
+      }
+    ]
+  },
+  "posts": [
+    {
+      "id": 7240,
+      "name": "",
+      "username": "Alex",
+      "avatar_template": "/user_avatar/forums.trainerday.com/alex/{size}/1331_2.png",
+      "created_at": "2022-08-31T12:16:47.885Z",
+      "cooked": "<p>So here is a video of a world class triathlete training using our app for swimming.</p>\n<p><div class=\"lightbox-wrapper\"><a class=\"lightbox\" href=\"https://forums.trainerday.com/uploads/default/original/2X/5/5b0a8ef4b6156da3b2e397392e63fc506e37a98e.jpeg\" data-download-href=\"https://forums.trainerday.com/uploads/default/5b0a8ef4b6156da3b2e397392e63fc506e37a98e\" title=\"image\"><img src=\"https://forums.trainerday.com/uploads/default/optimized/2X/5/5b0a8ef4b6156da3b2e397392e63fc506e37a98e_2_230x500.jpeg\" alt=\"image\" data-base62-sha1=\"cZo4poYTH3UhgxeHlqAlmaFSYNw\" width=\"230\" height=\"500\" srcset=\"https://forums.trainerday.com/uploads/default/optimized/2X/5/5b0a8ef4b6156da3b2e397392e63fc506e37a98e_2_230x500.jpeg, https://forums.trainerday.com/uploads/default/optimized/2X/5/5b0a8ef4b6156da3b2e397392e63fc506e37a98e_2_345x750.jpeg 1.5x, https://forums.trainerday.com/uploads/default/optimized/2X/5/5b0a8ef4b6156da3b2e397392e63fc506e37a98e_2_460x1000.jpeg 2x\" data-small-upload=\"https://forums.trainerday.com/uploads/default/optimized/2X/5/5b0a8ef4b6156da3b2e397392e63fc506e37a98e_2_10x10.png\"><div class=\"meta\"><svg class=\"fa d-icon d-icon-far-image svg-icon\" aria-hidden=\"true\"><use xlink:href=\"#far-image\"></use></svg><span class=\"filename\">image</span><span class=\"informations\">591\u00d71280 162 KB</span><svg class=\"fa d-icon d-icon-discourse-expand svg-icon\" aria-hidden=\"true\"><use xlink:href=\"#discourse-expand\"></use></svg></div></a></div></p>\n<p>Video is here on FB.</p><aside class=\"onebox allowlistedgeneric\">\n  <header class=\"source\">\n      <img src=\"https://static.xx.fbcdn.net/rsrc.php/yD/r/d4ZIVX-5C-b.ico\" class=\"site-icon\" width=\"32\" height=\"32\">\n      <a href=\"https://www.facebook.com/watch/?v=806756963697938&amp;extid=NS-UNK-UNK-UNK-IOS_GK0T-GK1C&amp;ref=sharing\" target=\"_blank\" rel=\"noopener\">facebook.com</a>\n  </header>\n  <article class=\"onebox-body\">\n    <img src=\"\" class=\"thumbnail\" width=\"\" height=\"\">\n\n<h3><a href=\"https://www.facebook.com/watch/?v=806756963697938&amp;extid=NS-UNK-UNK-UNK-IOS_GK0T-GK1C&amp;ref=sharing\" target=\"_blank\" rel=\"noopener\">Discover Popular Videos | Facebook</a></h3>\n\n<p>Facebook Watch is the place to enjoy videos and shows together. Find the latest trending videos, discover original shows and checkout what's going on with your favorite creators.</p>\n\n\n  </article>\n  <div class=\"onebox-metadata\">\n    \n    \n  </div>\n  <div style=\"clear: both\"></div>\n</aside>\n\n<p>She inspires me to want a Vasa trainer <img src=\"https://forums.trainerday.com/images/emoji/twitter/slight_smile.png?v=9\" title=\":slight_smile:\" class=\"emoji\" alt=\":slight_smile:\">  I dream of being a triathlete someday in the future.</p>",
+      "post_number": 1,
+      "post_type": 1,
+      "updated_at": "2022-08-31T12:47:34.657Z",
+      "reply_count": 0,
+      "reply_to_post_number": null,
+      "quote_count": 0,
+      "incoming_link_count": 4,
+      "reads": 24,
+      "readers_count": 23,
+      "score": 54.8,
+      "yours": false,
+      "topic_id": 1713,
+      "topic_slug": "swimerg-in-trainerday-video",
+      "display_username": "",
+      "primary_group_name": "English",
+      "flair_name": "English",
+      "flair_url": null,
+      "flair_bg_color": "",
+      "flair_color": "",
+      "flair_group_id": 41,
+      "version": 2,
+      "can_edit": false,
+      "can_delete": false,
+      "can_recover": false,
+      "can_see_hidden_post": false,
+      "can_wiki": false,
+      "link_counts": [
+        {
+          "url": "https://www.facebook.com/watch/?v=806756963697938&extid=NS-UNK-UNK-UNK-IOS_GK0T-GK1C&ref=sharing",
+          "internal": false,
+          "reflection": false,
+          "title": "Discover Popular Videos | Facebook",
+          "clicks": 10
+        },
+        {
+          "url": "https://forums.trainerday.com/uploads/default/original/2X/5/5b0a8ef4b6156da3b2e397392e63fc506e37a98e.jpeg",
+          "internal": true,
+          "reflection": false,
+          "clicks": 0
+        }
+      ],
+      "read": true,
+      "user_title": "",
+      "bookmarked": false,
+      "actions_summary": [
+        {
+          "id": 2,
+          "count": 2
+        }
+      ],
+      "moderator": false,
+      "admin": true,
+      "staff": true,
+      "user_id": 1,
+      "hidden": false,
+      "trust_level": 4,
+      "deleted_at": null,
+      "user_deleted": false,
+      "edit_reason": null,
+      "can_view_edit_history": true,
+      "wiki": false,
+      "can_vote": false
+    }
+  ],
+  "downloaded_at": "2025-06-27T07:37:03.709834"
+}

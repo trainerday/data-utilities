@@ -1,0 +1,109 @@
+{
+  "topic": {
+    "id": 843,
+    "title": "Added Search to the app (Ver 2.4.2 features)",
+    "fancy_title": "Added Search to the app (Ver 2.4.2 features)",
+    "slug": "added-search-to-the-app-ver-2-4-2-features",
+    "posts_count": 1,
+    "reply_count": 0,
+    "highest_post_number": 1,
+    "image_url": "https://forums.trainerday.com/uploads/default/original/1X/97b0faae12b7fba36daa0ce76246587bcc6bcab9.jpeg",
+    "created_at": "2021-09-27T14:11:23.852Z",
+    "last_posted_at": "2021-09-27T14:11:23.953Z",
+    "bumped": true,
+    "bumped_at": "2021-09-28T08:50:40.543Z",
+    "archetype": "regular",
+    "unseen": false,
+    "pinned": false,
+    "unpinned": null,
+    "visible": true,
+    "closed": false,
+    "archived": false,
+    "bookmarked": null,
+    "liked": null,
+    "tags_descriptions": {},
+    "views": 461,
+    "like_count": 1,
+    "has_summary": false,
+    "last_poster_username": "Alex",
+    "category_id": 18,
+    "pinned_globally": false,
+    "featured_link": null,
+    "can_vote": false,
+    "posters": [
+      {
+        "extras": "latest single",
+        "description": "Original Poster, Most Recent Poster",
+        "user_id": 1,
+        "primary_group_id": 41,
+        "flair_group_id": 41
+      }
+    ]
+  },
+  "posts": [
+    {
+      "id": 3415,
+      "name": "",
+      "username": "Alex",
+      "avatar_template": "/user_avatar/forums.trainerday.com/alex/{size}/1331_2.png",
+      "created_at": "2021-09-27T14:11:23.953Z",
+      "cooked": "<p>We added search in the app for premium members.</p>\n<p>It will first search your library and then also search the public workouts matching your search.   You can see in the screenshot it toggles between search and lists.</p>\n<p><div class=\"lightbox-wrapper\"><a class=\"lightbox\" href=\"https://forums.trainerday.com/uploads/default/original/1X/97b0faae12b7fba36daa0ce76246587bcc6bcab9.jpeg\" data-download-href=\"https://forums.trainerday.com/uploads/default/97b0faae12b7fba36daa0ce76246587bcc6bcab9\" title=\"image\"><img src=\"https://forums.trainerday.com/uploads/default/optimized/1X/97b0faae12b7fba36daa0ce76246587bcc6bcab9_2_610x500.jpeg\" alt=\"image\" data-base62-sha1=\"lDVh0h1Y6zqYnvQQDGQYYxGJ7PH\" width=\"610\" height=\"500\" srcset=\"https://forums.trainerday.com/uploads/default/optimized/1X/97b0faae12b7fba36daa0ce76246587bcc6bcab9_2_610x500.jpeg, https://forums.trainerday.com/uploads/default/original/1X/97b0faae12b7fba36daa0ce76246587bcc6bcab9.jpeg 1.5x, https://forums.trainerday.com/uploads/default/original/1X/97b0faae12b7fba36daa0ce76246587bcc6bcab9.jpeg 2x\" data-small-upload=\"https://forums.trainerday.com/uploads/default/optimized/1X/97b0faae12b7fba36daa0ce76246587bcc6bcab9_2_10x10.png\"><div class=\"meta\"><svg class=\"fa d-icon d-icon-far-image svg-icon\" aria-hidden=\"true\"><use xlink:href=\"#far-image\"></use></svg><span class=\"filename\">image</span><span class=\"informations\">675\u00d7553 38.7 KB</span><svg class=\"fa d-icon d-icon-discourse-expand svg-icon\" aria-hidden=\"true\"><use xlink:href=\"#discourse-expand\"></use></svg></div></a></div></p>\n<p>We also switched to native workout popup from the library page.  Previously it was very slow, now it is very fast.</p>\n<p>We also added power based -<br>\nRunning, swimming and rowing, which are good for indoor power based devices. We made sure this has minimal or no impact on the cyclist user experience as we will remain cycing focused but will start to add other sports.  We still need to add independent FTP settings for each sport.  So this is best for a single power based sport athlete at this time.</p>\n<p>There is also some other small improvements.</p>",
+      "post_number": 1,
+      "post_type": 1,
+      "updated_at": "2021-09-28T08:50:40.506Z",
+      "reply_count": 0,
+      "reply_to_post_number": null,
+      "quote_count": 0,
+      "incoming_link_count": 5,
+      "reads": 11,
+      "readers_count": 10,
+      "score": 42.2,
+      "yours": false,
+      "topic_id": 843,
+      "topic_slug": "added-search-to-the-app-ver-2-4-2-features",
+      "display_username": "",
+      "primary_group_name": "English",
+      "flair_name": "English",
+      "flair_url": null,
+      "flair_bg_color": "",
+      "flair_color": "",
+      "flair_group_id": 41,
+      "version": 2,
+      "can_edit": false,
+      "can_delete": false,
+      "can_recover": false,
+      "can_see_hidden_post": false,
+      "can_wiki": false,
+      "link_counts": [
+        {
+          "url": "https://forums.trainerday.com/uploads/default/original/1X/97b0faae12b7fba36daa0ce76246587bcc6bcab9.jpeg",
+          "internal": true,
+          "reflection": false,
+          "clicks": 0
+        }
+      ],
+      "read": true,
+      "user_title": "",
+      "bookmarked": false,
+      "actions_summary": [
+        {
+          "id": 2,
+          "count": 1
+        }
+      ],
+      "moderator": false,
+      "admin": true,
+      "staff": true,
+      "user_id": 1,
+      "hidden": false,
+      "trust_level": 4,
+      "deleted_at": null,
+      "user_deleted": false,
+      "edit_reason": null,
+      "can_view_edit_history": true,
+      "wiki": false,
+      "can_vote": false
+    }
+  ],
+  "downloaded_at": "2025-06-27T07:44:40.704408"
+}

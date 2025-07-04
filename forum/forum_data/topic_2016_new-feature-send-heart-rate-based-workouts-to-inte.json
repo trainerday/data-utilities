@@ -1,0 +1,116 @@
+{
+  "topic": {
+    "id": 2016,
+    "title": "New Feature: Send Heart Rate based workouts to IntervalsICU",
+    "fancy_title": "New Feature: Send Heart Rate based workouts to IntervalsICU",
+    "slug": "new-feature-send-heart-rate-based-workouts-to-intervalsicu",
+    "posts_count": 1,
+    "reply_count": 0,
+    "highest_post_number": 1,
+    "image_url": "https://forums.trainerday.com/uploads/default/optimized/2X/3/35307a94c0ff673b280ab06fd6539cf30a4f4bc0_2_1024x471.png",
+    "created_at": "2022-10-13T07:59:28.504Z",
+    "last_posted_at": "2022-10-13T07:59:28.601Z",
+    "bumped": true,
+    "bumped_at": "2022-10-13T07:59:28.601Z",
+    "archetype": "regular",
+    "unseen": false,
+    "pinned": false,
+    "unpinned": null,
+    "visible": true,
+    "closed": false,
+    "archived": false,
+    "bookmarked": null,
+    "liked": null,
+    "tags_descriptions": {},
+    "views": 470,
+    "like_count": 2,
+    "has_summary": false,
+    "last_poster_username": "trainerday",
+    "category_id": 28,
+    "pinned_globally": false,
+    "featured_link": null,
+    "can_vote": false,
+    "posters": [
+      {
+        "extras": "latest single",
+        "description": "Original Poster, Most Recent Poster",
+        "user_id": 2,
+        "primary_group_id": null,
+        "flair_group_id": null
+      }
+    ]
+  },
+  "posts": [
+    {
+      "id": 7879,
+      "name": "",
+      "username": "trainerday",
+      "avatar_template": "/user_avatar/forums.trainerday.com/trainerday/{size}/3_2.png",
+      "created_at": "2022-10-13T07:59:28.601Z",
+      "cooked": "<p>See below.</p>\n<p><div class=\"lightbox-wrapper\"><a class=\"lightbox\" href=\"https://forums.trainerday.com/uploads/default/original/2X/3/35307a94c0ff673b280ab06fd6539cf30a4f4bc0.png\" data-download-href=\"https://forums.trainerday.com/uploads/default/35307a94c0ff673b280ab06fd6539cf30a4f4bc0\" title=\"image\"><img src=\"https://forums.trainerday.com/uploads/default/optimized/2X/3/35307a94c0ff673b280ab06fd6539cf30a4f4bc0_2_690x317.png\" alt=\"image\" data-base62-sha1=\"7AxaCGdlHydcQcpLQrwyFBb0yEU\" width=\"690\" height=\"317\" srcset=\"https://forums.trainerday.com/uploads/default/optimized/2X/3/35307a94c0ff673b280ab06fd6539cf30a4f4bc0_2_690x317.png, https://forums.trainerday.com/uploads/default/optimized/2X/3/35307a94c0ff673b280ab06fd6539cf30a4f4bc0_2_1035x475.png 1.5x, https://forums.trainerday.com/uploads/default/optimized/2X/3/35307a94c0ff673b280ab06fd6539cf30a4f4bc0_2_1380x634.png 2x\" data-small-upload=\"https://forums.trainerday.com/uploads/default/optimized/2X/3/35307a94c0ff673b280ab06fd6539cf30a4f4bc0_2_10x10.png\"><div class=\"meta\"><svg class=\"fa d-icon d-icon-far-image svg-icon\" aria-hidden=\"true\"><use xlink:href=\"#far-image\"></use></svg><span class=\"filename\">image</span><span class=\"informations\">3924\u00d71806 1.13 MB</span><svg class=\"fa d-icon d-icon-discourse-expand svg-icon\" aria-hidden=\"true\"><use xlink:href=\"#discourse-expand\"></use></svg></div></a></div></p>",
+      "post_number": 1,
+      "post_type": 1,
+      "updated_at": "2022-10-13T07:59:28.601Z",
+      "reply_count": 0,
+      "reply_to_post_number": null,
+      "quote_count": 0,
+      "incoming_link_count": 4,
+      "reads": 33,
+      "readers_count": 32,
+      "score": 56.6,
+      "yours": false,
+      "topic_id": 2016,
+      "topic_slug": "new-feature-send-heart-rate-based-workouts-to-intervalsicu",
+      "display_username": "",
+      "primary_group_name": null,
+      "flair_name": null,
+      "flair_url": null,
+      "flair_bg_color": null,
+      "flair_color": null,
+      "flair_group_id": null,
+      "version": 1,
+      "can_edit": false,
+      "can_delete": false,
+      "can_recover": false,
+      "can_see_hidden_post": false,
+      "can_wiki": false,
+      "link_counts": [
+        {
+          "url": "https://forums.trainerday.com/uploads/default/original/2X/3/35307a94c0ff673b280ab06fd6539cf30a4f4bc0.png",
+          "internal": true,
+          "reflection": false,
+          "clicks": 0
+        },
+        {
+          "url": "https://forums.trainerday.com/t/heart-rate-conversions-available/1701/24",
+          "internal": true,
+          "reflection": true,
+          "title": "Heart Rate Conversions Available",
+          "clicks": 6
+        }
+      ],
+      "read": true,
+      "user_title": null,
+      "bookmarked": false,
+      "actions_summary": [
+        {
+          "id": 2,
+          "count": 2
+        }
+      ],
+      "moderator": false,
+      "admin": true,
+      "staff": true,
+      "user_id": 2,
+      "hidden": false,
+      "trust_level": 4,
+      "deleted_at": null,
+      "user_deleted": false,
+      "edit_reason": null,
+      "can_view_edit_history": true,
+      "wiki": false,
+      "can_vote": false
+    }
+  ],
+  "downloaded_at": "2025-06-27T07:36:05.485922"
+}

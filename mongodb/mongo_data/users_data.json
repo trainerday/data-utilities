@@ -1,0 +1,607 @@
+[
+  {
+    "_id": "5dd6834d105e65ef0a3372e5",
+    "userId": 57,
+    "updatedAt": "2025-05-22T16:08:11.812000",
+    "__v": 0,
+    "createdAt": "2019-11-21T12:30:05.456000",
+    "ftp": 180,
+    "appsDevicesSettings": {
+      "garminType": "POWER",
+      "garminMode": "range",
+      "garminRangeModeZ1Z215": true,
+      "garminSyncCalendar": "2weeks",
+      "tpFTP": true,
+      "tpHR": true,
+      "tpWod": false,
+      "tpSyncCalendar": "off",
+      "intervalsWod": false,
+      "isStravaSyncEnabled": false,
+      "virtualMaps": {
+        "climbs": false,
+        "interestingPlaces": true
+      },
+      "garminOpenWarmupMode": true
+    },
+    "isFoundingMember": true,
+    "thresholdHR": 140,
+    "notifications": {
+      "received": [],
+      "read": [
+        "5e43c21a7b0eb400d5828dfc",
+        "5f89f26e468ada241cccfbf4"
+      ]
+    },
+    "isPaid": false,
+    "wPrime": 500000,
+    "criticalPower": 800,
+    "username": "alex",
+    "membershipLevels": [
+      "2"
+    ],
+    "accessLevel": 2,
+    "appPlan": "637fa4dcd64aff7694eb0e05",
+    "params": {
+      "riderWeight": 65.4,
+      "bikeWeight": 8,
+      "units": "metric",
+      "dragCoefficient": 0.6
+    },
+    "calendarSettings": {
+      "wod": false,
+      "showWeeklyTotals": true,
+      "compactView": false,
+      "garminSyncInProgress": false,
+      "tpSyncInProgress": false,
+      "showWahooExport": false,
+      "shareMyCalendar": false
+    },
+    "locale": "en",
+    "sportProfiles": [
+      {
+        "type": "bike",
+        "ftp": 180,
+        "thresholdHR": 140
+      },
+      {
+        "type": "swim",
+        "ftp": 50,
+        "thresholdHR": 150
+      },
+      {
+        "type": "rowing",
+        "ftp": 135,
+        "thresholdHR": 170
+      }
+    ],
+    "activeSportProfile": "bike",
+    "displayedSportProfiles": [
+      "bike",
+      "swim",
+      "rowing"
+    ],
+    "isVasaPremium": true,
+    "calculationsSettings": {
+      "HRConverterRatiosZones": [
+        {
+          "label": "Zone 1 up to 55%",
+          "min": 0,
+          "max": 55,
+          "ratio": 1.42
+        },
+        {
+          "label": "Zone 2 up to 56-75%",
+          "min": 56,
+          "max": 75,
+          "ratio": 1.3
+        },
+        {
+          "label": "Zone 3 up to 76-90%",
+          "min": 76,
+          "max": 90,
+          "ratio": 1.2
+        },
+        {
+          "label": "Zone 4 up to 91-105%",
+          "min": 91,
+          "max": 105,
+          "ratio": 1.1
+        },
+        {
+          "label": "Zone 5 up to 106+%",
+          "min": 106,
+          "max": null,
+          "ratio": 1
+        }
+      ]
+    },
+    "membershipIds": [
+      3
+    ],
+    "lastMobileAppLogin": {
+      "appVersion": "5.0.2",
+      "loginDateUTC": "2024-09-25T09:49:36.861000"
+    },
+    "timezone": "Europe/Warsaw",
+    "email": "av@totxt.net",
+    "roles": [
+      "administrator",
+      "betausersnew",
+      "apptester",
+      "green-plan"
+    ]
+  },
+  {
+    "_id": "5dd69a98105e65ef0a351c15",
+    "userId": 3791,
+    "updatedAt": "2022-08-24T09:40:38.583000",
+    "__v": 0,
+    "createdAt": "2019-11-21T14:09:28.290000",
+    "ftp": 265,
+    "notifications": {
+      "received": [
+        "5e43c21a7b0eb400d5828dfc",
+        "5f89f26e468ada241cccfbf4"
+      ]
+    },
+    "params": {
+      "riderWeight": 64,
+      "bikeWeight": 8,
+      "units": "metric"
+    }
+  },
+  {
+    "_id": "5dd6a2a0105e65ef0a35af23",
+    "userId": 3792,
+    "updatedAt": "2022-08-24T09:40:38.587000",
+    "__v": 0,
+    "createdAt": "2019-11-21T14:43:44.131000",
+    "params": {
+      "riderWeight": 64,
+      "bikeWeight": 8,
+      "units": "metric"
+    }
+  },
+  {
+    "_id": "5dd6a7b5105e65ef0a360c43",
+    "userId": 1347,
+    "updatedAt": "2025-06-20T06:06:47.723000",
+    "__v": 0,
+    "createdAt": "2019-11-21T15:05:25.741000",
+    "ftp": 324,
+    "notifications": {
+      "received": [],
+      "read": [
+        "5e43c21a7b0eb400d5828dfc",
+        "5f89f26e468ada241cccfbf4",
+        "64e5c85b00213ae03a900842"
+      ]
+    },
+    "isPaid": false,
+    "appsDevicesSettings": {
+      "garminType": "POWER_3S",
+      "garminMode": "range",
+      "garminRangeModeZ1Z215": true,
+      "tpFTP": true,
+      "tpHR": false,
+      "intervalsWod": false,
+      "isStravaSyncEnabled": false,
+      "virtualMaps": {
+        "interestingPlaces": false
+      },
+      "garminSyncCalendar": "off",
+      "tpSyncCalendar": "off",
+      "tpWod": false,
+      "intervalsSyncCalendar": "off",
+      "intervalsTwoWaySyncCalendar": false,
+      "garminOpenWarmupMode": false
+    },
+    "criticalPower": 318,
+    "username": "VahurSepp",
+    "membershipLevels": [],
+    "accessLevel": 2,
+    "appPlan": "676d44faf192034899448018",
+    "isFoundingMember": true,
+    "thresholdHR": 176,
+    "params": {
+      "riderWeight": 80,
+      "bikeWeight": 9,
+      "units": "metric",
+      "dragCoefficient": 0.6
+    },
+    "calculationsSettings": {
+      "HRConverterRatiosZones": [
+        {
+          "label": "Zone 1 up to 55%",
+          "min": 0,
+          "max": 55,
+          "ratio": 1.4
+        },
+        {
+          "label": "Zone 2 up to 56-75%",
+          "min": 56,
+          "max": 75,
+          "ratio": 1.3
+        },
+        {
+          "label": "Zone 3 up to 76-90%",
+          "min": 76,
+          "max": 90,
+          "ratio": 1.2
+        },
+        {
+          "label": "Zone 4 up to 91-105%",
+          "min": 91,
+          "max": 105,
+          "ratio": 1.1
+        },
+        {
+          "label": "Zone 5 up to 106+%",
+          "min": 106,
+          "max": null,
+          "ratio": 1
+        }
+      ]
+    },
+    "sportProfiles": [
+      {
+        "type": "bike",
+        "ftp": 324,
+        "thresholdHR": 176
+      },
+      {
+        "type": "swim",
+        "ftp": 291,
+        "thresholdHR": 176
+      }
+    ],
+    "activeSportProfile": "bike",
+    "calendarSettings": {
+      "compactView": false,
+      "showWahooExport": false,
+      "showWeeklyTotals": true,
+      "wod": false,
+      "shareMyCalendar": false,
+      "garminSyncInProgress": false,
+      "tpSyncInProgress": false,
+      "showCompletedWorkouts": false
+    },
+    "isVasaPremium": false,
+    "lastMobileAppLogin": {
+      "appVersion": "5.3.4",
+      "loginDateUTC": "2025-06-20T06:06:33.696000"
+    },
+    "timezone": "Europe/Tallinn",
+    "email": "damneddaemon@gmail.com",
+    "roles": [
+      "subscriber"
+    ],
+    "membershipIds": [
+      3
+    ],
+    "connections": {
+      "dropbox": false,
+      "garmin": true,
+      "googleCalendar": false,
+      "intervalsIcu": true,
+      "strava": false,
+      "trainingPeaks": false,
+      "wahoo": false
+    }
+  },
+  {
+    "_id": "5dd6a8aa105e65ef0a361de4",
+    "userId": 3795,
+    "updatedAt": "2022-08-24T09:40:38.590000",
+    "__v": 0,
+    "createdAt": "2019-11-21T15:09:30.395000",
+    "ftp": 180,
+    "params": {
+      "riderWeight": 64,
+      "bikeWeight": 8,
+      "units": "metric"
+    }
+  },
+  {
+    "_id": "5dd6aca1105e65ef0a366622",
+    "userId": 3796,
+    "updatedAt": "2022-08-24T09:40:38.594000",
+    "__v": 0,
+    "createdAt": "2019-11-21T15:26:25.302000",
+    "notifications": {
+      "received": [
+        "5e43c21a7b0eb400d5828dfc"
+      ]
+    },
+    "params": {
+      "riderWeight": 64,
+      "bikeWeight": 8,
+      "units": "metric"
+    }
+  },
+  {
+    "_id": "5dd6ae5f105e65ef0a3685fb",
+    "userId": 3419,
+    "updatedAt": "2022-08-24T09:40:38.596000",
+    "__v": 0,
+    "createdAt": "2019-11-21T15:33:51.040000",
+    "notifications": {
+      "received": [
+        "5f89f26e468ada241cccfbf4"
+      ]
+    },
+    "params": {
+      "riderWeight": 64,
+      "bikeWeight": 8,
+      "units": "metric"
+    }
+  },
+  {
+    "_id": "5dd6ae8b105e65ef0a36891a",
+    "userId": 544,
+    "updatedAt": "2025-03-08T13:05:27.242000",
+    "__v": 0,
+    "createdAt": "2019-11-21T15:34:35.285000",
+    "ftp": 234,
+    "notifications": {
+      "received": [],
+      "read": [
+        "5e43c21a7b0eb400d5828dfc",
+        "5f89f26e468ada241cccfbf4"
+      ]
+    },
+    "isPaid": false,
+    "appsDevicesSettings": {
+      "virtualMaps": {
+        "interestingPlaces": true
+      },
+      "garminType": "POWER",
+      "garminMode": "range",
+      "garminRangeModeZ1Z215": true,
+      "garminSyncCalendar": "2weeks",
+      "tpFTP": true,
+      "tpHR": false,
+      "tpWod": false,
+      "tpSyncCalendar": "2weeks",
+      "intervalsWod": false,
+      "isStravaSyncEnabled": false,
+      "intervalsSyncCalendar": "2weeks",
+      "intervalsTwoWaySyncCalendar": true,
+      "garminOpenWarmupMode": true
+    },
+    "wPrime": 14700,
+    "criticalPower": 230,
+    "username": "samoramobile",
+    "accessLevel": 2,
+    "appPlan": null,
+    "membershipIds": [
+      5
+    ],
+    "isFoundingMember": true,
+    "thresholdHR": 169,
+    "params": {
+      "riderWeight": 76.25,
+      "bikeWeight": 8,
+      "units": "metric",
+      "dragCoefficient": 0.4
+    },
+    "calendarSettings": {
+      "wod": true,
+      "showWeeklyTotals": true,
+      "compactView": false,
+      "garminSyncInProgress": false,
+      "tpSyncInProgress": false,
+      "showWahooExport": false,
+      "shareMyCalendar": false,
+      "showCompletedWorkouts": false,
+      "intervalsSyncInProgress": false
+    },
+    "sportProfiles": [
+      {
+        "type": "bike",
+        "ftp": 234,
+        "thresholdHR": 169
+      }
+    ],
+    "calculationsSettings": {
+      "HRConverterRatiosZones": [
+        {
+          "label": "Zone 1 up to 55%",
+          "min": 0,
+          "max": 55,
+          "ratio": 1.4
+        },
+        {
+          "label": "Zone 2 up to 56-75%",
+          "min": 56,
+          "max": 75,
+          "ratio": 1.3
+        },
+        {
+          "label": "Zone 3 up to 76-90%",
+          "min": 76,
+          "max": 90,
+          "ratio": 1.2
+        },
+        {
+          "label": "Zone 4 up to 91-105%",
+          "min": 91,
+          "max": 105,
+          "ratio": 1.1
+        },
+        {
+          "label": "Zone 5 up to 106+%",
+          "min": 106,
+          "max": null,
+          "ratio": 1
+        }
+      ]
+    },
+    "timezone": "Europe/Lisbon",
+    "lastMobileAppLogin": {
+      "appVersion": "5.1.3",
+      "loginDateUTC": "2024-12-15T12:29:31.391000"
+    },
+    "activeSportProfile": "bike",
+    "connections": {
+      "strava": true,
+      "dropbox": true,
+      "garmin": true,
+      "googleCalendar": true,
+      "intervalsIcu": true,
+      "trainingPeaks": true,
+      "wahoo": false
+    },
+    "email": "samoramobile@gmail.com",
+    "locale": "pt",
+    "roles": [
+      "betausersnew"
+    ]
+  },
+  {
+    "_id": "5dd6aeb6105e65ef0a368c24",
+    "userId": 3760,
+    "updatedAt": "2025-03-16T15:53:14.102000",
+    "__v": 0,
+    "createdAt": "2019-11-21T15:35:18.512000",
+    "ftp": 276,
+    "notifications": {
+      "received": [],
+      "read": [
+        "5e43c21a7b0eb400d5828dfc"
+      ]
+    },
+    "isPaid": false,
+    "accessLevel": 0,
+    "username": "Lee",
+    "appPlan": null,
+    "appsDevicesSettings": {
+      "garminType": "POWER_3S",
+      "garminMode": "range",
+      "garminRangeModeZ1Z215": true,
+      "tpFTP": true,
+      "tpHR": false,
+      "isStravaSyncEnabled": false,
+      "virtualMaps": {
+        "climbs": false,
+        "interestingPlaces": false
+      },
+      "garminOpenWarmupMode": true,
+      "garminSyncCalendar": "off",
+      "intervalsSyncCalendar": "off",
+      "intervalsTwoWaySyncCalendar": false,
+      "intervalsWod": false,
+      "tpSyncCalendar": "off",
+      "tpWod": false
+    },
+    "thresholdHR": 167,
+    "params": {
+      "riderWeight": 79,
+      "bikeWeight": 8,
+      "units": "metric",
+      "dragCoefficient": 0.6
+    },
+    "wPrime": 30000,
+    "criticalPower": 276,
+    "calculationsSettings": {
+      "HRConverterRatiosZones": [
+        {
+          "label": "Zone 1 up to 55%",
+          "min": 0,
+          "max": 55,
+          "ratio": 1.4
+        },
+        {
+          "label": "Zone 2 up to 56-75%",
+          "min": 56,
+          "max": 75,
+          "ratio": 1.3
+        },
+        {
+          "label": "Zone 3 up to 76-90%",
+          "min": 76,
+          "max": 90,
+          "ratio": 1.2
+        },
+        {
+          "label": "Zone 4 up to 91-105%",
+          "min": 91,
+          "max": 105,
+          "ratio": 1.1
+        },
+        {
+          "label": "Zone 5 up to 106+%",
+          "min": 106,
+          "max": null,
+          "ratio": 1
+        }
+      ]
+    },
+    "sportProfiles": [
+      {
+        "type": "bike",
+        "ftp": 276,
+        "thresholdHR": 167
+      },
+      {
+        "type": "swim",
+        "ftp": 254,
+        "thresholdHR": 148
+      },
+      {
+        "type": "rowing",
+        "ftp": 254,
+        "thresholdHR": 148
+      }
+    ],
+    "timezone": "Europe/Lisbon",
+    "email": "lee.downham@gmail.com",
+    "roles": [
+      "subscriber"
+    ],
+    "calendarSettings": {
+      "compactView": false,
+      "shareMyCalendar": false,
+      "showWeeklyTotals": true,
+      "wod": false
+    }
+  },
+  {
+    "_id": "5dd6b155105e65ef0a36bb93",
+    "userId": 3095,
+    "updatedAt": "2023-05-16T08:21:10.720000",
+    "__v": 0,
+    "createdAt": "2019-11-21T15:46:29.091000",
+    "ftp": 305,
+    "isPaid": false,
+    "appsDevicesSettings": {
+      "virtualMaps": {
+        "climbs": true,
+        "interestingPlaces": true
+      },
+      "garminType": "POWER_3S",
+      "garminMode": "range",
+      "garminRangeModeZ1Z215": true,
+      "tpFTP": true,
+      "tpHR": false,
+      "intervalsWod": false,
+      "isStravaSyncEnabled": false
+    },
+    "criticalPower": 304,
+    "username": "Fredy Diaz",
+    "accessLevel": 0,
+    "appPlan": null,
+    "notifications": {
+      "received": [],
+      "read": [
+        "5f89f26e468ada241cccfbf4"
+      ]
+    },
+    "thresholdHR": 177,
+    "params": {
+      "riderWeight": 63,
+      "bikeWeight": 8,
+      "units": "metric"
+    }
+  }
+]

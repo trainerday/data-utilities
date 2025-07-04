@@ -1,0 +1,109 @@
+{
+  "topic": {
+    "id": 360,
+    "title": "New Jan 2021 - Website Improvements",
+    "fancy_title": "New Jan 2021 - Website Improvements",
+    "slug": "new-jan-2021-website-improvements",
+    "posts_count": 1,
+    "reply_count": 0,
+    "highest_post_number": 1,
+    "image_url": "https://forums.trainerday.com/uploads/default/optimized/1X/aa7b403c7ab19c9820c2100d540faca51bc2955b_2_1024x403.png",
+    "created_at": "2021-01-20T11:06:02.706Z",
+    "last_posted_at": "2021-01-20T11:06:02.844Z",
+    "bumped": true,
+    "bumped_at": "2021-01-20T11:06:02.844Z",
+    "archetype": "regular",
+    "unseen": false,
+    "pinned": false,
+    "unpinned": null,
+    "visible": true,
+    "closed": false,
+    "archived": false,
+    "bookmarked": null,
+    "liked": null,
+    "tags_descriptions": {},
+    "views": 365,
+    "like_count": 1,
+    "has_summary": false,
+    "last_poster_username": "Alex",
+    "category_id": 1,
+    "pinned_globally": false,
+    "featured_link": null,
+    "can_vote": false,
+    "posters": [
+      {
+        "extras": "latest single",
+        "description": "Original Poster, Most Recent Poster",
+        "user_id": 1,
+        "primary_group_id": 41,
+        "flair_group_id": 41
+      }
+    ]
+  },
+  "posts": [
+    {
+      "id": 1416,
+      "name": "",
+      "username": "Alex",
+      "avatar_template": "/user_avatar/forums.trainerday.com/alex/{size}/1331_2.png",
+      "created_at": "2021-01-20T11:06:02.844Z",
+      "cooked": "<p>We are working on a lot of stuff, some I will talk about soon.  But some more subtle stuff is we are getting more visual consistency on the web site and trying to simplify it and improve performance.  On person that does not speak good English thought send to TP disappeared but it just moved.  You can see it below.  I think/hope solid English speakers will find it no problem.  We also now show watts on the search graphs rather than % assuming you set your FTP.</p>\n<p><div class=\"lightbox-wrapper\"><a class=\"lightbox\" href=\"https://forums.trainerday.com/uploads/default/original/1X/aa7b403c7ab19c9820c2100d540faca51bc2955b.png\" data-download-href=\"https://forums.trainerday.com/uploads/default/aa7b403c7ab19c9820c2100d540faca51bc2955b\" title=\"image\"><img src=\"https://forums.trainerday.com/uploads/default/optimized/1X/aa7b403c7ab19c9820c2100d540faca51bc2955b_2_690x272.png\" alt=\"image\" data-base62-sha1=\"ok9euXxUAncuEKa9sbQ0LW23zOH\" width=\"690\" height=\"272\" srcset=\"https://forums.trainerday.com/uploads/default/optimized/1X/aa7b403c7ab19c9820c2100d540faca51bc2955b_2_690x272.png, https://forums.trainerday.com/uploads/default/optimized/1X/aa7b403c7ab19c9820c2100d540faca51bc2955b_2_1035x408.png 1.5x, https://forums.trainerday.com/uploads/default/optimized/1X/aa7b403c7ab19c9820c2100d540faca51bc2955b_2_1380x544.png 2x\" data-small-upload=\"https://forums.trainerday.com/uploads/default/optimized/1X/aa7b403c7ab19c9820c2100d540faca51bc2955b_2_10x10.png\"><div class=\"meta\"><svg class=\"fa d-icon d-icon-far-image svg-icon\" aria-hidden=\"true\"><use xlink:href=\"#far-image\"></use></svg><span class=\"filename\">image</span><span class=\"informations\">1597\u00d7630 109 KB</span><svg class=\"fa d-icon d-icon-discourse-expand svg-icon\" aria-hidden=\"true\"><use xlink:href=\"#discourse-expand\"></use></svg></div></a></div></p>\n<p>Next up is simplifying our plans module.  We are also working on performance and more device compatibility on the app but then we will move to some of the highest priority requrests, such as Ant+</p>",
+      "post_number": 1,
+      "post_type": 1,
+      "updated_at": "2021-01-20T11:06:02.844Z",
+      "reply_count": 0,
+      "reply_to_post_number": null,
+      "quote_count": 0,
+      "incoming_link_count": 0,
+      "reads": 17,
+      "readers_count": 16,
+      "score": 18.4,
+      "yours": false,
+      "topic_id": 360,
+      "topic_slug": "new-jan-2021-website-improvements",
+      "display_username": "",
+      "primary_group_name": "English",
+      "flair_name": "English",
+      "flair_url": null,
+      "flair_bg_color": "",
+      "flair_color": "",
+      "flair_group_id": 41,
+      "version": 1,
+      "can_edit": false,
+      "can_delete": false,
+      "can_recover": false,
+      "can_see_hidden_post": false,
+      "can_wiki": false,
+      "link_counts": [
+        {
+          "url": "https://forums.trainerday.com/uploads/default/original/1X/aa7b403c7ab19c9820c2100d540faca51bc2955b.png",
+          "internal": true,
+          "reflection": false,
+          "clicks": 0
+        }
+      ],
+      "read": true,
+      "user_title": "",
+      "bookmarked": false,
+      "actions_summary": [
+        {
+          "id": 2,
+          "count": 1
+        }
+      ],
+      "moderator": false,
+      "admin": true,
+      "staff": true,
+      "user_id": 1,
+      "hidden": false,
+      "trust_level": 4,
+      "deleted_at": null,
+      "user_deleted": false,
+      "edit_reason": null,
+      "can_view_edit_history": true,
+      "wiki": false,
+      "can_vote": false
+    }
+  ],
+  "downloaded_at": "2025-06-27T07:48:11.796655"
+}

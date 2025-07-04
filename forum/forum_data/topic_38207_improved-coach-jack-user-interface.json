@@ -1,0 +1,109 @@
+{
+  "topic": {
+    "id": 38207,
+    "title": "Improved Coach Jack User Interface",
+    "fancy_title": "Improved Coach Jack User Interface",
+    "slug": "improved-coach-jack-user-interface",
+    "posts_count": 1,
+    "reply_count": 0,
+    "highest_post_number": 1,
+    "image_url": "https://forums.trainerday.com/uploads/default/optimized/2X/f/f2ec768aadf50dda6a4acebb7ae726826d2afa8f_2_1024x711.png",
+    "created_at": "2024-05-17T09:28:52.928Z",
+    "last_posted_at": "2024-05-17T09:28:53.083Z",
+    "bumped": true,
+    "bumped_at": "2024-05-17T09:28:53.083Z",
+    "archetype": "regular",
+    "unseen": false,
+    "pinned": false,
+    "unpinned": null,
+    "visible": true,
+    "closed": false,
+    "archived": false,
+    "bookmarked": null,
+    "liked": null,
+    "tags_descriptions": {},
+    "views": 662,
+    "like_count": 7,
+    "has_summary": false,
+    "last_poster_username": "Alex",
+    "category_id": 28,
+    "pinned_globally": false,
+    "featured_link": null,
+    "can_vote": false,
+    "posters": [
+      {
+        "extras": "latest single",
+        "description": "Original Poster, Most Recent Poster",
+        "user_id": 1,
+        "primary_group_id": 41,
+        "flair_group_id": 41
+      }
+    ]
+  },
+  "posts": [
+    {
+      "id": 51420,
+      "name": "",
+      "username": "Alex",
+      "avatar_template": "/user_avatar/forums.trainerday.com/alex/{size}/1331_2.png",
+      "created_at": "2024-05-17T09:28:53.083Z",
+      "cooked": "<p>The first step to improving Coach Jack was to simplify the user interface (easier to understand how it works).   This is done and available, see below.  Rather than ramp rates we use block start and block end hours.  It\u2019s the same thing just simplified.  Also now it easier for new coach jack users to realize they can control the hour limits on each day, just a bit faster and easier to set.</p>\n<p>See below.  Now we will start working on some CJ workout improvements coming in the next month or so, including some cadence skills work and more enjoyable workouts as well as slightly more performance optimized.</p>\n<p><div class=\"lightbox-wrapper\"><a class=\"lightbox\" href=\"https://forums.trainerday.com/uploads/default/original/2X/f/f2ec768aadf50dda6a4acebb7ae726826d2afa8f.png\" data-download-href=\"https://forums.trainerday.com/uploads/default/f2ec768aadf50dda6a4acebb7ae726826d2afa8f\" title=\"image\"><img src=\"https://forums.trainerday.com/uploads/default/optimized/2X/f/f2ec768aadf50dda6a4acebb7ae726826d2afa8f_2_690x479.png\" alt=\"image\" data-base62-sha1=\"yF0aogPShxbc00KbVGjXfnUQlsP\" width=\"690\" height=\"479\" srcset=\"https://forums.trainerday.com/uploads/default/optimized/2X/f/f2ec768aadf50dda6a4acebb7ae726826d2afa8f_2_690x479.png, https://forums.trainerday.com/uploads/default/optimized/2X/f/f2ec768aadf50dda6a4acebb7ae726826d2afa8f_2_1035x718.png 1.5x, https://forums.trainerday.com/uploads/default/optimized/2X/f/f2ec768aadf50dda6a4acebb7ae726826d2afa8f_2_1380x958.png 2x\" data-small-upload=\"https://forums.trainerday.com/uploads/default/optimized/2X/f/f2ec768aadf50dda6a4acebb7ae726826d2afa8f_2_10x10.png\"><div class=\"meta\"><svg class=\"fa d-icon d-icon-far-image svg-icon\" aria-hidden=\"true\"><use xlink:href=\"#far-image\"></use></svg><span class=\"filename\">image</span><span class=\"informations\">3108\u00d72158 606 KB</span><svg class=\"fa d-icon d-icon-discourse-expand svg-icon\" aria-hidden=\"true\"><use xlink:href=\"#discourse-expand\"></use></svg></div></a></div></p>",
+      "post_number": 1,
+      "post_type": 1,
+      "updated_at": "2024-05-17T09:29:44.543Z",
+      "reply_count": 0,
+      "reply_to_post_number": null,
+      "quote_count": 0,
+      "incoming_link_count": 190,
+      "reads": 77,
+      "readers_count": 76,
+      "score": 1070.4,
+      "yours": false,
+      "topic_id": 38207,
+      "topic_slug": "improved-coach-jack-user-interface",
+      "display_username": "",
+      "primary_group_name": "English",
+      "flair_name": "English",
+      "flair_url": null,
+      "flair_bg_color": "",
+      "flair_color": "",
+      "flair_group_id": 41,
+      "version": 1,
+      "can_edit": false,
+      "can_delete": false,
+      "can_recover": false,
+      "can_see_hidden_post": false,
+      "can_wiki": false,
+      "link_counts": [
+        {
+          "url": "https://forums.trainerday.com/uploads/default/original/2X/f/f2ec768aadf50dda6a4acebb7ae726826d2afa8f.png",
+          "internal": true,
+          "reflection": false,
+          "clicks": 0
+        }
+      ],
+      "read": true,
+      "user_title": "",
+      "bookmarked": false,
+      "actions_summary": [
+        {
+          "id": 2,
+          "count": 7
+        }
+      ],
+      "moderator": false,
+      "admin": true,
+      "staff": true,
+      "user_id": 1,
+      "hidden": false,
+      "trust_level": 4,
+      "deleted_at": null,
+      "user_deleted": false,
+      "edit_reason": null,
+      "can_view_edit_history": true,
+      "wiki": false,
+      "can_vote": false
+    }
+  ],
+  "downloaded_at": "2025-06-27T07:15:27.625331"
+}

@@ -1,0 +1,116 @@
+{
+  "topic": {
+    "id": 808,
+    "title": "Slope Mode in TrainerDay App (COMPLETED)",
+    "fancy_title": "Slope Mode in TrainerDay App (COMPLETED)",
+    "slug": "slope-mode-in-trainerday-app-completed",
+    "posts_count": 1,
+    "reply_count": 0,
+    "highest_post_number": 1,
+    "image_url": "https://forums.trainerday.com/uploads/default/optimized/1X/cdfab6a8c2d0910ee1df8a84ecfae5c0b30299e9_2_965x1024.jpeg",
+    "created_at": "2021-08-28T08:59:52.282Z",
+    "last_posted_at": "2021-08-28T08:59:52.398Z",
+    "bumped": true,
+    "bumped_at": "2021-08-28T08:59:52.398Z",
+    "archetype": "regular",
+    "unseen": false,
+    "pinned": false,
+    "unpinned": null,
+    "visible": true,
+    "closed": false,
+    "archived": false,
+    "bookmarked": null,
+    "liked": null,
+    "tags_descriptions": {},
+    "views": 826,
+    "like_count": 1,
+    "has_summary": false,
+    "last_poster_username": "Alex",
+    "category_id": 18,
+    "pinned_globally": false,
+    "featured_link": null,
+    "can_vote": false,
+    "posters": [
+      {
+        "extras": "latest single",
+        "description": "Original Poster, Most Recent Poster",
+        "user_id": 1,
+        "primary_group_id": 41,
+        "flair_group_id": 41
+      }
+    ]
+  },
+  "posts": [
+    {
+      "id": 3258,
+      "name": "",
+      "username": "Alex",
+      "avatar_template": "/user_avatar/forums.trainerday.com/alex/{size}/1331_2.png",
+      "created_at": "2021-08-28T08:59:52.398Z",
+      "cooked": "<p>We now support slope mode.  This is especially useful for trainers or bikes that don\u2019t support resistance mode.  See screenshots for how you turn it on.  We are adding automated slope mode in the next few weeks, that allows you to replicate outdoor rides indoors in slope mode.  We allow this now in ERG mode to simulate an outodoor ride indoors.</p>\n<p><div class=\"lightbox-wrapper\"><a class=\"lightbox\" href=\"https://forums.trainerday.com/uploads/default/original/1X/cdfab6a8c2d0910ee1df8a84ecfae5c0b30299e9.jpeg\" data-download-href=\"https://forums.trainerday.com/uploads/default/cdfab6a8c2d0910ee1df8a84ecfae5c0b30299e9\" title=\"image\"><img src=\"https://forums.trainerday.com/uploads/default/optimized/1X/cdfab6a8c2d0910ee1df8a84ecfae5c0b30299e9_2_471x500.jpeg\" alt=\"image\" data-base62-sha1=\"tob21z5PUPgJcJQbVEFsYmjXwo1\" width=\"471\" height=\"500\" srcset=\"https://forums.trainerday.com/uploads/default/optimized/1X/cdfab6a8c2d0910ee1df8a84ecfae5c0b30299e9_2_471x500.jpeg, https://forums.trainerday.com/uploads/default/optimized/1X/cdfab6a8c2d0910ee1df8a84ecfae5c0b30299e9_2_706x750.jpeg 1.5x, https://forums.trainerday.com/uploads/default/optimized/1X/cdfab6a8c2d0910ee1df8a84ecfae5c0b30299e9_2_942x1000.jpeg 2x\" data-small-upload=\"https://forums.trainerday.com/uploads/default/optimized/1X/cdfab6a8c2d0910ee1df8a84ecfae5c0b30299e9_2_10x10.png\"><div class=\"meta\"><svg class=\"fa d-icon d-icon-far-image svg-icon\" aria-hidden=\"true\"><use xlink:href=\"#far-image\"></use></svg><span class=\"filename\">image</span><span class=\"informations\">1253\u00d71329 197 KB</span><svg class=\"fa d-icon d-icon-discourse-expand svg-icon\" aria-hidden=\"true\"><use xlink:href=\"#discourse-expand\"></use></svg></div></a></div></p>",
+      "post_number": 1,
+      "post_type": 1,
+      "updated_at": "2021-08-28T08:59:52.398Z",
+      "reply_count": 0,
+      "reply_to_post_number": null,
+      "quote_count": 0,
+      "incoming_link_count": 46,
+      "reads": 42,
+      "readers_count": 41,
+      "score": 253.4,
+      "yours": false,
+      "topic_id": 808,
+      "topic_slug": "slope-mode-in-trainerday-app-completed",
+      "display_username": "",
+      "primary_group_name": "English",
+      "flair_name": "English",
+      "flair_url": null,
+      "flair_bg_color": "",
+      "flair_color": "",
+      "flair_group_id": 41,
+      "version": 1,
+      "can_edit": false,
+      "can_delete": false,
+      "can_recover": false,
+      "can_see_hidden_post": false,
+      "can_wiki": false,
+      "link_counts": [
+        {
+          "url": "https://forums.trainerday.com/uploads/default/original/1X/cdfab6a8c2d0910ee1df8a84ecfae5c0b30299e9.jpeg",
+          "internal": true,
+          "reflection": false,
+          "clicks": 0
+        },
+        {
+          "url": "https://forums.trainerday.com/t/slope-mode-like-erg-mode-completed/580/49",
+          "internal": true,
+          "reflection": true,
+          "title": "Slope mode like ERG mode (completed)",
+          "clicks": 1
+        }
+      ],
+      "read": true,
+      "user_title": "",
+      "bookmarked": false,
+      "actions_summary": [
+        {
+          "id": 2,
+          "count": 1
+        }
+      ],
+      "moderator": false,
+      "admin": true,
+      "staff": true,
+      "user_id": 1,
+      "hidden": false,
+      "trust_level": 4,
+      "deleted_at": null,
+      "user_deleted": false,
+      "edit_reason": null,
+      "can_view_edit_history": true,
+      "wiki": false,
+      "can_vote": false
+    }
+  ],
+  "downloaded_at": "2025-06-27T07:44:59.210383"
+}

@@ -1,0 +1,44 @@
+CARD: Fix errors in public API
+DESC: ![image.png](https://trello.com/1/cards/65fbf87565325dc6fbb66770/attachments/65fbf8775effdf31c0759e65/download/image.png)
+LABELS: Bug
+---
+CARD: Bug - Calendar 2 workouts in a day
+DESC: [https://forums.trainerday.com/t/2-workouts-in-calendar-but-only-1-show-in-app/35553](https://forums.trainerday.com/t/2-workouts-in-calendar-but-only-1-show-in-app/35553 "smartCard-inline")
+
+This does not work correctly still. Grigory confirmed it also.
+LABELS: Bug
+---
+CARD: Add Chatbot
+DESC: I have a project in github called chatbot that you can use.  Should we use gravitar to show their profile or just show initials like we do on the page
+
+Here is where I go it from
+
+[https://github.com/dmitrizzle/chat-bubble](https://github.com/dmitrizzle/chat-bubble "smartCard-inline")
+
+‌
+
+‌
+
+![image.png](https://trello.com/1/cards/660d214cd715e39ff29b5f9e/attachments/660d215247e144a1a44a8731/download/image.png)
+LABELS: 
+---
+CARD: Add Product Tour
+DESC: 
+LABELS: 
+---
+CARD: Upload Zwift ZWO with decimal values fails
+DESC: See attached
+LABELS: 
+---
+CARD: Does activity auto pairing work? One user said it did not for him.
+DESC: 
+LABELS: 
+---
+CARD: Set all duplicate workouts to private (exact same power segments)
+DESC: Maybe we should not allow creating exact duplicates, meaning if someone saves an exact duplicate (power segments only) to private automatically when they save.  Your workout has been saved as private because their is exactly the same workout here “https://…..”
+
+If one has different text comments then I think it should still be considered a duplicate but not so sure about that.
+
+We should also make all workouts with HR sections private?  Just thinking out loud here we can discuss.
+LABELS: 
+---

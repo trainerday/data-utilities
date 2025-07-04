@@ -1,0 +1,124 @@
+{
+  "overview": {
+    "total_pages": 15,
+    "total_sentences": 0,
+    "total_screenshots": 263,
+    "total_ai_analyses": 263,
+    "average_sentences_per_page": 0.0
+  },
+  "page_statistics": [
+    {
+      "page_name": "Calendar",
+      "sentence_count": 23,
+      "screenshot_count": 23,
+      "successful_ai_analyses": 23,
+      "relative_url": "/calendar"
+    },
+    {
+      "page_name": "My Activities",
+      "sentence_count": 22,
+      "screenshot_count": 22,
+      "successful_ai_analyses": 22,
+      "relative_url": "/activities"
+    },
+    {
+      "page_name": "Today",
+      "sentence_count": 9,
+      "screenshot_count": 9,
+      "successful_ai_analyses": 9,
+      "relative_url": "/today"
+    },
+    {
+      "page_name": "Search Workouts",
+      "sentence_count": 20,
+      "screenshot_count": 20,
+      "successful_ai_analyses": 20,
+      "relative_url": "/workouts/search"
+    },
+    {
+      "page_name": "My Workouts",
+      "sentence_count": 16,
+      "screenshot_count": 16,
+      "successful_ai_analyses": 16,
+      "relative_url": "/workouts/my"
+    },
+    {
+      "page_name": "Coach Jack Plan Builder",
+      "sentence_count": 4,
+      "screenshot_count": 4,
+      "successful_ai_analyses": 4,
+      "relative_url": "/coach-jack"
+    },
+    {
+      "page_name": "Training Plans",
+      "sentence_count": 33,
+      "screenshot_count": 33,
+      "successful_ai_analyses": 33,
+      "relative_url": "/plans"
+    },
+    {
+      "page_name": "My Plans",
+      "sentence_count": 39,
+      "screenshot_count": 39,
+      "successful_ai_analyses": 39,
+      "relative_url": "/plans/my"
+    },
+    {
+      "page_name": "Coach Jack Plan Builder",
+      "sentence_count": 35,
+      "screenshot_count": 35,
+      "successful_ai_analyses": 35,
+      "relative_url": "/coach-jack"
+    },
+    {
+      "page_name": "Create Workout",
+      "sentence_count": 14,
+      "screenshot_count": 14,
+      "successful_ai_analyses": 14,
+      "relative_url": "/workouts/create"
+    },
+    {
+      "page_name": "App Plan Source Profile Settings",
+      "sentence_count": 21,
+      "screenshot_count": 21,
+      "successful_ai_analyses": 21,
+      "relative_url": "/app-plan-source-profile-settings"
+    },
+    {
+      "page_name": "Search Workouts",
+      "sentence_count": 7,
+      "screenshot_count": 7,
+      "successful_ai_analyses": 7,
+      "relative_url": "/workouts/search"
+    },
+    {
+      "page_name": "Workout Details",
+      "sentence_count": 3,
+      "screenshot_count": 3,
+      "successful_ai_analyses": 3,
+      "relative_url": "/workout-details"
+    },
+    {
+      "page_name": "Workout Creator",
+      "sentence_count": 14,
+      "screenshot_count": 14,
+      "successful_ai_analyses": 14,
+      "relative_url": "/workout-creator"
+    },
+    {
+      "page_name": "Home",
+      "sentence_count": 3,
+      "screenshot_count": 3,
+      "successful_ai_analyses": 3,
+      "relative_url": "/"
+    }
+  ],
+  "ui_elements_frequency": {},
+  "user_actions_frequency": {},
+  "coverage_metrics": {
+    "pages_with_screenshots": 15,
+    "pages_with_ai_analysis": 15,
+    "screenshot_coverage": 0,
+    "ai_analysis_coverage": 0
+  }
+}

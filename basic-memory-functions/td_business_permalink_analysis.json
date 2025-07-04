@@ -1,0 +1,250 @@
+{
+  "statistics": {
+    "total_files": 66,
+    "has_permalink": 66,
+    "missing_permalinks": 0
+  },
+  "top_level_folders": [
+    "company-structure",
+    "decisions",
+    "marketing",
+    "metrics-and-analytics",
+    "priority-board-tasks",
+    "profit-first-strategies",
+    "research-findings",
+    "strategic-insights"
+  ],
+  "issues": {
+    "invalid_folder_structure": [
+      {
+        "file": "important-links.md",
+        "expected_permalink": "important-links",
+        "actual_permalink": "important-links",
+        "top_level_folders": [
+          "research-findings",
+          "metrics-and-analytics",
+          "profit-first-strategies",
+          "decisions",
+          "company-structure",
+          "marketing",
+          "strategic-insights",
+          "priority-board-tasks"
+        ]
+      },
+      {
+        "file": "TOP PRIORITIES.md",
+        "expected_permalink": "TOP PRIORITIES",
+        "actual_permalink": "TOP PRIORITIES",
+        "top_level_folders": [
+          "research-findings",
+          "metrics-and-analytics",
+          "profit-first-strategies",
+          "decisions",
+          "company-structure",
+          "marketing",
+          "strategic-insights",
+          "priority-board-tasks"
+        ]
+      },
+      {
+        "file": "priority-board.md",
+        "expected_permalink": "priority-board",
+        "actual_permalink": "priority-board",
+        "top_level_folders": [
+          "research-findings",
+          "metrics-and-analytics",
+          "profit-first-strategies",
+          "decisions",
+          "company-structure",
+          "marketing",
+          "strategic-insights",
+          "priority-board-tasks"
+        ]
+      },
+      {
+        "file": "claude.md",
+        "expected_permalink": "claude",
+        "actual_permalink": "claude",
+        "top_level_folders": [
+          "research-findings",
+          "metrics-and-analytics",
+          "profit-first-strategies",
+          "decisions",
+          "company-structure",
+          "marketing",
+          "strategic-insights",
+          "priority-board-tasks"
+        ]
+      }
+    ],
+    "invalid_characters": [
+      {
+        "file": "TOP PRIORITIES.md",
+        "expected_permalink": "TOP PRIORITIES",
+        "actual_permalink": "TOP PRIORITIES",
+        "top_level_folders": [
+          "research-findings",
+          "metrics-and-analytics",
+          "profit-first-strategies",
+          "decisions",
+          "company-structure",
+          "marketing",
+          "strategic-insights",
+          "priority-board-tasks"
+        ]
+      },
+      {
+        "file": "research-findings/TrainerDay Research Findings.md",
+        "expected_permalink": "research-findings/TrainerDay Research Findings",
+        "actual_permalink": "research-findings/TrainerDay Research Findings"
+      },
+      {
+        "file": "research-findings/Core User Segmentation Discovery.md",
+        "expected_permalink": "research-findings/Core User Segmentation Discovery",
+        "actual_permalink": "research-findings/Core User Segmentation Discovery"
+      },
+      {
+        "file": "metrics-and-analytics/Data Sources Inventory.md",
+        "expected_permalink": "metrics-and-analytics/Data Sources Inventory",
+        "actual_permalink": "metrics-and-analytics/Data Sources Inventory"
+      },
+      {
+        "file": "metrics-and-analytics/data-logs/Onboarding Email Content Analysis - Key Findings.md",
+        "expected_permalink": "metrics-and-analytics/data-logs/Onboarding Email Content Analysis - Key Findings",
+        "actual_permalink": "metrics-and-analytics/data-logs/Onboarding Email Content Analysis - Key Findings"
+      },
+      {
+        "file": "metrics-and-analytics/data-logs/Mautic Onboarding Email Analysis - July 2.md",
+        "expected_permalink": "metrics-and-analytics/data-logs/Mautic Onboarding Email Analysis - July 2",
+        "actual_permalink": "metrics-and-analytics/data-logs/Mautic Onboarding Email Analysis - July 2"
+      },
+      {
+        "file": "metrics-and-analytics/data-logs/Subscription Data Analysis - July 2, 2025.md",
+        "expected_permalink": "metrics-and-analytics/data-logs/Subscription Data Analysis - July 2, 2025",
+        "actual_permalink": "metrics-and-analytics/data-logs/Subscription Data Analysis - July 2, 2025"
+      },
+      {
+        "file": "profit-first-strategies/Profit-First Annual Subscribers Strategy.md",
+        "expected_permalink": "profit-first-strategies/Profit-First Annual Subscribers Strategy",
+        "actual_permalink": "profit-first-strategies/Profit-First Annual Subscribers Strategy"
+      },
+      {
+        "file": "company-structure/roles/agents/Ripple - Community Manager.md",
+        "expected_permalink": "company-structure/roles/agents/Ripple - Community Manager",
+        "actual_permalink": "company-structure/roles/agents/Ripple - Community Manager"
+      },
+      {
+        "file": "company-structure/roles/agents/Cipher - Analyst.md",
+        "expected_permalink": "company-structure/roles/agents/Cipher - Analyst",
+        "actual_permalink": "company-structure/roles/agents/Cipher - Analyst"
+      },
+      {
+        "file": "company-structure/roles/agents/Nexus - Product Manager.md",
+        "expected_permalink": "company-structure/roles/agents/Nexus - Product Manager",
+        "actual_permalink": "company-structure/roles/agents/Nexus - Product Manager"
+      },
+      {
+        "file": "company-structure/roles/agents/Spark - Marketing Director.md",
+        "expected_permalink": "company-structure/roles/agents/Spark - Marketing Director",
+        "actual_permalink": "company-structure/roles/agents/Spark - Marketing Director"
+      },
+      {
+        "file": "company-structure/roles/agents/Zenith - Decision Maker.md",
+        "expected_permalink": "company-structure/roles/agents/Zenith - Decision Maker",
+        "actual_permalink": "company-structure/roles/agents/Zenith - Decision Maker"
+      },
+      {
+        "file": "company-structure/roles/agents/Prism - Strategic Vision Creator.md",
+        "expected_permalink": "company-structure/roles/agents/Prism - Strategic Vision Creator",
+        "actual_permalink": "company-structure/roles/agents/Prism - Strategic Vision Creator"
+      },
+      {
+        "file": "company-structure/roles/agents/Echo - Content Creator.md",
+        "expected_permalink": "company-structure/roles/agents/Echo - Content Creator",
+        "actual_permalink": "company-structure/roles/agents/Echo - Content Creator"
+      },
+      {
+        "file": "company-structure/roles/agents/Mosaic - Brand Strategist.md",
+        "expected_permalink": "company-structure/roles/agents/Mosaic - Brand Strategist",
+        "actual_permalink": "company-structure/roles/agents/Mosaic - Brand Strategist"
+      },
+      {
+        "file": "company-structure/roles/agents/Hawk - Tester.md",
+        "expected_permalink": "company-structure/roles/agents/Hawk - Tester",
+        "actual_permalink": "company-structure/roles/agents/Hawk - Tester"
+      },
+      {
+        "file": "company-structure/roles/agents/Haven - Support Agent.md",
+        "expected_permalink": "company-structure/roles/agents/Haven - Support Agent",
+        "actual_permalink": "company-structure/roles/agents/Haven - Support Agent"
+      },
+      {
+        "file": "company-structure/roles/agents/Compass - Retention Specialist.md",
+        "expected_permalink": "company-structure/roles/agents/Compass - Retention Specialist",
+        "actual_permalink": "company-structure/roles/agents/Compass - Retention Specialist"
+      },
+      {
+        "file": "company-structure/roles/agents/Tide - SEO Growth Specialist.md",
+        "expected_permalink": "company-structure/roles/agents/Tide - SEO Growth Specialist",
+        "actual_permalink": "company-structure/roles/agents/Tide - SEO Growth Specialist"
+      },
+      {
+        "file": "company-structure/roles/agents/Muse - UX UI Designer.md",
+        "expected_permalink": "company-structure/roles/agents/Muse - UX UI Designer",
+        "actual_permalink": "company-structure/roles/agents/Muse - UX UI Designer"
+      },
+      {
+        "file": "company-structure/roles/agents/Flux - Developer.md",
+        "expected_permalink": "company-structure/roles/agents/Flux - Developer",
+        "actual_permalink": "company-structure/roles/agents/Flux - Developer"
+      },
+      {
+        "file": "company-structure/roles/agents/Bridge - Onboarding Expert.md",
+        "expected_permalink": "company-structure/roles/agents/Bridge - Onboarding Expert",
+        "actual_permalink": "company-structure/roles/agents/Bridge - Onboarding Expert"
+      },
+      {
+        "file": "marketing/User Strategy Framework.md",
+        "expected_permalink": "marketing/User Strategy Framework",
+        "actual_permalink": "marketing/User Strategy Framework"
+      },
+      {
+        "file": "marketing/email-campaigns/July 2025 Campaign Analysis - No CTA Learning.md",
+        "expected_permalink": "marketing/email-campaigns/July 2025 Campaign Analysis - No CTA Learning",
+        "actual_permalink": "marketing/email-campaigns/July 2025 Campaign Analysis - No CTA Learning"
+      },
+      {
+        "file": "marketing/email-campaigns/August 1, 2025 - Price Increase Email Strategy.md",
+        "expected_permalink": "marketing/email-campaigns/August 1, 2025 - Price Increase Email Strategy",
+        "actual_permalink": "marketing/email-campaigns/August 1, 2025 - Price Increase Email Strategy"
+      },
+      {
+        "file": "marketing/promos/Yearly Upgrades Strategy.md",
+        "expected_permalink": "marketing/promos/Yearly Upgrades Strategy",
+        "actual_permalink": "marketing/promos/Yearly Upgrades Strategy"
+      },
+      {
+        "file": "marketing/churn/Customer Churn Feedback Log.md",
+        "expected_permalink": "marketing/churn/Customer Churn Feedback Log",
+        "actual_permalink": "marketing/churn/Customer Churn Feedback Log"
+      },
+      {
+        "file": "marketing/churn/Churn Analysis Framework.md",
+        "expected_permalink": "marketing/churn/Churn Analysis Framework",
+        "actual_permalink": "marketing/churn/Churn Analysis Framework"
+      },
+      {
+        "file": "priority-board-tasks/Conversion Step 2 - Onboarding Drip Campaign Optimization.md",
+        "expected_permalink": "priority-board-tasks/Conversion Step 2 - Onboarding Drip Campaign Optimization",
+        "actual_permalink": "priority-board-tasks/Conversion Step 2 - Onboarding Drip Campaign Optimization"
+      }
+    ]
+  },
+  "summary": {
+    "total_issues": 34,
+    "issue_counts": {
+      "invalid_folder_structure": 4,
+      "invalid_characters": 30
+    }
+  }
+}

@@ -1,0 +1,110 @@
+{
+  "topic": {
+    "id": 12421,
+    "title": "ERG vs Slope mode",
+    "fancy_title": "ERG vs Slope mode",
+    "slug": "erg-vs-slope-mode",
+    "posts_count": 1,
+    "reply_count": 0,
+    "highest_post_number": 1,
+    "image_url": null,
+    "created_at": "2023-02-08T08:46:03.160Z",
+    "last_posted_at": "2023-02-08T08:46:03.363Z",
+    "bumped": true,
+    "bumped_at": "2023-02-08T08:46:03.363Z",
+    "archetype": "regular",
+    "unseen": false,
+    "pinned": false,
+    "unpinned": null,
+    "visible": true,
+    "closed": false,
+    "archived": false,
+    "bookmarked": null,
+    "liked": null,
+    "tags_descriptions": {},
+    "views": 430,
+    "like_count": 1,
+    "has_summary": false,
+    "last_poster_username": "Alex",
+    "category_id": 1,
+    "pinned_globally": false,
+    "featured_link": null,
+    "can_vote": false,
+    "posters": [
+      {
+        "extras": "latest single",
+        "description": "Original Poster, Most Recent Poster",
+        "user_id": 1,
+        "primary_group_id": 41,
+        "flair_group_id": 41
+      }
+    ]
+  },
+  "posts": [
+    {
+      "id": 19608,
+      "name": "",
+      "username": "Alex",
+      "avatar_template": "/user_avatar/forums.trainerday.com/alex/{size}/1331_2.png",
+      "created_at": "2023-02-08T08:46:03.363Z",
+      "cooked": "<p>So there are millions of opinions on things, and I think maybe this guy is a bit too biased on the non-ERG side of things.  I saw this on the TrainerRoad forum and thought it was relevant and just saying more people using our app should use slope mode and try to hit their own targets.</p>\n<p>Many days just forgetting about what you are doing and riding in ERG is very valuable, but other days or at certain times paying attention is likely a good idea. I would say days that you are fearful that you are at your max level then it makes more sense to do slope mode.</p>\n<aside class=\"onebox allowlistedgeneric\">\n  <header class=\"source\">\n      <a href=\"https://www.empiricalcycling.com/podcast-episodes/ten-minute-tips-22-the-case-against-erg-mode\" target=\"_blank\" rel=\"noopener\">Empirical Cycling</a>\n  </header>\n  <article class=\"onebox-body\">\n    <img src=\"https://forums.trainerday.com/uploads/default/original/1X/97447cc3472b0054d62a8f8b11467d61b68e367f.png\" class=\"thumbnail onebox-avatar\" width=\"277\" height=\"277\">\n\n<h3><a href=\"https://www.empiricalcycling.com/podcast-episodes/ten-minute-tips-22-the-case-against-erg-mode\" target=\"_blank\" rel=\"noopener\">Ten Minute Tips #26: The Case Against Erg Mode</a></h3>\n\n<p>Copyright \u00a9 2023</p>\n\n\n  </article>\n  <div class=\"onebox-metadata\">\n    \n    \n  </div>\n  <div style=\"clear: both\"></div>\n</aside>\n\n<p>One thing I keep thinking about is how to build in more of an RPE focus, or get people thinking about RPE more.  As this coach points out becoming very in tune with RPE is a good idea and we agree with this.</p>\n<p>I think like this guy at some level coaches should push people away from ERG because ERG tends to drive people to one of the software platforms as a coach, so I am nervous his strong opinion might have a bit of a marketing focus on it.  But still overall it is something worth considering.</p>",
+      "post_number": 1,
+      "post_type": 1,
+      "updated_at": "2023-02-08T08:48:35.020Z",
+      "reply_count": 0,
+      "reply_to_post_number": null,
+      "quote_count": 0,
+      "incoming_link_count": 15,
+      "reads": 45,
+      "readers_count": 44,
+      "score": 99.0,
+      "yours": false,
+      "topic_id": 12421,
+      "topic_slug": "erg-vs-slope-mode",
+      "display_username": "",
+      "primary_group_name": "English",
+      "flair_name": "English",
+      "flair_url": null,
+      "flair_bg_color": "",
+      "flair_color": "",
+      "flair_group_id": 41,
+      "version": 1,
+      "can_edit": false,
+      "can_delete": false,
+      "can_recover": false,
+      "can_see_hidden_post": false,
+      "can_wiki": false,
+      "link_counts": [
+        {
+          "url": "https://www.empiricalcycling.com/podcast-episodes/ten-minute-tips-22-the-case-against-erg-mode",
+          "internal": false,
+          "reflection": false,
+          "title": "Ten Minute Tips #26: The Case Against Erg Mode - Empirical Cycling",
+          "clicks": 14
+        }
+      ],
+      "read": true,
+      "user_title": "",
+      "bookmarked": false,
+      "actions_summary": [
+        {
+          "id": 2,
+          "count": 1
+        }
+      ],
+      "moderator": false,
+      "admin": true,
+      "staff": true,
+      "user_id": 1,
+      "hidden": false,
+      "trust_level": 4,
+      "deleted_at": null,
+      "user_deleted": false,
+      "edit_reason": null,
+      "can_view_edit_history": true,
+      "wiki": false,
+      "can_vote": false
+    }
+  ],
+  "downloaded_at": "2025-06-27T07:31:54.248566"
+}

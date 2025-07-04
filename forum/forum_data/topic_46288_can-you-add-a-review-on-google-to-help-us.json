@@ -1,0 +1,110 @@
+{
+  "topic": {
+    "id": 46288,
+    "title": "Can you add a review on Google to Help us?",
+    "fancy_title": "Can you add a review on Google to Help us?",
+    "slug": "can-you-add-a-review-on-google-to-help-us",
+    "posts_count": 1,
+    "reply_count": 0,
+    "highest_post_number": 1,
+    "image_url": null,
+    "created_at": "2024-10-16T12:50:45.712Z",
+    "last_posted_at": "2024-10-16T12:50:46.008Z",
+    "bumped": true,
+    "bumped_at": "2024-10-16T12:50:46.008Z",
+    "archetype": "regular",
+    "unseen": false,
+    "pinned": false,
+    "unpinned": null,
+    "visible": true,
+    "closed": false,
+    "archived": false,
+    "bookmarked": null,
+    "liked": null,
+    "tags_descriptions": {},
+    "views": 207,
+    "like_count": 2,
+    "has_summary": false,
+    "last_poster_username": "Alex",
+    "category_id": 1,
+    "pinned_globally": false,
+    "featured_link": null,
+    "can_vote": false,
+    "posters": [
+      {
+        "extras": "latest single",
+        "description": "Original Poster, Most Recent Poster",
+        "user_id": 1,
+        "primary_group_id": 41,
+        "flair_group_id": 41
+      }
+    ]
+  },
+  "posts": [
+    {
+      "id": 60749,
+      "name": "",
+      "username": "Alex",
+      "avatar_template": "/user_avatar/forums.trainerday.com/alex/{size}/1331_2.png",
+      "created_at": "2024-10-16T12:50:46.008Z",
+      "cooked": "<p>Many of you have rated us in the app stores and we thank you because most people rate us at 5-stars.</p>\n<p>It would also help us out if you would add reviews on Google maps.  Here\u2019s a link if you can spare 30-seconds.</p>\n<p><a href=\"https://g.page/r/CZqEwTg2ZqG-EAE/review\" class=\"onebox\" target=\"_blank\" rel=\"noopener\">https://g.page/r/CZqEwTg2ZqG-EAE/review</a></p>",
+      "post_number": 1,
+      "post_type": 1,
+      "updated_at": "2024-10-16T12:50:46.008Z",
+      "reply_count": 0,
+      "reply_to_post_number": null,
+      "quote_count": 0,
+      "incoming_link_count": 2,
+      "reads": 20,
+      "readers_count": 19,
+      "score": 44.0,
+      "yours": false,
+      "topic_id": 46288,
+      "topic_slug": "can-you-add-a-review-on-google-to-help-us",
+      "display_username": "",
+      "primary_group_name": "English",
+      "flair_name": "English",
+      "flair_url": null,
+      "flair_bg_color": "",
+      "flair_color": "",
+      "flair_group_id": 41,
+      "version": 1,
+      "can_edit": false,
+      "can_delete": false,
+      "can_recover": false,
+      "can_see_hidden_post": false,
+      "can_wiki": false,
+      "link_counts": [
+        {
+          "url": "https://g.page/r/CZqEwTg2ZqG-EAE/review",
+          "internal": false,
+          "reflection": false,
+          "title": "Google Maps",
+          "clicks": 17
+        }
+      ],
+      "read": true,
+      "user_title": "",
+      "bookmarked": false,
+      "actions_summary": [
+        {
+          "id": 2,
+          "count": 2
+        }
+      ],
+      "moderator": false,
+      "admin": true,
+      "staff": true,
+      "user_id": 1,
+      "hidden": false,
+      "trust_level": 4,
+      "deleted_at": null,
+      "user_deleted": false,
+      "edit_reason": null,
+      "can_view_edit_history": true,
+      "wiki": false,
+      "can_vote": false
+    }
+  ],
+  "downloaded_at": "2025-06-27T07:10:21.097028"
+}

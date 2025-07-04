@@ -1,0 +1,110 @@
+{
+  "topic": {
+    "id": 1505,
+    "title": "Cold therapy to improve our heath and your performance",
+    "fancy_title": "Cold therapy to improve our heath and your performance",
+    "slug": "cold-therapy-to-improve-our-heath-and-your-performance",
+    "posts_count": 1,
+    "reply_count": 0,
+    "highest_post_number": 1,
+    "image_url": "https://forums.trainerday.com/uploads/default/optimized/2X/6/60a01bb4d202d639a22f5b7228f6f42531bfca79_2_1024x576.jpeg",
+    "created_at": "2022-04-01T10:17:44.871Z",
+    "last_posted_at": "2022-04-01T10:17:44.985Z",
+    "bumped": true,
+    "bumped_at": "2022-04-01T10:17:44.985Z",
+    "archetype": "regular",
+    "unseen": false,
+    "pinned": false,
+    "unpinned": null,
+    "visible": true,
+    "closed": false,
+    "archived": false,
+    "bookmarked": null,
+    "liked": null,
+    "tags_descriptions": {},
+    "views": 382,
+    "like_count": 1,
+    "has_summary": false,
+    "last_poster_username": "Alex",
+    "category_id": 9,
+    "pinned_globally": false,
+    "featured_link": null,
+    "can_vote": false,
+    "posters": [
+      {
+        "extras": "latest single",
+        "description": "Original Poster, Most Recent Poster",
+        "user_id": 1,
+        "primary_group_id": 41,
+        "flair_group_id": 41
+      }
+    ]
+  },
+  "posts": [
+    {
+      "id": 6308,
+      "name": "",
+      "username": "Alex",
+      "avatar_template": "/user_avatar/forums.trainerday.com/alex/{size}/1331_2.png",
+      "created_at": "2022-04-01T10:17:44.985Z",
+      "cooked": "<p>So this is a scientific terminology filled video but there is a growing body of evidence that cold exposure can have a lot of positive health and performance beneifts.</p>\n<div class=\"youtube-onebox lazy-video-container\" data-video-id=\"XaLd5w6zF7A\" data-video-title=\"Cold-Water Immersion and Cryotherapy: Neuroendocrine and Fat Browning Effects\" data-video-start-time=\"\" data-provider-name=\"youtube\">\n  <a href=\"https://www.youtube.com/watch?v=XaLd5w6zF7A\" target=\"_blank\" class=\"video-thumbnail\" rel=\"noopener\">\n    <img class=\"youtube-thumbnail\" src=\"https://forums.trainerday.com/uploads/default/original/2X/6/60a01bb4d202d639a22f5b7228f6f42531bfca79.jpeg\" title=\"Cold-Water Immersion and Cryotherapy: Neuroendocrine and Fat Browning Effects\" data-dominant-color=\"BBC0C6\" width=\"690\" height=\"388\">\n  </a>\n</div>\n\n<p>Coach Andrea mentioned this to me about a year ago but I was not so interested.  I recently started following the Wim Hof method of adding a short duration cold water at the end of a shower and I can say it starts with ending my shower with 10-painful seconds of cold water but in a week it gets much better even for 30-seconds.  Now I am at 50-seconds and other than the first 20-seconds it is not that bad.  Each time, even with 10-seconds.  I would say I felt great for the proceeding hour after that.</p>\n<p>Regarding the Wim Hof method.  HIs Amazon book has 7,000 5-star reviews.  Many people say they used to get sick often and now do not.</p>",
+      "post_number": 1,
+      "post_type": 1,
+      "updated_at": "2022-04-01T10:17:44.985Z",
+      "reply_count": 0,
+      "reply_to_post_number": null,
+      "quote_count": 0,
+      "incoming_link_count": 4,
+      "reads": 22,
+      "readers_count": 21,
+      "score": 39.4,
+      "yours": false,
+      "topic_id": 1505,
+      "topic_slug": "cold-therapy-to-improve-our-heath-and-your-performance",
+      "display_username": "",
+      "primary_group_name": "English",
+      "flair_name": "English",
+      "flair_url": null,
+      "flair_bg_color": "",
+      "flair_color": "",
+      "flair_group_id": 41,
+      "version": 1,
+      "can_edit": false,
+      "can_delete": false,
+      "can_recover": false,
+      "can_see_hidden_post": false,
+      "can_wiki": false,
+      "link_counts": [
+        {
+          "url": "https://www.youtube.com/watch?v=XaLd5w6zF7A",
+          "internal": false,
+          "reflection": false,
+          "title": "Cold-Water Immersion and Cryotherapy: Neuroendocrine and Fat Browning Effects - YouTube",
+          "clicks": 0
+        }
+      ],
+      "read": true,
+      "user_title": "",
+      "bookmarked": false,
+      "actions_summary": [
+        {
+          "id": 2,
+          "count": 1
+        }
+      ],
+      "moderator": false,
+      "admin": true,
+      "staff": true,
+      "user_id": 1,
+      "hidden": false,
+      "trust_level": 4,
+      "deleted_at": null,
+      "user_deleted": false,
+      "edit_reason": null,
+      "can_view_edit_history": true,
+      "wiki": false,
+      "can_vote": false
+    }
+  ],
+  "downloaded_at": "2025-06-27T07:38:55.328891"
+}

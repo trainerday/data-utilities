@@ -1,0 +1,483 @@
+{
+  "statistics": {
+    "markdown_links": 56,
+    "wikilinks": 6,
+    "reference_links": 0,
+    "image_links": 0
+  },
+  "issues": {
+    "broken_links": [
+      {
+        "file": "TOP PRIORITIES.md",
+        "line": 10,
+        "url": "marketing/marketing-kanban"
+      },
+      {
+        "file": "priority-board.md",
+        "line": 25,
+        "text": "Conversion Step 2 - Onboarding Drip Campaign Optimization",
+        "url": "priority-board-tasks/Conversion Step 2 - Onboarding Drip Campaign Optimization"
+      },
+      {
+        "file": "priority-board.md",
+        "line": 30,
+        "text": "Conversion Step 1 - Pricing Strategy",
+        "url": "priority-board-tasks/generate-ideas-improve-conversion"
+      },
+      {
+        "file": "priority-board.md",
+        "line": 36,
+        "text": "Define TrainerDay Vision & Identity",
+        "url": "priority-board-tasks/define-trainerday-vision"
+      },
+      {
+        "file": "research-findings/Core User Segmentation Discovery.md",
+        "line": 93,
+        "text": "Conversion Step 2 - Onboarding Campaign",
+        "url": "priority-board-tasks/Conversion Step 2 - Onboarding Drip Campaign Optimization"
+      },
+      {
+        "file": "research-findings/Core User Segmentation Discovery.md",
+        "line": 94,
+        "text": "User Strategy Framework",
+        "url": "marketing/User Strategy Framework"
+      },
+      {
+        "file": "research-findings/Core User Segmentation Discovery.md",
+        "line": 10,
+        "text": "Marketing Strategy Documents",
+        "url": "marketing"
+      },
+      {
+        "file": "research-findings/chat-sessions/session-handoff-july-2-part2.md",
+        "line": 38,
+        "text": "Define TrainerDay Vision & Identity",
+        "url": "priority-board-tasks/define-trainerday-vision"
+      },
+      {
+        "file": "research-findings/chat-sessions/session-handoff-july-2-part2.md",
+        "line": 39,
+        "text": "July 2025 Strategic Insights",
+        "url": "strategic-insights/july-2025-strategic-insights"
+      },
+      {
+        "file": "research-findings/chat-sessions/session-handoff-july-2-part2.md",
+        "line": 47,
+        "text": "Company Overview",
+        "url": "company-structure/company-overview"
+      },
+      {
+        "file": "research-findings/chat-sessions/session-handoff-july-2-part2.md",
+        "line": 38,
+        "text": "Priority Board",
+        "url": "priority-board"
+      },
+      {
+        "file": "research-findings/chat-sessions/session-handoff-july-2-part2.md",
+        "line": 39,
+        "text": "Strategic Insights",
+        "url": "strategic-insights/july-2025-strategic-insights"
+      },
+      {
+        "file": "research-findings/chat-sessions/session-handoff-july-2-part2.md",
+        "line": 50,
+        "text": "Decision Log",
+        "url": "decisions/log"
+      },
+      {
+        "file": "company-structure/role-chart.md",
+        "line": 12,
+        "text": "Decision Maker",
+        "url": "company-structure/roles/strategy-decision-maker"
+      },
+      {
+        "file": "company-structure/role-chart.md",
+        "line": 12,
+        "text": "Meet Zenith \u2192",
+        "url": "company-structure/roles/agents/Zenith - Decision Maker"
+      },
+      {
+        "file": "company-structure/role-chart.md",
+        "line": 13,
+        "text": "Strategic Vision Creator",
+        "url": "company-structure/roles/strategy-vision-creator"
+      },
+      {
+        "file": "company-structure/role-chart.md",
+        "line": 13,
+        "text": "Meet Prism \u2192",
+        "url": "company-structure/roles/agents/Prism - Strategic Vision Creator"
+      },
+      {
+        "file": "company-structure/role-chart.md",
+        "line": 14,
+        "text": "Analyst",
+        "url": "company-structure/roles/strategy-analyst"
+      },
+      {
+        "file": "company-structure/role-chart.md",
+        "line": 14,
+        "text": "Meet Cipher \u2192",
+        "url": "company-structure/roles/agents/cipher-analyst"
+      },
+      {
+        "file": "company-structure/role-chart.md",
+        "line": 15,
+        "text": "Finance",
+        "url": "company-structure/roles/strategy-finance"
+      },
+      {
+        "file": "company-structure/role-chart.md",
+        "line": 15,
+        "text": "Meet Ledger \u2192",
+        "url": "company-structure/roles/agents/ledger-finance"
+      },
+      {
+        "file": "company-structure/role-chart.md",
+        "line": 18,
+        "text": "Product Manager",
+        "url": "company-structure/roles/product-manager"
+      },
+      {
+        "file": "company-structure/role-chart.md",
+        "line": 18,
+        "text": "Meet Nexus \u2192",
+        "url": "company-structure/roles/agents/Nexus - Product Manager"
+      },
+      {
+        "file": "company-structure/role-chart.md",
+        "line": 19,
+        "text": "Developer",
+        "url": "company-structure/roles/product-developer"
+      },
+      {
+        "file": "company-structure/role-chart.md",
+        "line": 19,
+        "text": "Meet Flux \u2192",
+        "url": "company-structure/roles/agents/Flux - Developer"
+      },
+      {
+        "file": "company-structure/role-chart.md",
+        "line": 20,
+        "text": "UX/UI Designer",
+        "url": "company-structure/roles/product-ux-ui-designer"
+      },
+      {
+        "file": "company-structure/role-chart.md",
+        "line": 20,
+        "text": "Meet Muse \u2192",
+        "url": "company-structure/roles/agents/Muse - UX UI Designer"
+      },
+      {
+        "file": "company-structure/role-chart.md",
+        "line": 21,
+        "text": "Tester",
+        "url": "company-structure/roles/product-tester"
+      },
+      {
+        "file": "company-structure/role-chart.md",
+        "line": 21,
+        "text": "Meet Hawk \u2192",
+        "url": "company-structure/roles/agents/Hawk - Tester"
+      },
+      {
+        "file": "company-structure/role-chart.md",
+        "line": 24,
+        "text": "Marketing Director",
+        "url": "company-structure/roles/marketing-director"
+      },
+      {
+        "file": "company-structure/role-chart.md",
+        "line": 24,
+        "text": "Meet Spark \u2192",
+        "url": "company-structure/roles/agents/Spark - Marketing Director"
+      },
+      {
+        "file": "company-structure/role-chart.md",
+        "line": 25,
+        "text": "Content Creator",
+        "url": "company-structure/roles/marketing-content-creator"
+      },
+      {
+        "file": "company-structure/role-chart.md",
+        "line": 25,
+        "text": "Meet Echo \u2192",
+        "url": "company-structure/roles/agents/Echo - Content Creator"
+      },
+      {
+        "file": "company-structure/role-chart.md",
+        "line": 26,
+        "text": "Brand Strategist",
+        "url": "company-structure/roles/marketing-brand-strategist"
+      },
+      {
+        "file": "company-structure/role-chart.md",
+        "line": 26,
+        "text": "Meet Mosaic \u2192",
+        "url": "company-structure/roles/agents/Mosaic - Brand Strategist"
+      },
+      {
+        "file": "company-structure/role-chart.md",
+        "line": 27,
+        "text": "SEO/Growth Specialist",
+        "url": "company-structure/roles/marketing-seo-growth-specialist"
+      },
+      {
+        "file": "company-structure/role-chart.md",
+        "line": 27,
+        "text": "Meet Tide \u2192",
+        "url": "company-structure/roles/agents/Tide - SEO Growth Specialist"
+      },
+      {
+        "file": "company-structure/role-chart.md",
+        "line": 30,
+        "text": "Support Agent",
+        "url": "company-structure/roles/customer-support-agent"
+      },
+      {
+        "file": "company-structure/role-chart.md",
+        "line": 30,
+        "text": "Meet Haven \u2192",
+        "url": "company-structure/roles/agents/Haven - Support Agent"
+      },
+      {
+        "file": "company-structure/role-chart.md",
+        "line": 31,
+        "text": "Community Manager",
+        "url": "company-structure/roles/customer-community-manager"
+      },
+      {
+        "file": "company-structure/role-chart.md",
+        "line": 31,
+        "text": "Meet Ripple \u2192",
+        "url": "company-structure/roles/agents/Ripple - Community Manager"
+      },
+      {
+        "file": "company-structure/role-chart.md",
+        "line": 32,
+        "text": "Retention Specialist",
+        "url": "company-structure/roles/customer-retention-specialist"
+      },
+      {
+        "file": "company-structure/role-chart.md",
+        "line": 32,
+        "text": "Meet Compass \u2192",
+        "url": "company-structure/roles/agents/Compass - Retention Specialist"
+      },
+      {
+        "file": "company-structure/role-chart.md",
+        "line": 33,
+        "text": "Onboarding Expert",
+        "url": "company-structure/roles/customer-onboarding-expert"
+      },
+      {
+        "file": "company-structure/role-chart.md",
+        "line": 33,
+        "text": "Meet Bridge \u2192",
+        "url": "company-structure/roles/agents/Bridge - Onboarding Expert"
+      },
+      {
+        "file": "marketing/User Strategy Framework.md",
+        "line": 24,
+        "text": "Core User Segmentation Discovery",
+        "url": "research-findings/Core User Segmentation Discovery"
+      },
+      {
+        "file": "marketing/User Strategy Framework.md",
+        "line": 24,
+        "text": "Core User Segmentation Discovery",
+        "url": "research-findings/Core User Segmentation Discovery"
+      },
+      {
+        "file": "marketing/User Strategy Framework.md",
+        "line": 169,
+        "text": "Conversion Optimization Strategy",
+        "url": "company-structure/priority-board-tasks"
+      },
+      {
+        "file": "marketing/User Strategy Framework.md",
+        "line": 4,
+        "text": "Marketing Strategy Framework",
+        "url": "marketing"
+      },
+      {
+        "file": "marketing/User Strategy Framework.md",
+        "line": 10,
+        "text": "Product Roadmap Alignment",
+        "url": "product"
+      },
+      {
+        "file": "strategic-insights/july-2025-strategic-insights.md",
+        "line": 40,
+        "url": "Pasted%20image%2020250702105300.png"
+      },
+      {
+        "file": "strategic-insights/july-2025-strategic-insights.md",
+        "line": 42,
+        "url": "Pasted%20image%2020250702105335.png"
+      },
+      {
+        "file": "strategic-insights/july-2025-strategic-insights.md",
+        "line": 48,
+        "url": "Pasted%20image%2020250702105011.png"
+      },
+      {
+        "file": "strategic-insights/july-2025-strategic-insights.md",
+        "line": 52,
+        "url": "Pasted%20image%2020250702105042.png"
+      },
+      {
+        "file": "strategic-insights/july-2025-strategic-insights.md",
+        "line": 101,
+        "url": "Pasted%20image%2020250702105218.png"
+      },
+      {
+        "file": "priority-board-tasks/generate-ideas-improve-conversion.md",
+        "line": 63,
+        "text": "Generate ideas to improve Retention",
+        "url": "priority-board-tasks/generate-ideas-improve-retention"
+      },
+      {
+        "file": "priority-board-tasks/generate-ideas-improve-conversion.md",
+        "line": 64,
+        "text": "Define TrainerDay Vision & Identity",
+        "url": "priority-board-tasks/define-trainerday-vision"
+      },
+      {
+        "file": "priority-board-tasks/Conversion Step 2 - Onboarding Drip Campaign Optimization.md",
+        "line": 76,
+        "text": "Conversion Step 1 - Pricing Strategy",
+        "url": "priority-board-tasks/generate-ideas-improve-conversion"
+      },
+      {
+        "file": "priority-board-tasks/Conversion Step 2 - Onboarding Drip Campaign Optimization.md",
+        "line": 77,
+        "text": "Generate ideas to improve Retention",
+        "url": "priority-board-tasks/generate-ideas-improve-retention"
+      }
+    ],
+    "unencoded_spaces": [
+      {
+        "file": "priority-board.md",
+        "line": 25,
+        "text": "Conversion Step 2 - Onboarding Drip Campaign Optimization",
+        "url": "priority-board-tasks/Conversion Step 2 - Onboarding Drip Campaign Optimization"
+      },
+      {
+        "file": "research-findings/Core User Segmentation Discovery.md",
+        "line": 93,
+        "text": "Conversion Step 2 - Onboarding Campaign",
+        "url": "priority-board-tasks/Conversion Step 2 - Onboarding Drip Campaign Optimization"
+      },
+      {
+        "file": "research-findings/Core User Segmentation Discovery.md",
+        "line": 94,
+        "text": "User Strategy Framework",
+        "url": "marketing/User Strategy Framework"
+      },
+      {
+        "file": "company-structure/role-chart.md",
+        "line": 12,
+        "text": "Meet Zenith \u2192",
+        "url": "company-structure/roles/agents/Zenith - Decision Maker"
+      },
+      {
+        "file": "company-structure/role-chart.md",
+        "line": 13,
+        "text": "Meet Prism \u2192",
+        "url": "company-structure/roles/agents/Prism - Strategic Vision Creator"
+      },
+      {
+        "file": "company-structure/role-chart.md",
+        "line": 18,
+        "text": "Meet Nexus \u2192",
+        "url": "company-structure/roles/agents/Nexus - Product Manager"
+      },
+      {
+        "file": "company-structure/role-chart.md",
+        "line": 19,
+        "text": "Meet Flux \u2192",
+        "url": "company-structure/roles/agents/Flux - Developer"
+      },
+      {
+        "file": "company-structure/role-chart.md",
+        "line": 20,
+        "text": "Meet Muse \u2192",
+        "url": "company-structure/roles/agents/Muse - UX UI Designer"
+      },
+      {
+        "file": "company-structure/role-chart.md",
+        "line": 21,
+        "text": "Meet Hawk \u2192",
+        "url": "company-structure/roles/agents/Hawk - Tester"
+      },
+      {
+        "file": "company-structure/role-chart.md",
+        "line": 24,
+        "text": "Meet Spark \u2192",
+        "url": "company-structure/roles/agents/Spark - Marketing Director"
+      },
+      {
+        "file": "company-structure/role-chart.md",
+        "line": 25,
+        "text": "Meet Echo \u2192",
+        "url": "company-structure/roles/agents/Echo - Content Creator"
+      },
+      {
+        "file": "company-structure/role-chart.md",
+        "line": 26,
+        "text": "Meet Mosaic \u2192",
+        "url": "company-structure/roles/agents/Mosaic - Brand Strategist"
+      },
+      {
+        "file": "company-structure/role-chart.md",
+        "line": 27,
+        "text": "Meet Tide \u2192",
+        "url": "company-structure/roles/agents/Tide - SEO Growth Specialist"
+      },
+      {
+        "file": "company-structure/role-chart.md",
+        "line": 30,
+        "text": "Meet Haven \u2192",
+        "url": "company-structure/roles/agents/Haven - Support Agent"
+      },
+      {
+        "file": "company-structure/role-chart.md",
+        "line": 31,
+        "text": "Meet Ripple \u2192",
+        "url": "company-structure/roles/agents/Ripple - Community Manager"
+      },
+      {
+        "file": "company-structure/role-chart.md",
+        "line": 32,
+        "text": "Meet Compass \u2192",
+        "url": "company-structure/roles/agents/Compass - Retention Specialist"
+      },
+      {
+        "file": "company-structure/role-chart.md",
+        "line": 33,
+        "text": "Meet Bridge \u2192",
+        "url": "company-structure/roles/agents/Bridge - Onboarding Expert"
+      },
+      {
+        "file": "marketing/User Strategy Framework.md",
+        "line": 24,
+        "text": "Core User Segmentation Discovery",
+        "url": "research-findings/Core User Segmentation Discovery"
+      },
+      {
+        "file": "marketing/User Strategy Framework.md",
+        "line": 24,
+        "text": "Core User Segmentation Discovery",
+        "url": "research-findings/Core User Segmentation Discovery"
+      }
+    ]
+  },
+  "summary": {
+    "total_issues": 78,
+    "issue_counts": {
+      "broken_links": 59,
+      "unencoded_spaces": 19
+    }
+  }
+}

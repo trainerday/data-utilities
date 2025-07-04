@@ -1,0 +1,109 @@
+{
+  "topic": {
+    "id": 57380,
+    "title": "Coach Jack Supports Outdoor Power and Heart Rate based Training",
+    "fancy_title": "Coach Jack Supports Outdoor Power and Heart Rate based Training",
+    "slug": "coach-jack-supports-outdoor-power-and-heart-rate-based-training",
+    "posts_count": 1,
+    "reply_count": 0,
+    "highest_post_number": 1,
+    "image_url": "https://forums.trainerday.com/uploads/default/optimized/2X/c/ca870fc0a02cd4b2dd273e88fb03e603b5d8ec7e_2_1024x448.png",
+    "created_at": "2025-03-18T15:04:16.912Z",
+    "last_posted_at": "2025-03-18T15:04:17.126Z",
+    "bumped": true,
+    "bumped_at": "2025-03-18T15:04:17.126Z",
+    "archetype": "regular",
+    "unseen": false,
+    "pinned": false,
+    "unpinned": null,
+    "visible": true,
+    "closed": false,
+    "archived": false,
+    "bookmarked": null,
+    "liked": null,
+    "tags_descriptions": {},
+    "views": 399,
+    "like_count": 3,
+    "has_summary": false,
+    "last_poster_username": "Alex",
+    "category_id": 28,
+    "pinned_globally": false,
+    "featured_link": null,
+    "can_vote": false,
+    "posters": [
+      {
+        "extras": "latest single",
+        "description": "Original Poster, Most Recent Poster",
+        "user_id": 1,
+        "primary_group_id": 41,
+        "flair_group_id": 41
+      }
+    ]
+  },
+  "posts": [
+    {
+      "id": 73771,
+      "name": "",
+      "username": "Alex",
+      "avatar_template": "/user_avatar/forums.trainerday.com/alex/{size}/1331_2.png",
+      "created_at": "2025-03-18T15:04:17.126Z",
+      "cooked": "<p>See below.  It was possible to do this in our calendar already but now this simplifies the process of creating outdoor power and heart rate based training plans.</p>\n<p><div class=\"lightbox-wrapper\"><a class=\"lightbox\" href=\"https://forums.trainerday.com/uploads/default/original/2X/c/ca870fc0a02cd4b2dd273e88fb03e603b5d8ec7e.png\" data-download-href=\"https://forums.trainerday.com/uploads/default/ca870fc0a02cd4b2dd273e88fb03e603b5d8ec7e\" title=\"image\"><img src=\"https://forums.trainerday.com/uploads/default/optimized/2X/c/ca870fc0a02cd4b2dd273e88fb03e603b5d8ec7e_2_690x302.png\" alt=\"image\" data-base62-sha1=\"sTDOEFgkLhajHHkuQ6aZzBO8OKi\" width=\"690\" height=\"302\" srcset=\"https://forums.trainerday.com/uploads/default/optimized/2X/c/ca870fc0a02cd4b2dd273e88fb03e603b5d8ec7e_2_690x302.png, https://forums.trainerday.com/uploads/default/optimized/2X/c/ca870fc0a02cd4b2dd273e88fb03e603b5d8ec7e_2_1035x453.png 1.5x, https://forums.trainerday.com/uploads/default/optimized/2X/c/ca870fc0a02cd4b2dd273e88fb03e603b5d8ec7e_2_1380x604.png 2x\" data-dominant-color=\"F0F1F6\"><div class=\"meta\"><svg class=\"fa d-icon d-icon-far-image svg-icon\" aria-hidden=\"true\"><use href=\"#far-image\"></use></svg><span class=\"filename\">image</span><span class=\"informations\">2386\u00d71046 239 KB</span><svg class=\"fa d-icon d-icon-discourse-expand svg-icon\" aria-hidden=\"true\"><use href=\"#discourse-expand\"></use></svg></div></a></div></p>",
+      "post_number": 1,
+      "post_type": 1,
+      "updated_at": "2025-03-18T15:04:17.126Z",
+      "reply_count": 0,
+      "reply_to_post_number": null,
+      "quote_count": 0,
+      "incoming_link_count": 181,
+      "reads": 64,
+      "readers_count": 63,
+      "score": 962.8,
+      "yours": false,
+      "topic_id": 57380,
+      "topic_slug": "coach-jack-supports-outdoor-power-and-heart-rate-based-training",
+      "display_username": "",
+      "primary_group_name": "English",
+      "flair_name": "English",
+      "flair_url": null,
+      "flair_bg_color": "",
+      "flair_color": "",
+      "flair_group_id": 41,
+      "version": 1,
+      "can_edit": false,
+      "can_delete": false,
+      "can_recover": false,
+      "can_see_hidden_post": false,
+      "can_wiki": false,
+      "link_counts": [
+        {
+          "url": "https://forums.trainerday.com/uploads/default/original/2X/c/ca870fc0a02cd4b2dd273e88fb03e603b5d8ec7e.png",
+          "internal": true,
+          "reflection": false,
+          "clicks": 0
+        }
+      ],
+      "read": true,
+      "user_title": "",
+      "bookmarked": false,
+      "actions_summary": [
+        {
+          "id": 2,
+          "count": 3
+        }
+      ],
+      "moderator": false,
+      "admin": true,
+      "staff": true,
+      "user_id": 1,
+      "hidden": false,
+      "trust_level": 4,
+      "deleted_at": null,
+      "user_deleted": false,
+      "edit_reason": null,
+      "can_view_edit_history": true,
+      "wiki": false,
+      "can_vote": false
+    }
+  ],
+  "downloaded_at": "2025-06-27T07:02:20.795343"
+}

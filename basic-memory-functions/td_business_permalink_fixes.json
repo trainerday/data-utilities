@@ -1,0 +1,292 @@
+{
+  "fixed_files": [
+    "important-links.md",
+    "TOP PRIORITIES.md",
+    "priority-board.md",
+    "claude.md",
+    "research-findings/TrainerDay Research Findings.md",
+    "research-findings/Core User Segmentation Discovery.md",
+    "research-findings/chat-sessions/session-handoff-july-2-part4.md",
+    "research-findings/chat-sessions/session-handoff-july-2-part5.md",
+    "research-findings/chat-sessions/session-handoff-july-2-part2.md",
+    "research-findings/chat-sessions/session-handoff-july-2-part6.md",
+    "research-findings/chat-sessions/session-handoff-july-2-part7.md",
+    "research-findings/chat-sessions/session-handoff-july-2-part3.md",
+    "metrics-and-analytics/Data Sources Inventory.md",
+    "metrics-and-analytics/data-logs/Onboarding Email Content Analysis - Key Findings.md",
+    "metrics-and-analytics/data-logs/Mautic Onboarding Email Analysis - July 2.md",
+    "metrics-and-analytics/data-logs/Subscription Data Analysis - July 2, 2025.md",
+    "profit-first-strategies/Profit-First Annual Subscribers Strategy.md",
+    "decisions/log.md",
+    "company-structure/roles/strategy-finance.md",
+    "company-structure/roles/agents/Ripple - Community Manager.md",
+    "company-structure/roles/agents/cipher-analyst.md",
+    "company-structure/roles/agents/Cipher - Analyst.md",
+    "company-structure/roles/agents/Nexus - Product Manager.md",
+    "company-structure/roles/agents/Spark - Marketing Director.md",
+    "company-structure/roles/agents/Zenith - Decision Maker.md",
+    "company-structure/roles/agents/Prism - Strategic Vision Creator.md",
+    "company-structure/roles/agents/Echo - Content Creator.md",
+    "company-structure/roles/agents/Mosaic - Brand Strategist.md",
+    "company-structure/roles/agents/Hawk - Tester.md",
+    "company-structure/roles/agents/Haven - Support Agent.md",
+    "company-structure/roles/agents/Compass - Retention Specialist.md",
+    "company-structure/roles/agents/Tide - SEO Growth Specialist.md",
+    "company-structure/roles/agents/Muse - UX UI Designer.md",
+    "company-structure/roles/agents/Flux - Developer.md",
+    "company-structure/roles/agents/Bridge - Onboarding Expert.md",
+    "marketing/marketing-kanban.md",
+    "marketing/User Strategy Framework.md",
+    "marketing/email-campaigns/July 2025 Campaign Analysis - No CTA Learning.md",
+    "marketing/email-campaigns/August 1, 2025 - Price Increase Email Strategy.md",
+    "marketing/promos/Yearly Upgrades Strategy.md",
+    "marketing/churn/Customer Churn Feedback Log.md",
+    "marketing/churn/Churn Analysis Framework.md",
+    "marketing/onboarding/email-onboarding-4-emails.md",
+    "strategic-insights/july-2025-strategic-insights.md",
+    "priority-board-tasks/generate-ideas-improve-conversion.md",
+    "priority-board-tasks/define-trainerday-vision.md",
+    "priority-board-tasks/readme.md",
+    "priority-board-tasks/Conversion Step 2 - Onboarding Drip Campaign Optimization.md"
+  ],
+  "added_permalinks": [
+    {
+      "file": "important-links.md",
+      "permalink": "important-links"
+    },
+    {
+      "file": "TOP PRIORITIES.md",
+      "permalink": "TOP PRIORITIES"
+    },
+    {
+      "file": "claude.md",
+      "permalink": "claude"
+    },
+    {
+      "file": "company-structure/roles/strategy-finance.md",
+      "permalink": "company-structure/roles/strategy-finance"
+    },
+    {
+      "file": "company-structure/roles/agents/cipher-analyst.md",
+      "permalink": "company-structure/roles/agents/cipher-analyst"
+    }
+  ],
+  "updated_permalinks": [
+    {
+      "file": "priority-board.md",
+      "old": "company-structure/priority-board",
+      "new": "priority-board"
+    },
+    {
+      "file": "research-findings/TrainerDay Research Findings.md",
+      "old": "company-structure/research-findings/trainer-day-research-findings",
+      "new": "research-findings/TrainerDay Research Findings"
+    },
+    {
+      "file": "research-findings/Core User Segmentation Discovery.md",
+      "old": "research-findings/core-user-segmentation-discovery",
+      "new": "research-findings/Core User Segmentation Discovery"
+    },
+    {
+      "file": "research-findings/chat-sessions/session-handoff-july-2-part4.md",
+      "old": "company-structure/session-handoff-july-2-part4",
+      "new": "research-findings/chat-sessions/session-handoff-july-2-part4"
+    },
+    {
+      "file": "research-findings/chat-sessions/session-handoff-july-2-part5.md",
+      "old": "company-structure/session-handoff-july-2-part5",
+      "new": "research-findings/chat-sessions/session-handoff-july-2-part5"
+    },
+    {
+      "file": "research-findings/chat-sessions/session-handoff-july-2-part2.md",
+      "old": "company-structure/session-handoff-july-2-part2-1",
+      "new": "research-findings/chat-sessions/session-handoff-july-2-part2"
+    },
+    {
+      "file": "research-findings/chat-sessions/session-handoff-july-2-part6.md",
+      "old": "company-structure/session-handoff-july-2-part6",
+      "new": "research-findings/chat-sessions/session-handoff-july-2-part6"
+    },
+    {
+      "file": "research-findings/chat-sessions/session-handoff-july-2-part7.md",
+      "old": "company-structure/session-handoff-july-2-part7",
+      "new": "research-findings/chat-sessions/session-handoff-july-2-part7"
+    },
+    {
+      "file": "research-findings/chat-sessions/session-handoff-july-2-part3.md",
+      "old": "company-structure/session-handoff-july-2-part3",
+      "new": "research-findings/chat-sessions/session-handoff-july-2-part3"
+    },
+    {
+      "file": "metrics-and-analytics/Data Sources Inventory.md",
+      "old": "metrics-and-analysis/data-sources-inventory",
+      "new": "metrics-and-analytics/Data Sources Inventory"
+    },
+    {
+      "file": "metrics-and-analytics/data-logs/Onboarding Email Content Analysis - Key Findings.md",
+      "old": "crm-analysis/onboarding-email-content-analysis-key-findings-1",
+      "new": "metrics-and-analytics/data-logs/Onboarding Email Content Analysis - Key Findings"
+    },
+    {
+      "file": "metrics-and-analytics/data-logs/Mautic Onboarding Email Analysis - July 2.md",
+      "old": "crm-analysis/mautic-onboarding-email-analysis-july-2-1",
+      "new": "metrics-and-analytics/data-logs/Mautic Onboarding Email Analysis - July 2"
+    },
+    {
+      "file": "metrics-and-analytics/data-logs/Subscription Data Analysis - July 2, 2025.md",
+      "old": "metrics/subscription-data-analysis-july-2-2025-1",
+      "new": "metrics-and-analytics/data-logs/Subscription Data Analysis - July 2, 2025"
+    },
+    {
+      "file": "profit-first-strategies/Profit-First Annual Subscribers Strategy.md",
+      "old": "profit-first-strategies/profit-first-annual-subscribers-strategy",
+      "new": "profit-first-strategies/Profit-First Annual Subscribers Strategy"
+    },
+    {
+      "file": "decisions/log.md",
+      "old": "company-structure/decisions/log",
+      "new": "decisions/log"
+    },
+    {
+      "file": "company-structure/roles/agents/Ripple - Community Manager.md",
+      "old": "company-structure/roles/agents/ripple-community-manager",
+      "new": "company-structure/roles/agents/Ripple - Community Manager"
+    },
+    {
+      "file": "company-structure/roles/agents/Cipher - Analyst.md",
+      "old": "company-structure/roles/agents/cipher-analyst",
+      "new": "company-structure/roles/agents/Cipher - Analyst"
+    },
+    {
+      "file": "company-structure/roles/agents/Nexus - Product Manager.md",
+      "old": "company-structure/roles/agents/nexus-product-manager",
+      "new": "company-structure/roles/agents/Nexus - Product Manager"
+    },
+    {
+      "file": "company-structure/roles/agents/Spark - Marketing Director.md",
+      "old": "company-structure/roles/agents/spark-marketing-director",
+      "new": "company-structure/roles/agents/Spark - Marketing Director"
+    },
+    {
+      "file": "company-structure/roles/agents/Zenith - Decision Maker.md",
+      "old": "company-structure/roles/agents/zenith-decision-maker",
+      "new": "company-structure/roles/agents/Zenith - Decision Maker"
+    },
+    {
+      "file": "company-structure/roles/agents/Prism - Strategic Vision Creator.md",
+      "old": "company-structure/roles/agents/prism-strategic-vision-creator",
+      "new": "company-structure/roles/agents/Prism - Strategic Vision Creator"
+    },
+    {
+      "file": "company-structure/roles/agents/Echo - Content Creator.md",
+      "old": "company-structure/roles/agents/echo-content-creator",
+      "new": "company-structure/roles/agents/Echo - Content Creator"
+    },
+    {
+      "file": "company-structure/roles/agents/Mosaic - Brand Strategist.md",
+      "old": "company-structure/roles/agents/mosaic-brand-strategist",
+      "new": "company-structure/roles/agents/Mosaic - Brand Strategist"
+    },
+    {
+      "file": "company-structure/roles/agents/Hawk - Tester.md",
+      "old": "company-structure/roles/agents/hawk-tester",
+      "new": "company-structure/roles/agents/Hawk - Tester"
+    },
+    {
+      "file": "company-structure/roles/agents/Haven - Support Agent.md",
+      "old": "company-structure/roles/agents/haven-support-agent",
+      "new": "company-structure/roles/agents/Haven - Support Agent"
+    },
+    {
+      "file": "company-structure/roles/agents/Compass - Retention Specialist.md",
+      "old": "company-structure/roles/agents/compass-retention-specialist",
+      "new": "company-structure/roles/agents/Compass - Retention Specialist"
+    },
+    {
+      "file": "company-structure/roles/agents/Tide - SEO Growth Specialist.md",
+      "old": "company-structure/roles/agents/tide-seo-growth-specialist",
+      "new": "company-structure/roles/agents/Tide - SEO Growth Specialist"
+    },
+    {
+      "file": "company-structure/roles/agents/Muse - UX UI Designer.md",
+      "old": "company-structure/roles/agents/muse-ux-ui-designer",
+      "new": "company-structure/roles/agents/Muse - UX UI Designer"
+    },
+    {
+      "file": "company-structure/roles/agents/Flux - Developer.md",
+      "old": "company-structure/roles/agents/flux-developer",
+      "new": "company-structure/roles/agents/Flux - Developer"
+    },
+    {
+      "file": "company-structure/roles/agents/Bridge - Onboarding Expert.md",
+      "old": "company-structure/roles/agents/bridge-onboarding-expert",
+      "new": "company-structure/roles/agents/Bridge - Onboarding Expert"
+    },
+    {
+      "file": "marketing/marketing-kanban.md",
+      "old": "marketing/untitled-kanban",
+      "new": "marketing/marketing-kanban"
+    },
+    {
+      "file": "marketing/User Strategy Framework.md",
+      "old": "marketing/user-strategy-framework",
+      "new": "marketing/User Strategy Framework"
+    },
+    {
+      "file": "marketing/email-campaigns/July 2025 Campaign Analysis - No CTA Learning.md",
+      "old": "marketing/email-campaigns/july-2025-campaign-analysis-no-cta-learning",
+      "new": "marketing/email-campaigns/July 2025 Campaign Analysis - No CTA Learning"
+    },
+    {
+      "file": "marketing/email-campaigns/August 1, 2025 - Price Increase Email Strategy.md",
+      "old": "marketing/email-campaigns/august-1-2025-price-increase-email-strategy",
+      "new": "marketing/email-campaigns/August 1, 2025 - Price Increase Email Strategy"
+    },
+    {
+      "file": "marketing/promos/Yearly Upgrades Strategy.md",
+      "old": "marketing/promos/yearly-upgrades-strategy",
+      "new": "marketing/promos/Yearly Upgrades Strategy"
+    },
+    {
+      "file": "marketing/churn/Customer Churn Feedback Log.md",
+      "old": "marketing/customer-churn-feedback-log",
+      "new": "marketing/churn/Customer Churn Feedback Log"
+    },
+    {
+      "file": "marketing/churn/Churn Analysis Framework.md",
+      "old": "marketing/churn-analysis-framework",
+      "new": "marketing/churn/Churn Analysis Framework"
+    },
+    {
+      "file": "marketing/onboarding/email-onboarding-4-emails.md",
+      "old": "marketing/email-onboarding",
+      "new": "marketing/onboarding/email-onboarding-4-emails"
+    },
+    {
+      "file": "strategic-insights/july-2025-strategic-insights.md",
+      "old": "company-structure/july-2025-strategic-insights",
+      "new": "strategic-insights/july-2025-strategic-insights"
+    },
+    {
+      "file": "priority-board-tasks/generate-ideas-improve-conversion.md",
+      "old": "company-structure/priority-board-tasks/generate-ideas-improve-conversion-1",
+      "new": "priority-board-tasks/generate-ideas-improve-conversion"
+    },
+    {
+      "file": "priority-board-tasks/define-trainerday-vision.md",
+      "old": "company-structure/priority-board-tasks/define-trainerday-vision",
+      "new": "priority-board-tasks/define-trainerday-vision"
+    },
+    {
+      "file": "priority-board-tasks/readme.md",
+      "old": "company-structure/priority-board-tasks/readme",
+      "new": "priority-board-tasks/readme"
+    },
+    {
+      "file": "priority-board-tasks/Conversion Step 2 - Onboarding Drip Campaign Optimization.md",
+      "old": "company-structure/priority-board-tasks/conversion-step-2-onboarding-drip-campaign-optimization-1",
+      "new": "priority-board-tasks/Conversion Step 2 - Onboarding Drip Campaign Optimization"
+    }
+  ],
+  "total_fixes": 48
+}

@@ -1,0 +1,38 @@
+CARD: Hamburger menu missing from search workouts / workout on safari
+DESC: 
+LABELS: 
+---
+CARD: Add send to MyPlans from Calendar
+DESC: ‌
+
+![image.png](https://trello.com/1/cards/682c78aece9521f015a4b6a3/attachments/682c78b6d90c8dd36b4d99a2/download/image.png)
+LABELS: 
+---
+CARD: VO2Max - Estimate
+DESC: This is a complicated.  I want to create an automatic VO2max calculation and it has a lot of calculations.
+
+Here is a document representing all the rules just so I don’t forgot.  We will need to get gemni to write all the functions :)
+
+[https://docs.google.com/document/d/1ZUb17xGB3JwRDwSr-FQoqcS08_mnTe2zCkkTCfOHi4k/edit?usp=sharing](https://docs.google.com/document/d/1ZUb17xGB3JwRDwSr-FQoqcS08_mnTe2zCkkTCfOHi4k/edit?usp=sharing "smartCard-inline")
+
+‌
+
+I will add example messages below.
+
+WARNING: Show below if last 2 weeks have been low intensity focus and previously had more high intensity and the VO2max is dropping.
+
+You may notice a slight dip in your estimate as you focus on base training. This is expected and healthy! You're trading a little top-end sharpness for a much stronger endurance engine, which is the key to reaching higher peaks later. Keep up the great work!
+LABELS: 
+---
+CARD: Move stripe payments from RCP to our solution
+DESC: Let users pay with stripe, and make sure all the webhook updates go directly to our billing including all the updates from our current stripe users.  Also make sure all WP stripe users are in new billing.
+LABELS: 
+---
+CARD: Move paypal payments from RCP to our solution
+DESC: Same idea as stripe
+LABELS: 
+---
+CARD: Create login, register and forgot password in our site
+DESC: See if you can use the WP salt and keep everyones password the same.  Also make sure the app works correctly.
+LABELS: 
+---

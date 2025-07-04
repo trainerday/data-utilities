@@ -1,0 +1,109 @@
+{
+  "topic": {
+    "id": 24274,
+    "title": "Calendar - New feature \"Mark as Completed.\"",
+    "fancy_title": "Calendar - New feature &ldquo;Mark as Completed.&rdquo;",
+    "slug": "calendar-new-feature-mark-as-completed",
+    "posts_count": 1,
+    "reply_count": 0,
+    "highest_post_number": 1,
+    "image_url": "https://forums.trainerday.com/uploads/default/original/2X/f/fdead8d6e0c9a23c4ca5720dd7a70f6c72efb31f.png",
+    "created_at": "2023-10-04T12:38:11.670Z",
+    "last_posted_at": "2023-10-04T12:38:11.886Z",
+    "bumped": true,
+    "bumped_at": "2023-10-04T12:38:11.886Z",
+    "archetype": "regular",
+    "unseen": false,
+    "pinned": false,
+    "unpinned": null,
+    "visible": true,
+    "closed": false,
+    "archived": false,
+    "bookmarked": null,
+    "liked": null,
+    "tags_descriptions": {},
+    "views": 229,
+    "like_count": 2,
+    "has_summary": false,
+    "last_poster_username": "Alex",
+    "category_id": 1,
+    "pinned_globally": false,
+    "featured_link": null,
+    "can_vote": false,
+    "posters": [
+      {
+        "extras": "latest single",
+        "description": "Original Poster, Most Recent Poster",
+        "user_id": 1,
+        "primary_group_id": 41,
+        "flair_group_id": 41
+      }
+    ]
+  },
+  "posts": [
+    {
+      "id": 33849,
+      "name": "",
+      "username": "Alex",
+      "avatar_template": "/user_avatar/forums.trainerday.com/alex/{size}/1331_2.png",
+      "created_at": "2023-10-04T12:38:11.886Z",
+      "cooked": "<p>See below, this will show completed on the calendar for any workout.</p>\n<p><div class=\"lightbox-wrapper\"><a class=\"lightbox\" href=\"https://forums.trainerday.com/uploads/default/original/2X/f/fdead8d6e0c9a23c4ca5720dd7a70f6c72efb31f.png\" data-download-href=\"https://forums.trainerday.com/uploads/default/fdead8d6e0c9a23c4ca5720dd7a70f6c72efb31f\" title=\"image\"><img src=\"https://forums.trainerday.com/uploads/default/optimized/2X/f/fdead8d6e0c9a23c4ca5720dd7a70f6c72efb31f_2_690x405.png\" alt=\"image\" data-base62-sha1=\"AefXmu3EMrOypK0OCuMRZDbNIPd\" width=\"690\" height=\"405\" srcset=\"https://forums.trainerday.com/uploads/default/optimized/2X/f/fdead8d6e0c9a23c4ca5720dd7a70f6c72efb31f_2_690x405.png, https://forums.trainerday.com/uploads/default/original/2X/f/fdead8d6e0c9a23c4ca5720dd7a70f6c72efb31f.png 1.5x, https://forums.trainerday.com/uploads/default/original/2X/f/fdead8d6e0c9a23c4ca5720dd7a70f6c72efb31f.png 2x\" data-small-upload=\"https://forums.trainerday.com/uploads/default/optimized/2X/f/fdead8d6e0c9a23c4ca5720dd7a70f6c72efb31f_2_10x10.png\"><div class=\"meta\"><svg class=\"fa d-icon d-icon-far-image svg-icon\" aria-hidden=\"true\"><use xlink:href=\"#far-image\"></use></svg><span class=\"filename\">image</span><span class=\"informations\">738\u00d7434 62.5 KB</span><svg class=\"fa d-icon d-icon-discourse-expand svg-icon\" aria-hidden=\"true\"><use xlink:href=\"#discourse-expand\"></use></svg></div></a></div></p>",
+      "post_number": 1,
+      "post_type": 1,
+      "updated_at": "2023-10-04T12:38:11.886Z",
+      "reply_count": 0,
+      "reply_to_post_number": null,
+      "quote_count": 0,
+      "incoming_link_count": 6,
+      "reads": 18,
+      "readers_count": 17,
+      "score": 63.6,
+      "yours": false,
+      "topic_id": 24274,
+      "topic_slug": "calendar-new-feature-mark-as-completed",
+      "display_username": "",
+      "primary_group_name": "English",
+      "flair_name": "English",
+      "flair_url": null,
+      "flair_bg_color": "",
+      "flair_color": "",
+      "flair_group_id": 41,
+      "version": 1,
+      "can_edit": false,
+      "can_delete": false,
+      "can_recover": false,
+      "can_see_hidden_post": false,
+      "can_wiki": false,
+      "link_counts": [
+        {
+          "url": "https://forums.trainerday.com/uploads/default/original/2X/f/fdead8d6e0c9a23c4ca5720dd7a70f6c72efb31f.png",
+          "internal": true,
+          "reflection": false,
+          "clicks": 0
+        }
+      ],
+      "read": true,
+      "user_title": "",
+      "bookmarked": false,
+      "actions_summary": [
+        {
+          "id": 2,
+          "count": 2
+        }
+      ],
+      "moderator": false,
+      "admin": true,
+      "staff": true,
+      "user_id": 1,
+      "hidden": false,
+      "trust_level": 4,
+      "deleted_at": null,
+      "user_deleted": false,
+      "edit_reason": null,
+      "can_view_edit_history": true,
+      "wiki": false,
+      "can_vote": false
+    }
+  ],
+  "downloaded_at": "2025-06-27T07:25:29.222825"
+}

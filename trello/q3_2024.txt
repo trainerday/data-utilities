@@ -1,0 +1,266 @@
+CARD: Improving outdoor workout conversion
+DESC: ![image.png](https://trello.com/1/cards/67177b7975a325121cef6f7a/attachments/67177b881fef18829036ebb5/download/image.png)
+LABELS: 
+---
+CARD: Public API - Fix access for users of the new billing
+DESC: ![image.png](https://trello.com/1/cards/672c9ed2d7b70c628b9bcdf9/attachments/672c9f0c0f2014ed0b8029f8/download/image.png)
+LABELS: 
+---
+CARD: Billing - failed credit cards should not immediately remove their access + send event to event_tracker api
+DESC: If status is “suspended” we should give them 3 days before we set the status to  “failed payment.”  On the UI we should show instead of suspended.  Show
+
+Failed Payment - Still Active
+Failed Payment - Not Active
+
+They should be able to change credit card or re-try credit card at this time so take them to the standard checkout page with some different messaging.
+
+
+The button below should say
+Re-Try or Fix Card
+
+![image.png](https://trello.com/1/cards/672349cbc3245b204a2760d8/attachments/67234a88c890e4d507f88f06/download/image.png)
+LABELS: 
+---
+CARD: Billing - Remove text
+DESC: I don’t think we need this text at all
+
+“You have no active subscription”
+
+‌
+
+![image.png](https://trello.com/1/cards/672233024e013e89ee63f81f/attachments/6722334f019c762edf03ba0e/download/image.png)
+LABELS: 
+---
+CARD: Billing - don't cancel immediately if # of billings is zero.
+DESC: 
+LABELS: 
+---
+CARD: Billing Step 1
+DESC: So we are using [authorize.net](http://authorize.net "‌") for billing but they only allow credit card based billing but we can “hack it” so that we add our manual payments.
+
+They take care of all the credit card stuff, customer profiles and automatic subscriptions.  We just need to add these features
+
+1. Create new Customer/Subscription
+2. Update Subscription (Yearly>Monthly or Monthy>Yearly) with prorating (we need to figure out how to pro-rate.)
+3. Cancel Subscription
+4. Create subscription from apple/google.
+5. Cancel subscription from apple/google.
+6. Expire subscription on failed payments
+7. Expire subscription for all manual payments after cancellation (credit card payments this should happen automatically)
+
+‌
+
+So when we have credit card payments we will have subscription records but first we can just look at the customer description to see if it starts with Apple, Google, or Manual.  If it starts with one of those then they are automatically active.  If not we can look at subscription status.  Currently we are looking at the status in Mongo, maybe this is best and we just look at webhooks that update mongo.  If I can go in and just edit a customer in [authorize.net](http://authorize.net "‌") and say “expired” instead of manual, or if I cancel the subscription.  Seems best if I can just do all user managment from a[uthorize.net.](http://authorize.net "‌")
+
+If you had a manual status in mongo, you could also run a job that checks each day to see if any manual/apple or google customer descriptions changed.
+
+We also have to think about email notifications.
+
+You should probably store **Customer Profile ID in the mongo collect incase we need to query a specific customer from code.**
+
+Maybe it should be in the JWT token?  If someone clicks change subscription or change credit card we need it.
+
+So when we first launch this we will keep using Restrict Content pro as well.  If someone is using RCP you they can see all the same pages as now but all new subscriptions will come in via this new authnet credit card process.  Once a person is on authnet we will always redirect them to these new authnet pages you are building (in the main webapp).
+
+‌
+
+I started a project in github with the authnet api methods we need but I was just testing it.  If you want to add this to our main api or create a new typescript billing api you can.  My code is pretty simple but will help understand.  One main api method /subscribe
+
+It seems possible to export everyone from stripe to [auth.net](http://auth.net "‌") and possibly paypal too so we will try to get rid of RCP as soon as we can.
+
+So this API should send updates to your main subscription API that saves date in mongo just like RCP does not is my thinking :)
+LABELS: 
+---
+CARD: Bug for April 2025 in Calendar
+DESC: [https://forums.trainerday.com/t/april-2025-only-one-week-long/42215/2](https://forums.trainerday.com/t/april-2025-only-one-week-long/42215/2 "smartCard-inline")
+LABELS: 
+---
+CARD: Remove (FTP: xxx) from Sending and syncing to garmin
+DESC: 
+LABELS: 
+---
+CARD: Cleanup dokku and standarize domains
+DESC: 1. make sure all the dokku names match in prod and uat, for example web should be called app would ideal to match the domain, for both environments
+2. remove all the \*.stage and \*.apihost stuff.
+
+
+   Even the api’s from production should all change to *.prod for consistency and we highlighted the exceptions below.
+
+![image.png](https://trello.com/1/cards/6673069e1769a5385eaeacec/attachments/6673072502082697d894ffb4/download/image.png)
+LABELS: 
+---
+CARD: Improve CSS/HTML on my plans for mobile
+DESC: My plans web page looks bad on mobile browser
+LABELS: 
+---
+CARD: Add Mixpanel
+DESC: Let me know if we are tracking any mix panel events now.  We should add all the popular actions in both web and coach jack as well as identifying user.   I have mix panel in google tagmanager now but we should just remove tag manager and install it directly. We should check if there are any other libraries we should remove that we are not using.
+
+‌
+
+Track like this.
+
+`mixpanel.track('Sign Up', { 'Signup Type': 'Referral'})`
+
+Download workout
+Connect to Garmin, strava, trainingpeaks, intervals
+Send workout
+Save CJ plan
+Copy Community plan to my plans
+create a workout
+add a workout to library
+search
+
+Any other popular things?
+
+‌
+
+<script>
+mixpanel.identify(email);
+mixpanel.people.set({
+'$email': email,
+'Login Status': 'Logged In'
+});
+</script>
+LABELS: 
+---
+CARD: Coach Jack is first priority!!!
+DESC: 
+LABELS: 
+---
+CARD: Calendar: Add Infinite Scroll and other changes
+DESC: Also change the UI.  Below is my idea but see if you have a better one after looking at TrainingPeaks.  On this page I put the title in the header.  I think it is important in this case.
+
+‌
+
+![image.png](https://trello.com/1/cards/66584d721a3360778c591110/attachments/66584d745c843fdccf9dcc9c/download/image.png)
+LABELS: 
+---
+CARD: image.png
+DESC: 
+LABELS: 
+---
+CARD: Allow New Features Alert to be with old topics
+DESC: Alex Van, [6/13/24 9:12 AM]
+So I love your notification feature.  It would be nice if it did not just add "New New features" but added anything in New Features that was not previously alerted
+
+Alex Van, [6/13/24 9:12 AM]
+I just changed this from Feature request to new features but there is no popup.
+LABELS: 
+---
+CARD: Standardize environment variables and remove them from .env files.
+DESC: TD will have 2 independent environments: UAT and PROD. Local development should use local development machine.
+
+![image.png](https://trello.com/1/cards/66733df7e439873e8ade4d42/attachments/667346aaecb496a87afa60a4/download/image.png)
+
+‌
+
+- All variables should be defined in .env file. Sensitive variable should have no value
+- For local development, an .env.local file should be used with values used during development. This file should be added in the gitignore, so it’s never commited.
+- The environment variables for PROD and UAT environments would be defined as described in this article on the prod and uat dokku server[https://dokku.com/docs/configuration/environment-variables/](https://dokku.com/docs/configuration/environment-variables/ "smartCard-inline")
+- as a general rule, instead of having 3 variables like this:
+  TELEGRAM\_BOT\_TOKEN_DEV=
+  TELEGRAM\_BOT\_TOKEN_STAGE=
+  TELEGRAM\_BOT\_TOKEN_PROD=
+
+‌
+
+we should have one variable, with different values depending on the environment we are building:
+
+TELEGRAM\_BOT\_TOKEN
+LABELS: 
+---
+CARD: Improve FTP HIstory
+DESC: Read this.  If someone updates history we should re-calculate workouts…  Also we should not save that first 100 value.
+
+‌
+
+[https://forums.trainerday.com/t/improved-ftp-history/39995](https://forums.trainerday.com/t/improved-ftp-history/39995 "smartCard-inline")
+LABELS: 
+---
+CARD: Switch to using WP stage for WP Web App
+DESC: 
+LABELS: 
+---
+CARD: Make UAT work with UAT wordpress not production.
+DESC: Let’s try and isolate these environments more and create a cookie specific to UAT and prod.
+
+‌
+
+We could just write a specific subdomain cookie, for [app.uat.trainerday.com](http://app.uat.trainerday.com "‌") but I don’t know if that will cause CJ issues.
+
+You could possibly write multiple cookies, or think about about the best for isolation.
+
+‌
+
+‌
+
+See below,.
+
+![image.png](https://trello.com/1/cards/6673081d797369ac6e0d9837/attachments/66730890c00271ebf9e8f18a/download/image.png)
+LABELS: 
+---
+CARD: Mobile - Changes in FTP history is not showing on history from mobile app
+DESC: If you update the FTP from the mobile app, the FTP history on the web site is not updated.
+LABELS: 
+---
+CARD: Routes #1 - Change Header
+DESC: Center align title and remove stuff and simplify and clean header section.
+
+‌
+
+![image.png](https://trello.com/1/cards/665836f2923579b27b9f2600/attachments/6658379ce51d23e4a58e3d5b/download/image.png)
+LABELS: 
+---
+CARD: Routes #2 - Add Strava History to the TODAY
+DESC: Using same logic we have but incorporating strava is most important.  But secondly see below.  If you want only do strava now let’s move those other suggestions to another card.
+
+
+Also if you want to do a few more small things.  We could improve the logic a little try to get better variety.  And for example if a user just did 2 days in a row the recommend workout should be a recovery ride (zone 1 or easy zone 2 < intensity .72 for example.  If yesterday was a hard workout today could be easier like a higher zon2 or tempo.
+LABELS: 
+---
+CARD: Remove this popup
+DESC: The new home page replaces this.  I know it is not all the same but I don’t want this any more :)
+
+‌
+
+![image.png](https://trello.com/1/cards/6666afb82fea904e238b18cf/attachments/6666afba3c3e3e073daf2f25/download/image.png)
+LABELS: 
+---
+CARD: Upgrade Prod Dokku
+DESC: 
+LABELS: 
+---
+CARD: Research switching db servers
+DESC: I see two options
+
+1. Switch totally to mongodb serverless
+2. Switch strava collection to cheaper digital ocean server or mongo serverless
+
+We want to do incremental move if we do option #1.  So we can deploy with zero downtime.  With #2 I think it would be easy since it is a queue. Just turn off queue processing for incoming workouts and switch and turn it back on.
+LABELS: 
+---
+CARD: Allow direct editing of workout from calendar (ideally in a popup)
+DESC: 
+LABELS: 
+---
+CARD: Billing - Allow re-subscribing
+DESC: Change button to “Re-Enable Subscription”
+
+‌
+
+![image.png](https://trello.com/1/cards/671b62bcbbbb8b323f0d7bcb/attachments/671b62beb40ffc171aa0769c/download/image.png)
+LABELS: 
+---
+CARD: Billing - void transaction after successful payment
+DESC: 
+LABELS: 
+---
+CARD: Billing Upgrade - Make it more clear
+DESC: See below.
+
+‌
+
+![image.png](https://trello.com/1/cards/671b3e9ae6801f1a6790f9dd/attachments/671b3ea2d018e2280a4fbbb3/download/image.png)
+LABELS: 
+---

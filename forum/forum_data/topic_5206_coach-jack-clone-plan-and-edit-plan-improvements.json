@@ -1,0 +1,115 @@
+{
+  "topic": {
+    "id": 5206,
+    "title": "Coach Jack - Clone Plan and Edit Plan improvements",
+    "fancy_title": "Coach Jack - Clone Plan and Edit Plan improvements",
+    "slug": "coach-jack-clone-plan-and-edit-plan-improvements",
+    "posts_count": 1,
+    "reply_count": 0,
+    "highest_post_number": 1,
+    "image_url": "https://forums.trainerday.com/uploads/default/optimized/2X/6/625e1975af8b148c0fea182eaa1ffc9347ca7c26_2_1024x456.png",
+    "created_at": "2022-11-15T13:00:11.885Z",
+    "last_posted_at": "2022-11-15T13:00:12.073Z",
+    "bumped": true,
+    "bumped_at": "2022-11-15T13:00:12.073Z",
+    "archetype": "regular",
+    "unseen": false,
+    "pinned": false,
+    "unpinned": null,
+    "visible": true,
+    "closed": false,
+    "archived": false,
+    "bookmarked": null,
+    "liked": null,
+    "tags_descriptions": {},
+    "views": 426,
+    "like_count": 2,
+    "has_summary": false,
+    "last_poster_username": "Alex",
+    "category_id": 28,
+    "pinned_globally": false,
+    "featured_link": null,
+    "can_vote": false,
+    "posters": [
+      {
+        "extras": "latest single",
+        "description": "Original Poster, Most Recent Poster",
+        "user_id": 1,
+        "primary_group_id": 41,
+        "flair_group_id": 41
+      }
+    ]
+  },
+  "posts": [
+    {
+      "id": 11319,
+      "name": "",
+      "username": "Alex",
+      "avatar_template": "/user_avatar/forums.trainerday.com/alex/{size}/1331_2.png",
+      "created_at": "2022-11-15T13:00:12.073Z",
+      "cooked": "<p>This clone feature here now works much better for event based plans.  I would say previously it did not work unless you cloned before the plan started.<br>\n<div class=\"lightbox-wrapper\"><a class=\"lightbox\" href=\"https://forums.trainerday.com/uploads/default/original/2X/6/625e1975af8b148c0fea182eaa1ffc9347ca7c26.png\" data-download-href=\"https://forums.trainerday.com/uploads/default/625e1975af8b148c0fea182eaa1ffc9347ca7c26\" title=\"image\"><img src=\"https://forums.trainerday.com/uploads/default/optimized/2X/6/625e1975af8b148c0fea182eaa1ffc9347ca7c26_2_690x307.png\" alt=\"image\" data-base62-sha1=\"e2coKItzSrXPHJdpn722Rmxyxh4\" width=\"690\" height=\"307\" srcset=\"https://forums.trainerday.com/uploads/default/optimized/2X/6/625e1975af8b148c0fea182eaa1ffc9347ca7c26_2_690x307.png, https://forums.trainerday.com/uploads/default/optimized/2X/6/625e1975af8b148c0fea182eaa1ffc9347ca7c26_2_1035x460.png 1.5x, https://forums.trainerday.com/uploads/default/optimized/2X/6/625e1975af8b148c0fea182eaa1ffc9347ca7c26_2_1380x614.png 2x\" data-small-upload=\"https://forums.trainerday.com/uploads/default/optimized/2X/6/625e1975af8b148c0fea182eaa1ffc9347ca7c26_2_10x10.png\"><div class=\"meta\"><svg class=\"fa d-icon d-icon-far-image svg-icon\" aria-hidden=\"true\"><use xlink:href=\"#far-image\"></use></svg><span class=\"filename\">image</span><span class=\"informations\">2782\u00d71240 426 KB</span><svg class=\"fa d-icon d-icon-discourse-expand svg-icon\" aria-hidden=\"true\"><use xlink:href=\"#discourse-expand\"></use></svg></div></a></div></p>\n<p>You can see we also added a start date to the plan here that will give a lot more flexibility in how you plan.<br>\n<div class=\"lightbox-wrapper\"><a class=\"lightbox\" href=\"https://forums.trainerday.com/uploads/default/original/2X/e/e1c16abc107cbf19a8ba3711f54719278ee4b503.png\" data-download-href=\"https://forums.trainerday.com/uploads/default/e1c16abc107cbf19a8ba3711f54719278ee4b503\" title=\"image\"><img src=\"https://forums.trainerday.com/uploads/default/optimized/2X/e/e1c16abc107cbf19a8ba3711f54719278ee4b503_2_690x289.png\" alt=\"image\" data-base62-sha1=\"wd7P8d95oQiQpo5ijcenyQUZrXR\" width=\"690\" height=\"289\" srcset=\"https://forums.trainerday.com/uploads/default/optimized/2X/e/e1c16abc107cbf19a8ba3711f54719278ee4b503_2_690x289.png, https://forums.trainerday.com/uploads/default/optimized/2X/e/e1c16abc107cbf19a8ba3711f54719278ee4b503_2_1035x433.png 1.5x, https://forums.trainerday.com/uploads/default/optimized/2X/e/e1c16abc107cbf19a8ba3711f54719278ee4b503_2_1380x578.png 2x\" data-small-upload=\"https://forums.trainerday.com/uploads/default/optimized/2X/e/e1c16abc107cbf19a8ba3711f54719278ee4b503_2_10x10.png\"><div class=\"meta\"><svg class=\"fa d-icon d-icon-far-image svg-icon\" aria-hidden=\"true\"><use xlink:href=\"#far-image\"></use></svg><span class=\"filename\">image</span><span class=\"informations\">1392\u00d7584 49.2 KB</span><svg class=\"fa d-icon d-icon-discourse-expand svg-icon\" aria-hidden=\"true\"><use xlink:href=\"#discourse-expand\"></use></svg></div></a></div></p>",
+      "post_number": 1,
+      "post_type": 1,
+      "updated_at": "2022-11-15T13:00:12.073Z",
+      "reply_count": 0,
+      "reply_to_post_number": null,
+      "quote_count": 0,
+      "incoming_link_count": 5,
+      "reads": 36,
+      "readers_count": 35,
+      "score": 62.2,
+      "yours": false,
+      "topic_id": 5206,
+      "topic_slug": "coach-jack-clone-plan-and-edit-plan-improvements",
+      "display_username": "",
+      "primary_group_name": "English",
+      "flair_name": "English",
+      "flair_url": null,
+      "flair_bg_color": "",
+      "flair_color": "",
+      "flair_group_id": 41,
+      "version": 1,
+      "can_edit": false,
+      "can_delete": false,
+      "can_recover": false,
+      "can_see_hidden_post": false,
+      "can_wiki": false,
+      "link_counts": [
+        {
+          "url": "https://forums.trainerday.com/uploads/default/original/2X/6/625e1975af8b148c0fea182eaa1ffc9347ca7c26.png",
+          "internal": true,
+          "reflection": false,
+          "clicks": 0
+        },
+        {
+          "url": "https://forums.trainerday.com/uploads/default/original/2X/e/e1c16abc107cbf19a8ba3711f54719278ee4b503.png",
+          "internal": true,
+          "reflection": false,
+          "clicks": 0
+        }
+      ],
+      "read": true,
+      "user_title": "",
+      "bookmarked": false,
+      "actions_summary": [
+        {
+          "id": 2,
+          "count": 2
+        }
+      ],
+      "moderator": false,
+      "admin": true,
+      "staff": true,
+      "user_id": 1,
+      "hidden": false,
+      "trust_level": 4,
+      "deleted_at": null,
+      "user_deleted": false,
+      "edit_reason": null,
+      "can_view_edit_history": true,
+      "wiki": false,
+      "can_vote": false
+    }
+  ],
+  "downloaded_at": "2025-06-27T07:35:14.929730"
+}

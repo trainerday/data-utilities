@@ -1,0 +1,110 @@
+{
+  "topic": {
+    "id": 1114,
+    "title": "New features in version 2.6.2",
+    "fancy_title": "New features in version 2.6.2",
+    "slug": "new-features-in-version-2-6-2",
+    "posts_count": 1,
+    "reply_count": 0,
+    "highest_post_number": 1,
+    "image_url": null,
+    "created_at": "2021-12-16T09:02:13.290Z",
+    "last_posted_at": "2021-12-16T09:02:13.397Z",
+    "bumped": true,
+    "bumped_at": "2021-12-16T09:02:13.397Z",
+    "archetype": "regular",
+    "unseen": false,
+    "pinned": false,
+    "unpinned": null,
+    "visible": true,
+    "closed": false,
+    "archived": false,
+    "bookmarked": null,
+    "liked": null,
+    "tags_descriptions": {},
+    "views": 600,
+    "like_count": 3,
+    "has_summary": false,
+    "last_poster_username": "Alex",
+    "category_id": 28,
+    "pinned_globally": false,
+    "featured_link": null,
+    "can_vote": false,
+    "posters": [
+      {
+        "extras": "latest single",
+        "description": "Original Poster, Most Recent Poster",
+        "user_id": 1,
+        "primary_group_id": 41,
+        "flair_group_id": 41
+      }
+    ]
+  },
+  "posts": [
+    {
+      "id": 4516,
+      "name": "",
+      "username": "Alex",
+      "avatar_template": "/user_avatar/forums.trainerday.com/alex/{size}/1331_2.png",
+      "created_at": "2021-12-16T09:02:13.397Z",
+      "cooked": "<ul>\n<li>\n<p>See training zone targets and target zone actual<br>\n<a href=\"https://forums.trainerday.com/t/training-zone-targets-completed/1030\">Training Zone Targets (COMPLETED)</a></p>\n</li>\n<li>\n<p>Mark workout as completed or skipped (on plan tab click on workout graph and see it at the bottom)</p>\n</li>\n<li>\n<p>Skip interval can now be pressed when the app is paused.</p>\n</li>\n<li>\n<p>Small UI changes on training tab including indicator when you click a numeric field to show something happened <img src=\"https://forums.trainerday.com/images/emoji/twitter/slight_smile.png?v=9\" title=\":slight_smile:\" class=\"emoji\" alt=\":slight_smile:\"></p>\n</li>\n</ul>",
+      "post_number": 1,
+      "post_type": 1,
+      "updated_at": "2021-12-16T09:02:13.397Z",
+      "reply_count": 0,
+      "reply_to_post_number": null,
+      "quote_count": 0,
+      "incoming_link_count": 7,
+      "reads": 34,
+      "readers_count": 33,
+      "score": 86.8,
+      "yours": false,
+      "topic_id": 1114,
+      "topic_slug": "new-features-in-version-2-6-2",
+      "display_username": "",
+      "primary_group_name": "English",
+      "flair_name": "English",
+      "flair_url": null,
+      "flair_bg_color": "",
+      "flair_color": "",
+      "flair_group_id": 41,
+      "version": 1,
+      "can_edit": false,
+      "can_delete": false,
+      "can_recover": false,
+      "can_see_hidden_post": false,
+      "can_wiki": false,
+      "link_counts": [
+        {
+          "url": "https://forums.trainerday.com/t/training-zone-targets-completed/1030",
+          "internal": true,
+          "reflection": false,
+          "title": "Training Zone Targets (COMPLETED)",
+          "clicks": 11
+        }
+      ],
+      "read": true,
+      "user_title": "",
+      "bookmarked": false,
+      "actions_summary": [
+        {
+          "id": 2,
+          "count": 3
+        }
+      ],
+      "moderator": false,
+      "admin": true,
+      "staff": true,
+      "user_id": 1,
+      "hidden": false,
+      "trust_level": 4,
+      "deleted_at": null,
+      "user_deleted": false,
+      "edit_reason": null,
+      "can_view_edit_history": true,
+      "wiki": false,
+      "can_vote": false
+    }
+  ],
+  "downloaded_at": "2025-06-27T07:42:30.973404"
+}

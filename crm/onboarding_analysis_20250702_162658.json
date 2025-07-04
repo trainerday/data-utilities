@@ -1,0 +1,45 @@
+{
+  "timestamp": "20250702_162658",
+  "funnel_metrics": [
+    {
+      "order": 1,
+      "name": "Welcome",
+      "subject": "Welcome to TrainerDay! Time to Shift into Gear :bicyclist:\u200d:dash:",
+      "sent": 52135,
+      "read": 28536,
+      "read_rate": 54.73482305552891
+    },
+    {
+      "order": 2,
+      "name": "Quick Tour",
+      "subject": "Unlock Your Full Potential with TrainerDay :rocket:",
+      "sent": 51883,
+      "read": 24770,
+      "read_rate": 47.74203496328277
+    },
+    {
+      "order": 3,
+      "name": "App Settings",
+      "subject": ":crown: Training App Settings Highlights and More",
+      "sent": 50214,
+      "read": 21702,
+      "read_rate": 43.21902258334329
+    },
+    {
+      "order": 4,
+      "name": "Checking In",
+      "subject": "Just Checking In\u2014Need Any Help with Your Training? :blush:",
+      "sent": 48530,
+      "read": 20755,
+      "read_rate": 42.76736039563157
+    }
+  ],
+  "summary": {
+    "total_sent": 202762,
+    "total_read": 95763,
+    "average_read_rate": 47.2292638660104,
+    "weighted_average_read_rate": 47.2292638660104,
+    "initial_audience": 52135,
+    "final_retention": 93.08525942265274
+  }
+}

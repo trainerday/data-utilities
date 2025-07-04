@@ -1,0 +1,260 @@
+CARD: Change Sort Order for API that returns list of workouts.
+DESC: 
+LABELS: 
+---
+CARD: Sorting lists in API and manage Favs
+DESC: This should be alphabetical like web site.  Ideally even Favs is sorted and even removable list?
+
+![image.png](https://trello.com/1/cards/6840aa55fa171434feb34093/attachments/6840aa7eb521f98b8bfcc9ab/download/image.png)
+
+‌
+
+‌
+
+See below.  I think Favs should be managable, renameable… Just a normal list that is created when user is created.
+
+![image.png](https://trello.com/1/cards/6840aa55fa171434feb34093/attachments/6840ab00bf2b35be0bd4f2a5/download/image.png)
+LABELS: 
+---
+CARD: Change Sort order for lists
+DESC: 
+LABELS: 
+---
+CARD: Change mongodb port for strava data
+DESC: ‌
+
+‌
+
+I think the API determines the sort order for this, but need to confirm with grigory?  It should be alphabetical also
+
+![image.png](https://trello.com/1/cards/682f0eb81d0f7fe55d0f66ca/attachments/6840a8c039b4c391309d87be/download/image.png)
+LABELS: 
+---
+CARD: =========  BELOW IS LATER ========
+DESC: 
+LABELS: 
+---
+CARD: Missing convert to indoor/outdoor
+DESC: ‌
+
+![image.png](https://trello.com/1/cards/67e4fd83c031e0f57b5b7c99/attachments/67e4fd8681fa973e5bfc5160/download/image.png)
+LABELS: 
+---
+CARD: Add Native Paypal and stripe options (and get rid of WP billing)
+DESC: See below.  For stripe and paypal we don’t want monthly.  4-months and yearly.  I am not sure we could do this without moving all our existing paypal stripe subscriptions to our native code.  We should first probably move all app subscriptions to native if they are not all there.  Below is what I think we should do.  We could break these into seperate Trello cards.
+
+‌
+
+1. Move all manual users to native including adding new roles.  Lifetime users…
+2. Move all app users to native
+3. Create Discount Code feature
+4. Move all paypal users to native and change current paypal purchase to native
+5. Move all stripe users and change native stripe purchase to native at the same time.
+6. Delete all WP subscriptions
+LABELS: 
+---
+CARD: Side menu CSS - make alike
+DESC: ![telegram-cloud-photo-size-2-5308041234226471952-y.jpg](https://trello.com/1/cards/6734e6d65a83d51a7398b5ad/attachments/6734e6f500a44df8b3c66790/download/telegram-cloud-photo-size-2-5308041234226471952-y.jpg)
+LABELS: 
+---
+CARD: Add other ways to pay
+DESC: See below.  Also if their card is declined then you should show this message by the error message.
+
+![image.png](https://trello.com/1/cards/672cb0976d98bd46f8e69134/attachments/672cb11c765d013e4c24add0/download/image.png)
+
+‌
+
+[https://trainerday.com/paypal-or-stripe/](https://trainerday.com/paypal-or-stripe/ "smartCard-inline")
+LABELS: 
+---
+CARD: Convert API to TS
+DESC: 
+LABELS: 
+---
+CARD: Community plan search - Fix text
+DESC: No longer convertable.
+
+With these plans, you can chose the days of the week you want to train on.
+
+‌
+
+‌
+
+‌
+
+![image.png](https://trello.com/1/cards/67372d4afc7e5faba29aa645/attachments/67372d5a2a67c1ad80e8092b/download/image.png)
+LABELS: 
+---
+CARD: CJ display bug
+DESC: ‌
+
+‌
+
+![image.png](https://trello.com/1/cards/66f7fb9d84b03d4c690d55b1/attachments/66f7fba1a728949f077c8766/download/image.png)
+LABELS: 
+---
+CARD: Improve Intensity
+DESC: Show the intensity amount by intensity like this.
+
+![image.png](https://trello.com/1/cards/66f128b8f461a496d03a550d/attachments/66f1290f040a0f9ef3c14203/download/image.png)
+LABELS: 
+---
+CARD: Billing Step 2
+DESC: Step 2
+
+- Build discount code page (hidden code version)
+- Make sure a person can’t double subscribe
+- Build discount code page (show code)
+LABELS: 
+---
+CARD: Billing Add Manual Payments from App Stores and "Free Users"
+DESC: I was thinking we could set the customer description in [authorize.net](http://authorize.net "‌") but let’s discuss ideas.
+LABELS: 
+---
+CARD: Add Gear over Profile Icon
+DESC: ![image.png](https://trello.com/1/cards/66d0647eaee65dada858591c/attachments/66d0648072f088b5240c643a/download/image.png)
+LABELS: 
+---
+CARD: Activate Calendar is confusing
+DESC: This is confusing.  The two options could be
+
+1. Activate in Mobile App
+2. Activated in Mobile App
+
+If you click on both of them show the popup.  If you click on it when it is activated, don’t deactivate it but show the popup.
+
+![image.png](https://trello.com/1/cards/66d8334bada25a77d2b955a8/attachments/66d8338055089e5b898302e7/download/image.png)
+LABELS: 
+---
+CARD: Change Text RacerType to Active Sport
+DESC: ![image.png](https://trello.com/1/cards/66d8029c0d876985b4cca5c8/attachments/66d802a13bf7721b7fe37897/download/image.png)
+LABELS: 
+---
+CARD: TCX download in app should be Indoor cycling not cycling sport type
+DESC: 
+LABELS: 
+---
+CARD: Smooth Strava API spikes
+DESC: ‌
+
+‌
+
+![image.png](https://trello.com/1/cards/66f2992aa861a8545206972e/attachments/66f2992de8dedccefb79e90c/download/image.png)
+LABELS: 
+---
+CARD: Build Public API to get FTP and Threshold HR
+DESC: 
+LABELS: 
+---
+CARD: Remove Ride Now from Desktop version (leave it in mobile)
+DESC: 
+LABELS: 
+---
+CARD: Consolidate send-email, event-tracker and mautic into a single service (event-svc?)
+DESC: Or what do you think if we just moved this into the main api or into a consolidated third party connector?  We should all discuss this but I know Alin likes way less services and I can see advantages to less services as well.  Think about it.  Maybe we should define like 5 projects
+
+1) Main API (move CJ here)
+2) Main Web (move CJ here)
+3) ThirdParty Connectors
+4) Mobile App
+
+\- The we have shared libraries as well
+LABELS: 
+---
+CARD: Bug: Cycling/Swim filter not working
+DESC: ‌
+
+I logged in as this user: 61581
+
+‌
+
+I had to set the sort to see this.
+
+![image.png](https://trello.com/1/cards/67da83e217e09e997d7cb298/attachments/67da83e5ba03d3e1073d4842/download/image.png)
+LABELS: 
+---
+CARD: This user cancelled in google but his plan stayed premium
+DESC: userId: 62284
+
+I cancelled it manually.
+
+Can’t we call an api some how and check?
+
+‌
+
+My guess is we have 50-100 people like this.  We could always cancel everyone that we think is like this, put a note on the site for them, and if they use the app check the status and send an update back to us.
+LABELS: 
+---
+CARD: Bug: HR workout goes as indoor power to TP
+DESC: I would guess converting to outdoor does the same..
+
+‌
+
+![image.png](https://trello.com/1/cards/66bcae8789ed596d74d0b54c/attachments/66bcae8ababa1b8ecd836eb5/download/image.png)
+LABELS: 
+---
+CARD: Calculate Stress based on HR workouts (ours and strava)
+DESC: We should add stress from % of threshold. This is tricky because we are using Threshold for scale also.  Need to discuss this.
+LABELS: 
+---
+CARD: OE Warmup (Garmin)
+DESC: 1. By default turn it on
+2. Coach Jack has Zone 2 workout is 56 minutes of warmup and 4 minutes of cool down.  Maximum warmup length should be 20 minutes for any workout.  In this case the from 20-56 minutes should be X-Y%  If it is zone 2 it could be +-10% or you could set a zone specific target, zone2 or zone 3… what ever is easiest.  Probably +-10% is best.
+
+I made a copy of the workout just so you could see the one I had.  I am not sure if the copy is still considered a CJ workout.
+[https://app.trainerday.com/workouts/collywobbles-75-copy-13](https://app.trainerday.com/workouts/collywobbles-75-copy-13 "smartCard-inline")
+LABELS: 
+---
+CARD: Improve Workout Creator
+DESC: 1. Don’t allow zero target except for swim workouts
+2. Don’t allow workouts with slope or HR targets to be public.  Update all current workouts with slope or HR to private.  Put a message that HR and Slope segments must be private near the public checkbox
+
+Check sentry as I see lots of errors for hanson table….
+LABELS: 
+---
+CARD: On Calendar you can scroll up to change profile
+DESC: We could just remove profile from calendar page.
+LABELS: 
+---
+CARD: Crashing WP with tokens
+DESC: 
+
+
+![image.png](https://trello.com/1/cards/671f9427a34ebc4e505b61b8/attachments/671f9433e696e45852c42ebe/download/image.png)
+LABELS: 
+---
+CARD: Improve Send to TP
+DESC: ‌
+
+‌
+
+See below.  They don’t need to check them, but most people don’t read. This will help them read.
+
+‌
+
+- I have TrainingPeaks Premium
+- I will keep an active TrainerDay subscription while I follow this plan
+
+‌
+
+![image.png](https://trello.com/1/cards/67e4fc10e055c7186531f32b/attachments/67e4fc1610576d6537a60160/download/image.png)
+LABELS: 
+---
+CARD: Improve Strava workout names and descriptions
+DESC: ‌
+
+[https://forums.trainerday.com/t/enhanced-strava-integration-for-trainerday-workouts/](https://forums.trainerday.com/t/enhanced-strava-integration-for-trainerday-workouts/ "smartCard-inline")
+LABELS: 
+---
+CARD: Allow TrainingPlans to be HR and outdoor also.
+DESC: 
+LABELS: 
+---
+CARD: Download should download Outdoor version of file
+DESC: See this example MRC has way too many steps for outdoor.  If HR mode it should have a popup or message.  This workout is currently in HR mode.  Outdoor power based file will be downloaded instead.
+
+‌
+
+![image.png](https://trello.com/1/cards/67e4fe392687c733c89188f9/attachments/67e4fe3c79350f989b3acfb6/download/image.png)
+LABELS: 
+---

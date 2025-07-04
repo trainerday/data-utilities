@@ -1,0 +1,116 @@
+{
+  "topic": {
+    "id": 48386,
+    "title": "Good \"Zone 2\" Video - Dr Seiler 80/20 i.e. Polarized",
+    "fancy_title": "Good &ldquo;Zone 2&rdquo; Video - Dr Seiler 80/20 i.e. Polarized",
+    "slug": "good-zone-2-video-dr-seiler-80-20-i-e-polarized",
+    "posts_count": 1,
+    "reply_count": 0,
+    "highest_post_number": 1,
+    "image_url": "https://forums.trainerday.com/uploads/default/optimized/2X/8/86f19a753de46246e03c4ca25c944ce576660af5_2_1024x576.jpeg",
+    "created_at": "2024-11-14T07:49:44.099Z",
+    "last_posted_at": "2024-11-14T07:49:44.336Z",
+    "bumped": true,
+    "bumped_at": "2024-11-14T07:49:44.336Z",
+    "archetype": "regular",
+    "unseen": false,
+    "pinned": false,
+    "unpinned": null,
+    "visible": true,
+    "closed": false,
+    "archived": false,
+    "bookmarked": null,
+    "liked": null,
+    "tags_descriptions": {},
+    "views": 705,
+    "like_count": 5,
+    "has_summary": false,
+    "last_poster_username": "Alex",
+    "category_id": 9,
+    "pinned_globally": false,
+    "featured_link": null,
+    "can_vote": false,
+    "posters": [
+      {
+        "extras": "latest single",
+        "description": "Original Poster, Most Recent Poster",
+        "user_id": 1,
+        "primary_group_id": 41,
+        "flair_group_id": 41
+      }
+    ]
+  },
+  "posts": [
+    {
+      "id": 63096,
+      "name": "",
+      "username": "Alex",
+      "avatar_template": "/user_avatar/forums.trainerday.com/alex/{size}/1331_2.png",
+      "created_at": "2024-11-14T07:49:44.336Z",
+      "cooked": "<p>I think Dr Seiler does a great job in this video</p>\n<div class=\"youtube-onebox lazy-video-container\" data-video-id=\"Z8GqgZBVNjw\" data-video-title=\"Secret To Cycling Fast At A Low Heart Rate | Prof Seiler\" data-video-start-time=\"\" data-provider-name=\"youtube\">\n  <a href=\"https://www.youtube.com/watch?v=Z8GqgZBVNjw\" target=\"_blank\" class=\"video-thumbnail\" rel=\"noopener\">\n    <img class=\"youtube-thumbnail\" src=\"https://forums.trainerday.com/uploads/default/original/2X/8/86f19a753de46246e03c4ca25c944ce576660af5.jpeg\" title=\"Secret To Cycling Fast At A Low Heart Rate | Prof Seiler\" data-dominant-color=\"85765F\" width=\"690\" height=\"388\">\n  </a>\n</div>\n\n<p>He is giving the the core understanding of the 3 zone model and why obsessing about 5 or more zones does not make sense.  Not to say you should not vary your target intensities, it just that trying to spend specific time in certain zones does not make sense.  I would even say he shows the fluidity of both intensities as well as ratio.  Meaning it does not need to be exactly 80/20 sessions (90/10 time in zones) but this is just a ball park depending on your personal situation.</p>",
+      "post_number": 1,
+      "post_type": 1,
+      "updated_at": "2024-11-14T07:49:44.336Z",
+      "reply_count": 0,
+      "reply_to_post_number": null,
+      "quote_count": 0,
+      "incoming_link_count": 61,
+      "reads": 99,
+      "readers_count": 98,
+      "score": 399.8,
+      "yours": false,
+      "topic_id": 48386,
+      "topic_slug": "good-zone-2-video-dr-seiler-80-20-i-e-polarized",
+      "display_username": "",
+      "primary_group_name": "English",
+      "flair_name": "English",
+      "flair_url": null,
+      "flair_bg_color": "",
+      "flair_color": "",
+      "flair_group_id": 41,
+      "version": 1,
+      "can_edit": false,
+      "can_delete": false,
+      "can_recover": false,
+      "can_see_hidden_post": false,
+      "can_wiki": false,
+      "link_counts": [
+        {
+          "url": "https://www.youtube.com/watch?v=Z8GqgZBVNjw",
+          "internal": false,
+          "reflection": false,
+          "clicks": 14
+        },
+        {
+          "url": "https://forums.trainerday.com/t/zone-2-frequently-asked-questions/23478/4",
+          "internal": true,
+          "reflection": true,
+          "title": "Zone 2: Frequently Asked Questions",
+          "clicks": 8
+        }
+      ],
+      "read": true,
+      "user_title": "",
+      "bookmarked": false,
+      "actions_summary": [
+        {
+          "id": 2,
+          "count": 5
+        }
+      ],
+      "moderator": false,
+      "admin": true,
+      "staff": true,
+      "user_id": 1,
+      "hidden": false,
+      "trust_level": 4,
+      "deleted_at": null,
+      "user_deleted": false,
+      "edit_reason": null,
+      "can_view_edit_history": true,
+      "wiki": false,
+      "can_vote": false
+    }
+  ],
+  "downloaded_at": "2025-06-27T07:09:14.253770"
+}
