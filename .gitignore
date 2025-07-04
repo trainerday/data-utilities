@@ -43,6 +43,9 @@ env/
 ehthumbs.db
 Thumbs.db
 
+# Hidden files and directories
+.*
+
 # Logs
 *.log
 logs/
@@ -99,3 +102,10 @@ config.py
 secrets.py
 *.key
 *.pem
+*.crt*.mp4
+*.mp3
+mongo_users.json
+*.sqlite3
+*.bin
+*.pack
+*_data/
