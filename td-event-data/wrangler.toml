@@ -1,0 +1,11 @@
+name = "posthog-to-r2"
+main = "worker.js"
+compatibility_date = "2024-01-01"
+
+[vars]
+WEBHOOK_SECRET = "cfb92e462c727f6487149c3a7c0337dc24787e904fd438da54fcf665d613f8bd"
+
+[[r2_buckets]]
+binding = "POSTHOG_BUCKET"
+bucket_name = "posthog-events"
+preview_bucket_name = "posthog-events-preview"

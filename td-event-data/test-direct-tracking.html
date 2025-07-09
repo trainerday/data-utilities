@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TrainerDay Direct Event Tracking Test</title>
+    
+    <!-- TrainerDay Tracker Script -->
+    <script src="trainerday-tracker.js"></script>
+    
+    <style>
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+            max-width: 800px;
+            margin: 40px auto;
+            padding: 20px;
+            background: #f5f5f5;
+        }
+        .container {
+            background: white;
+            padding: 30px;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+        }
+        h1 {
+            color: #333;
+            margin-bottom: 10px;
+        }
+        .info {
+            background: #d4edda;
+            border: 1px solid #c3e6cb;
+            color: #155724;
+            padding: 10px;
+            border-radius: 4px;
+            margin-bottom: 20px;
+        }
+        .section {
+            margin: 20px 0;
+            padding: 20px;
+            background: #f8f9fa;
+            border-radius: 4px;
+        }
+        .event-buttons {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 10px;
+            margin-top: 15px;
+        }
+        button {
+            padding: 10px 20px;
+            background: #007bff;
+            color: white;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            font-size: 14px;
+        }
+        button:hover {
+            background: #0056b3;
+        }
+        .success {
+            background: #28a745;
+        }
+        .info-btn {
+            background: #17a2b8;
+        }
+        .output {
+            margin-top: 20px;
+            padding: 15px;
+            background: #f1f3f4;
+            border-radius: 4px;
+            font-family: monospace;
+            font-size: 12px;
+            max-height: 300px;
+            overflow-y: auto;
+        }
+        input {
+            width: 100%;
+            padding: 8px;
+            margin: 5px 0;
+            border: 1px solid #ddd;
+            border-radius: 4px;
+        }
+        label {
+            display: block;
+            margin-top: 10px;
+            font-weight: bold;
+            font-size: 14px;
+        }
+        .debug-toggle {
+            margin: 10px 0;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>TrainerDay Direct Event Tracking</h1>
+        
+        <div class="info">
+            ✅ Sending events directly to your Cloudflare Worker at:<br>
+            <strong>https://posthog-to-r2.av-958.workers.dev</strong>
+        </div>
+
+        <div class="debug-toggle">
+            <label>
+                <input type="checkbox" id="debugMode" onchange="toggleDebug()">
+                Enable console debugging
+            </label>
+        </div>
+
+        <div class="section">
+            <h2>User Identification</h2>
+            <label>User ID:</label>
+            <input type="text" id="userId" placeholder="Enter user ID (e.g., user123)" value="test-user-123">
+            <label>User Email:</label>
+            <input type="text" id="userEmail" placeholder="Enter email" value="test@example.com">
+            <button onclick="identifyUser()">Identify User</button>
+        </div>
+
+        <div class="section">
+            <h2>Send Events</h2>
+            <div class="event-buttons">
+                <button onclick="sendEvent('app_opened')">App Opened</button>
+                <button onclick="sendWorkoutStarted()">Workout Started</button>
+                <button onclick="sendWorkoutCompleted()">Workout Completed</button>
+                <button onclick="sendEvent('plan_created', {plan_name: 'Marathon Training', weeks: 16})">Plan Created</button>
+                <button onclick="sendEvent('subscription_started', {plan: 'premium', billing: 'monthly'})">Subscription Started</button>
+                <button onclick="sendEvent('feature_used', {feature: 'heart_rate_zones'})">Feature Used</button>
+                <button onclick="sendCustomEvent()">Send Custom Event</button>
+            </div>
+        </div>
+
+        <div class="section">
+            <h2>Custom Event</h2>
+            <label>Event Name:</label>
+            <input type="text" id="eventName" placeholder="e.g., workout_synced" value="workout_synced">
+            <label>Properties (JSON):</label>
+            <input type="text" id="eventProps" placeholder='{"source": "strava", "activities": 5}' value='{"source": "strava", "activities": 5}'>
+        </div>
+
+        <div class="section">
+            <h2>Event Log</h2>
+            <div id="output" class="output">Events will appear here...</div>
+        </div>
+    </div>
+
+    <script>
+        // Initialize the tracker
+        const tracker = new TrainerDayTracker({
+            endpoint: 'https://posthog-to-r2.av-958.workers.dev',
+            webhookSecret: 'cfb92e462c727f6487149c3a7c0337dc24787e904fd438da54fcf665d613f8bd',
+            capturePageview: true // Automatically track page views
+        });
+
+        // Helper function to log events
+        function logEvent(message, data) {
+            const output = document.getElementById('output');
+            const timestamp = new Date().toLocaleTimeString();
+            const entry = `[${timestamp}] ${message}\n${data ? JSON.stringify(data, null, 2) : ''}\n\n`;
+            output.textContent = entry + output.textContent;
+        }
+
+        // Toggle debug mode
+        function toggleDebug() {
+            window.tdDebug = document.getElementById('debugMode').checked;
+            logEvent(window.tdDebug ? 'Debug mode enabled' : 'Debug mode disabled');
+        }
+
+        // Identify user
+        function identifyUser() {
+            const userId = document.getElementById('userId').value;
+            const userEmail = document.getElementById('userEmail').value;
+            
+            if (!userId) {
+                alert('Please enter a user ID');
+                return;
+            }
+            
+            tracker.identify(userId, {
+                email: userEmail,
+                name: `Test User ${userId}`,
+                plan: 'free'
+            });
+            
+            logEvent(`User identified: ${userId}`, {email: userEmail});
+        }
+
+        // Send basic event
+        function sendEvent(eventName, properties = {}) {
+            tracker.capture(eventName, properties);
+            logEvent(`Event sent: ${eventName}`, properties);
+        }
+
+        // Send workout started event
+        function sendWorkoutStarted() {
+            const props = {
+                workout_type: 'cycling',
+                planned_duration: 60,
+                planned_distance: 30,
+                device: 'mobile'
+            };
+            tracker.capture('workout_started', props);
+            logEvent('Event sent: workout_started', props);
+        }
+
+        // Send workout completed event
+        function sendWorkoutCompleted() {
+            const props = {
+                workout_type: 'cycling',
+                duration_minutes: 57,
+                distance_km: 28.5,
+                avg_power_watts: 185,
+                avg_heart_rate: 145,
+                calories_burned: 680,
+                completion_rate: 0.95
+            };
+            tracker.capture('workout_completed', props);
+            logEvent('Event sent: workout_completed', props);
+        }
+
+        // Send custom event
+        function sendCustomEvent() {
+            const eventName = document.getElementById('eventName').value;
+            const eventPropsStr = document.getElementById('eventProps').value;
+            
+            if (!eventName) {
+                alert('Please enter an event name');
+                return;
+            }
+            
+            let properties = {};
+            if (eventPropsStr) {
+                try {
+                    properties = JSON.parse(eventPropsStr);
+                } catch (e) {
+                    alert('Invalid JSON in properties');
+                    return;
+                }
+            }
+            
+            tracker.capture(eventName, properties);
+            logEvent(`Event sent: ${eventName}`, properties);
+        }
+
+        // Log initial pageview
+        window.addEventListener('load', () => {
+            logEvent('Page loaded. Direct tracking initialized.');
+            logEvent('Automatic pageview captured');
+        });
+    </script>
+</body>
+</html>

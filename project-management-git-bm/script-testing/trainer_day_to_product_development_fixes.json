@@ -1,0 +1,1130 @@
+{
+  "files_modified": [
+    "claude.md",
+    "product-development/os-projects/td-mobile/future-backlogs.md",
+    "product-development/os-projects/td-mobile/kanban-board.md",
+    "product-development/os-projects/td-mobile/project-standards-and-dev-notes/tech-standards.md",
+    "product-development/os-projects/td-mobile/project-standards-and-dev-notes/design-standards.md",
+    "product-development/os-projects/td-mobile/backlogs/add-detail-displays.md",
+    "product-development/os-projects/td-mobile/backlogs/improve-button-look.md",
+    "product-development/os-projects/td-mobile/backlogs/if-power-doubling-is-on.md",
+    "product-development/os-projects/td-mobile/backlogs/android-api-issue.md",
+    "product-development/os-projects/td-mobile/backlogs/c2-rower-no-power-bug.md",
+    "product-development/os-projects/td-mobile/backlogs/display-issue.md",
+    "product-development/os-projects/td-mobile/backlogs/let-people-know-they-must-accept-location-or-bluetooth-wont-work-for-android.md",
+    "product-development/os-projects/td-mobile/backlogs/add-ability-to-start-on-workouts-table-first-list.md",
+    "product-development/os-projects/td-mobile/backlogs/delete-account-does-not-work-new-delete-api.md",
+    "product-development/os-projects/td-mobile/backlogs/README.md",
+    "product-development/os-projects/td-mobile/backlogs/bug-on-tablet-save-dialog-display.md",
+    "product-development/os-projects/td-mobile/backlogs/fix-it-so-workouts-are-saved-to-apple-health-even-without-apple-watch.md",
+    "product-development/os-projects/td-mobile/backlogs/add-rpe-at-the-end-of-the-workout.md",
+    "product-development/os-projects/td-mobile/backlogs/fix-android-15-background-performance-issue.md",
+    "product-development/os-projects/td-mobile/stage-testing/task-list-and-status.md",
+    "product-development/os-projects/td-mobile/backlogs-completed/backlogs-completed.md",
+    "product-development/os-projects/td-ai-testing/future-backlogs.md",
+    "product-development/os-projects/td-ai-testing/kanban-board.md",
+    "product-development/os-projects/td-ai-testing/project-standards-and-dev-notes/tech-standards.md",
+    "product-development/os-projects/td-ai-testing/project-standards-and-dev-notes/design-standards.md",
+    "product-development/os-projects/td-ai-testing/backlogs/README.md",
+    "product-development/os-projects/td-ai-testing/backlogs/scrape-site-images.md",
+    "product-development/os-projects/td-ai-testing/stage-testing/staging-status.md",
+    "product-development/os-projects/td-ai-testing/backlogs-completed/backlogs-completed.md",
+    "product-development/os-projects/td-ai-testing/backlogs-completed/backlog-specs/README.md",
+    "product-development/os-projects/email-automation/email-automation.md",
+    "product-development/os-projects/email-automation/monthly-email-process.md",
+    "product-development/os-projects/email-automation/kanban-board.md",
+    "product-development/os-projects/email-automation/project-standards-and-dev-notes/tech-standards.md",
+    "product-development/os-projects/email-automation/project-standards-and-dev-notes/design-standards.md",
+    "product-development/os-projects/email-automation/backlogs/td-user-sync-bigmailer-campaigns.md",
+    "product-development/os-projects/email-automation/backlogs/review-campaign-stats.md",
+    "product-development/os-projects/email-automation/stage-testing/task-list-and-status.md",
+    "product-development/os-projects/data-utilities/future-backlogs.md",
+    "product-development/os-projects/data-utilities/project-standards-and-dev-notes/tech-standards.md",
+    "product-development/os-projects/data-utilities/project-standards-and-dev-notes/design-standards.md",
+    "product-development/os-projects/data-utilities/stage-testing/task-list-and-status.md",
+    "product-development/os-projects/data-utilities/backlogs-completed/backlogs-completed.md",
+    "product-development/os-projects/coach-jack/future-backlogs.md",
+    "product-development/os-projects/coach-jack/kanban-board.md",
+    "product-development/os-projects/coach-jack/project-standards-and-dev-notes/tech-standards.md",
+    "product-development/os-projects/coach-jack/project-standards-and-dev-notes/design-standards.md",
+    "product-development/os-projects/coach-jack/backlogs/Primary Focus Identification System - Spec.md",
+    "product-development/os-projects/coach-jack/backlogs/Make Micro Sprints Optional - Spec.md",
+    "product-development/os-projects/coach-jack/backlogs/CJ AI Summary with User Tags from LLM - Spec.md",
+    "product-development/os-projects/coach-jack/backlogs/User Attributes Data Collection System - Spec.md",
+    "product-development/os-projects/coach-jack/backlogs/CJ Fix Cadence Display and Instructions - Spec.md",
+    "product-development/os-projects/coach-jack/backlogs/Periodization Function for AI Plan Generation - Spec.md",
+    "product-development/os-projects/coach-jack/backlogs/CJ Add Sweet Spot Progressions A+ and B+ - Spec.md",
+    "product-development/os-projects/coach-jack/backlogs/Add Localization to Questions and Summary - Spec.md",
+    "product-development/os-projects/coach-jack/backlogs/README.md",
+    "product-development/os-projects/coach-jack/backlogs/CJ Reduce Excessive Cadence Targets - Spec.md",
+    "product-development/os-projects/coach-jack/backlogs/Create Custom Sequences in CJ - Spec.md",
+    "product-development/os-projects/coach-jack/backlogs/CJ Update Questions Interface - Spec.md",
+    "product-development/os-projects/coach-jack/backlogs/User Goals Evaluation and Assessment - Spec.md",
+    "product-development/os-projects/coach-jack/backlogs/Individualized Difficulty Score IDS System - Spec.md",
+    "product-development/os-projects/coach-jack/backlogs/Add Custom Lengths to Blocks - Spec.md",
+    "product-development/os-projects/coach-jack/backlogs/Big Picture User Flow Documentation - Spec.md",
+    "product-development/os-projects/coach-jack/backlogs/CJ Add Popup and Send Email for New Plans - Spec.md",
+    "product-development/os-projects/coach-jack/backlogs/Plan Matching Algorithm with User and Plan Tags - Spec.md",
+    "product-development/os-projects/coach-jack/backlogs/CJ Long Event Focus and Long Ride Progression - Spec.md",
+    "product-development/os-projects/coach-jack/stage-testing/task-list-and-status.md",
+    "product-development/os-projects/coach-jack/backlogs-completed/backlogs-completed.md",
+    "product-development/os-projects/coach-jack/backlogs-completed/backlog-specs/README.md",
+    "product-development/os-projects/td-web/future-backlogs.md",
+    "product-development/os-projects/td-web/kanban-board.md",
+    "product-development/os-projects/td-web/backlogs/billing-dont-cancel-zero-billings.md",
+    "product-development/os-projects/td-web/backlogs/Improve Strava workout names and descriptions.md",
+    "product-development/os-projects/td-web/backlogs/hamburger-menu-missing-safari.md",
+    "product-development/os-projects/td-web/backlogs/Improve Send to TP.md",
+    "product-development/os-projects/td-web/backlogs/Fix errors in public API.md",
+    "product-development/os-projects/td-web/backlogs/On Calendar you can scroll up to change profile.md",
+    "product-development/os-projects/td-web/backlogs/TCX download should be Indoor cycling not cycling.md",
+    "product-development/os-projects/td-web/backlogs/Activate Calendar is confusing.md",
+    "product-development/os-projects/td-web/backlogs/Change mongodb port for strava data.md",
+    "product-development/os-projects/td-web/backlogs/BELOW IS LATER - Separator.md",
+    "product-development/os-projects/td-web/backlogs/move-paypal-payments-from-rcp.md",
+    "product-development/os-projects/td-web/backlogs/Set all duplicate workouts to private.md",
+    "product-development/os-projects/td-web/backlogs/create-login-register-forgot-password.md",
+    "product-development/os-projects/td-web/backlogs/Consolidate send-email event-tracker and mautic.md",
+    "product-development/os-projects/td-web/backlogs/Allow TrainingPlans to be HR and outdoor also.md",
+    "product-development/os-projects/td-web/backlogs/Add other ways to pay.md",
+    "product-development/os-projects/td-web/backlogs/Sorting lists in API and manage Favs.md",
+    "product-development/os-projects/td-web/backlogs/remove-ftp-text-garmin-sync.md",
+    "product-development/os-projects/td-web/backlogs/vo2max-estimate.md",
+    "product-development/os-projects/td-web/backlogs/cadence-problem.md",
+    "product-development/os-projects/td-web/backlogs/Billing Add Manual Payments from App Stores.md",
+    "product-development/os-projects/td-web/backlogs/Improve Workout Creator.md",
+    "product-development/os-projects/td-web/backlogs/Bug - Calendar 2 workouts in a day.md",
+    "product-development/os-projects/td-web/backlogs/Billing Step 2.md",
+    "product-development/os-projects/td-web/backlogs/cleanup-dokku-standardize-domains.md",
+    "product-development/os-projects/td-web/backlogs/Upload Zwift ZWO with decimal values fails.md",
+    "product-development/os-projects/td-web/backlogs/Add Native Paypal and stripe options.md",
+    "product-development/os-projects/td-web/backlogs/Bug Cycling Swim filter not working.md",
+    "product-development/os-projects/td-web/backlogs/Improve Intensity.md",
+    "product-development/os-projects/td-web/backlogs/User cancelled in google but plan stayed premium.md",
+    "product-development/os-projects/td-web/backlogs/Add Product Tour.md",
+    "product-development/os-projects/td-web/backlogs/Change Text RacerType to Active Sport.md",
+    "product-development/os-projects/td-web/backlogs/move-stripe-payments-from-rcp.md",
+    "product-development/os-projects/td-web/backlogs/Convert API to TS.md",
+    "product-development/os-projects/td-web/backlogs/Build Public API to get FTP and Threshold HR.md",
+    "product-development/os-projects/td-web/backlogs/Missing convert to indoor outdoor.md",
+    "product-development/os-projects/td-web/backlogs/Add Chatbot.md",
+    "product-development/os-projects/td-web/backlogs/add-send-to-myplans-from-calendar.md",
+    "product-development/os-projects/td-web/backlogs/Add Gear over Profile Icon.md",
+    "product-development/os-projects/td-web/backlogs/Yearly Renewal Email - Spec.md",
+    "product-development/os-projects/td-web/backlogs/Calculate Stress based on HR workouts.md",
+    "product-development/os-projects/td-web/backlogs/Community plan search - Fix text.md",
+    "product-development/os-projects/td-web/backlogs/Smooth Strava API spikes.md",
+    "product-development/os-projects/td-web/backlogs/Side menu CSS - make alike.md",
+    "product-development/os-projects/td-web/backlogs/Remove Ride Now from Desktop version.md",
+    "product-development/os-projects/td-web/backlogs/Change Sort Order for API that returns list of workouts.md",
+    "product-development/os-projects/td-web/backlogs/Bug HR workout goes as indoor power to TP.md",
+    "product-development/os-projects/td-web/backlogs/Download should download Outdoor version of file.md",
+    "product-development/os-projects/td-web/backlogs/CJ display bug.md",
+    "product-development/os-projects/td-web/backlogs/Does activity auto pairing work.md",
+    "product-development/os-projects/td-web/backlogs/Change Sort order for lists.md",
+    "product-development/os-projects/td-web/backlogs/OE Warmup Garmin.md",
+    "product-development/os-projects/td-web/backlogs/Crashing WP with tokens.md",
+    "product-development/os-projects/td-web/backlogs-completed/backlogs-completed.md",
+    "product-development/os-projects/td-web/backlogs-completed/backlog-specs/billing-upgrade-make-clearer.md",
+    "product-development/os-projects/td-web/backlogs-completed/backlog-specs/improve-ftp-history.md",
+    "product-development/os-projects/td-web/backlogs-completed/backlog-specs/billing-remove-no-subscription-text.md",
+    "product-development/os-projects/td-web/backlogs-completed/backlog-specs/billing-void-transaction-after-payment.md",
+    "product-development/os-projects/td-web/backlogs-completed/backlog-specs/remove-popup-new-homepage.md",
+    "product-development/os-projects/td-web/backlogs-completed/backlog-specs/routes-1-change-header.md",
+    "product-development/os-projects/td-web/backlogs-completed/backlog-specs/allow-direct-workout-editing-calendar.md",
+    "product-development/os-projects/td-web/backlogs-completed/backlog-specs/switch-wp-stage-web-app.md",
+    "product-development/os-projects/td-web/backlogs-completed/backlog-specs/calendar-infinite-scroll-changes.md",
+    "product-development/os-projects/td-web/backlogs-completed/backlog-specs/coach-jack-first-priority.md",
+    "product-development/os-projects/td-web/backlogs-completed/backlog-specs/routes-2-add-strava-history-today.md",
+    "product-development/os-projects/td-web/backlogs-completed/backlog-specs/research-switching-db-servers.md",
+    "product-development/os-projects/td-web/backlogs-completed/backlog-specs/bug-april-2025-calendar.md",
+    "product-development/os-projects/td-web/backlogs-completed/backlog-specs/standardize-env-variables.md",
+    "product-development/os-projects/td-web/backlogs-completed/backlog-specs/add-mixpanel-tracking.md",
+    "product-development/os-projects/td-web/backlogs-completed/backlog-specs/README.md",
+    "product-development/os-projects/td-web/backlogs-completed/backlog-specs/billing-allow-resubscribing.md",
+    "product-development/os-projects/td-web/backlogs-completed/backlog-specs/upgrade-prod-dokku.md",
+    "product-development/os-projects/td-web/backlogs-completed/backlog-specs/improve-css-html-my-plans-mobile.md",
+    "product-development/os-projects/td-web/backlogs-completed/backlog-specs/uat-use-uat-wordpress.md",
+    "product-development/os-projects/td-web/backlogs-completed/backlog-specs/image-png-placeholder.md",
+    "product-development/os-projects/td-web/backlogs-completed/backlog-specs/public-api-fix-access-new-billing.md",
+    "product-development/os-projects/td-web/backlogs-completed/backlog-specs/allow-new-features-alert-old-topics.md",
+    "product-development/os-projects/td-web/backlogs-completed/backlog-specs/improving-outdoor-workout-conversion.md",
+    "product-development/os-projects/td-web/backlogs-completed/backlog-specs/billing-failed-credit-cards-access.md",
+    "product-development/os-projects/td-web/backlogs-completed/backlog-specs/mobile-ftp-history-sync-issue.md",
+    "product-development/os-projects/td-web/backlogs-completed/backlog-specs/billing-step-1-authorize-net.md",
+    "product-development/os-projects/cycling-calculators/future-backlogs.md",
+    "product-development/os-projects/cycling-calculators/kanban board.md",
+    "product-development/os-projects/cycling-calculators/backlogs/Zone 2 Calculator - Spec.md",
+    "product-development/os-projects/cycling-calculators/backlogs/Gearing Speed Calculator - Spec.md",
+    "product-development/os-projects/cycling-calculators/backlogs/Create Route Speed Calculator - Spec.md",
+    "product-development/os-projects/cycling-calculators/backlogs/Fat Max Zone Calculator - Spec.md",
+    "product-development/os-projects/cycling-calculators/backlogs/FTP from VO2max Calculator - Spec.md",
+    "product-development/os-projects/cycling-calculators/backlogs/Power Zone Calculator - Spec.md",
+    "product-development/os-projects/cycling-calculators/backlogs/HR Zone Calculator - Spec.md",
+    "product-development/os-projects/cycling-calculators/project standards and dev notes/tech-standards.md",
+    "product-development/os-projects/cycling-calculators/project standards and dev notes/design-standards.md",
+    "product-development/os-projects/cycling-calculators/stage-testing/task-list-and-status.md",
+    "product-development/os-projects/cycling-calculators/backlogs-completed/backlogs-completed.md",
+    "product-development/os-projects/cycling-calculators/backlogs-completed/backlog-specs/Design Main UI UX and Power to Speed Calculator - Spec.md",
+    "product-development/os-projects/cycling-calculators/backlogs-completed/backlog-specs/Create Speed to Power Calculator - Spec.md",
+    "product-development/system/content-style.md",
+    "product-development/system/os-architecture.md",
+    "product-development/system/tools/Custom Screenshot MCP Server Setup.md",
+    "product-development/system/workflows/README.md",
+    "product-development/system/workflows/automated-development/0-queue-processing.md",
+    "product-development/system/workflows/automated-development/1-spec-process.md",
+    "product-development/system/workflows/automated-development/3-testing-process.md",
+    "product-development/system/workflows/automated-development/backlog-completion.md",
+    "product-development/system/workflows/automated-development/automation-spec.md",
+    "product-development/system/workflows/automated-development/2-development-process.md",
+    "product-development/system/troubleshooting/permalink-cleanup-cycling-calculators.md",
+    "product-development/system/knowledge-base/README.md",
+    "product-development/system/brainstorming/2025-07-01-brainstorming.md",
+    "product-development/templates/env file setup.md",
+    "product-development/templates/visual-standards-template.md",
+    "product-development/templates/README.md",
+    "product-development/templates/empty-project-template.md",
+    "product-development/templates/kanban-board-template.md",
+    "product-development/templates/backlog-detail.md",
+    "product-development/templates/express-project-template.md"
+  ],
+  "permalink_updates": [
+    {
+      "file": "claude.md",
+      "old": "trainer-day/templates/create-new-os-project",
+      "new": "product-development/templates/create-new-os-project"
+    },
+    {
+      "file": "product-development/os-projects/td-mobile/future-backlogs.md",
+      "old": "trainer-day/os-projects/td-mobile/future-backlogs",
+      "new": "product-development/os-projects/td-mobile/future-backlogs"
+    },
+    {
+      "file": "product-development/os-projects/td-mobile/kanban-board.md",
+      "old": "trainer-day/os-projects/td-mobile/kanban-board-1",
+      "new": "product-development/os-projects/td-mobile/kanban-board-1"
+    },
+    {
+      "file": "product-development/os-projects/td-mobile/project-standards-and-dev-notes/tech-standards.md",
+      "old": "trainer-day/os-projects/td-mobile/project-standards-and-dev-notes/tech-standards",
+      "new": "product-development/os-projects/td-mobile/project-standards-and-dev-notes/tech-standards"
+    },
+    {
+      "file": "product-development/os-projects/td-mobile/project-standards-and-dev-notes/design-standards.md",
+      "old": "trainer-day/os-projects/td-mobile/project-standards-and-dev-notes/design-standards",
+      "new": "product-development/os-projects/td-mobile/project-standards-and-dev-notes/design-standards"
+    },
+    {
+      "file": "product-development/os-projects/td-mobile/backlogs/add-detail-displays.md",
+      "old": "trainer-day/os-projects/td-mobile/backlogs/add-detail-displays",
+      "new": "product-development/os-projects/td-mobile/backlogs/add-detail-displays"
+    },
+    {
+      "file": "product-development/os-projects/td-mobile/backlogs/improve-button-look.md",
+      "old": "trainer-day/os-projects/td-mobile/backlogs/improve-button-look",
+      "new": "product-development/os-projects/td-mobile/backlogs/improve-button-look"
+    },
+    {
+      "file": "product-development/os-projects/td-mobile/backlogs/if-power-doubling-is-on.md",
+      "old": "trainer-day/os-projects/td-mobile/backlogs/if-power-doubling-is-on",
+      "new": "product-development/os-projects/td-mobile/backlogs/if-power-doubling-is-on"
+    },
+    {
+      "file": "product-development/os-projects/td-mobile/backlogs/android-api-issue.md",
+      "old": "trainer-day/os-projects/td-mobile/backlogs/android-api-issue",
+      "new": "product-development/os-projects/td-mobile/backlogs/android-api-issue"
+    },
+    {
+      "file": "product-development/os-projects/td-mobile/backlogs/c2-rower-no-power-bug.md",
+      "old": "trainer-day/os-projects/td-mobile/backlogs/c2-rower-no-power-bug",
+      "new": "product-development/os-projects/td-mobile/backlogs/c2-rower-no-power-bug"
+    },
+    {
+      "file": "product-development/os-projects/td-mobile/backlogs/display-issue.md",
+      "old": "trainer-day/os-projects/td-mobile/backlogs/display-issue",
+      "new": "product-development/os-projects/td-mobile/backlogs/display-issue"
+    },
+    {
+      "file": "product-development/os-projects/td-mobile/backlogs/let-people-know-they-must-accept-location-or-bluetooth-wont-work-for-android.md",
+      "old": "trainer-day/os-projects/td-mobile/backlogs/let-people-know-they-must-accept-location-or-bluetooth-wont-work-for-android",
+      "new": "product-development/os-projects/td-mobile/backlogs/let-people-know-they-must-accept-location-or-bluetooth-wont-work-for-android"
+    },
+    {
+      "file": "product-development/os-projects/td-mobile/backlogs/add-ability-to-start-on-workouts-table-first-list.md",
+      "old": "trainer-day/os-projects/td-mobile/backlogs/add-ability-to-start-on-workouts-table-first-list",
+      "new": "product-development/os-projects/td-mobile/backlogs/add-ability-to-start-on-workouts-table-first-list"
+    },
+    {
+      "file": "product-development/os-projects/td-mobile/backlogs/delete-account-does-not-work-new-delete-api.md",
+      "old": "trainer-day/os-projects/td-mobile/backlogs/delete-account-does-not-work-new-delete-api",
+      "new": "product-development/os-projects/td-mobile/backlogs/delete-account-does-not-work-new-delete-api"
+    },
+    {
+      "file": "product-development/os-projects/td-mobile/backlogs/README.md",
+      "old": "trainer-day/os-projects/td-mobile/backlogs/readme",
+      "new": "product-development/os-projects/td-mobile/backlogs/readme"
+    },
+    {
+      "file": "product-development/os-projects/td-mobile/backlogs/bug-on-tablet-save-dialog-display.md",
+      "old": "trainer-day/os-projects/td-mobile/backlogs/bug-on-tablet-save-dialog-display",
+      "new": "product-development/os-projects/td-mobile/backlogs/bug-on-tablet-save-dialog-display"
+    },
+    {
+      "file": "product-development/os-projects/td-mobile/backlogs/fix-it-so-workouts-are-saved-to-apple-health-even-without-apple-watch.md",
+      "old": "trainer-day/os-projects/td-mobile/backlogs/fix-it-so-workouts-are-saved-to-apple-health-even-without-apple-watch",
+      "new": "product-development/os-projects/td-mobile/backlogs/fix-it-so-workouts-are-saved-to-apple-health-even-without-apple-watch"
+    },
+    {
+      "file": "product-development/os-projects/td-mobile/backlogs/add-rpe-at-the-end-of-the-workout.md",
+      "old": "trainer-day/os-projects/td-mobile/backlogs/add-rpe-at-the-end-of-the-workout",
+      "new": "product-development/os-projects/td-mobile/backlogs/add-rpe-at-the-end-of-the-workout"
+    },
+    {
+      "file": "product-development/os-projects/td-mobile/backlogs/fix-android-15-background-performance-issue.md",
+      "old": "trainer-day/os-projects/td-mobile/backlogs/fix-android-15-background-performance-issue",
+      "new": "product-development/os-projects/td-mobile/backlogs/fix-android-15-background-performance-issue"
+    },
+    {
+      "file": "product-development/os-projects/td-mobile/stage-testing/task-list-and-status.md",
+      "old": "trainer-day/os-projects/td-mobile/stage-testing/task-list-and-status",
+      "new": "product-development/os-projects/td-mobile/stage-testing/task-list-and-status"
+    },
+    {
+      "file": "product-development/os-projects/td-mobile/backlogs-completed/backlogs-completed.md",
+      "old": "trainer-day/os-projects/td-mobile/backlogs-completed/backlogs-completed",
+      "new": "product-development/os-projects/td-mobile/backlogs-completed/backlogs-completed"
+    },
+    {
+      "file": "product-development/os-projects/td-ai-testing/future-backlogs.md",
+      "old": "trainer-day/os-projects/td-ai-testing/future-backlogs",
+      "new": "product-development/os-projects/td-ai-testing/future-backlogs"
+    },
+    {
+      "file": "product-development/os-projects/td-ai-testing/kanban-board.md",
+      "old": "trainer-day/os-projects/td-ai-testing/kanban-board",
+      "new": "product-development/os-projects/td-ai-testing/kanban-board"
+    },
+    {
+      "file": "product-development/os-projects/td-ai-testing/project-standards-and-dev-notes/tech-standards.md",
+      "old": "trainer-day/os-projects/td-ai-testing/project-standards-and-dev-notes/tech-standards",
+      "new": "product-development/os-projects/td-ai-testing/project-standards-and-dev-notes/tech-standards"
+    },
+    {
+      "file": "product-development/os-projects/td-ai-testing/project-standards-and-dev-notes/design-standards.md",
+      "old": "trainer-day/os-projects/td-ai-testing/project-standards-and-dev-notes/design-standards",
+      "new": "product-development/os-projects/td-ai-testing/project-standards-and-dev-notes/design-standards"
+    },
+    {
+      "file": "product-development/os-projects/td-ai-testing/backlogs/README.md",
+      "old": "trainer-day/os-projects/td-ai-testing/backlogs/readme",
+      "new": "product-development/os-projects/td-ai-testing/backlogs/readme"
+    },
+    {
+      "file": "product-development/os-projects/td-ai-testing/backlogs/scrape-site-images.md",
+      "old": "trainer-day/os-projects/td-ai-testing/backlogs/scrape-site-images",
+      "new": "product-development/os-projects/td-ai-testing/backlogs/scrape-site-images"
+    },
+    {
+      "file": "product-development/os-projects/td-ai-testing/stage-testing/staging-status.md",
+      "old": "trainer-day/os-projects/td-ai-testing/stage-testing/staging-status",
+      "new": "product-development/os-projects/td-ai-testing/stage-testing/staging-status"
+    },
+    {
+      "file": "product-development/os-projects/td-ai-testing/backlogs-completed/backlogs-completed.md",
+      "old": "trainer-day/os-projects/td-ai-testing/backlogs-completed/backlogs-completed",
+      "new": "product-development/os-projects/td-ai-testing/backlogs-completed/backlogs-completed"
+    },
+    {
+      "file": "product-development/os-projects/td-ai-testing/backlogs-completed/backlog-specs/README.md",
+      "old": "trainer-day/os-projects/td-ai-testing/backlogs-completed/backlog-specs/readme",
+      "new": "product-development/os-projects/td-ai-testing/backlogs-completed/backlog-specs/readme"
+    },
+    {
+      "file": "product-development/os-projects/email-automation/email-automation.md",
+      "old": "trainer-day/os-projects/email-automation/email-automation",
+      "new": "product-development/os-projects/email-automation/email-automation"
+    },
+    {
+      "file": "product-development/os-projects/email-automation/monthly-email-process.md",
+      "old": "trainer-day/os-projects/email-automation/monthly-email-process",
+      "new": "product-development/os-projects/email-automation/monthly-email-process"
+    },
+    {
+      "file": "product-development/os-projects/email-automation/kanban-board.md",
+      "old": "trainer-day/os-projects/email-automation/kanban-board",
+      "new": "product-development/os-projects/email-automation/kanban-board"
+    },
+    {
+      "file": "product-development/os-projects/email-automation/project-standards-and-dev-notes/tech-standards.md",
+      "old": "trainer-day/os-projects/email-automation/project-standards-and-dev-notes/tech-standards",
+      "new": "product-development/os-projects/email-automation/project-standards-and-dev-notes/tech-standards"
+    },
+    {
+      "file": "product-development/os-projects/email-automation/project-standards-and-dev-notes/design-standards.md",
+      "old": "trainer-day/os-projects/email-automation/project-standards-and-dev-notes/design-standards",
+      "new": "product-development/os-projects/email-automation/project-standards-and-dev-notes/design-standards"
+    },
+    {
+      "file": "product-development/os-projects/email-automation/backlogs/td-user-sync-bigmailer-campaigns.md",
+      "old": "trainer-day/os-projects/email-automation/backlogs/td-user-sync-bigmailer-campaigns",
+      "new": "product-development/os-projects/email-automation/backlogs/td-user-sync-bigmailer-campaigns"
+    },
+    {
+      "file": "product-development/os-projects/email-automation/backlogs/review-campaign-stats.md",
+      "old": "trainer-day/os-projects/email-automation/backlogs/review-campaign-stats",
+      "new": "product-development/os-projects/email-automation/backlogs/review-campaign-stats"
+    },
+    {
+      "file": "product-development/os-projects/email-automation/stage-testing/task-list-and-status.md",
+      "old": "trainer-day/os-projects/email-automation/stage-testing/task-list-and-status",
+      "new": "product-development/os-projects/email-automation/stage-testing/task-list-and-status"
+    },
+    {
+      "file": "product-development/os-projects/data-utilities/future-backlogs.md",
+      "old": "trainer-day/os-projects/data-utilities/future-backlogs",
+      "new": "product-development/os-projects/data-utilities/future-backlogs"
+    },
+    {
+      "file": "product-development/os-projects/data-utilities/project-standards-and-dev-notes/tech-standards.md",
+      "old": "trainer-day/os-projects/data-utilities/project-standards-and-dev-notes/tech-standards",
+      "new": "product-development/os-projects/data-utilities/project-standards-and-dev-notes/tech-standards"
+    },
+    {
+      "file": "product-development/os-projects/data-utilities/project-standards-and-dev-notes/design-standards.md",
+      "old": "trainer-day/os-projects/data-utilities/project-standards-and-dev-notes/design-standards",
+      "new": "product-development/os-projects/data-utilities/project-standards-and-dev-notes/design-standards"
+    },
+    {
+      "file": "product-development/os-projects/data-utilities/stage-testing/task-list-and-status.md",
+      "old": "trainer-day/os-projects/data-utilities/stage-testing/task-list-and-status",
+      "new": "product-development/os-projects/data-utilities/stage-testing/task-list-and-status"
+    },
+    {
+      "file": "product-development/os-projects/data-utilities/backlogs-completed/backlogs-completed.md",
+      "old": "trainer-day/os-projects/data-utilities/backlogs-completed/backlogs-completed",
+      "new": "product-development/os-projects/data-utilities/backlogs-completed/backlogs-completed"
+    },
+    {
+      "file": "product-development/os-projects/coach-jack/future-backlogs.md",
+      "old": "trainer-day/os-projects/coach-jack/future-backlogs",
+      "new": "product-development/os-projects/coach-jack/future-backlogs"
+    },
+    {
+      "file": "product-development/os-projects/coach-jack/kanban-board.md",
+      "old": "trainer-day/os-projects/coach-jack/kanban-board-1",
+      "new": "product-development/os-projects/coach-jack/kanban-board-1"
+    },
+    {
+      "file": "product-development/os-projects/coach-jack/project-standards-and-dev-notes/tech-standards.md",
+      "old": "trainer-day/os-projects/coach-jack/project-standards-and-dev-notes/tech-standards",
+      "new": "product-development/os-projects/coach-jack/project-standards-and-dev-notes/tech-standards"
+    },
+    {
+      "file": "product-development/os-projects/coach-jack/project-standards-and-dev-notes/design-standards.md",
+      "old": "trainer-day/os-projects/coach-jack/project-standards-and-dev-notes/design-standards",
+      "new": "product-development/os-projects/coach-jack/project-standards-and-dev-notes/design-standards"
+    },
+    {
+      "file": "product-development/os-projects/coach-jack/backlogs/Primary Focus Identification System - Spec.md",
+      "old": "trainer-day/os-projects/coach-jack/backlogs/primary-focus-identification-system-spec",
+      "new": "product-development/os-projects/coach-jack/backlogs/primary-focus-identification-system-spec"
+    },
+    {
+      "file": "product-development/os-projects/coach-jack/backlogs/Make Micro Sprints Optional - Spec.md",
+      "old": "trainer-day/os-projects/coach-jack/backlogs/make-micro-sprints-optional-spec",
+      "new": "product-development/os-projects/coach-jack/backlogs/make-micro-sprints-optional-spec"
+    },
+    {
+      "file": "product-development/os-projects/coach-jack/backlogs/CJ AI Summary with User Tags from LLM - Spec.md",
+      "old": "trainer-day/os-projects/coach-jack/backlogs/cj-ai-summary-with-user-tags-from-llm-spec",
+      "new": "product-development/os-projects/coach-jack/backlogs/cj-ai-summary-with-user-tags-from-llm-spec"
+    },
+    {
+      "file": "product-development/os-projects/coach-jack/backlogs/User Attributes Data Collection System - Spec.md",
+      "old": "trainer-day/os-projects/coach-jack/backlogs/user-attributes-data-collection-system-spec",
+      "new": "product-development/os-projects/coach-jack/backlogs/user-attributes-data-collection-system-spec"
+    },
+    {
+      "file": "product-development/os-projects/coach-jack/backlogs/CJ Fix Cadence Display and Instructions - Spec.md",
+      "old": "trainer-day/os-projects/coach-jack/backlogs/cj-fix-cadence-display-and-instructions-spec",
+      "new": "product-development/os-projects/coach-jack/backlogs/cj-fix-cadence-display-and-instructions-spec"
+    },
+    {
+      "file": "product-development/os-projects/coach-jack/backlogs/Periodization Function for AI Plan Generation - Spec.md",
+      "old": "trainer-day/os-projects/coach-jack/backlogs/periodization-function-for-ai-plan-generation-spec",
+      "new": "product-development/os-projects/coach-jack/backlogs/periodization-function-for-ai-plan-generation-spec"
+    },
+    {
+      "file": "product-development/os-projects/coach-jack/backlogs/CJ Add Sweet Spot Progressions A+ and B+ - Spec.md",
+      "old": "trainer-day/os-projects/coach-jack/backlogs/cj-add-sweet-spot-progressions-a-and-b-spec",
+      "new": "product-development/os-projects/coach-jack/backlogs/cj-add-sweet-spot-progressions-a-and-b-spec"
+    },
+    {
+      "file": "product-development/os-projects/coach-jack/backlogs/Add Localization to Questions and Summary - Spec.md",
+      "old": "trainer-day/os-projects/coach-jack/backlogs/add-localization-to-questions-and-summary-spec",
+      "new": "product-development/os-projects/coach-jack/backlogs/add-localization-to-questions-and-summary-spec"
+    },
+    {
+      "file": "product-development/os-projects/coach-jack/backlogs/README.md",
+      "old": "trainer-day/os-projects/coach-jack/backlogs/readme",
+      "new": "product-development/os-projects/coach-jack/backlogs/readme"
+    },
+    {
+      "file": "product-development/os-projects/coach-jack/backlogs/CJ Reduce Excessive Cadence Targets - Spec.md",
+      "old": "trainer-day/os-projects/coach-jack/backlogs/cj-reduce-excessive-cadence-targets-spec",
+      "new": "product-development/os-projects/coach-jack/backlogs/cj-reduce-excessive-cadence-targets-spec"
+    },
+    {
+      "file": "product-development/os-projects/coach-jack/backlogs/Create Custom Sequences in CJ - Spec.md",
+      "old": "trainer-day/os-projects/coach-jack/backlogs/create-custom-sequences-in-cj-spec",
+      "new": "product-development/os-projects/coach-jack/backlogs/create-custom-sequences-in-cj-spec"
+    },
+    {
+      "file": "product-development/os-projects/coach-jack/backlogs/CJ Update Questions Interface - Spec.md",
+      "old": "trainer-day/os-projects/coach-jack/backlogs/cj-update-questions-interface-spec",
+      "new": "product-development/os-projects/coach-jack/backlogs/cj-update-questions-interface-spec"
+    },
+    {
+      "file": "product-development/os-projects/coach-jack/backlogs/User Goals Evaluation and Assessment - Spec.md",
+      "old": "trainer-day/os-projects/coach-jack/backlogs/user-goals-evaluation-and-assessment-spec",
+      "new": "product-development/os-projects/coach-jack/backlogs/user-goals-evaluation-and-assessment-spec"
+    },
+    {
+      "file": "product-development/os-projects/coach-jack/backlogs/Individualized Difficulty Score IDS System - Spec.md",
+      "old": "trainer-day/os-projects/coach-jack/backlogs/individualized-difficulty-score-ids-system-spec",
+      "new": "product-development/os-projects/coach-jack/backlogs/individualized-difficulty-score-ids-system-spec"
+    },
+    {
+      "file": "product-development/os-projects/coach-jack/backlogs/Add Custom Lengths to Blocks - Spec.md",
+      "old": "trainer-day/os-projects/coach-jack/backlogs/add-custom-lengths-to-blocks-spec",
+      "new": "product-development/os-projects/coach-jack/backlogs/add-custom-lengths-to-blocks-spec"
+    },
+    {
+      "file": "product-development/os-projects/coach-jack/backlogs/Big Picture User Flow Documentation - Spec.md",
+      "old": "trainer-day/os-projects/coach-jack/backlogs/big-picture-user-flow-documentation-spec",
+      "new": "product-development/os-projects/coach-jack/backlogs/big-picture-user-flow-documentation-spec"
+    },
+    {
+      "file": "product-development/os-projects/coach-jack/backlogs/CJ Add Popup and Send Email for New Plans - Spec.md",
+      "old": "trainer-day/os-projects/coach-jack/backlogs/cj-add-popup-and-send-email-for-new-plans-spec",
+      "new": "product-development/os-projects/coach-jack/backlogs/cj-add-popup-and-send-email-for-new-plans-spec"
+    },
+    {
+      "file": "product-development/os-projects/coach-jack/backlogs/Plan Matching Algorithm with User and Plan Tags - Spec.md",
+      "old": "trainer-day/os-projects/coach-jack/backlogs/plan-matching-algorithm-with-user-and-plan-tags-spec",
+      "new": "product-development/os-projects/coach-jack/backlogs/plan-matching-algorithm-with-user-and-plan-tags-spec"
+    },
+    {
+      "file": "product-development/os-projects/coach-jack/backlogs/CJ Long Event Focus and Long Ride Progression - Spec.md",
+      "old": "trainer-day/os-projects/coach-jack/backlogs/cj-long-event-focus-and-long-ride-progression-spec",
+      "new": "product-development/os-projects/coach-jack/backlogs/cj-long-event-focus-and-long-ride-progression-spec"
+    },
+    {
+      "file": "product-development/os-projects/coach-jack/stage-testing/task-list-and-status.md",
+      "old": "trainer-day/os-projects/coach-jack/stage-testing/task-list-and-status",
+      "new": "product-development/os-projects/coach-jack/stage-testing/task-list-and-status"
+    },
+    {
+      "file": "product-development/os-projects/coach-jack/backlogs-completed/backlogs-completed.md",
+      "old": "trainer-day/os-projects/coach-jack/backlogs-completed/backlogs-completed",
+      "new": "product-development/os-projects/coach-jack/backlogs-completed/backlogs-completed"
+    },
+    {
+      "file": "product-development/os-projects/coach-jack/backlogs-completed/backlog-specs/README.md",
+      "old": "trainer-day/os-projects/coach-jack/backlogs-completed/backlog-specs/readme",
+      "new": "product-development/os-projects/coach-jack/backlogs-completed/backlog-specs/readme"
+    },
+    {
+      "file": "product-development/os-projects/td-web/future-backlogs.md",
+      "old": "trainer-day/os-projects/td-web/future-backlogs",
+      "new": "product-development/os-projects/td-web/future-backlogs"
+    },
+    {
+      "file": "product-development/os-projects/td-web/kanban-board.md",
+      "old": "trainer-day/os-projects/td-web/kanban-board-1",
+      "new": "product-development/os-projects/td-web/kanban-board-1"
+    },
+    {
+      "file": "product-development/os-projects/td-web/backlogs/billing-dont-cancel-zero-billings.md",
+      "old": "trainer-day/os-projects/td-web/backlogs/billing-dont-cancel-zero-billings",
+      "new": "product-development/os-projects/td-web/backlogs/billing-dont-cancel-zero-billings"
+    },
+    {
+      "file": "product-development/os-projects/td-web/backlogs/Improve Strava workout names and descriptions.md",
+      "old": "trainer-day/os-projects/td-web/backlogs/improve-strava-workout-names-and-descriptions",
+      "new": "product-development/os-projects/td-web/backlogs/improve-strava-workout-names-and-descriptions"
+    },
+    {
+      "file": "product-development/os-projects/td-web/backlogs/hamburger-menu-missing-safari.md",
+      "old": "trainer-day/os-projects/td-web/backlogs/hamburger-menu-missing-safari",
+      "new": "product-development/os-projects/td-web/backlogs/hamburger-menu-missing-safari"
+    },
+    {
+      "file": "product-development/os-projects/td-web/backlogs/Improve Send to TP.md",
+      "old": "trainer-day/os-projects/td-web/backlogs/improve-send-to-tp",
+      "new": "product-development/os-projects/td-web/backlogs/improve-send-to-tp"
+    },
+    {
+      "file": "product-development/os-projects/td-web/backlogs/Fix errors in public API.md",
+      "old": "trainer-day/os-projects/td-web/backlogs/fix-errors-in-public-api",
+      "new": "product-development/os-projects/td-web/backlogs/fix-errors-in-public-api"
+    },
+    {
+      "file": "product-development/os-projects/td-web/backlogs/On Calendar you can scroll up to change profile.md",
+      "old": "trainer-day/os-projects/td-web/backlogs/on-calendar-you-can-scroll-up-to-change-profile",
+      "new": "product-development/os-projects/td-web/backlogs/on-calendar-you-can-scroll-up-to-change-profile"
+    },
+    {
+      "file": "product-development/os-projects/td-web/backlogs/TCX download should be Indoor cycling not cycling.md",
+      "old": "trainer-day/os-projects/td-web/backlogs/tcx-download-should-be-indoor-cycling-not-cycling",
+      "new": "product-development/os-projects/td-web/backlogs/tcx-download-should-be-indoor-cycling-not-cycling"
+    },
+    {
+      "file": "product-development/os-projects/td-web/backlogs/Activate Calendar is confusing.md",
+      "old": "trainer-day/os-projects/td-web/backlogs/activate-calendar-is-confusing",
+      "new": "product-development/os-projects/td-web/backlogs/activate-calendar-is-confusing"
+    },
+    {
+      "file": "product-development/os-projects/td-web/backlogs/Change mongodb port for strava data.md",
+      "old": "trainer-day/os-projects/td-web/backlogs/change-mongodb-port-for-strava-data",
+      "new": "product-development/os-projects/td-web/backlogs/change-mongodb-port-for-strava-data"
+    },
+    {
+      "file": "product-development/os-projects/td-web/backlogs/BELOW IS LATER - Separator.md",
+      "old": "trainer-day/os-projects/td-web/backlogs/below-is-later-separator",
+      "new": "product-development/os-projects/td-web/backlogs/below-is-later-separator"
+    },
+    {
+      "file": "product-development/os-projects/td-web/backlogs/move-paypal-payments-from-rcp.md",
+      "old": "trainer-day/os-projects/td-web/backlogs/move-paypal-payments-from-rcp",
+      "new": "product-development/os-projects/td-web/backlogs/move-paypal-payments-from-rcp"
+    },
+    {
+      "file": "product-development/os-projects/td-web/backlogs/Set all duplicate workouts to private.md",
+      "old": "trainer-day/os-projects/td-web/backlogs/set-all-duplicate-workouts-to-private",
+      "new": "product-development/os-projects/td-web/backlogs/set-all-duplicate-workouts-to-private"
+    },
+    {
+      "file": "product-development/os-projects/td-web/backlogs/create-login-register-forgot-password.md",
+      "old": "trainer-day/os-projects/td-web/backlogs/create-login-register-forgot-password",
+      "new": "product-development/os-projects/td-web/backlogs/create-login-register-forgot-password"
+    },
+    {
+      "file": "product-development/os-projects/td-web/backlogs/Consolidate send-email event-tracker and mautic.md",
+      "old": "trainer-day/os-projects/td-web/backlogs/consolidate-send-email-event-tracker-and-mautic",
+      "new": "product-development/os-projects/td-web/backlogs/consolidate-send-email-event-tracker-and-mautic"
+    },
+    {
+      "file": "product-development/os-projects/td-web/backlogs/Allow TrainingPlans to be HR and outdoor also.md",
+      "old": "trainer-day/os-projects/td-web/backlogs/allow-training-plans-to-be-hr-and-outdoor-also",
+      "new": "product-development/os-projects/td-web/backlogs/allow-training-plans-to-be-hr-and-outdoor-also"
+    },
+    {
+      "file": "product-development/os-projects/td-web/backlogs/Add other ways to pay.md",
+      "old": "trainer-day/os-projects/td-web/backlogs/add-other-ways-to-pay",
+      "new": "product-development/os-projects/td-web/backlogs/add-other-ways-to-pay"
+    },
+    {
+      "file": "product-development/os-projects/td-web/backlogs/Sorting lists in API and manage Favs.md",
+      "old": "trainer-day/os-projects/td-web/backlogs/sorting-lists-in-api-and-manage-favs",
+      "new": "product-development/os-projects/td-web/backlogs/sorting-lists-in-api-and-manage-favs"
+    },
+    {
+      "file": "product-development/os-projects/td-web/backlogs/remove-ftp-text-garmin-sync.md",
+      "old": "trainer-day/os-projects/td-web/backlogs/remove-ftp-text-garmin-sync",
+      "new": "product-development/os-projects/td-web/backlogs/remove-ftp-text-garmin-sync"
+    },
+    {
+      "file": "product-development/os-projects/td-web/backlogs/vo2max-estimate.md",
+      "old": "trainer-day/os-projects/td-web/backlogs/vo2max-estimate",
+      "new": "product-development/os-projects/td-web/backlogs/vo2max-estimate"
+    },
+    {
+      "file": "product-development/os-projects/td-web/backlogs/cadence-problem.md",
+      "old": "trainer-day/os-projects/td-web/backlogs/cadence-problem",
+      "new": "product-development/os-projects/td-web/backlogs/cadence-problem"
+    },
+    {
+      "file": "product-development/os-projects/td-web/backlogs/Billing Add Manual Payments from App Stores.md",
+      "old": "trainer-day/os-projects/td-web/backlogs/billing-add-manual-payments-from-app-stores",
+      "new": "product-development/os-projects/td-web/backlogs/billing-add-manual-payments-from-app-stores"
+    },
+    {
+      "file": "product-development/os-projects/td-web/backlogs/Improve Workout Creator.md",
+      "old": "trainer-day/os-projects/td-web/backlogs/improve-workout-creator",
+      "new": "product-development/os-projects/td-web/backlogs/improve-workout-creator"
+    },
+    {
+      "file": "product-development/os-projects/td-web/backlogs/Bug - Calendar 2 workouts in a day.md",
+      "old": "trainer-day/os-projects/td-web/backlogs/bug-calendar-2-workouts-in-a-day",
+      "new": "product-development/os-projects/td-web/backlogs/bug-calendar-2-workouts-in-a-day"
+    },
+    {
+      "file": "product-development/os-projects/td-web/backlogs/Billing Step 2.md",
+      "old": "trainer-day/os-projects/td-web/backlogs/billing-step-2",
+      "new": "product-development/os-projects/td-web/backlogs/billing-step-2"
+    },
+    {
+      "file": "product-development/os-projects/td-web/backlogs/cleanup-dokku-standardize-domains.md",
+      "old": "trainer-day/os-projects/td-web/backlogs/cleanup-dokku-standardize-domains",
+      "new": "product-development/os-projects/td-web/backlogs/cleanup-dokku-standardize-domains"
+    },
+    {
+      "file": "product-development/os-projects/td-web/backlogs/Upload Zwift ZWO with decimal values fails.md",
+      "old": "trainer-day/os-projects/td-web/backlogs/upload-zwift-zwo-with-decimal-values-fails",
+      "new": "product-development/os-projects/td-web/backlogs/upload-zwift-zwo-with-decimal-values-fails"
+    },
+    {
+      "file": "product-development/os-projects/td-web/backlogs/Add Native Paypal and stripe options.md",
+      "old": "trainer-day/os-projects/td-web/backlogs/add-native-paypal-and-stripe-options",
+      "new": "product-development/os-projects/td-web/backlogs/add-native-paypal-and-stripe-options"
+    },
+    {
+      "file": "product-development/os-projects/td-web/backlogs/Bug Cycling Swim filter not working.md",
+      "old": "trainer-day/os-projects/td-web/backlogs/bug-cycling-swim-filter-not-working",
+      "new": "product-development/os-projects/td-web/backlogs/bug-cycling-swim-filter-not-working"
+    },
+    {
+      "file": "product-development/os-projects/td-web/backlogs/Improve Intensity.md",
+      "old": "trainer-day/os-projects/td-web/backlogs/improve-intensity",
+      "new": "product-development/os-projects/td-web/backlogs/improve-intensity"
+    },
+    {
+      "file": "product-development/os-projects/td-web/backlogs/User cancelled in google but plan stayed premium.md",
+      "old": "trainer-day/os-projects/td-web/backlogs/user-cancelled-in-google-but-plan-stayed-premium",
+      "new": "product-development/os-projects/td-web/backlogs/user-cancelled-in-google-but-plan-stayed-premium"
+    },
+    {
+      "file": "product-development/os-projects/td-web/backlogs/Add Product Tour.md",
+      "old": "trainer-day/os-projects/td-web/backlogs/add-product-tour",
+      "new": "product-development/os-projects/td-web/backlogs/add-product-tour"
+    },
+    {
+      "file": "product-development/os-projects/td-web/backlogs/Change Text RacerType to Active Sport.md",
+      "old": "trainer-day/os-projects/td-web/backlogs/change-text-racer-type-to-active-sport",
+      "new": "product-development/os-projects/td-web/backlogs/change-text-racer-type-to-active-sport"
+    },
+    {
+      "file": "product-development/os-projects/td-web/backlogs/move-stripe-payments-from-rcp.md",
+      "old": "trainer-day/os-projects/td-web/backlogs/move-stripe-payments-from-rcp",
+      "new": "product-development/os-projects/td-web/backlogs/move-stripe-payments-from-rcp"
+    },
+    {
+      "file": "product-development/os-projects/td-web/backlogs/Convert API to TS.md",
+      "old": "trainer-day/os-projects/td-web/backlogs/convert-api-to-ts",
+      "new": "product-development/os-projects/td-web/backlogs/convert-api-to-ts"
+    },
+    {
+      "file": "product-development/os-projects/td-web/backlogs/Build Public API to get FTP and Threshold HR.md",
+      "old": "trainer-day/os-projects/td-web/backlogs/build-public-api-to-get-ftp-and-threshold-hr",
+      "new": "product-development/os-projects/td-web/backlogs/build-public-api-to-get-ftp-and-threshold-hr"
+    },
+    {
+      "file": "product-development/os-projects/td-web/backlogs/Missing convert to indoor outdoor.md",
+      "old": "trainer-day/os-projects/td-web/backlogs/missing-convert-to-indoor-outdoor",
+      "new": "product-development/os-projects/td-web/backlogs/missing-convert-to-indoor-outdoor"
+    },
+    {
+      "file": "product-development/os-projects/td-web/backlogs/Add Chatbot.md",
+      "old": "trainer-day/os-projects/td-web/backlogs/add-chatbot",
+      "new": "product-development/os-projects/td-web/backlogs/add-chatbot"
+    },
+    {
+      "file": "product-development/os-projects/td-web/backlogs/add-send-to-myplans-from-calendar.md",
+      "old": "trainer-day/os-projects/td-web/backlogs/add-send-to-myplans-from-calendar",
+      "new": "product-development/os-projects/td-web/backlogs/add-send-to-myplans-from-calendar"
+    },
+    {
+      "file": "product-development/os-projects/td-web/backlogs/Add Gear over Profile Icon.md",
+      "old": "trainer-day/os-projects/td-web/backlogs/add-gear-over-profile-icon",
+      "new": "product-development/os-projects/td-web/backlogs/add-gear-over-profile-icon"
+    },
+    {
+      "file": "product-development/os-projects/td-web/backlogs/Yearly Renewal Email - Spec.md",
+      "old": "trainer-day/os-projects/td-web/backlogs/yearly-renewal-email-spec",
+      "new": "product-development/os-projects/td-web/backlogs/yearly-renewal-email-spec"
+    },
+    {
+      "file": "product-development/os-projects/td-web/backlogs/Calculate Stress based on HR workouts.md",
+      "old": "trainer-day/os-projects/td-web/backlogs/calculate-stress-based-on-hr-workouts",
+      "new": "product-development/os-projects/td-web/backlogs/calculate-stress-based-on-hr-workouts"
+    },
+    {
+      "file": "product-development/os-projects/td-web/backlogs/Community plan search - Fix text.md",
+      "old": "trainer-day/os-projects/td-web/backlogs/community-plan-search-fix-text",
+      "new": "product-development/os-projects/td-web/backlogs/community-plan-search-fix-text"
+    },
+    {
+      "file": "product-development/os-projects/td-web/backlogs/Smooth Strava API spikes.md",
+      "old": "trainer-day/os-projects/td-web/backlogs/smooth-strava-api-spikes",
+      "new": "product-development/os-projects/td-web/backlogs/smooth-strava-api-spikes"
+    },
+    {
+      "file": "product-development/os-projects/td-web/backlogs/Side menu CSS - make alike.md",
+      "old": "trainer-day/os-projects/td-web/backlogs/side-menu-css-make-alike",
+      "new": "product-development/os-projects/td-web/backlogs/side-menu-css-make-alike"
+    },
+    {
+      "file": "product-development/os-projects/td-web/backlogs/Remove Ride Now from Desktop version.md",
+      "old": "trainer-day/os-projects/td-web/backlogs/remove-ride-now-from-desktop-version",
+      "new": "product-development/os-projects/td-web/backlogs/remove-ride-now-from-desktop-version"
+    },
+    {
+      "file": "product-development/os-projects/td-web/backlogs/Change Sort Order for API that returns list of workouts.md",
+      "old": "trainer-day/os-projects/td-web/backlogs/change-sort-order-for-api-that-returns-list-of-workouts",
+      "new": "product-development/os-projects/td-web/backlogs/change-sort-order-for-api-that-returns-list-of-workouts"
+    },
+    {
+      "file": "product-development/os-projects/td-web/backlogs/Bug HR workout goes as indoor power to TP.md",
+      "old": "trainer-day/os-projects/td-web/backlogs/bug-hr-workout-goes-as-indoor-power-to-tp",
+      "new": "product-development/os-projects/td-web/backlogs/bug-hr-workout-goes-as-indoor-power-to-tp"
+    },
+    {
+      "file": "product-development/os-projects/td-web/backlogs/Download should download Outdoor version of file.md",
+      "old": "trainer-day/os-projects/td-web/backlogs/download-should-download-outdoor-version-of-file",
+      "new": "product-development/os-projects/td-web/backlogs/download-should-download-outdoor-version-of-file"
+    },
+    {
+      "file": "product-development/os-projects/td-web/backlogs/CJ display bug.md",
+      "old": "trainer-day/os-projects/td-web/backlogs/cj-display-bug",
+      "new": "product-development/os-projects/td-web/backlogs/cj-display-bug"
+    },
+    {
+      "file": "product-development/os-projects/td-web/backlogs/Does activity auto pairing work.md",
+      "old": "trainer-day/os-projects/td-web/backlogs/does-activity-auto-pairing-work",
+      "new": "product-development/os-projects/td-web/backlogs/does-activity-auto-pairing-work"
+    },
+    {
+      "file": "product-development/os-projects/td-web/backlogs/Change Sort order for lists.md",
+      "old": "trainer-day/os-projects/td-web/backlogs/change-sort-order-for-lists",
+      "new": "product-development/os-projects/td-web/backlogs/change-sort-order-for-lists"
+    },
+    {
+      "file": "product-development/os-projects/td-web/backlogs/OE Warmup Garmin.md",
+      "old": "trainer-day/os-projects/td-web/backlogs/oe-warmup-garmin",
+      "new": "product-development/os-projects/td-web/backlogs/oe-warmup-garmin"
+    },
+    {
+      "file": "product-development/os-projects/td-web/backlogs/Crashing WP with tokens.md",
+      "old": "trainer-day/os-projects/td-web/backlogs/crashing-wp-with-tokens",
+      "new": "product-development/os-projects/td-web/backlogs/crashing-wp-with-tokens"
+    },
+    {
+      "file": "product-development/os-projects/td-web/backlogs-completed/backlogs-completed.md",
+      "old": "trainer-day/os-projects/td-web/backlogs-completed/backlogs-completed-1",
+      "new": "product-development/os-projects/td-web/backlogs-completed/backlogs-completed-1"
+    },
+    {
+      "file": "product-development/os-projects/td-web/backlogs-completed/backlog-specs/billing-upgrade-make-clearer.md",
+      "old": "trainer-day/os-projects/td-web/backlogs-completed/backlog-specs/billing-upgrade-make-clearer",
+      "new": "product-development/os-projects/td-web/backlogs-completed/backlog-specs/billing-upgrade-make-clearer"
+    },
+    {
+      "file": "product-development/os-projects/td-web/backlogs-completed/backlog-specs/improve-ftp-history.md",
+      "old": "trainer-day/os-projects/td-web/backlogs-completed/backlog-specs/improve-ftp-history",
+      "new": "product-development/os-projects/td-web/backlogs-completed/backlog-specs/improve-ftp-history"
+    },
+    {
+      "file": "product-development/os-projects/td-web/backlogs-completed/backlog-specs/billing-remove-no-subscription-text.md",
+      "old": "trainer-day/os-projects/td-web/backlogs-completed/backlog-specs/billing-remove-no-subscription-text",
+      "new": "product-development/os-projects/td-web/backlogs-completed/backlog-specs/billing-remove-no-subscription-text"
+    },
+    {
+      "file": "product-development/os-projects/td-web/backlogs-completed/backlog-specs/billing-void-transaction-after-payment.md",
+      "old": "trainer-day/os-projects/td-web/backlogs-completed/backlog-specs/billing-void-transaction-after-payment",
+      "new": "product-development/os-projects/td-web/backlogs-completed/backlog-specs/billing-void-transaction-after-payment"
+    },
+    {
+      "file": "product-development/os-projects/td-web/backlogs-completed/backlog-specs/remove-popup-new-homepage.md",
+      "old": "trainer-day/os-projects/td-web/backlogs-completed/backlog-specs/remove-popup-new-homepage",
+      "new": "product-development/os-projects/td-web/backlogs-completed/backlog-specs/remove-popup-new-homepage"
+    },
+    {
+      "file": "product-development/os-projects/td-web/backlogs-completed/backlog-specs/routes-1-change-header.md",
+      "old": "trainer-day/os-projects/td-web/backlogs-completed/backlog-specs/routes-1-change-header",
+      "new": "product-development/os-projects/td-web/backlogs-completed/backlog-specs/routes-1-change-header"
+    },
+    {
+      "file": "product-development/os-projects/td-web/backlogs-completed/backlog-specs/allow-direct-workout-editing-calendar.md",
+      "old": "trainer-day/os-projects/td-web/backlogs-completed/backlog-specs/allow-direct-workout-editing-calendar",
+      "new": "product-development/os-projects/td-web/backlogs-completed/backlog-specs/allow-direct-workout-editing-calendar"
+    },
+    {
+      "file": "product-development/os-projects/td-web/backlogs-completed/backlog-specs/switch-wp-stage-web-app.md",
+      "old": "trainer-day/os-projects/td-web/backlogs-completed/backlog-specs/switch-wp-stage-web-app",
+      "new": "product-development/os-projects/td-web/backlogs-completed/backlog-specs/switch-wp-stage-web-app"
+    },
+    {
+      "file": "product-development/os-projects/td-web/backlogs-completed/backlog-specs/calendar-infinite-scroll-changes.md",
+      "old": "trainer-day/os-projects/td-web/backlogs-completed/backlog-specs/calendar-infinite-scroll-changes",
+      "new": "product-development/os-projects/td-web/backlogs-completed/backlog-specs/calendar-infinite-scroll-changes"
+    },
+    {
+      "file": "product-development/os-projects/td-web/backlogs-completed/backlog-specs/coach-jack-first-priority.md",
+      "old": "trainer-day/os-projects/td-web/backlogs-completed/backlog-specs/coach-jack-first-priority",
+      "new": "product-development/os-projects/td-web/backlogs-completed/backlog-specs/coach-jack-first-priority"
+    },
+    {
+      "file": "product-development/os-projects/td-web/backlogs-completed/backlog-specs/routes-2-add-strava-history-today.md",
+      "old": "trainer-day/os-projects/td-web/backlogs-completed/backlog-specs/routes-2-add-strava-history-today",
+      "new": "product-development/os-projects/td-web/backlogs-completed/backlog-specs/routes-2-add-strava-history-today"
+    },
+    {
+      "file": "product-development/os-projects/td-web/backlogs-completed/backlog-specs/research-switching-db-servers.md",
+      "old": "trainer-day/os-projects/td-web/backlogs-completed/backlog-specs/research-switching-db-servers",
+      "new": "product-development/os-projects/td-web/backlogs-completed/backlog-specs/research-switching-db-servers"
+    },
+    {
+      "file": "product-development/os-projects/td-web/backlogs-completed/backlog-specs/bug-april-2025-calendar.md",
+      "old": "trainer-day/os-projects/td-web/backlogs-completed/backlog-specs/bug-april-2025-calendar",
+      "new": "product-development/os-projects/td-web/backlogs-completed/backlog-specs/bug-april-2025-calendar"
+    },
+    {
+      "file": "product-development/os-projects/td-web/backlogs-completed/backlog-specs/standardize-env-variables.md",
+      "old": "trainer-day/os-projects/td-web/backlogs-completed/backlog-specs/standardize-env-variables",
+      "new": "product-development/os-projects/td-web/backlogs-completed/backlog-specs/standardize-env-variables"
+    },
+    {
+      "file": "product-development/os-projects/td-web/backlogs-completed/backlog-specs/add-mixpanel-tracking.md",
+      "old": "trainer-day/os-projects/td-web/backlogs-completed/backlog-specs/add-mixpanel-tracking",
+      "new": "product-development/os-projects/td-web/backlogs-completed/backlog-specs/add-mixpanel-tracking"
+    },
+    {
+      "file": "product-development/os-projects/td-web/backlogs-completed/backlog-specs/README.md",
+      "old": "trainer-day/os-projects/td-web/backlogs-completed/backlog-specs/readme",
+      "new": "product-development/os-projects/td-web/backlogs-completed/backlog-specs/readme"
+    },
+    {
+      "file": "product-development/os-projects/td-web/backlogs-completed/backlog-specs/billing-allow-resubscribing.md",
+      "old": "trainer-day/os-projects/td-web/backlogs-completed/backlog-specs/billing-allow-resubscribing",
+      "new": "product-development/os-projects/td-web/backlogs-completed/backlog-specs/billing-allow-resubscribing"
+    },
+    {
+      "file": "product-development/os-projects/td-web/backlogs-completed/backlog-specs/upgrade-prod-dokku.md",
+      "old": "trainer-day/os-projects/td-web/backlogs-completed/backlog-specs/upgrade-prod-dokku",
+      "new": "product-development/os-projects/td-web/backlogs-completed/backlog-specs/upgrade-prod-dokku"
+    },
+    {
+      "file": "product-development/os-projects/td-web/backlogs-completed/backlog-specs/improve-css-html-my-plans-mobile.md",
+      "old": "trainer-day/os-projects/td-web/backlogs-completed/backlog-specs/improve-css-html-my-plans-mobile",
+      "new": "product-development/os-projects/td-web/backlogs-completed/backlog-specs/improve-css-html-my-plans-mobile"
+    },
+    {
+      "file": "product-development/os-projects/td-web/backlogs-completed/backlog-specs/uat-use-uat-wordpress.md",
+      "old": "trainer-day/os-projects/td-web/backlogs-completed/backlog-specs/uat-use-uat-wordpress",
+      "new": "product-development/os-projects/td-web/backlogs-completed/backlog-specs/uat-use-uat-wordpress"
+    },
+    {
+      "file": "product-development/os-projects/td-web/backlogs-completed/backlog-specs/image-png-placeholder.md",
+      "old": "trainer-day/os-projects/td-web/backlogs-completed/backlog-specs/image-png-placeholder",
+      "new": "product-development/os-projects/td-web/backlogs-completed/backlog-specs/image-png-placeholder"
+    },
+    {
+      "file": "product-development/os-projects/td-web/backlogs-completed/backlog-specs/public-api-fix-access-new-billing.md",
+      "old": "trainer-day/os-projects/td-web/backlogs-completed/backlog-specs/public-api-fix-access-new-billing",
+      "new": "product-development/os-projects/td-web/backlogs-completed/backlog-specs/public-api-fix-access-new-billing"
+    },
+    {
+      "file": "product-development/os-projects/td-web/backlogs-completed/backlog-specs/allow-new-features-alert-old-topics.md",
+      "old": "trainer-day/os-projects/td-web/backlogs-completed/backlog-specs/allow-new-features-alert-old-topics",
+      "new": "product-development/os-projects/td-web/backlogs-completed/backlog-specs/allow-new-features-alert-old-topics"
+    },
+    {
+      "file": "product-development/os-projects/td-web/backlogs-completed/backlog-specs/improving-outdoor-workout-conversion.md",
+      "old": "trainer-day/os-projects/td-web/backlogs-completed/backlog-specs/improving-outdoor-workout-conversion",
+      "new": "product-development/os-projects/td-web/backlogs-completed/backlog-specs/improving-outdoor-workout-conversion"
+    },
+    {
+      "file": "product-development/os-projects/td-web/backlogs-completed/backlog-specs/billing-failed-credit-cards-access.md",
+      "old": "trainer-day/os-projects/td-web/backlogs-completed/backlog-specs/billing-failed-credit-cards-access",
+      "new": "product-development/os-projects/td-web/backlogs-completed/backlog-specs/billing-failed-credit-cards-access"
+    },
+    {
+      "file": "product-development/os-projects/td-web/backlogs-completed/backlog-specs/mobile-ftp-history-sync-issue.md",
+      "old": "trainer-day/os-projects/td-web/backlogs-completed/backlog-specs/mobile-ftp-history-sync-issue",
+      "new": "product-development/os-projects/td-web/backlogs-completed/backlog-specs/mobile-ftp-history-sync-issue"
+    },
+    {
+      "file": "product-development/os-projects/td-web/backlogs-completed/backlog-specs/billing-step-1-authorize-net.md",
+      "old": "trainer-day/os-projects/td-web/backlogs-completed/backlog-specs/billing-step-1-authorize-net",
+      "new": "product-development/os-projects/td-web/backlogs-completed/backlog-specs/billing-step-1-authorize-net"
+    },
+    {
+      "file": "product-development/os-projects/cycling-calculators/future-backlogs.md",
+      "old": "trainer-day/os-projects/cycling-calculators/future-backlogs",
+      "new": "product-development/os-projects/cycling-calculators/future-backlogs"
+    },
+    {
+      "file": "product-development/os-projects/cycling-calculators/kanban board.md",
+      "old": "trainer-day/os-projects/cycling-calculators/kanban-board",
+      "new": "product-development/os-projects/cycling-calculators/kanban-board"
+    },
+    {
+      "file": "product-development/os-projects/cycling-calculators/backlogs/Zone 2 Calculator - Spec.md",
+      "old": "trainer-day/os-projects/cycling-calculators/backlogs/zone-2-calculator-spec",
+      "new": "product-development/os-projects/cycling-calculators/backlogs/zone-2-calculator-spec"
+    },
+    {
+      "file": "product-development/os-projects/cycling-calculators/backlogs/Gearing Speed Calculator - Spec.md",
+      "old": "trainer-day/os-projects/cycling-calculators/backlogs/gearing-speed-calculator-spec",
+      "new": "product-development/os-projects/cycling-calculators/backlogs/gearing-speed-calculator-spec"
+    },
+    {
+      "file": "product-development/os-projects/cycling-calculators/backlogs/Create Route Speed Calculator - Spec.md",
+      "old": "trainer-day/os-projects/cycling-calculators/backlogs/create-route-speed-calculator-spec",
+      "new": "product-development/os-projects/cycling-calculators/backlogs/create-route-speed-calculator-spec"
+    },
+    {
+      "file": "product-development/os-projects/cycling-calculators/backlogs/Fat Max Zone Calculator - Spec.md",
+      "old": "trainer-day/os-projects/cycling-calculators/backlogs/fat-max-zone-calculator-spec",
+      "new": "product-development/os-projects/cycling-calculators/backlogs/fat-max-zone-calculator-spec"
+    },
+    {
+      "file": "product-development/os-projects/cycling-calculators/backlogs/FTP from VO2max Calculator - Spec.md",
+      "old": "trainer-day/os-projects/cycling-calculators/backlogs/ftp-from-vo2max-calculator-spec",
+      "new": "product-development/os-projects/cycling-calculators/backlogs/ftp-from-vo2max-calculator-spec"
+    },
+    {
+      "file": "product-development/os-projects/cycling-calculators/backlogs/Power Zone Calculator - Spec.md",
+      "old": "trainer-day/os-projects/cycling-calculators/backlogs/power-zone-calculator-spec",
+      "new": "product-development/os-projects/cycling-calculators/backlogs/power-zone-calculator-spec"
+    },
+    {
+      "file": "product-development/os-projects/cycling-calculators/backlogs/HR Zone Calculator - Spec.md",
+      "old": "trainer-day/os-projects/cycling-calculators/backlogs/hr-zone-calculator-spec",
+      "new": "product-development/os-projects/cycling-calculators/backlogs/hr-zone-calculator-spec"
+    },
+    {
+      "file": "product-development/os-projects/cycling-calculators/project standards and dev notes/tech-standards.md",
+      "old": "trainer-day/os-projects/cycling-calculators/project-standards-and-dev-notes/tech-standards",
+      "new": "product-development/os-projects/cycling-calculators/project-standards-and-dev-notes/tech-standards"
+    },
+    {
+      "file": "product-development/os-projects/cycling-calculators/project standards and dev notes/design-standards.md",
+      "old": "trainer-day/os-projects/cycling-calculators/project-standards-and-dev-notes/design-standards",
+      "new": "product-development/os-projects/cycling-calculators/project-standards-and-dev-notes/design-standards"
+    },
+    {
+      "file": "product-development/os-projects/cycling-calculators/stage-testing/task-list-and-status.md",
+      "old": "trainer-day/os-projects/cycling-calculators/stage-testing/task-list-and-status",
+      "new": "product-development/os-projects/cycling-calculators/stage-testing/task-list-and-status"
+    },
+    {
+      "file": "product-development/os-projects/cycling-calculators/backlogs-completed/backlogs-completed.md",
+      "old": "trainer-day/os-projects/cycling-calculators/backlogs-completed/backlogs-completed-1",
+      "new": "product-development/os-projects/cycling-calculators/backlogs-completed/backlogs-completed-1"
+    },
+    {
+      "file": "product-development/os-projects/cycling-calculators/backlogs-completed/backlog-specs/Design Main UI UX and Power to Speed Calculator - Spec.md",
+      "old": "trainer-day/os-projects/cycling-calculators/backlogs-completed/backlog-specs/design-main-ui-ux-and-power-to-speed-calculator-spec",
+      "new": "product-development/os-projects/cycling-calculators/backlogs-completed/backlog-specs/design-main-ui-ux-and-power-to-speed-calculator-spec"
+    },
+    {
+      "file": "product-development/os-projects/cycling-calculators/backlogs-completed/backlog-specs/Create Speed to Power Calculator - Spec.md",
+      "old": "trainer-day/os-projects/cycling-calculators/backlogs-completed/backlog-specs/create-speed-to-power-calculator-spec",
+      "new": "product-development/os-projects/cycling-calculators/backlogs-completed/backlog-specs/create-speed-to-power-calculator-spec"
+    },
+    {
+      "file": "product-development/system/content-style.md",
+      "old": "trainer-day/system/content-style",
+      "new": "product-development/system/content-style"
+    },
+    {
+      "file": "product-development/system/os-architecture.md",
+      "old": "trainer-day/system/os-architecture",
+      "new": "product-development/system/os-architecture"
+    },
+    {
+      "file": "product-development/system/tools/Custom Screenshot MCP Server Setup.md",
+      "old": "trainer-day/system/tools/custom-screenshot-mcp-server-setup",
+      "new": "product-development/system/tools/custom-screenshot-mcp-server-setup"
+    },
+    {
+      "file": "product-development/system/workflows/README.md",
+      "old": "trainer-day/system/workflows/readme",
+      "new": "product-development/system/workflows/readme"
+    },
+    {
+      "file": "product-development/system/workflows/automated-development/0-queue-processing.md",
+      "old": "trainer-day/system/workflows/automated-development/0-queue-processing",
+      "new": "product-development/system/workflows/automated-development/0-queue-processing"
+    },
+    {
+      "file": "product-development/system/workflows/automated-development/1-spec-process.md",
+      "old": "trainer-day/system/workflows/automated-development/1-spec-process",
+      "new": "product-development/system/workflows/automated-development/1-spec-process"
+    },
+    {
+      "file": "product-development/system/workflows/automated-development/3-testing-process.md",
+      "old": "trainer-day/system/workflows/automated-development/3-testing-process",
+      "new": "product-development/system/workflows/automated-development/3-testing-process"
+    },
+    {
+      "file": "product-development/system/workflows/automated-development/backlog-completion.md",
+      "old": "trainer-day/system/workflows/automated-development/backlog-completion",
+      "new": "product-development/system/workflows/automated-development/backlog-completion"
+    },
+    {
+      "file": "product-development/system/workflows/automated-development/automation-spec.md",
+      "old": "trainer-day/system/workflows/automated-development/automation-spec",
+      "new": "product-development/system/workflows/automated-development/automation-spec"
+    },
+    {
+      "file": "product-development/system/workflows/automated-development/2-development-process.md",
+      "old": "trainer-day/system/workflows/automated-development/2-development-process",
+      "new": "product-development/system/workflows/automated-development/2-development-process"
+    },
+    {
+      "file": "product-development/system/troubleshooting/permalink-cleanup-cycling-calculators.md",
+      "old": "trainer-day/system/troubleshooting/permalink-cleanup-cycling-calculators",
+      "new": "product-development/system/troubleshooting/permalink-cleanup-cycling-calculators"
+    },
+    {
+      "file": "product-development/system/knowledge-base/README.md",
+      "old": "trainer-day/system/knowledge-base/readme",
+      "new": "product-development/system/knowledge-base/readme"
+    },
+    {
+      "file": "product-development/system/brainstorming/2025-07-01-brainstorming.md",
+      "old": "trainer-day/system/brainstorming/2025-07-01-brainstorming",
+      "new": "product-development/system/brainstorming/2025-07-01-brainstorming"
+    },
+    {
+      "file": "product-development/templates/env file setup.md",
+      "old": "trainer-day/templates/env-file-setup",
+      "new": "product-development/templates/env-file-setup"
+    },
+    {
+      "file": "product-development/templates/visual-standards-template.md",
+      "old": "trainer-day/templates/visual-standards-template",
+      "new": "product-development/templates/visual-standards-template"
+    },
+    {
+      "file": "product-development/templates/README.md",
+      "old": "trainer-day/templates/readme",
+      "new": "product-development/templates/readme"
+    },
+    {
+      "file": "product-development/templates/empty-project-template.md",
+      "old": "trainer-day/templates/empty-project-template",
+      "new": "product-development/templates/empty-project-template"
+    },
+    {
+      "file": "product-development/templates/kanban-board-template.md",
+      "old": "trainer-day/templates/kanban-board-template",
+      "new": "product-development/templates/kanban-board-template"
+    },
+    {
+      "file": "product-development/templates/backlog-detail.md",
+      "old": "trainer-day/templates/backlog-detail",
+      "new": "product-development/templates/backlog-detail"
+    },
+    {
+      "file": "product-development/templates/express-project-template.md",
+      "old": "trainer-day/templates/express-setup",
+      "new": "product-development/templates/express-setup"
+    }
+  ],
+  "reference_fixes": [],
+  "total_changes": 187
+}

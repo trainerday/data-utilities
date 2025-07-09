@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TrainerDay PostHog Test</title>
+    
+    <!-- PostHog Tracking Script -->
+    <script>
+        !function(t,e){var o,n,p,r;e.__SV||(window.posthog=e,e._i=[],e.init=function(i,s,a){function g(t,e){var o=e.split(".");2==o.length&&(t=t[o[0]],e=o[1]),t[e]=function(){t.push([e].concat(Array.prototype.slice.call(arguments,0)))}}(p=t.createElement("script")).type="text/javascript",p.async=!0,p.src=s.api_host+"/static/array.js",(r=t.getElementsByTagName("script")[0]).parentNode.insertBefore(p,r);var u=e;for(void 0!==a?u=e[a]=[]:a="posthog",u.people=u.people||[],u.toString=function(t){var e="posthog";return"posthog"!==a&&(e+="."+a),t||(e+=" (stub)"),e},u.people.toString=function(){return u.toString(1)+".people (stub)"},o="capture identify alias people.set people.set_once set_config register register_once unregister opt_out_capturing has_opted_out_capturing opt_in_capturing reset isFeatureEnabled onFeatureFlags getFeatureFlag getFeatureFlagPayload reloadFeatureFlags group updateEarlyAccessFeatureEnrollment getEarlyAccessFeatures getActiveMatchingSurveys getSurveys getNextSurveyStep".split(" "),n=0;n<o.length;n++)g(u,o[n]);e._i.push([i,s,a])},e.__SV=1)}(document,window.posthog||[]);
+        
+        // Initialize PostHog
+        posthog.init('phc_pXPWqFoZfzwVuEtCx5uZ76QfpfXJcWYNlqrXits9JHP', {
+            api_host:'https://app.posthog.com',
+            // For testing, you might want to disable automatic pageview capture
+            capture_pageview: false
+        })
+    </script>
+    
+    <style>
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+            max-width: 800px;
+            margin: 40px auto;
+            padding: 20px;
+            background: #f5f5f5;
+        }
+        .container {
+            background: white;
+            padding: 30px;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+        }
+        h1 {
+            color: #333;
+            margin-bottom: 10px;
+        }
+        .warning {
+            background: #fff3cd;
+            border: 1px solid #ffeeba;
+            color: #856404;
+            padding: 10px;
+            border-radius: 4px;
+            margin-bottom: 20px;
+        }
+        .section {
+            margin: 20px 0;
+            padding: 20px;
+            background: #f8f9fa;
+            border-radius: 4px;
+        }
+        .event-buttons {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 10px;
+            margin-top: 15px;
+        }
+        button {
+            padding: 10px 20px;
+            background: #007bff;
+            color: white;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            font-size: 14px;
+        }
+        button:hover {
+            background: #0056b3;
+        }
+        .success {
+            background: #28a745;
+        }
+        .info {
+            background: #17a2b8;
+        }
+        .output {
+            margin-top: 20px;
+            padding: 15px;
+            background: #f1f3f4;
+            border-radius: 4px;
+            font-family: monospace;
+            font-size: 12px;
+            max-height: 300px;
+            overflow-y: auto;
+        }
+        input {
+            width: 100%;
+            padding: 8px;
+            margin: 5px 0;
+            border: 1px solid #ddd;
+            border-radius: 4px;
+        }
+        label {
+            display: block;
+            margin-top: 10px;
+            font-weight: bold;
+            font-size: 14px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>TrainerDay PostHog Event Tester</h1>
+        
+        <div class="warning">
+            ✅ Using PostHog project token: phc_pXPWqFoZfzwVuEtCx5uZ76QfpfXJcWYNlqrXits9JHP
+        </div>
+
+        <div class="section">
+            <h2>User Identification</h2>
+            <label>User ID:</label>
+            <input type="text" id="userId" placeholder="Enter user ID (e.g., user123)" value="test-user-123">
+            <button onclick="identifyUser()">Identify User</button>
+        </div>
+
+        <div class="section">
+            <h2>Send Events</h2>
+            <div class="event-buttons">
+                <button onclick="sendEvent('app_opened')">App Opened</button>
+                <button onclick="sendWorkoutStarted()">Workout Started</button>
+                <button onclick="sendWorkoutCompleted()">Workout Completed</button>
+                <button onclick="sendEvent('plan_created', {plan_name: 'Marathon Training', weeks: 16})">Plan Created</button>
+                <button onclick="sendEvent('subscription_started', {plan: 'premium', billing: 'monthly'})">Subscription Started</button>
+                <button onclick="sendCustomEvent()">Send Custom Event</button>
+            </div>
+        </div>
+
+        <div class="section">
+            <h2>Custom Event</h2>
+            <label>Event Name:</label>
+            <input type="text" id="eventName" placeholder="e.g., feature_used" value="feature_used">
+            <label>Properties (JSON):</label>
+            <input type="text" id="eventProps" placeholder='{"feature": "heart_rate_zones"}' value='{"feature": "heart_rate_zones"}'>
+        </div>
+
+        <div class="section">
+            <h2>Event Log</h2>
+            <div id="output" class="output">Events will appear here...</div>
+        </div>
+    </div>
+
+    <script>
+        // Helper function to log events
+        function logEvent(message, data) {
+            const output = document.getElementById('output');
+            const timestamp = new Date().toLocaleTimeString();
+            const entry = `[${timestamp}] ${message}\n${data ? JSON.stringify(data, null, 2) : ''}\n\n`;
+            output.textContent = entry + output.textContent;
+        }
+
+        // Identify user
+        function identifyUser() {
+            const userId = document.getElementById('userId').value;
+            if (!userId) {
+                alert('Please enter a user ID');
+                return;
+            }
+            
+            posthog.identify(userId, {
+                email: `${userId}@example.com`,
+                name: `Test User ${userId}`,
+                plan: 'free'
+            });
+            
+            logEvent(`User identified: ${userId}`);
+        }
+
+        // Send basic event
+        function sendEvent(eventName, properties = {}) {
+            posthog.capture(eventName, properties);
+            logEvent(`Event sent: ${eventName}`, properties);
+        }
+
+        // Send workout started event
+        function sendWorkoutStarted() {
+            const props = {
+                workout_type: 'cycling',
+                planned_duration: 60,
+                planned_distance: 30,
+                device: 'mobile'
+            };
+            posthog.capture('workout_started', props);
+            logEvent('Event sent: workout_started', props);
+        }
+
+        // Send workout completed event
+        function sendWorkoutCompleted() {
+            const props = {
+                workout_type: 'cycling',
+                duration_minutes: 57,
+                distance_km: 28.5,
+                avg_power_watts: 185,
+                avg_heart_rate: 145,
+                calories_burned: 680,
+                completion_rate: 0.95
+            };
+            posthog.capture('workout_completed', props);
+            logEvent('Event sent: workout_completed', props);
+        }
+
+        // Send custom event
+        function sendCustomEvent() {
+            const eventName = document.getElementById('eventName').value;
+            const eventPropsStr = document.getElementById('eventProps').value;
+            
+            if (!eventName) {
+                alert('Please enter an event name');
+                return;
+            }
+            
+            let properties = {};
+            if (eventPropsStr) {
+                try {
+                    properties = JSON.parse(eventPropsStr);
+                } catch (e) {
+                    alert('Invalid JSON in properties');
+                    return;
+                }
+            }
+            
+            posthog.capture(eventName, properties);
+            logEvent(`Event sent: ${eventName}`, properties);
+        }
+
+        // Auto-identify a test user on load
+        window.addEventListener('load', () => {
+            logEvent('Page loaded. PostHog initialized.');
+            // Optionally auto-identify
+            // identifyUser();
+        });
+    </script>
+</body>
+</html>
