@@ -4,16 +4,25 @@ const sendToTelegram = require('../common/sendToTelegram')
 
 const path = require('path').join(__dirname, '../../ca-certificate.crt')
 
+// Check if certificate file exists, otherwise use environment variable or skip
+let sslConfig = { rejectUnauthorized: false }
+try {
+  if (fs.existsSync(path)) {
+    sslConfig.ca = fs.readFileSync(path).toString()
+  } else if (process.env.DATABASE_CA_CERT) {
+    sslConfig.ca = process.env.DATABASE_CA_CERT
+  }
+} catch (error) {
+  console.log('Warning: Could not load SSL certificate, using basic SSL config')
+}
+
 const config = {
   user: 'doadmin',
   host: 'postgress-dw-do-user-979029-0.b.db.ondigitalocean.com',
   database: 'defaultdb',
   password: 'MafHqU5x4JwXcZu3',
   port: 25060,
-  ssl: {
-    rejectUnauthorized: false,
-    ca: fs.readFileSync(path).toString()
-  }
+  ssl: sslConfig
 }
 
 const pool = new Pool(config)
