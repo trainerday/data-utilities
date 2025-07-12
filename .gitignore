@@ -104,6 +104,9 @@ secrets.py
 *service-account*.json
 *api-access*.json
 
+# Event tracker specific
+scripts/ca-certificate.crt
+
 # Large files
 *.mp4
 *.mp3
