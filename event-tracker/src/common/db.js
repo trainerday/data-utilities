@@ -2,7 +2,7 @@ const { Pool } = require('pg')
 const fs = require('fs')
 const sendToTelegram = require('../common/sendToTelegram')
 
-const path = `${__dirname}/../../ca-certificate.crt`
+const path = require('path').join(__dirname, '../../ca-certificate.crt')
 
 const config = {
   user: 'doadmin',
