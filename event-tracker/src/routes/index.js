@@ -7,6 +7,15 @@ const router = express.Router()
 var Mixpanel = require('mixpanel');
 var mixpanel = Mixpanel.init('957f498449a3c30ec903fd23365b7286');
 
+// Health check route
+router.get('/', (req, res) => {
+  res.json({ status: 'ok', service: 'events-tracker', timestamp: new Date().toISOString() })
+})
+
+router.get('/health', (req, res) => {
+  res.json({ status: 'ok', service: 'events-tracker', timestamp: new Date().toISOString() })
+})
+
 
 router.post('/webhook', async (req, res) => {
   let queueMessageBody = null
