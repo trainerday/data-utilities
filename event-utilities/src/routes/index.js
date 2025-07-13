@@ -3,6 +3,7 @@ const { saveData } = require('../common/datawarehouse')
 const { SQS } = require('../common/awsQueue')
 const sendToTelegram = require('../common/sendToTelegram')
 const { handleMauticEvent } = require('../mautic/handler')
+const { handleEmailWebhook } = require('../common/emailService')
 const router = express.Router()
 var Mixpanel = require('mixpanel');
 var mixpanel = Mixpanel.init('957f498449a3c30ec903fd23365b7286');
@@ -95,6 +96,26 @@ router.post('/webhook', async (req, res) => {
   }
 
   return res.end()
+})
+
+router.post('/email-webhook', async (req, res) => {
+  try {
+    const data = await handleEmailWebhook(req, res)
+    res.jsonp(req.query)
+  } catch (error) {
+    console.log('Email webhook error:', error)
+    res.status(500).jsonp({ error: 'Internal server error' })
+  }
+})
+
+router.post('/track', function(req, res, next) {
+  const data = {body: req.body, query: req.query}
+  console.log(data)
+  if (req.body.userid > 0) {
+    res.jsonp({message:'success'});
+  } else {
+    res.jsonp({message:'failed - missing userid'});
+  }
 })
 
 module.exports = router

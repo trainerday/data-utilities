@@ -1,0 +1,21 @@
+{
+  "name": "manage-users",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "start": "./node_modules/forever/bin/forever ./bin/www"
+  },
+  "dependencies": {
+    "@api/bigmailer": "file:.api/apis/bigmailer",
+    "axios": "^1.7.7",
+    "cookie-parser": "~1.4.4",
+    "debug": "~2.6.9",
+    "dotenv": "^16.4.5",
+    "ejs": "~2.6.1",
+    "express": "~4.16.1",
+    "forever": "^4.0.3",
+    "http-errors": "~1.6.3",
+    "morgan": "~1.9.1",
+    "uuid": "^10.0.0"
+  }
+}
