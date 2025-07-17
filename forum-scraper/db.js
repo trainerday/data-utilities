@@ -13,7 +13,7 @@ const pool = new Pool({
   ssl: {
     require: true,
     rejectUnauthorized: true,
-    ca: fs.readFileSync(path.join(__dirname, process.env.DB_SSLROOTCERT)).toString()
+    ca: process.env.DB_SSL_CERT || fs.readFileSync(path.join(__dirname, process.env.DB_SSLROOTCERT || 'postgres.crt')).toString()
   }
 });
 
