@@ -92,7 +92,15 @@ async function savePostsOnly(posts) {
   
   try {
     for (const post of posts) {
-      const postId = post.url.split('/').slice(-2)[0]; // Extract post ID from URL
+      // Extract post ID from URL (handles both Reddit and Discourse)
+      let postId;
+      if (post.subreddit === 'trainerroad') {
+        // Discourse URL format: .../t/slug/ID
+        postId = post.url.split('/').pop();
+      } else {
+        // Reddit URL format: extract post ID from permalink
+        postId = post.url.split('/').slice(-2)[0];
+      }
       
       await client.query(`
         INSERT INTO "forum-posts" 
@@ -111,9 +119,9 @@ async function savePostsOnly(posts) {
         post.num_comments,
         post.url,
         post.selftext,
-        post.url.replace('https://reddit.com', ''),
+        post.subreddit === 'trainerroad' ? post.url.replace('https://www.trainerroad.com', '') : post.url.replace('https://reddit.com', ''),
         post.subreddit,
-        'reddit',
+        post.subreddit === 'trainerroad' ? 'discourse' : 'reddit',
         now
       ]);
     }
@@ -125,10 +133,17 @@ async function savePostsOnly(posts) {
 }
 
 // Save comments for a specific post
-async function saveCommentsForPost(postId, comments) {
+async function saveCommentsForPost(postId, comments, source = null) {
   const client = await pool.connect();
   
   try {
+    // If source not provided, determine it from the post
+    let commentSource = source;
+    if (!commentSource) {
+      const postResult = await client.query('SELECT source FROM "forum-posts" WHERE id = $1', [postId]);
+      commentSource = postResult.rows.length > 0 ? postResult.rows[0].source : 'reddit';
+    }
+    
     for (const comment of comments) {
       await client.query(`
         INSERT INTO "forum-post-comments" 
@@ -141,7 +156,7 @@ async function saveCommentsForPost(postId, comments) {
         comment.body,
         comment.score,
         Math.floor(comment.created.getTime() / 1000),
-        'reddit'
+        commentSource
       ]);
     }
   } catch (error) {

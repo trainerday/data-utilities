@@ -107,6 +107,9 @@
       .subreddit-velo {
         color: #0079d3;
       }
+      .subreddit-trainerroad {
+        color: #e12726;
+      }
       .hot-post {
         border-left: 4px solid #ff4500;
         background: linear-gradient(90deg, #fff5f0 0%, white 20%);
@@ -133,7 +136,7 @@
         Data fetched: <%= fetchTime.toLocaleString() %> 
         | Source: <%= dataSource %> 
         | Posts: <%= posts.length %>
-        | Subreddits: r/cycling + r/Velo
+        | Sources: r/cycling + r/Velo + TrainerRoad Forum
         <% if (typeof newPosts !== 'undefined' && newPosts > 0) { %>
           | New posts: <%= newPosts %>
         <% } %>
@@ -169,7 +172,6 @@
                      id="response-checkbox-<%= post.id %>" 
                      <%= post.responded ? 'checked' : '' %>
                      onchange="updateResponseStatus('<%= post.id %>', this.checked)">
-              Responded
             </label>
             <a href="<%= post.url %>" target="_blank"><%= post.title %></a>
           </div>

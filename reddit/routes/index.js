@@ -14,7 +14,7 @@ function logToConsole(type, url, duration, success, error = null, statusCode = n
 }
 
 // Enhanced axios request with logging
-async function makeRedditRequest(url, headers, requestType = 'REDDIT') {
+async function makeRequest(url, headers, requestType = 'REQUEST') {
   const startTime = Date.now();
   try {
     const response = await axios.get(url, { headers });
@@ -36,6 +36,11 @@ async function makeRedditRequest(url, headers, requestType = 'REDDIT') {
     
     throw error;
   }
+}
+
+// Legacy function name for backward compatibility
+async function makeRedditRequest(url, headers, requestType = 'REDDIT') {
+  return makeRequest(url, headers, requestType);
 }
 
 /* GET home page. */
@@ -151,6 +156,59 @@ async function fetchSubredditData(subreddit, headers) {
   return postsWithComments;
 }
 
+// Helper function to fetch Discourse forum posts
+async function fetchDiscourseTopics() {
+  console.log('Fetching new topics from TrainerRoad Discourse forum...');
+  
+  const headers = {
+    'User-Agent': 'Mozilla/5.0 (compatible; ForumBot/1.0)',
+    'Accept': 'application/json'
+  };
+  
+  // Get latest topics from Discourse
+  const topicsResponse = await makeRequest('https://www.trainerroad.com/forum/latest.json?limit=25', headers, 'DISCOURSE');
+  const topics = topicsResponse.data.topic_list.topics;
+
+  // Convert to our post format
+  const posts = topics.map(topic => {
+    return {
+      title: topic.title,
+      author: topic.last_poster_username || 'unknown',
+      created: new Date(topic.created_at),
+      score: topic.like_count || 0,
+      num_comments: Math.max(0, topic.posts_count - 1), // Subtract original post
+      url: `https://www.trainerroad.com/forum/t/${topic.slug}/${topic.id}`,
+      selftext: topic.excerpt || '',
+      subreddit: 'trainerroad',
+      comments: [] // No comments initially
+    };
+  });
+  
+  return posts;
+}
+
+// Helper function to fetch comments for a specific Discourse topic
+async function fetchDiscourseComments(topicId, headers) {
+  const commentsUrl = `https://www.trainerroad.com/forum/t/${topicId}.json`;
+  const commentsResponse = await makeRequest(commentsUrl, headers, 'DISCOURSE_COMMENTS');
+  
+  if (!commentsResponse.data.post_stream || !commentsResponse.data.post_stream.posts) {
+    return [];
+  }
+  
+  // Skip the first post (original topic) and get comments
+  const comments = commentsResponse.data.post_stream.posts.slice(1).map(post => {
+    return {
+      author: post.username,
+      body: post.cooked ? post.cooked.replace(/<[^>]*>/g, '') : '', // Strip HTML
+      score: 0, // Discourse doesn't have comment scores like Reddit
+      created: new Date(post.created_at)
+    };
+  }).filter(comment => comment.body && comment.body.trim() !== '');
+  
+  return comments;
+}
+
 /* GET Reddit cycling data - READ ONLY from database */
 router.get('/reddit', async function(req, res, next) {
   try {
@@ -158,7 +216,7 @@ router.get('/reddit', async function(req, res, next) {
     const posts = await getPostsForDay();
 
     res.render('reddit', { 
-      title: 'r/cycling + r/Velo - Today\'s Posts', 
+      title: 'r/cycling + r/Velo + TrainerRoad Forum - Today\'s Posts', 
       posts: posts,
       fetchTime: new Date(),
       dataSource: 'database',
@@ -195,14 +253,15 @@ router.post('/api/scrape', async function(req, res, next) {
         'Accept': 'application/json'
       };
 
-      // Step 1: Fetch new posts (without comments) from both subreddits
-      const [cyclingPosts, veloPosts] = await Promise.all([
+      // Step 1: Fetch new posts from Reddit subreddits and Discourse forum
+      const [cyclingPosts, veloPosts, discoursePosts] = await Promise.all([
         fetchSubredditPosts('cycling', headers),
-        fetchSubredditPosts('Velo', headers)
+        fetchSubredditPosts('Velo', headers),
+        fetchDiscourseTopics()
       ]);
 
       // Combine and save new posts only
-      const allNewPosts = [...cyclingPosts, ...veloPosts];
+      const allNewPosts = [...cyclingPosts, ...veloPosts, ...discoursePosts];
       await savePostsOnly(allNewPosts);
       newPostsFound = allNewPosts.length;
       console.log(`Saved ${newPostsFound} new posts (without comments)`);
@@ -228,7 +287,12 @@ router.post('/api/scrape', async function(req, res, next) {
             await new Promise(resolve => setTimeout(resolve, 500)); // 500ms delay
           }
           
-          const comments = await fetchPostComments(post.id, post.subreddit, headers);
+          let comments;
+          if (post.subreddit === 'trainerroad') {
+            comments = await fetchDiscourseComments(post.id, headers);
+          } else {
+            comments = await fetchPostComments(post.id, post.subreddit, headers);
+          }
           await saveCommentsForPost(post.id, comments);
           commentsProcessed++;
           console.log(`🔥 HOT POST: Fetched ${comments.length} comments for "${post.title.substring(0, 50)}..." (${post.num_comments} total comments)`);
@@ -258,7 +322,12 @@ router.post('/api/scrape', async function(req, res, next) {
             await new Promise(resolve => setTimeout(resolve, 500)); // 500ms delay
           }
           
-          const comments = await fetchPostComments(post.id, post.subreddit, headers);
+          let comments;
+          if (post.subreddit === 'trainerroad') {
+            comments = await fetchDiscourseComments(post.id, headers);
+          } else {
+            comments = await fetchPostComments(post.id, post.subreddit, headers);
+          }
           await saveCommentsForPost(post.id, comments);
           commentsProcessed++;
           console.log(`Fetched ${comments.length} comments for post ${post.id}`);
@@ -301,13 +370,14 @@ router.get('/reddit/refresh', async function(req, res, next) {
     };
 
     // Just fetch new posts (no comments) - much faster
-    const [cyclingPosts, veloPosts] = await Promise.all([
+    const [cyclingPosts, veloPosts, discoursePosts] = await Promise.all([
       fetchSubredditPosts('cycling', headers),
-      fetchSubredditPosts('Velo', headers)
+      fetchSubredditPosts('Velo', headers),
+      fetchDiscourseTopics()
     ]);
 
     // Save posts only (no comments)
-    const allNewPosts = [...cyclingPosts, ...veloPosts];
+    const allNewPosts = [...cyclingPosts, ...veloPosts, ...discoursePosts];
     await savePostsOnly(allNewPosts);
     
     console.log(`Force refresh: Saved ${allNewPosts.length} posts (without comments)`);
