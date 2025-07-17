@@ -248,9 +248,21 @@ router.post('/api/scrape', async function(req, res, next) {
     if (!hasRecent) {
       console.log('Time to check for new posts...');
       
+      const userAgents = [
+        'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36',
+        'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36',
+        'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36'
+      ];
+      const randomUserAgent = userAgents[Math.floor(Math.random() * userAgents.length)];
+      
       const headers = {
-        'User-Agent': 'Mozilla/5.0 (compatible; RedditBot/1.0)',
-        'Accept': 'application/json'
+        'User-Agent': randomUserAgent,
+        'Accept': 'application/json',
+        'Accept-Language': 'en-US,en;q=0.9',
+        'Accept-Encoding': 'gzip, deflate, br',
+        'DNT': '1',
+        'Connection': 'keep-alive',
+        'Upgrade-Insecure-Requests': '1'
       };
 
       // Step 1: Fetch new posts from Reddit subreddits and Discourse forum
@@ -274,9 +286,21 @@ router.post('/api/scrape', async function(req, res, next) {
     if (hotPosts.length > 0) {
       console.log(`Found ${hotPosts.length} HOT posts needing early comment fetch...`);
       
+      const userAgents = [
+        'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36',
+        'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36',
+        'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36'
+      ];
+      const randomUserAgent = userAgents[Math.floor(Math.random() * userAgents.length)];
+      
       const headers = {
-        'User-Agent': 'Mozilla/5.0 (compatible; RedditBot/1.0)',
-        'Accept': 'application/json'
+        'User-Agent': randomUserAgent,
+        'Accept': 'application/json',
+        'Accept-Language': 'en-US,en;q=0.9',
+        'Accept-Encoding': 'gzip, deflate, br',
+        'DNT': '1',
+        'Connection': 'keep-alive',
+        'Upgrade-Insecure-Requests': '1'
       };
 
       // Fetch comments for hot posts first (priority)
@@ -364,9 +388,21 @@ router.get('/reddit/refresh', async function(req, res, next) {
   try {
     console.log('Force refresh triggered - running scrape...');
     
+    const userAgents = [
+      'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36',
+      'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36',
+      'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36'
+    ];
+    const randomUserAgent = userAgents[Math.floor(Math.random() * userAgents.length)];
+    
     const headers = {
-      'User-Agent': 'Mozilla/5.0 (compatible; RedditBot/1.0)',
-      'Accept': 'application/json'
+      'User-Agent': randomUserAgent,
+      'Accept': 'application/json',
+      'Accept-Language': 'en-US,en;q=0.9',
+      'Accept-Encoding': 'gzip, deflate, br',
+      'DNT': '1',
+      'Connection': 'keep-alive',
+      'Upgrade-Insecure-Requests': '1'
     };
 
     // Just fetch new posts (no comments) - much faster
