@@ -1,0 +1,10 @@
+{
+	"id": "imgbb-uploader",
+	"name": "ImgBB Image Uploader",
+	"version": "1.0.0",
+	"minAppVersion": "1.0.0",
+	"description": "Automatically upload images to ImgBB and replace local links with remote URLs",
+	"author": "TrainerDay",
+	"authorUrl": "https://github.com/trainerday",
+	"isDesktopOnly": false
+}

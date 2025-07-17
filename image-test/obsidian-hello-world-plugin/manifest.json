@@ -1,0 +1,10 @@
+{
+	"id": "hello-world-plugin",
+	"name": "Hello World Plugin",
+	"version": "1.0.0",
+	"minAppVersion": "0.15.0",
+	"description": "A simple hello world plugin for testing",
+	"author": "Test Author",
+	"authorUrl": "https://github.com/test",
+	"isDesktopOnly": false
+}
