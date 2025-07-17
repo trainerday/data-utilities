@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title><%= title %></title>
+    <link rel='stylesheet' href='/stylesheets/style.css' />
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        margin: 20px;
+        background-color: #f5f5f5;
+      }
+      .header {
+        background: #0079d3;
+        color: white;
+        padding: 20px;
+        border-radius: 8px;
+        margin-bottom: 20px;
+      }
+      .header h1 {
+        margin: 0;
+        font-size: 24px;
+      }
+      .stats-grid {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+        gap: 15px;
+        margin-bottom: 20px;
+      }
+      .stat-card {
+        background: white;
+        padding: 15px;
+        border-radius: 8px;
+        box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+        text-align: center;
+      }
+      .stat-title {
+        font-size: 12px;
+        color: #666;
+        text-transform: uppercase;
+        margin-bottom: 5px;
+      }
+      .stat-value {
+        font-size: 24px;
+        font-weight: bold;
+        color: #333;
+      }
+      .stat-subtitle {
+        font-size: 11px;
+        color: #999;
+        margin-top: 5px;
+      }
+      .logs-container {
+        background: white;
+        border-radius: 8px;
+        overflow: hidden;
+        box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+      }
+      .logs-header {
+        background: #f8f9fa;
+        padding: 15px;
+        border-bottom: 1px solid #eee;
+        font-weight: bold;
+      }
+      .log-table {
+        width: 100%;
+        border-collapse: collapse;
+      }
+      .log-table th,
+      .log-table td {
+        padding: 10px;
+        text-align: left;
+        border-bottom: 1px solid #eee;
+        font-size: 12px;
+      }
+      .log-table th {
+        background: #f8f9fa;
+        font-weight: bold;
+        position: sticky;
+        top: 0;
+      }
+      .success {
+        color: #28a745;
+        font-weight: bold;
+      }
+      .error {
+        color: #dc3545;
+        font-weight: bold;
+      }
+      .request-type {
+        padding: 2px 6px;
+        border-radius: 3px;
+        font-size: 10px;
+        font-weight: bold;
+        text-transform: uppercase;
+      }
+      .type-posts {
+        background: #e3f2fd;
+        color: #1976d2;
+      }
+      .type-comments {
+        background: #f3e5f5;
+        color: #7b1fa2;
+      }
+      .url-cell {
+        max-width: 300px;
+        word-break: break-all;
+        font-family: monospace;
+        font-size: 11px;
+      }
+      .duration {
+        text-align: right;
+      }
+      .duration.fast { color: #28a745; }
+      .duration.medium { color: #ffc107; }
+      .duration.slow { color: #dc3545; }
+      .no-logs {
+        text-align: center;
+        padding: 40px;
+        color: #666;
+      }
+      .nav-links {
+        margin-bottom: 20px;
+      }
+      .nav-links a {
+        background: #6c757d;
+        color: white;
+        padding: 8px 16px;
+        text-decoration: none;
+        border-radius: 4px;
+        margin-right: 10px;
+        display: inline-block;
+      }
+      .nav-links a:hover {
+        background: #5a6268;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="header">
+      <h1><%= title %></h1>
+      <div>Monitoring Reddit API requests and performance</div>
+    </div>
+
+    <div class="nav-links">
+      <a href="/">← Home</a>
+      <a href="/reddit">Reddit Data</a>
+      <a href="/logs">Refresh Logs</a>
+    </div>
+
+    <% if (stats && stats.length > 0) { %>
+      <div class="stats-grid">
+        <% stats.forEach(function(stat) { %>
+          <div class="stat-card">
+            <div class="stat-title"><%= stat.request_type %> Requests</div>
+            <div class="stat-value"><%= stat.total_requests %></div>
+            <div class="stat-subtitle">
+              <%= stat.successful_requests %> success, 
+              <%= stat.failed_requests %> failed
+              <% if (stat.avg_response_time) { %>
+                <br>Avg: <%= Math.round(stat.avg_response_time) %>ms
+              <% } %>
+            </div>
+          </div>
+        <% }); %>
+      </div>
+    <% } %>
+
+    <div class="logs-container">
+      <div class="logs-header">
+        Recent API Requests (<%= logs.length %> shown)
+      </div>
+      
+      <% if (logs.length === 0) { %>
+        <div class="no-logs">
+          <h3>No request logs found</h3>
+          <p>Make some Reddit requests to see logs here.</p>
+          <a href="/reddit">Fetch Reddit Data</a>
+        </div>
+      <% } else { %>
+        <table class="log-table">
+          <thead>
+            <tr>
+              <th>Time</th>
+              <th>Type</th>
+              <th>Status</th>
+              <th>Duration</th>
+              <th>URL</th>
+              <th>Error</th>
+            </tr>
+          </thead>
+          <tbody>
+            <% logs.forEach(function(log) { %>
+              <tr>
+                <td><%= log.timestamp.toLocaleString() %></td>
+                <td>
+                  <span class="request-type type-<%= log.requestType.toLowerCase() %>">
+                    <%= log.requestType %>
+                  </span>
+                </td>
+                <td>
+                  <span class="<%= log.success ? 'success' : 'error' %>">
+                    <%= log.success ? 'SUCCESS' : 'ERROR' %>
+                    <% if (log.statusCode) { %>(<%= log.statusCode %>)<% } %>
+                  </span>
+                </td>
+                <td class="duration <%= log.durationMs < 500 ? 'fast' : (log.durationMs < 1000 ? 'medium' : 'slow') %>">
+                  <%= log.durationMs %>ms
+                </td>
+                <td class="url-cell">
+                  <%= log.url.replace('https://www.reddit.com/', '') %>
+                </td>
+                <td>
+                  <% if (log.errorMessage) { %>
+                    <span class="error"><%= log.errorMessage %></span>
+                  <% } else { %>
+                    -
+                  <% } %>
+                </td>
+              </tr>
+            <% }); %>
+          </tbody>
+        </table>
+      <% } %>
+    </div>
+
+    <div style="text-align: center; margin-top: 40px; color: #666; font-size: 12px;">
+      <p>Logs are stored in SQLite database for analysis and monitoring</p>
+    </div>
+  </body>
+</html>
