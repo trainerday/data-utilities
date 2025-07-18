@@ -35,9 +35,12 @@ class TelegramNotifier {
     } else if (post.category === 'Indoor Cycling') {
       categoryIcon = '🏠';
       categoryText = 'INDOOR CYCLING';
+    } else if (post.category === 'TrainerRoad') {
+      categoryIcon = '🚴';
+      categoryText = 'TRAINERROAD';
     } else {
-      categoryIcon = '⚡';
-      categoryText = 'PERFORMANCE';
+      categoryIcon = '🔧';
+      categoryText = post.category.startsWith('Other:') ? post.category.toUpperCase() : 'OTHER';
     }
     
     // Create filtered forum URL
