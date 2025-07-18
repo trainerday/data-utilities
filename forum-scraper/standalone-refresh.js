@@ -8,10 +8,12 @@ const {
   savePostsOnly, 
   saveCommentsForPost, 
   markPostsAsNotified,
+  updatePostCategories,
   hasRecentData, 
   getPostsNeedingComments, 
   getHotPostsNeedingEarlyComments 
 } = require('./db');
+
 
 // Import AI categorization and notifications
 const PostCategorizer = require('./openai-categorizer');
@@ -224,24 +226,28 @@ async function runRefresh() {
       // Combine new posts
       const allNewPosts = [...cyclingPosts, ...veloPosts, ...discoursePosts];
       
-      // Categorize posts with OpenAI if API key is provided
-      let categorizedPosts = allNewPosts;
-      
-      if (process.env.OPENAI_API_KEY && process.env.OPENAI_API_KEY !== 'your_openai_api_key_here') {
-        console.log(`Categorizing ${allNewPosts.length} new posts with OpenAI...`);
-        const categorizer = new PostCategorizer(process.env.OPENAI_API_KEY);
-        categorizedPosts = await categorizer.categorizePosts(allNewPosts);
-      } else {
-        console.log('OpenAI API key not configured, skipping categorization');
-      }
-      
-      // Save posts with categories - this returns only truly NEW posts
-      const actualNewPosts = await savePostsOnly(categorizedPosts);
+      // Save posts first to determine which are truly new
+      const actualNewPosts = await savePostsOnly(allNewPosts);
       newPostsFound = actualNewPosts.length;
       console.log(`Saved ${newPostsFound} truly new posts (without comments)`);
       
+      // Categorize ONLY the truly new posts with OpenAI if API key is provided
+      let categorizedNewPosts = actualNewPosts;
+      
+      if (actualNewPosts.length > 0 && process.env.OPENAI_API_KEY && process.env.OPENAI_API_KEY !== 'your_openai_api_key_here') {
+        console.log(`Categorizing ${actualNewPosts.length} truly new posts with OpenAI...`);
+        const categorizer = new PostCategorizer(process.env.OPENAI_API_KEY);
+        categorizedNewPosts = await categorizer.categorizePosts(actualNewPosts);
+        
+        // Update the database with the new categories
+        await updatePostCategories(categorizedNewPosts);
+        console.log(`Updated categories for ${categorizedNewPosts.length} posts`);
+      } else if (actualNewPosts.length > 0) {
+        console.log('OpenAI API key not configured, skipping categorization');
+      }
+      
       // Send Telegram notifications for NEW performance and indoor cycling posts only
-      const newPerformancePosts = actualNewPosts.filter(post => 
+      const newPerformancePosts = categorizedNewPosts.filter(post => 
         post.category === 'Performance' || post.category === 'Indoor Cycling'
       );
       

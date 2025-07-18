@@ -184,6 +184,25 @@ async function markPostsAsNotified(postIds) {
   }
 }
 
+// Update categories for posts
+async function updatePostCategories(posts) {
+  const client = await pool.connect();
+  
+  try {
+    for (const post of posts) {
+      await client.query(`
+        UPDATE "forum-posts" 
+        SET category = $1 
+        WHERE id = $2
+      `, [post.category || 'other', post.id]);
+    }
+  } catch (error) {
+    throw error;
+  } finally {
+    client.release();
+  }
+}
+
 // Save comments for a specific post
 async function saveCommentsForPost(postId, comments, source = null) {
   const client = await pool.connect();
@@ -477,6 +496,7 @@ module.exports = {
   savePostsOnly,
   saveCommentsForPost,
   markPostsAsNotified,
+  updatePostCategories,
   getPostsForDay,
   hasRecentData,
   getPostsNeedingComments,

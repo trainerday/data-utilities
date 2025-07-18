@@ -1,6 +1,6 @@
 var express = require('express');
 var axios = require('axios');
-var { savePosts, savePostsOnly, saveCommentsForPost, markPostsAsNotified, getPostsForDay, hasRecentData, getPostsNeedingComments, getHotPostsNeedingEarlyComments, logRequest, getRequestLogs, getRequestStats, updatePostResponseStatus } = require('../db');
+var { savePosts, savePostsOnly, saveCommentsForPost, markPostsAsNotified, updatePostCategories, getPostsForDay, hasRecentData, getPostsNeedingComments, getHotPostsNeedingEarlyComments, logRequest, getRequestLogs, getRequestStats, updatePostResponseStatus } = require('../db');
 var router = express.Router();
 
 // Console logging function
