@@ -1,6 +1,6 @@
 var express = require('express');
 var axios = require('axios');
-var { savePosts, savePostsOnly, saveCommentsForPost, getPostsForDay, hasRecentData, getPostsNeedingComments, getHotPostsNeedingEarlyComments, logRequest, getRequestLogs, getRequestStats, updatePostResponseStatus } = require('../db');
+var { savePosts, savePostsOnly, saveCommentsForPost, markPostsAsNotified, getPostsForDay, hasRecentData, getPostsNeedingComments, getHotPostsNeedingEarlyComments, logRequest, getRequestLogs, getRequestStats, updatePostResponseStatus } = require('../db');
 var router = express.Router();
 
 // Console logging function
@@ -354,9 +354,9 @@ router.post('/api/scrape', async function(req, res, next) {
 
       // Combine and save new posts only
       const allNewPosts = [...cyclingPosts, ...veloPosts, ...discoursePosts];
-      await savePostsOnly(allNewPosts);
-      newPostsFound = allNewPosts.length;
-      console.log(`Saved ${newPostsFound} new posts (without comments)`);
+      const actualNewPosts = await savePostsOnly(allNewPosts);
+      newPostsFound = actualNewPosts.length;
+      console.log(`Saved ${newPostsFound} truly new posts (without comments)`);
     }
 
     // Step 2a: Check for HOT posts (15+ comments, 15-60 min old) that need early comment fetch
@@ -508,9 +508,9 @@ router.get('/reddit/refresh', async function(req, res, next) {
 
     // Save posts only (no comments)
     const allNewPosts = [...cyclingPosts, ...veloPosts, ...discoursePosts];
-    await savePostsOnly(allNewPosts);
+    const actualNewPosts = await savePostsOnly(allNewPosts);
     
-    console.log(`Force refresh: Saved ${allNewPosts.length} posts (without comments)`);
+    console.log(`Force refresh: Saved ${actualNewPosts.length} truly new posts (without comments)`);
     
     res.redirect('/reddit');
 

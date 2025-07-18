@@ -11,7 +11,7 @@ from datetime import datetime
 def load_latest_data():
     """Load the most recent email data files"""
     # Find the latest main emails file
-    email_files = glob.glob("mautic_emails_*.json")
+    email_files = glob.glob("data/mautic_emails_*.json")
     if not email_files:
         print("No email data files found. Run mautic_email_fetcher.py first.")
         return None
@@ -109,10 +109,13 @@ def calculate_metrics(emails):
         }
     }
     
-    with open(f"onboarding_analysis_{timestamp}.json", 'w') as f:
+    import os
+    os.makedirs('data', exist_ok=True)
+    
+    with open(f"data/onboarding_analysis_{timestamp}.json", 'w') as f:
         json.dump(analysis, f, indent=2)
     
-    print(f"\nAnalysis saved to onboarding_analysis_{timestamp}.json")
+    print(f"\nAnalysis saved to data/onboarding_analysis_{timestamp}.json")
 
 def main():
     data = load_latest_data()

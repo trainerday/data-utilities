@@ -48,6 +48,12 @@ async function initDb() {
       ADD COLUMN IF NOT EXISTS category TEXT DEFAULT 'other'
     `);
     
+    // Add notified column to track which posts have been notified about
+    await client.query(`
+      ALTER TABLE "forum-posts" 
+      ADD COLUMN IF NOT EXISTS notified BOOLEAN DEFAULT false
+    `);
+    
     // Create forum-post-comments table (renamed from comments)
     await client.query(`
       CREATE TABLE IF NOT EXISTS "forum-post-comments" (
@@ -93,9 +99,11 @@ async function initDb() {
 }
 
 // Save posts without comments (initial save)
+// Returns array of truly new posts (not just updated ones)
 async function savePostsOnly(posts) {
   const client = await pool.connect();
   const now = Math.floor(Date.now() / 1000);
+  const newPosts = [];
   
   try {
     for (const post of posts) {
@@ -109,10 +117,14 @@ async function savePostsOnly(posts) {
         postId = post.url.split('/').slice(-2)[0];
       }
       
+      // Check if this post already exists
+      const existingPost = await client.query('SELECT id FROM "forum-posts" WHERE id = $1', [postId]);
+      const isNewPost = existingPost.rows.length === 0;
+      
       await client.query(`
         INSERT INTO "forum-posts" 
-        (id, title, author, created_utc, score, num_comments, url, selftext, permalink, subreddit, source, fetched_at, category) 
-        VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9, $10, $11, $12, $13)
+        (id, title, author, created_utc, score, num_comments, url, selftext, permalink, subreddit, source, fetched_at, category, notified) 
+        VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9, $10, $11, $12, $13, $14)
         ON CONFLICT (id) DO UPDATE SET
           score = EXCLUDED.score,
           num_comments = EXCLUDED.num_comments,
@@ -132,8 +144,38 @@ async function savePostsOnly(posts) {
         post.subreddit,
         post.subreddit === 'trainerroad' ? 'discourse' : 'reddit',
         now,
-        post.category || 'other'
+        post.category || 'other',
+        false // notified = false for new posts
       ]);
+      
+      // If this is a truly new post, add it to the array
+      if (isNewPost) {
+        newPosts.push({
+          ...post,
+          id: postId
+        });
+      }
+    }
+  } catch (error) {
+    throw error;
+  } finally {
+    client.release();
+  }
+  
+  return newPosts;
+}
+
+// Mark posts as notified
+async function markPostsAsNotified(postIds) {
+  const client = await pool.connect();
+  
+  try {
+    for (const postId of postIds) {
+      await client.query(`
+        UPDATE "forum-posts" 
+        SET notified = true 
+        WHERE id = $1
+      `, [postId]);
     }
   } catch (error) {
     throw error;
@@ -434,6 +476,7 @@ module.exports = {
   savePosts,
   savePostsOnly,
   saveCommentsForPost,
+  markPostsAsNotified,
   getPostsForDay,
   hasRecentData,
   getPostsNeedingComments,

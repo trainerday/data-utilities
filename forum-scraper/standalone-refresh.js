@@ -7,6 +7,7 @@ const axios = require('axios');
 const { 
   savePostsOnly, 
   saveCommentsForPost, 
+  markPostsAsNotified,
   hasRecentData, 
   getPostsNeedingComments, 
   getHotPostsNeedingEarlyComments 
@@ -225,44 +226,46 @@ async function runRefresh() {
       
       // Categorize posts with OpenAI if API key is provided
       let categorizedPosts = allNewPosts;
-      let performancePosts = [];
       
       if (process.env.OPENAI_API_KEY && process.env.OPENAI_API_KEY !== 'your_openai_api_key_here') {
         console.log(`Categorizing ${allNewPosts.length} new posts with OpenAI...`);
         const categorizer = new PostCategorizer(process.env.OPENAI_API_KEY);
         categorizedPosts = await categorizer.categorizePosts(allNewPosts);
-        
-        // Find performance and indoor cycling posts for notification
-        performancePosts = categorizedPosts.filter(post => 
-          post.category === 'Performance' || post.category === 'Indoor Cycling'
-        );
-        console.log(`Found ${performancePosts.length} performance/indoor cycling posts`);
       } else {
         console.log('OpenAI API key not configured, skipping categorization');
       }
       
-      // Save posts with categories
-      await savePostsOnly(categorizedPosts);
-      newPostsFound = categorizedPosts.length;
-      console.log(`Saved ${newPostsFound} new posts (without comments)`);
+      // Save posts with categories - this returns only truly NEW posts
+      const actualNewPosts = await savePostsOnly(categorizedPosts);
+      newPostsFound = actualNewPosts.length;
+      console.log(`Saved ${newPostsFound} truly new posts (without comments)`);
       
-      // Send Telegram notifications for performance posts
-      if (performancePosts.length > 0 && 
+      // Send Telegram notifications for NEW performance and indoor cycling posts only
+      const newPerformancePosts = actualNewPosts.filter(post => 
+        post.category === 'Performance' || post.category === 'Indoor Cycling'
+      );
+      
+      if (newPerformancePosts.length > 0 && 
           process.env.TELEGRAM_BOT_TOKEN && 
           process.env.TELEGRAM_BOT_TOKEN !== 'your_telegram_bot_token_here' &&
           process.env.TELEGRAM_CHAT_ID && 
           process.env.TELEGRAM_CHAT_ID !== 'your_telegram_chat_id_here') {
         
-        console.log(`Sending Telegram notification for ${performancePosts.length} performance posts...`);
+        console.log(`Sending Telegram notification for ${newPerformancePosts.length} NEW performance/indoor posts...`);
         
         try {
           const telegram = new TelegramNotifier(process.env.TELEGRAM_BOT_TOKEN, process.env.TELEGRAM_CHAT_ID);
-          await telegram.notifyBatchPerformancePosts(performancePosts);
+          await telegram.notifyBatchPerformancePosts(newPerformancePosts);
+          
+          // Mark these posts as notified
+          const postIds = newPerformancePosts.map(post => post.id);
+          await markPostsAsNotified(postIds);
+          
           console.log('✅ Telegram notification sent successfully');
         } catch (error) {
           console.error('❌ Failed to send Telegram notification:', error.message);
         }
-      } else if (performancePosts.length > 0) {
+      } else if (newPerformancePosts.length > 0) {
         console.log('Telegram credentials not configured, skipping notification');
       }
     }

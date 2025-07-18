@@ -134,9 +134,10 @@ class MauticEmailContentFetcher:
                 preview = content['cleaned_content'][:200] + '...' if len(content['cleaned_content']) > 200 else content['cleaned_content']
                 print(f"  Preview: {preview}")
         
-        # Save to file
+        # Save to file in data folder
+        os.makedirs('data', exist_ok=True)
         timestamp = datetime.now().strftime("%Y%m%d_%H%M%S")
-        filename = f"mautic_email_content_{timestamp}.json"
+        filename = f"data/mautic_email_content_{timestamp}.json"
         
         with open(filename, 'w', encoding='utf-8') as f:
             json.dump(email_contents, f, indent=2, ensure_ascii=False)
@@ -148,7 +149,7 @@ class MauticEmailContentFetcher:
                            if 'sequence_order' in v}
         
         if onboarding_emails:
-            onboarding_filename = f"onboarding_email_content_{timestamp}.json"
+            onboarding_filename = f"data/onboarding_email_content_{timestamp}.json"
             
             # Sort by sequence order
             sorted_onboarding = dict(sorted(onboarding_emails.items(), 

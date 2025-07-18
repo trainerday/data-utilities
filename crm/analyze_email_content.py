@@ -10,7 +10,7 @@ from datetime import datetime
 
 def load_latest_content():
     """Load the most recent email content file"""
-    content_files = glob.glob("onboarding_email_content_*.json")
+    content_files = glob.glob("data/onboarding_email_content_*.json")
     if not content_files:
         print("No content files found. Run mautic_email_content_fetcher.py first.")
         return None
@@ -136,7 +136,10 @@ def main():
             }
         }
         
-        with open(f"email_content_analysis_{timestamp}.json", 'w') as f:
+        import os
+        os.makedirs('data', exist_ok=True)
+        
+        with open(f"data/email_content_analysis_{timestamp}.json", 'w') as f:
             json.dump(analysis, f, indent=2)
 
 if __name__ == "__main__":
