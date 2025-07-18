@@ -12,7 +12,7 @@ const pool = new Pool({
   password: process.env.DB_PASSWORD,
   ssl: {
     require: true,
-    rejectUnauthorized: true,
+    rejectUnauthorized: false, // Allow self-signed certificates for local development
     ca: process.env.DB_SSL_CERT || fs.readFileSync(path.join(__dirname, process.env.DB_SSLROOTCERT || 'postgres.crt')).toString()
   }
 });
@@ -109,6 +109,7 @@ async function savePostsOnly(posts) {
         ON CONFLICT (id) DO UPDATE SET
           score = EXCLUDED.score,
           num_comments = EXCLUDED.num_comments,
+          selftext = EXCLUDED.selftext,
           fetched_at = EXCLUDED.fetched_at
       `, [
         postId,
@@ -276,7 +277,7 @@ async function getPostsNeedingComments() {
     const oneHourAgo = Math.floor(Date.now() / 1000) - 3600; // 1 hour ago
     
     const result = await client.query(`
-      SELECT id, permalink, subreddit FROM "forum-posts" 
+      SELECT id, title, permalink, subreddit, num_comments FROM "forum-posts" 
       WHERE created_utc < $1 
       AND id NOT IN (SELECT DISTINCT post_id FROM "forum-post-comments")
       ORDER BY created_utc DESC

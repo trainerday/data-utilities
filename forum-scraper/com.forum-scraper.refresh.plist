@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+    <key>Label</key>
+    <string>com.forum-scraper.refresh</string>
+    
+    <key>ProgramArguments</key>
+    <array>
+        <string>/opt/homebrew/bin/node</string>
+        <string>/Users/alex/Documents/Projects/data-utilities/forum-scraper/standalone-refresh.js</string>
+    </array>
+    
+    <key>StartInterval</key>
+    <integer>1800</integer>
+    
+    <key>RunAtLoad</key>
+    <true/>
+    
+    <key>KeepAlive</key>
+    <false/>
+    
+    <key>StandardOutPath</key>
+    <string>/Users/alex/Documents/Projects/data-utilities/forum-scraper/logs/refresh.log</string>
+    
+    <key>StandardErrorPath</key>
+    <string>/Users/alex/Documents/Projects/data-utilities/forum-scraper/logs/refresh-error.log</string>
+    
+    <key>WorkingDirectory</key>
+    <string>/Users/alex/Documents/Projects/data-utilities/forum-scraper</string>
+    
+    <key>EnvironmentVariables</key>
+    <dict>
+        <key>PATH</key>
+        <string>/usr/local/bin:/usr/bin:/bin</string>
+    </dict>
+</dict>
+</plist>
