@@ -37,8 +37,15 @@ async function initDb() {
         subreddit TEXT,
         source TEXT DEFAULT 'reddit',
         fetched_at BIGINT,
-        responded BOOLEAN DEFAULT false
+        responded BOOLEAN DEFAULT false,
+        category TEXT DEFAULT 'other'
       )
+    `);
+    
+    // Add category column if it doesn't exist (for existing databases)
+    await client.query(`
+      ALTER TABLE "forum-posts" 
+      ADD COLUMN IF NOT EXISTS category TEXT DEFAULT 'other'
     `);
     
     // Create forum-post-comments table (renamed from comments)
@@ -104,13 +111,14 @@ async function savePostsOnly(posts) {
       
       await client.query(`
         INSERT INTO "forum-posts" 
-        (id, title, author, created_utc, score, num_comments, url, selftext, permalink, subreddit, source, fetched_at) 
-        VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9, $10, $11, $12)
+        (id, title, author, created_utc, score, num_comments, url, selftext, permalink, subreddit, source, fetched_at, category) 
+        VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9, $10, $11, $12, $13)
         ON CONFLICT (id) DO UPDATE SET
           score = EXCLUDED.score,
           num_comments = EXCLUDED.num_comments,
           selftext = EXCLUDED.selftext,
-          fetched_at = EXCLUDED.fetched_at
+          fetched_at = EXCLUDED.fetched_at,
+          category = EXCLUDED.category
       `, [
         postId,
         post.title,
@@ -123,7 +131,8 @@ async function savePostsOnly(posts) {
         post.subreddit === 'trainerroad' ? post.url.replace('https://www.trainerroad.com', '') : post.url.replace('https://reddit.com', ''),
         post.subreddit,
         post.subreddit === 'trainerroad' ? 'discourse' : 'reddit',
-        now
+        now,
+        post.category || 'other'
       ]);
     }
   } catch (error) {
@@ -239,6 +248,7 @@ async function getPostsForDay(date = new Date()) {
       selftext: post.selftext,
       subreddit: post.subreddit,
       responded: post.responded,
+      category: post.category || 'other',
       comments: commentsByPost[post.id] || []
     }));
     
@@ -277,7 +287,7 @@ async function getPostsNeedingComments() {
     const oneHourAgo = Math.floor(Date.now() / 1000) - 3600; // 1 hour ago
     
     const result = await client.query(`
-      SELECT id, title, permalink, subreddit, num_comments FROM "forum-posts" 
+      SELECT id, title, permalink, subreddit, num_comments, url FROM "forum-posts" 
       WHERE created_utc < $1 
       AND id NOT IN (SELECT DISTINCT post_id FROM "forum-post-comments")
       ORDER BY created_utc DESC
@@ -301,7 +311,7 @@ async function getHotPostsNeedingEarlyComments() {
     const oneHourAgo = now - 3600; // 1 hour
     
     const result = await client.query(`
-      SELECT id, permalink, subreddit, num_comments, title FROM "forum-posts" 
+      SELECT id, permalink, subreddit, num_comments, title, url FROM "forum-posts" 
       WHERE created_utc BETWEEN $1 AND $2
       AND num_comments >= 15
       AND id NOT IN (SELECT DISTINCT post_id FROM "forum-post-comments")

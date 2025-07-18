@@ -75,6 +75,14 @@ async function fetchSubredditPosts(subreddit, headers) {
   return posts;
 }
 
+// Helper function to extract Reddit post ID from URL
+function extractRedditPostId(url) {
+  // URL format: https://reddit.com/r/subreddit/comments/POST_ID/title/
+  const urlParts = url.split('/');
+  const commentsIndex = urlParts.indexOf('comments');
+  return commentsIndex !== -1 ? urlParts[commentsIndex + 1] : null;
+}
+
 // Helper function to fetch comments for a specific post
 async function fetchPostComments(postId, subreddit, headers) {
   const commentsUrl = `https://www.reddit.com/r/${subreddit}/comments/${postId}.json`;
@@ -280,6 +288,31 @@ router.get('/reddit', async function(req, res, next) {
   }
 });
 
+/* GET Forums with category filter */
+router.get('/forums/:category', async function(req, res, next) {
+  try {
+    const category = decodeURIComponent(req.params.category);
+    const posts = await getPostsForDay();
+
+    res.render('reddit', { 
+      title: `Forum Posts - ${category}`, 
+      posts: posts,
+      fetchTime: new Date(),
+      dataSource: 'database',
+      newPosts: 0,
+      commentsProcessed: 0,
+      filterCategory: category
+    });
+
+  } catch (error) {
+    console.error('Error displaying forum data:', error.message);
+    res.status(500).render('error', { 
+      message: 'Failed to display forum data',
+      error: error 
+    });
+  }
+});
+
 /* API endpoint for automated scraping - POST /api/scrape */
 router.post('/api/scrape', async function(req, res, next) {
   try {
@@ -362,7 +395,14 @@ router.post('/api/scrape', async function(req, res, next) {
           if (post.subreddit === 'trainerroad') {
             comments = await fetchDiscourseComments(post.id, headers);
           } else {
-            comments = await fetchPostComments(post.id, post.subreddit, headers);
+            // Extract actual Reddit post ID from URL for comment fetching
+            const redditPostId = extractRedditPostId(post.url);
+            if (redditPostId) {
+              comments = await fetchPostComments(redditPostId, post.subreddit, headers);
+            } else {
+              console.log(`Could not extract Reddit post ID from URL: ${post.url}`);
+              comments = [];
+            }
           }
           await saveCommentsForPost(post.id, comments);
           commentsProcessed++;
@@ -397,7 +437,14 @@ router.post('/api/scrape', async function(req, res, next) {
           if (post.subreddit === 'trainerroad') {
             comments = await fetchDiscourseComments(post.id, headers);
           } else {
-            comments = await fetchPostComments(post.id, post.subreddit, headers);
+            // Extract actual Reddit post ID from URL for comment fetching
+            const redditPostId = extractRedditPostId(post.url);
+            if (redditPostId) {
+              comments = await fetchPostComments(redditPostId, post.subreddit, headers);
+            } else {
+              console.log(`Could not extract Reddit post ID from URL: ${post.url}`);
+              comments = [];
+            }
           }
           await saveCommentsForPost(post.id, comments);
           commentsProcessed++;

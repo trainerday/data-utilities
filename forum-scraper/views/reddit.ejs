@@ -127,6 +127,59 @@
         color: #ff4500;
         font-weight: bold;
       }
+      .filter-section {
+        background: white;
+        padding: 20px;
+        border-radius: 8px;
+        margin-bottom: 20px;
+        box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+      }
+      .filter-toggle {
+        display: flex;
+        align-items: center;
+        gap: 15px;
+      }
+      .filter-button {
+        padding: 8px 16px;
+        border: 2px solid #0079d3;
+        background: white;
+        color: #0079d3;
+        border-radius: 20px;
+        cursor: pointer;
+        font-weight: bold;
+        transition: all 0.2s;
+      }
+      .filter-button.active {
+        background: #0079d3;
+        color: white;
+      }
+      .filter-button:hover {
+        background: #006cbf;
+        color: white;
+        border-color: #006cbf;
+      }
+      .category-performance {
+        border-left: 4px solid #28a745;
+        background: linear-gradient(90deg, #f8fff9 0%, white 20%);
+      }
+      .category-badge {
+        background: #28a745;
+        color: white;
+        padding: 2px 6px;
+        border-radius: 3px;
+        font-size: 11px;
+        font-weight: bold;
+        margin-right: 8px;
+      }
+      .category-badge.other {
+        background: #6c757d;
+      }
+      .category-badge.indoor {
+        background: #9146ff;
+      }
+      .category-badge.trainerroad {
+        background: #e12726;
+      }
     </style>
   </head>
   <body>
@@ -147,6 +200,28 @@
       <a href="/reddit/refresh" class="refresh-btn">Force Refresh</a>
     </div>
 
+    <div class="filter-section">
+      <div class="filter-toggle">
+        <strong>Filter by Category:</strong>
+        <button class="filter-button active" onclick="filterPosts('all')" id="filter-all">
+          All Posts
+        </button>
+        <button class="filter-button" onclick="filterPosts('Performance')" id="filter-Performance">
+          Performance
+        </button>
+        <button class="filter-button" onclick="filterPosts('Indoor Cycling')" id="filter-Indoor-Cycling">
+          Indoor Cycling
+        </button>
+        <button class="filter-button" onclick="filterPosts('TrainerRoad')" id="filter-TrainerRoad">
+          TrainerRoad
+        </button>
+        <button class="filter-button" onclick="filterPosts('other')" id="filter-other">
+          Other
+        </button>
+        <span id="filter-count" style="color: #666; font-size: 14px;"></span>
+      </div>
+    </div>
+
     <% if (posts.length === 0) { %>
       <div class="no-posts">
         <h2>No posts found for today</h2>
@@ -162,8 +237,19 @@
         const hasComments = post.comments && post.comments.length > 0;
         const isHot = isRecent && hasHighComments && hasComments;
       %>
-        <div class="post <%= isHot ? 'hot-post' : '' %>">
+        <div class="post <%= isHot ? 'hot-post' : '' %> <%= post.category === 'Performance' ? 'category-performance' : '' %>" data-category="<%= post.category || 'other' %>">
           <div class="post-title">
+            <% if (post.category === 'Performance') { %>
+              <span class="category-badge">⚡ PERFORMANCE</span>
+            <% } else if (post.category === 'Indoor Cycling') { %>
+              <span class="category-badge indoor">🏠 INDOOR CYCLING</span>
+            <% } else if (post.category === 'TrainerRoad') { %>
+              <span class="category-badge trainerroad">🚴 TRAINERROAD</span>
+            <% } else if (post.category && post.category.startsWith('Other:')) { %>
+              <span class="category-badge other"><%= post.category.replace('Other:', '🔧').trim() %></span>
+            <% } else { %>
+              <span class="category-badge other">🔧 OTHER</span>
+            <% } %>
             <% if (isHot) { %>
               <span class="hot-indicator">🔥 HOT</span>
             <% } %>
@@ -258,6 +344,71 @@
           document.getElementById(`response-checkbox-${postId}`).checked = !responded;
         }
       }
+
+      function filterPosts(category) {
+        const posts = document.querySelectorAll('.post');
+        const filterButtons = document.querySelectorAll('.filter-button');
+        const filterCount = document.getElementById('filter-count');
+        
+        // Update button states
+        filterButtons.forEach(btn => btn.classList.remove('active'));
+        const buttonId = category === 'Indoor Cycling' ? 'filter-Indoor-Cycling' : `filter-${category}`;
+        document.getElementById(buttonId).classList.add('active');
+        
+        let visibleCount = 0;
+        let categoryCounts = {
+          'Performance': 0,
+          'Indoor Cycling': 0, 
+          'TrainerRoad': 0,
+          'other': 0
+        };
+        
+        posts.forEach(post => {
+          const postCategory = post.getAttribute('data-category');
+          
+          // Count categories
+          if (categoryCounts.hasOwnProperty(postCategory)) {
+            categoryCounts[postCategory]++;
+          } else if (postCategory && postCategory.startsWith('Other:')) {
+            categoryCounts['other']++;
+          } else {
+            categoryCounts['other']++;
+          }
+          
+          // Show/hide posts
+          let shouldShow = false;
+          if (category === 'all') {
+            shouldShow = true;
+          } else if (category === 'other') {
+            shouldShow = !postCategory || postCategory === 'other' || postCategory.startsWith('Other:');
+          } else {
+            shouldShow = postCategory === category;
+          }
+          
+          if (shouldShow) {
+            post.style.display = 'block';
+            visibleCount++;
+          } else {
+            post.style.display = 'none';
+          }
+        });
+        
+        // Update count display
+        if (category === 'all') {
+          filterCount.textContent = `(${visibleCount} total: ${categoryCounts.Performance} performance, ${categoryCounts['Indoor Cycling']} indoor, ${categoryCounts.TrainerRoad} trainerroad, ${categoryCounts.other} other)`;
+        } else {
+          filterCount.textContent = `(${visibleCount} ${category === 'other' ? 'other' : category.toLowerCase()} posts)`;
+        }
+      }
+
+      // Initialize filter on page load
+      document.addEventListener('DOMContentLoaded', function() {
+        <% if (typeof filterCategory !== 'undefined' && filterCategory) { %>
+          filterPosts('<%= filterCategory %>');
+        <% } else { %>
+          filterPosts('all');
+        <% } %>
+      });
     </script>
   </body>
 </html>

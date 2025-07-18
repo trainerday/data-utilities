@@ -12,6 +12,10 @@ const {
   getHotPostsNeedingEarlyComments 
 } = require('./db');
 
+// Import AI categorization and notifications
+const PostCategorizer = require('./openai-categorizer');
+const TelegramNotifier = require('./telegram-notifier');
+
 // Enhanced axios request with logging
 async function makeRequest(url, headers, requestType = 'REQUEST') {
   const startTime = Date.now();
@@ -130,6 +134,14 @@ async function fetchDiscourseTopics() {
   return posts;
 }
 
+// Helper function to extract Reddit post ID from URL
+function extractRedditPostId(url) {
+  // URL format: https://reddit.com/r/subreddit/comments/POST_ID/title/
+  const urlParts = url.split('/');
+  const commentsIndex = urlParts.indexOf('comments');
+  return commentsIndex !== -1 ? urlParts[commentsIndex + 1] : null;
+}
+
 // Helper function to fetch comments for Reddit posts
 async function fetchPostComments(postId, subreddit, headers) {
   const commentsUrl = `https://www.reddit.com/r/${subreddit}/comments/${postId}.json`;
@@ -208,11 +220,51 @@ async function runRefresh() {
         fetchDiscourseTopics()
       ]);
 
-      // Combine and save new posts only
+      // Combine new posts
       const allNewPosts = [...cyclingPosts, ...veloPosts, ...discoursePosts];
-      await savePostsOnly(allNewPosts);
-      newPostsFound = allNewPosts.length;
+      
+      // Categorize posts with OpenAI if API key is provided
+      let categorizedPosts = allNewPosts;
+      let performancePosts = [];
+      
+      if (process.env.OPENAI_API_KEY && process.env.OPENAI_API_KEY !== 'your_openai_api_key_here') {
+        console.log(`Categorizing ${allNewPosts.length} new posts with OpenAI...`);
+        const categorizer = new PostCategorizer(process.env.OPENAI_API_KEY);
+        categorizedPosts = await categorizer.categorizePosts(allNewPosts);
+        
+        // Find performance and indoor cycling posts for notification
+        performancePosts = categorizedPosts.filter(post => 
+          post.category === 'Performance' || post.category === 'Indoor Cycling'
+        );
+        console.log(`Found ${performancePosts.length} performance/indoor cycling posts`);
+      } else {
+        console.log('OpenAI API key not configured, skipping categorization');
+      }
+      
+      // Save posts with categories
+      await savePostsOnly(categorizedPosts);
+      newPostsFound = categorizedPosts.length;
       console.log(`Saved ${newPostsFound} new posts (without comments)`);
+      
+      // Send Telegram notifications for performance posts
+      if (performancePosts.length > 0 && 
+          process.env.TELEGRAM_BOT_TOKEN && 
+          process.env.TELEGRAM_BOT_TOKEN !== 'your_telegram_bot_token_here' &&
+          process.env.TELEGRAM_CHAT_ID && 
+          process.env.TELEGRAM_CHAT_ID !== 'your_telegram_chat_id_here') {
+        
+        console.log(`Sending Telegram notification for ${performancePosts.length} performance posts...`);
+        
+        try {
+          const telegram = new TelegramNotifier(process.env.TELEGRAM_BOT_TOKEN, process.env.TELEGRAM_CHAT_ID);
+          await telegram.notifyBatchPerformancePosts(performancePosts);
+          console.log('✅ Telegram notification sent successfully');
+        } catch (error) {
+          console.error('❌ Failed to send Telegram notification:', error.message);
+        }
+      } else if (performancePosts.length > 0) {
+        console.log('Telegram credentials not configured, skipping notification');
+      }
     }
 
     // Check for HOT posts (15+ comments, 15-60 min old) that need early comment fetch
@@ -250,7 +302,14 @@ async function runRefresh() {
           if (post.subreddit === 'trainerroad') {
             comments = await fetchDiscourseComments(post.id, headers);
           } else {
-            comments = await fetchPostComments(post.id, post.subreddit, headers);
+            // Extract actual Reddit post ID from URL for comment fetching
+            const redditPostId = extractRedditPostId(post.url);
+            if (redditPostId) {
+              comments = await fetchPostComments(redditPostId, post.subreddit, headers);
+            } else {
+              console.log(`Could not extract Reddit post ID from URL: ${post.url}`);
+              comments = [];
+            }
           }
           await saveCommentsForPost(post.id, comments);
           commentsProcessed++;
@@ -284,7 +343,14 @@ async function runRefresh() {
           if (post.subreddit === 'trainerroad') {
             comments = await fetchDiscourseComments(post.id, headers);
           } else {
-            comments = await fetchPostComments(post.id, post.subreddit, headers);
+            // Extract actual Reddit post ID from URL for comment fetching
+            const redditPostId = extractRedditPostId(post.url);
+            if (redditPostId) {
+              comments = await fetchPostComments(redditPostId, post.subreddit, headers);
+            } else {
+              console.log(`Could not extract Reddit post ID from URL: ${post.url}`);
+              comments = [];
+            }
           }
           await saveCommentsForPost(post.id, comments);
           commentsProcessed++;
