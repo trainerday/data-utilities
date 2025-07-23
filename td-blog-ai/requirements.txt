@@ -1,0 +1,16 @@
+# Core dependencies
+anthropic==0.40.0
+psycopg2-binary==2.9.9
+python-dotenv==1.0.0
+openai==1.54.3
+
+# Data processing
+frontmatter==1.1.0
+pathlib
+hashlib
+
+# Optional utilities
+argparse
+json
+time
+typing

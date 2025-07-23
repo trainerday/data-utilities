@@ -1,0 +1,351 @@
+{
+  "generated_at": "2025-07-23T12:29:49.816435",
+  "purpose": "Human review of priority topics for article title drafting",
+  "topics_reviewed": 8,
+  "topics": [
+    {
+      "topic_id": 57549,
+      "title": "[SOLVED] Expand Interval Descriptions not expanding (and missing main work, all rolled into warmup)",
+      "category": "Technical Issues",
+      "created_at": "2025-03-21T13:14:34.668000",
+      "views": 0,
+      "posts_count": 0,
+      "total_questions": 5,
+      "latest_question_date": "2025-04-25",
+      "questions": [
+        {
+          "date_posted": "2025-04-25",
+          "pain_point": "",
+          "question_content": "",
+          "response_content": "This is fixed now.",
+          "response_type": "announcement",
+          "user_language": ""
+        },
+        {
+          "date_posted": "2025-03-22",
+          "pain_point": "",
+          "question_content": "Ciao, Erik Il Rosso",
+          "response_content": "Also realize this is basically all it should say… So you are not missing much. Really there should not be an arrow. image1410×1312 106 KB",
+          "response_type": "explanation",
+          "user_language": ""
+        },
+        {
+          "date_posted": "2025-03-21",
+          "pain_point": "no drop down menu appears when clicking",
+          "question_content": "Hi There, maybe there’s a bug, no drop down menu appears when I click, it used to work… image602×797 27.7 KB Ciao, Erik Il Rosso",
+          "response_content": "I see it. What device and browser are you using? See mine on both mobile and on desktop image1296×1486 86.8 KB",
+          "response_type": "question_back",
+          "user_language": "drop down menu, maybe there’s a bug"
+        },
+        {
+          "date_posted": "2025-03-21",
+          "pain_point": "drop down menu still doesn’t work",
+          "question_content": "Hi Alex, I am using a PC with Win 11 + Chrome Versione 134.0.6998.166 (Build ufficiale) (a 64 bit). Despite installing the latest version of Chrome the drop down menu still doesn’t work. Ciao, Erik Il Rosso",
+          "response_content": "Ok I just logged into PC to check. Also logged in to your account. I have same version of Chrome and it works for me. I think you have a cached version of our web app. We just did a major upgrade a fe",
+          "response_type": "troubleshooting",
+          "user_language": "PC with Win 11, Chrome, latest version"
+        },
+        {
+          "date_posted": "2025-03-21",
+          "pain_point": "nothing happens when clicking",
+          "question_content": "Maybe I wasn’t clear enough, If I click where the yellow dot is nothing happens… Tried logging off and on, cache cleaned and page re-loaded no results… Ciao, Erik Il Rosso",
+          "response_content": "Oh my, sorry, I was looking at the top part… I saw you had some indicator down there but I did not know what you were talking about… My fault. Ok that looks like a bug… The problem is “drop down menu”",
+          "response_type": "limitation_admission",
+          "user_language": "yellow dot, cache cleaned, page re-loaded"
+        }
+      ],
+      "draft_article_title": "",
+      "article_notes": "",
+      "approved_for_content": false
+    },
+    {
+      "topic_id": 62955,
+      "title": "[SOLVED] - App shows different plan workout than Website",
+      "category": "Technical Issues",
+      "created_at": "2025-07-09T03:15:15.718000",
+      "views": 0,
+      "posts_count": 0,
+      "total_questions": 4,
+      "latest_question_date": "2025-07-10",
+      "questions": [
+        {
+          "date_posted": "2025-07-10",
+          "pain_point": "Inability to view calendar in the app.",
+          "question_content": "Is there a way to see the calendar in the iphone app ? Thanks, Scott",
+          "response_content": "We are also in the process of adding the calendar right now, just like the web but for now once you activate your calendar you can see the plan on the workouts/plan tab.",
+          "response_type": "announcement",
+          "user_language": "{\"see the calendar\",\"iphone app\"}"
+        },
+        {
+          "date_posted": "2025-07-10",
+          "pain_point": "N/A",
+          "question_content": "Got it - Thanks!! I activated “My Calendar” and now I see the correct workout on my app. Also, now when I click on “Workouts” it shows me the list of workouts with their dates - which is basically the calendar view I was looking for. Thanks for the fast responses!",
+          "response_content": "No response needed as user confirmed resolution.",
+          "response_type": "N/A",
+          "user_language": "{\"activated “My Calendar”\",\"see the correct workout\",\"calendar view\"}"
+        },
+        {
+          "date_posted": "2025-07-09",
+          "pain_point": "Confusion over different workout displays on app vs. website.",
+          "question_content": "When I look at the App (iphone and ipad), it shows one workout, but when I look on the website, it shows a different one. The app shows workouts numbered… #1, #2, etc… but not on the calendar?? Very confused. Why doesn’t the app show the scheduled workouts like the website?",
+          "response_content": "Sounds like you are logged in on two different accounts",
+          "response_type": "troubleshooting",
+          "user_language": "{confused,\"different workout\",\"not on the calendar\"}"
+        },
+        {
+          "date_posted": "2025-07-09",
+          "pain_point": "Need to report workouts done outside the app.",
+          "question_content": "And then, when I’ve done the workout (recorded externally and into strava) that was not on the website, how do I tell the website the workout I did for that day?",
+          "response_content": "Oh I see what you mean now. Sorry I should have read more clearly what you wrote, I misunderstood. When you activated the plan in my plans, it gave you a message that it was deactivating your calendar",
+          "response_type": "explanation",
+          "user_language": "{\"how do I tell the website\",\"recorded externally\"}"
+        }
+      ],
+      "draft_article_title": "",
+      "article_notes": "",
+      "approved_for_content": false
+    },
+    {
+      "topic_id": 55120,
+      "title": "[SOLVED] - iOS App crashing after peak of TD Ramp Test",
+      "category": "Technical Issues",
+      "created_at": "2025-02-11T17:08:13.082000",
+      "views": 265,
+      "posts_count": 12,
+      "total_questions": 4,
+      "latest_question_date": "2025-03-10",
+      "questions": [
+        {
+          "date_posted": "2025-03-10",
+          "pain_point": "App crashes when trying to save after stopping a workout.",
+          "question_content": "Hey there I am following up, because I do have the same error again. After stopping the workout, I just can’t save without having the app crash. I reinstalled multiple times. Any chance of some more debugging? In this state, the App has become unusable to me.",
+          "response_content": "I would be happy for you to meet with my developer if you are willing. Let me know and I will PM you. If it does not save just hit discard and you will see it in your trash and you can restore it.",
+          "response_type": "roadmap_hint",
+          "user_language": "same error again, can’t save, app has become unusable"
+        },
+        {
+          "date_posted": "2025-03-10",
+          "pain_point": "Discarding the workout also causes the app to crash.",
+          "question_content": "Hey there and thank you for replying so quick. I‘d to talk to you dev about this. I did try to discard, but this made the app crash as well.",
+          "response_content": "Strange. Let me ask my developer to review this and see what ideas he has or how to trouble shoot.",
+          "response_type": "troubleshooting",
+          "user_language": "made the app crash as well"
+        },
+        {
+          "date_posted": "2025-02-11",
+          "pain_point": "App crashes after reaching the peak of the ramp test.",
+          "question_content": "Hey there, Was just reaching the peak point of the ramp test. Stopped pedaling and the App crashed. After reopening I tried to pick up the running training again. After pedaling or trying to stop the test, the App crashed again. See attached screencast for reference. iOS 18.3 on iPhone 15 Pro. Lates",
+          "response_content": "Oh my god… that is terrible… Really sorry to hear this. This is the first time anyone ever reported this. What trainer or other devices are you using?",
+          "response_type": "question_back",
+          "user_language": "App crashed, stopped pedaling, reopening, running training again"
+        },
+        {
+          "date_posted": "2025-02-11",
+          "pain_point": "Suspects the issue is related to the iPhone since it works on iPads.",
+          "question_content": "The trainer is a Tacx Neo Smart T2800. It has been working flawlessly together with TrainerDay App on multiple iPads in my household. Which leads me to suspects it’s some random issue related to the iPhone? Even a hard restart with the well known button combination to the Apple logo won’t fix it. On",
+          "response_content": "Yeah I looked at our event log and don’t see anything. Uninstall and re-install our app should fix it. I would think it might be some kind of corrupt data but not sure how it happened, unless the firs",
+          "response_type": "troubleshooting",
+          "user_language": "working flawlessly, random issue related to the iPhone"
+        }
+      ],
+      "draft_article_title": "",
+      "article_notes": "",
+      "approved_for_content": false
+    },
+    {
+      "topic_id": 55971,
+      "title": "[SOLVED] - Coach Jack not working",
+      "category": "Technical Issues",
+      "created_at": "2025-02-23T20:11:49.756000",
+      "views": 292,
+      "posts_count": 22,
+      "total_questions": 4,
+      "latest_question_date": "2025-02-27",
+      "questions": [
+        {
+          "date_posted": "2025-02-27",
+          "pain_point": "Blank screen on mobile devices.",
+          "question_content": "Hi, still get a blank screen on my mobile devices (iPhone and iPad) when I click on Coach Jack.",
+          "response_content": "Yes sorry mobile is broken for Coach Jack… we are changing the technology so it must be accessed from desktop. We hope to have this resolved soon.",
+          "response_type": "limitation_admission",
+          "user_language": "blank screen"
+        },
+        {
+          "date_posted": "2025-02-26",
+          "pain_point": "Getting a blank page when trying to edit the plan.",
+          "question_content": "Hi, The thread is marked as solved, have you been able to fix it? I have the same issue, I’m trying to edit my plan, but I get a blank page. I tried from a windows device, a mac device and my android mobile phone.",
+          "response_content": "Oh now I understand what you mean. You mean edit from the calendar is broken. You can do it here instead for now.",
+          "response_type": "explanation",
+          "user_language": "blank page"
+        },
+        {
+          "date_posted": "2025-02-25",
+          "pain_point": "Blank screen when accessing Coach Jack.",
+          "question_content": "I’m getting the same a blank screen when I try to access coach jack too. Was working fine a few days ago.",
+          "response_content": "Strange, I was able to login as you and it worked. I did pick the non-strava route. But now it should work fine.",
+          "response_type": "troubleshooting",
+          "user_language": "blank screen"
+        },
+        {
+          "date_posted": "2025-02-23",
+          "pain_point": "Getting a blank screen when trying to use Coach Jack.",
+          "question_content": "Just rejoined after a period of just riding and when trying to use coach Jack in the web app I’m just getting a blank screen. Any ideas? Many thanks.",
+          "response_content": "Hi, I just logged in as you and it worked fine. Make sure you don’t have any popup blocker, auto translators and are using desktop version and it will work. We are fixing it soon so these things won’t",
+          "response_type": "troubleshooting",
+          "user_language": "blank screen"
+        }
+      ],
+      "draft_article_title": "",
+      "article_notes": "",
+      "approved_for_content": false
+    },
+    {
+      "topic_id": 56956,
+      "title": "[SOLVED] - App has started crashing",
+      "category": "Technical Issues",
+      "created_at": "2025-03-11T19:27:55.830000",
+      "views": 397,
+      "posts_count": 11,
+      "total_questions": 3,
+      "latest_question_date": "2025-03-14",
+      "questions": [
+        {
+          "date_posted": "2025-03-14",
+          "pain_point": "Inability to use the app with their trainer.",
+          "question_content": "Yes I can’t use mine at the moment. I’m on an (old but great as I can train in the garden) Tacx Bushido and wondering if that’s connected to the issue, although as I say it worked fine until last week when I think the app was updated?",
+          "response_content": "It should not have to do with your trainer. We don’t know what it is. We can’t find anything that we changed recently that could cause this issue. It seems to be related to a bluetooth library we use ",
+          "response_type": "limitation_admission",
+          "user_language": "can’t use mine, connected to the issue, worked fine until last week"
+        },
+        {
+          "date_posted": "2025-03-14",
+          "pain_point": null,
+          "question_content": "Great. Thanks a lot for looking into this. Will give it a go tomorrow and look forward to the results.",
+          "response_content": "Guys see this thread. You just need to change your beep sound which solves it for now. [SOLVED] - App crashing constantly on interval change (related to new beep sounds) Resolved Bugs and Issues This ",
+          "response_type": "announcement",
+          "user_language": "Thanks a lot for looking into this, look forward to the results"
+        },
+        {
+          "date_posted": "2025-03-11",
+          "pain_point": "App crashing frequently during workouts.",
+          "question_content": "Following what I think was a recent update my app is crashing lots and always when there’s a change of power required. I’m on pixel 6. When app updated it recently asked me to allow background power, which I did, but fault continues with this option on or off. Attached are 2 recent workouts. Any hel",
+          "response_content": "I have a pixel 6, i will test it tomorrow and let you know.",
+          "response_type": "question_back",
+          "user_language": "app crashing, recent update, background power"
+        }
+      ],
+      "draft_article_title": "",
+      "article_notes": "",
+      "approved_for_content": false
+    },
+    {
+      "topic_id": 57038,
+      "title": "Zone 2 computation",
+      "category": "Training Theory",
+      "created_at": "2025-03-12T23:10:50.110000",
+      "views": 217,
+      "posts_count": 6,
+      "total_questions": 3,
+      "latest_question_date": "2025-03-13",
+      "questions": [
+        {
+          "date_posted": "2025-03-13",
+          "pain_point": "Uncertainty about the appropriate heart rate percentage for training.",
+          "question_content": "thanks Alex. if i use 65% of my max hr, should i be good then ?",
+          "response_content": "Most likely 65% is a safe number to be below AeT, so fits my definition of zone 2 very well. It should feel easy, like slightly harder than walking, you are almost not breathing much different than wa",
+          "response_type": "explanation",
+          "user_language": "{\"65% of my max hr\",\"should i be good\"}"
+        },
+        {
+          "date_posted": "2025-03-13",
+          "pain_point": "Difficulty in determining the right intensity for angiogenesis without lactate testing.",
+          "question_content": "i am trying to get angiogenesis. if i atart having lactate buildup if i understand, then that does not happen. if you exercise too lightly, same thing. how can you find the sweet spot riding for an hour and half to achieve this goal if you cannot test for lactate ? i am indeed looking for fitness/he",
+          "response_content": "Lactate build up does not start until you get > FTP… You will get lactate below that it just won’t build up. Never heard of angiogenesis. You like finding interesting ideas Sounds like you are heading",
+          "response_type": "explanation",
+          "user_language": "{angiogenesis,\"lactate buildup\",\"sweet spot\",\"fitness/health outcome\"}"
+        },
+        {
+          "date_posted": "2025-03-12",
+          "pain_point": "Discrepancy in heart rate zone calculations between devices.",
+          "question_content": "I do not think that has been asked before but whoop introduced zone training in their app. The HR zones do not match my garmin. They use this formula Target HR Intensity Zone = ((Max HR − Resting HR) × %Intensity) + Resting HR If i use their zone system, my zone 2 limits are not the same as my garmi",
+          "response_content": "Zones are a made up concept for the most part Their are a lot of different definitions and many analytics systems lets you define your own zone ranges. Garmin for example does. Zone 2 is what ever you",
+          "response_type": "explanation",
+          "user_language": "{\"zone training\",\"HR zones\",\"max HR\",\"Resting HR\",\"lactate build up\"}"
+        }
+      ],
+      "draft_article_title": "",
+      "article_notes": "",
+      "approved_for_content": false
+    },
+    {
+      "topic_id": 55808,
+      "title": "Elite Suito or App problem?",
+      "category": "Technical Issues",
+      "created_at": "2025-02-21T09:54:24.856000",
+      "views": 456,
+      "posts_count": 9,
+      "total_questions": 3,
+      "latest_question_date": "2025-03-03",
+      "questions": [
+        {
+          "date_posted": "2025-03-03",
+          "pain_point": "Connection issues with Garmin Edge and Direto.",
+          "question_content": "Yes, if Garmin Edge kicks in too fast, TD loses the connection. So, my final “official” (ehm…) workaround today is: Power on your Direto Open TD app Wait for Direto and TD to connect via BLE (after a few seconds, you can actually hear Direto hanshaking) Start a workout on TD Power on your Garmin Edg",
+          "response_content": "Wow!!! Thank you.",
+          "response_type": "praise",
+          "user_language": "{\"Garmin Edge\",\"TD loses the connection\",workaround,\"connect via BLE\",\"Direto hanshaking\",\"connect to Direto via ANT+\",\"Start recording\"}"
+        },
+        {
+          "date_posted": "2025-02-22",
+          "pain_point": "Trainer lost connection during workout.",
+          "question_content": "I might have something to debug ! Today, the trainer started as expected (a bit slow, but it did start). But somewhere between minute 29 and 30, the trainers “lost” the connection. Trainer Day - Activity Detail exactly the same behaviour as not starting up. And : it didn’t start up again afterwards.",
+          "response_content": "We are making small changes to the app all the time but we test on Suito regularly so it should work but it’s always possible it’s connected with our app. We will rebuild how connections works soon. H",
+          "response_type": "explanation",
+          "user_language": "{debug,\"lost the connection\",\"not starting up\",\"unplug it\",\"leave it like 30s without power\",\"weird instruction\"}"
+        },
+        {
+          "date_posted": "2025-02-21",
+          "pain_point": "Having trouble getting the trainer to register during workouts.",
+          "question_content": "Since a couple of weeks, I’m having a problem to get started with a new workout. I don’t know if it’s an app problem or a hardware (trainer) related problem. So what happens : I start the app, it connects the trainer and my heartrate monitor. The heartrate shows immediately (which is fine). The trai",
+          "response_content": "We have a Suito and it works fine for us. But it would not be the first time someone with the same model has a problem and we don’t. I have this suspicion that some how we get corrupted cache but neve",
+          "response_type": "troubleshooting",
+          "user_language": "{\"app problem\",\"hardware related problem\",\"0 watts\",\"0 rpm\",quickstart,\"planned workout\",disconnect,\"remove bluetooth\",\"restart the app\"}"
+        }
+      ],
+      "draft_article_title": "",
+      "article_notes": "",
+      "approved_for_content": false
+    },
+    {
+      "topic_id": 34769,
+      "title": "IOS App won't finish workout and crashes",
+      "category": "Technical Issues",
+      "created_at": "2024-03-03T18:28:22.287000",
+      "views": 959,
+      "posts_count": 15,
+      "total_questions": 2,
+      "latest_question_date": "2025-03-12",
+      "questions": [
+        {
+          "date_posted": "2025-03-12",
+          "pain_point": "App crashes on save, uncertainty about iOS update impact.",
+          "question_content": "Same problem here. Finished workout, app crashes upon saving. Restarting phone does not help. The finished workout still shows however, but can’t save it. Iphone 12, iOS 18.2, and I was connected to an Elite trainer and Wahoo Tickr. There’s an iOS update, worth a try or will installing that delete t",
+          "response_content": "Sorry to hear. I think you can update without losing the workout as long as it is not a reinstall but I am not 100% sure. So you can’t hit discard either?",
+          "response_type": "troubleshooting",
+          "user_language": "same problem, crashes upon saving, delete the workout"
+        },
+        {
+          "date_posted": "2024-08-01",
+          "pain_point": "App crashes on save, confusion about reloading the app.",
+          "question_content": "I’m having the same issue. -iPhone 11 -Finished FTP test, push the stop button, it shows the name/save window, and then when pushing save, it crashes -No other apps running Is a re-load of the app just me closing and then opening the app? (but I’ll lose the workout?), or is it a delete and re-instal",
+          "response_content": "Sorry to hear that. I have not heard of this in a long time. You can restart your phone and it will remember the workout. That’s what you should try first.",
+          "response_type": "troubleshooting",
+          "user_language": "same issue, crashes, reload of the app"
+        }
+      ],
+      "draft_article_title": "",
+      "article_notes": "",
+      "approved_for_content": false
+    }
+  ]
+}
