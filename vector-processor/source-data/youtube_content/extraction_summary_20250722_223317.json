@@ -1,0 +1,110 @@
+{
+  "channel": "@trainerday",
+  "total_videos_found": 10,
+  "successful_extractions": 0,
+  "failed_extractions": 10,
+  "extraction_date": "2025-07-22T22:33:17.833745",
+  "successful_videos": [],
+  "failed_videos": [
+    {
+      "video": {
+        "video_id": "R0A3GQeLDro",
+        "title": "TrainerDay Feature Update:  A New Plan Duration Manager",
+        "url": "https://www.youtube.com/watch?v=R0A3GQeLDro",
+        "duration": 77.0,
+        "upload_date": null
+      },
+      "error": "error: type object 'YouTubeTranscriptApi' has no attribute 'list_transcripts'"
+    },
+    {
+      "video": {
+        "video_id": "0IhJAC6YzCA",
+        "title": "TrainerDay Cycling App - Simplified",
+        "url": "https://www.youtube.com/watch?v=0IhJAC6YzCA",
+        "duration": 716.0,
+        "upload_date": null
+      },
+      "error": "error: type object 'YouTubeTranscriptApi' has no attribute 'list_transcripts'"
+    },
+    {
+      "video": {
+        "video_id": "ByJX9QT-fHs",
+        "title": "TrainerDay Cycling App - Settings in Depth and Highly Dynamic INDOOR Cycling Training",
+        "url": "https://www.youtube.com/watch?v=ByJX9QT-fHs",
+        "duration": 1137.0,
+        "upload_date": null
+      },
+      "error": "error: type object 'YouTubeTranscriptApi' has no attribute 'list_transcripts'"
+    },
+    {
+      "video": {
+        "video_id": "rrIc7LZ8Cjk",
+        "title": "Explanation of W-Prime Balance in TrainerDay",
+        "url": "https://www.youtube.com/watch?v=rrIc7LZ8Cjk",
+        "duration": 383.0,
+        "upload_date": null
+      },
+      "error": "error: type object 'YouTubeTranscriptApi' has no attribute 'list_transcripts'"
+    },
+    {
+      "video": {
+        "video_id": "MK87_Seu658",
+        "title": "Automatic Slope, ERG and HR mode switching.  How to create your workout in TrainerDay.",
+        "url": "https://www.youtube.com/watch?v=MK87_Seu658",
+        "duration": 141.0,
+        "upload_date": null
+      },
+      "error": "error: type object 'YouTubeTranscriptApi' has no attribute 'list_transcripts'"
+    },
+    {
+      "video": {
+        "video_id": "xYBr2IhILUE",
+        "title": "The Ultimate Way to do Zone 2 Training",
+        "url": "https://www.youtube.com/watch?v=xYBr2IhILUE",
+        "duration": 239.0,
+        "upload_date": null
+      },
+      "error": "error: type object 'YouTubeTranscriptApi' has no attribute 'list_transcripts'"
+    },
+    {
+      "video": {
+        "video_id": "S-5R_O7BJ3w",
+        "title": "Create a Cycling workout in 30-seconds using TrainerDay",
+        "url": "https://www.youtube.com/watch?v=S-5R_O7BJ3w",
+        "duration": 48.0,
+        "upload_date": null
+      },
+      "error": "error: type object 'YouTubeTranscriptApi' has no attribute 'list_transcripts'"
+    },
+    {
+      "video": {
+        "video_id": "gu5zeOATpu0",
+        "title": "Zwift vs TrainerRoad: Which is better for you? (Both?)",
+        "url": "https://www.youtube.com/watch?v=gu5zeOATpu0",
+        "duration": 255.0,
+        "upload_date": null
+      },
+      "error": "error: type object 'YouTubeTranscriptApi' has no attribute 'list_transcripts'"
+    },
+    {
+      "video": {
+        "video_id": "w7QudSb5LV8",
+        "title": "Stop Doing Hard Cycling Intervals at the Wrong Intensities",
+        "url": "https://www.youtube.com/watch?v=w7QudSb5LV8",
+        "duration": 229.0,
+        "upload_date": null
+      },
+      "error": "error: type object 'YouTubeTranscriptApi' has no attribute 'list_transcripts'"
+    },
+    {
+      "video": {
+        "video_id": "21iexRqLTi8",
+        "title": "Training Stress (TSS) in plain English - Cycling Performance 101",
+        "url": "https://www.youtube.com/watch?v=21iexRqLTi8",
+        "duration": 53.0,
+        "upload_date": null
+      },
+      "error": "error: type object 'YouTubeTranscriptApi' has no attribute 'list_transcripts'"
+    }
+  ]
+}

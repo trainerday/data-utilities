@@ -1,0 +1,4078 @@
+{
+  "video_id": "JL1Xyb8sC38",
+  "title": "TrainerDay Mobile Training App - Deep-Dive",
+  "url": "https://www.youtube.com/watch?v=JL1Xyb8sC38",
+  "upload_date": null,
+  "duration": 2210.0,
+  "topics": [
+    "mobile-app"
+  ],
+  "transcript": {
+    "full_text": "Hello Alex from trainer day here today we're going to go into a deep dive on our mobile training app and our web app so here we are we're looking at the app here we've got a the sign up page and you go ahead and sign up you can see I've got the free version it says you know upgrade if you want it um I'll go ahead and show you the features of the free version and then later in the tutorial I'll show you the extra features that you get from upgrading once we're in here we've got all these workouts but let's go ahead and just configure things first so we could go to settings and then we could set our FTP first of all so if you don't know your FTP you could and you're riding a lot and you you let's say you're a me bike messenger or you really ride ride a lot and you've been writing consist consistently you would probably go ahead and set that to around 200 we we don't know what it is but let's just say set it to 200 or so if you're new to riding or you haven't been riding in a long time you could probably keep it to 100 or go ahead and enter the FTP that that you have this is basically the heart rate that you would have if you are riding at a kind of consistent pace for 20 minutes or 30 minutes or something like that then we'll go ahead then the next phase so let's just say we enter our FTP of 220 then then we add a device so then we click on add devices and you can see I've got an heart rate here a heart rate device my my watch you connect all of your different devices so if you have a separate power meter um and a smart trainer let's say it will automatically our app will automatically take the power from the power meter instead of the instead of the smart trainer so let's just say it it's smart that way um okay and so we've connected our device now we go to workouts if you haven't if you don't know your FTP or you haven't you know you just haven't tested yourself in a long time you may want to go ahead and do a ramp test to start off with um this ramp test this first ramp test will determine your FTP for you it will guide you through it it'll give some popups and and and so forth so I'll just hit ride now and if you have a power meter or a smart trainer and you just start pedaling it's going to automatically start and if you stop pedaling it's going to automatically stop um I don't right now when I'm giving this video I don't have a trainer right here in front of me so I'm just going to go ahead and hit the play button and these ERG slope and resistance modes they're not set ERG is the mode that most people use with a smart trainer and it will be enabled if you don't have a smart trainer these modes won't be enabled so you'll only you'll or you'll only get resistance or slope mode if you you know if you have some trainers only support let's say slope and resistance mode so ERG is the one where it automatically controls your intensity you just pedal and it will automatically set your power correctly if you only have a power meter or or let's say a what they call a dumb trainer meaning like a fluid trainer or something that doesn't automatically control the resistance then you have to change your gears and and and pedal faster you know increase your Cadence in order to increase the intensity and so if you're doing a ramp test it will you know you'll automatically go up in ERG mode or in non ERG mode you just have to man ually increase your intensity when you complete your ramp test you you'll you'll fail at some point in time usually that's somewhere around the 150% Mark so somewhere whatever your line is right here you'll fail somewhere around that um but you know if the test is if you were just guessing at your FTP you might go higher you might go lower we don't we don't know so when you complete it and you stop pedaling then it will automatically calculate your FTP and then you can keep pedaling and cool down if you want and you can accept that FTP change or not so that's the ramp test um if we go to we'll go back to other workouts whoops let's go ahead and discard that so we can say discard no discard um so let's just say we choose another workout now we're ready to train we go ahead and hit ride now if I re remove my devices you can see a test mode I'll remove that device and I'll just hit play and it'll go into test mode and I can see how the how things work and so you can see here that it shows the total workout time here and the remaining you know the remaining time it shows the remaining time in the interval um my target wattage my my actual wattage again this is test mode my heart rate and my RPM or my Cadence so there's little dots on each of these and this just means that each of these fields is changeable so if I click on the Watts for example it now switches to percent of FTP so rather than being the actual watts it's saying I'm trying to hit 45% of my FTP and this is 44% as my target right so so you can change that back and forth um another thing you can do is you can click on these and you can reverse the order so you can change it to going up rather than going down the same here up versus down um if you click on RPM it will actually just let that's like a shortcut to to adding devices and if you click on BPM it will switch to average interval Watts so this is the this is one of these segments is called an interval and it will show you the average that you've done for that entire entire interval when you're using a power meter along with your with your training device you can have a you can have um you can have power match and so there can be a difference between what you actually are doing in non ERG mode or dumb trainers you know you're trying to Target an average number of watts and also when you're in slope mode um you may be trying to Target a specific number of Watts but slope mode you have to control the power via your Cadence and your gear and and also you know you can press the plus down here to increase intensity but I can't show you that because I can't switch modes at the moment um I can show you that if you click plus it does increase so so that's your average Watts um and then you can see up here in the top Corner you've got the the count of number of connected devices I've got no connected and here's a shortcut to getting to your settings if you want to add a device or you want to change something while you're riding you can actually change everything while you're riding so that that's the overview of the workout it will auto pause as I said if you have a power meter and you stop pedaling it will auto pause but you can also manual pause and manual start and you can stop a workout early so if you just hit stop button normally it would pop up with a popup do you want to save this workout because this is test mode it's not asking you if you want to do that so then when I when I stop the workout it actually goes back to what we called the warmup or a quick start so this is just a simple workout so we'll go ahead and select that workout again let's just say I or a different workout uh whatever yeah we'll take this workout so I'll go ahead and start again and show you some of the other features here which is for example we have this forward button so over right here you've got a forward button and when you click on it it skips to the end of your interval so if you want to shorten an interval at any point in time you can just you can just skip forward you know when you're when you're you're done with that interval the other thing you can do is you can extend an interval so over here on plus 10 seconds right now we've got 46 seconds remaining if I click on+ 10 now it's 42 I click on plus 10 now it's 51 I just added 10 seconds if you hold this button down for a while you get a popup and you can change that so if I want to ex automatically extend 1 minute now every time I I click on one minute or now every time I click on extend it it will extend it by 1 minute and so I can click on it 4:30 went to 5:30 so then I can go ahead and Skip I can skip again the other thing you can see is every time there's an interval change you can see the screen flash you can also turn up the volume on your phone and you can hear a little beep right before the interval changes either going up or going down right here you also see what is my next interval so my next interval is 2 minutes at 114 Watts so that's this little section right here if I'm adding new devices and if I don't have a smart trainer and maybe I have a Speed and Cadence Sensor for example you can you can go ahead and select your speed sensor and when you select your speed sensor it you get an option for virtual power so you can configure your power curve and so let's just say for one specific device if you're going 30 km per hour um you can translate that into Watts so each device has a a power curve and so let's just say 30 km per hour my on your device might be you know let's just say you know 150 watts or something so so we also support virtual power so now I'll go ahead and show you all the different setting options so you've got hour smoothing that will smooth that little line so the little white line that's going there uh let's go back to my training this this white line you can see the white line and the red line are right over the top of each other this is not normal this is just test mode but the white line is the power line and the red line is the is the heart rate line yours won't look like that your heart rate won't jump like that and follow the follow the power line perfectly but that white line when you some trainers have a very let's say bouncy white line or a very Jagged white line and so this power smoothing Smooths out that line we also have here power match if you have a a trainer and a separate power matter meter and the power meter is showing different values which it always does shows different values than your than your smart trainer let's say you can turn on power match and it will match the power in it will increase or decrease your target or your actual um what's sent to the trainer and so it will try to match the power of your of your trainer to your power meter and this doesn't work real good for short intervals but works good for more sustained efforts you also have a a dark theme and a light theme um we we do support different cycling different sports there's a a device called Swim ERG by Vasa that we support we also support uh rowing from concept 2 um but I won't go into those here you can change the device language we have different languages here and then in other options we have a a lot of options so Auto extend cool down this first one will will basically at when you get to the end of your workout it'll take the very last segment that you have or the very last interval and it will just keep extending it over and over again you know it'll add five minutes when you get close to the end it'll add 5 minutes add 5 minutes add 5 minutes so that you can just keep going you know if you don't want to end if you don't feel like ending right at the end it will just keep going and I think it's a nice option or then you can manually stop whenever you want um double single-sided power some people have um uh dual power meters and the and the power meter we we only read one of them and so one of them might report half as much power and so if you're seeing half as much power as you should be you can double your power power M start on training tab really is smart on start on quick start um I'll explain what that is in general but or actually I'll explain it now let's go ahead and turn that on and that off so start on quick start so down here we'll go ahead and stop this workout and we'll go here so start on quick start or start on training tab means here and so what happens is every time you open the app it just starts here which starts with a warmup and so one of the cool features that we have is if you are training and you start your War your work out you can actually just start pedaling and then you say oh I don't know what I want to do today I want to find something then you can go around and search your library or or and you can go ahead and once you find what you want you can click ride now and what it will do is it will allow you to merge your workouts so the one that you already started the warm-up that you started so you don't so you can just immediately hop on the bike start pedaling start recording then search around and look for what you want want to do so then you click merge workouts and then it would have it merged the previous workout with this new workout and you just keep going so you don't lose that warmup that and it and you don't have like let's say in strav you don't have like a start a warmup a separate workout and a separate cool down or or whatever so so that's what that option so auto start so this yeah so the start on training tab or start on it should say start on quick search will do that um disable auto start stop so if you don't like auto start and stop and you want to manually start and stop you know so that even and when you stop pedaling it just keeps going right so it records zero for a period of time you might for example want a 60-minute workout and in the middle of it you're doing some strength training or some other kind of training you're hopping on something else but you want to actually record the whole time um then you just turn off this this and then vibration just basically when you tap on buttons it gives you a little it gives you a little vibration to just help you know that you that you you clicked we've got HR mode and when you're in heart rate mode basically it kind of sh it shifts the priority so let me show you here heart rate mode um when you're in heart rate mode now you see right here now you see a be your current BPM or your beats per minute or your heart rate and over here you actually see your target heart rate so it doesn't change the device much and it doesn't change how things work um it does show you your heart rate here so my my threshold heart rate is 140 and so it's just a change in Focus uh the way the device actually works is all pretty much the same it's just a different kind of view on things so okay that's that's heart rate mode and show Power zones so power zones is here so we've got these little lines this is showing that my my target is actually Zone one zone one the color is gray and and this line moves across to show that it's a little bit 88 is a little bit towards the upper end of Zone one it's mostly the middle but it's the upper end of Zone one and then the target shows you how close close you are on to Target so this little indicator it says that green yes I'm in zone one right now it's zero Watts so zero we use Zone one as from zero to I don't know what the percentage is but like 0 to 65% or or 50 55% 0 to 55% is Zone 1 so it says I'm in zone one cuz I'm at zero maybe that's not completely accurate but it says I'm at the very bottom of Zone you of accuracy so if I want to Target this really precisely or or Target the middle of the Zone really precisely then I want that arrow in the middle and this Arrow turns red or or this little line turns red if I'm not on target so there you can see I'm in a Zone 2 Target my Watts I'm in the upper end of Zone to so anyway that's how that's how the the zones work we're probably going to simplify this in the future so here we've got if you when you're clicking on these plus buttons when you're clicking on this screen you've got down here plus this is jumping up by 10% so if you go to other options when you it's it's moving up and down 10% every time in ERG mode slope mode for example you move up I'm moving up and down 1% resistance mode is I'm moving up and down 3% so slope generally Mo on most trainers goes from like 0 to from 0 to 25% resistance mode is always 0 to 100% so 100% of the trainer's maximum resistance so let's just say you have a wahoo or a Neo Neo your Maxim maximum wattage is like 2200 Watts so in so it would be in maximum resistance if you were trying to do that so you you don't want to necessarily be you don't ever want to get to 100% if especially on the hard trainers now I'll go ahead actually and just upgrade I'll I'll switch to my personal account that is already upgraded so I'll show you real quickly here we've got our website here if you go to First of if you register in the app and then you come to the website you just log in with that account so I'll go ahead and do that the best way to upgrade is to upgrade on our site it we it gives us more options um as to flexibility as to how to change things it gives you a better price so if you click here upgrade now I'm already upgraded but let's just see it it gives me the different options I can upgrade oh I can switch to$ 3.99 a month I can switch to this um so we go ahead and upgrade once we upgrade it takes it will end up taking us to here and in the and at that point in time I can come here and I can press this little refresh button at the top and once I refresh then I'll be upgraded in the app and I can see my and I can see my changes and now when you're here you now have different options across here as well as rather than only the free workouts here you actually have all your lists and let me explain how that works so or if you're in the website and you want to uh add a workout to the app the be the best way to add workouts to the app I believe is to come to the website now you don't have to do it here you can actually click on this little search icon uh up here here and you can search whatever you want um ramp oops ramp so I can search it'll show you what's in your library first and then it'll show you all of the different workouts and you can click on one of these if you want and you can down here at the bottom down here where it says added actually this is already in my library normally you can just add this to your library to have it available or you can just write it so now you've got you know 30,000 workouts you can use in the app once you've upgraded um 30,000 public workouts and you can use all your own private workouts as well so so this is kind of two different modes when you're in the upgraded this is this is switch to list mode is what this button means or switch to search mode so you can either see search mode or List mode um the list mode is the list is my list so when you come down and you go to grab a workout you can say add to favorites you can add it to one of your favorites or you can add it to a new list and you can create as many lists as you want and then you can have those lists available in in the app so in the app you've got this drop down here and it shows you all of your lists the same list that I'm seeing on this page uh and so you also can have a shortcut to your lists so these little ones here are shortcuts to my li to my lists and you can manage those so let's just say I add this to a new list and I can say add to new list and well let's call it blah make it short and easy so I click blah so I just added that to blah and now when I go to my workouts uh most of you will not see all these options let me turn off swimming and E row ERG so now when I come in here to my list I can search blah I can look at blah here's that workout that I added to the list blah if I want blah to show up here at the top I I can click on my lists and I can add blah oh I have to enter a short name so edit all right so now I added a short name I click on show in app and I click save now blah is going to show up in in the app so as I refresh here now you can see I've got blah here as one of my favorites or as one of my kind of shortcuts to my lists okay so that's how kind of list management works um you can also we've got like the easiest workout Creator um and so what you can do is you can create your own workouts here and save them and you can assign them to lists and this is just 10 minutes at 50% of my FTP 20 minutes at 80% 10 10 minutes at 50% we've got a lot of workout options I'll and how you can do this uh sets and Reps is one of the interesting ones if I want to create a workout you know with five reps with 1 minute each at 80% and then 50 oops and then 1 minute each of 50% you can see I just created a workout with with with these intervals with five five repeating intervals real quickly uh you also can enter Cadence targets and slope targets and all kinds of stuff again I'll create a separate workouts and then I can save that and as I said you can assign it to a list you can make it private or public you can even upload a GPX tcx or fit file that's that's not a that's a completed activity and it will automatically convert that into a a power Based training effort and and you also can upload zwo ERC or MRC files so I create workouts add it to my list so you can also see now that I have my in the app I've got my workouts I can see the history of those workouts I can share that workout that I can you know if I want to upload it from here to Garmin one difference is is that when you share from here we don't include speed and distance and if you come to here my activities here oops if you come to my activities here and you go to it and you click share here um these do enclude speed and distance so one of the interesting things about our app or one of the special features let's say is that we do we do speed and distance based on using your weight so if you enter your weight here in kilograms or in pounds and your bike weight we create the speed and distance from the power which is a more accurate way of doing speed and diff distance the big the big thing is is we don't know how you ride you might ride in a super Arrow position you might ride you know sitting straight up you might be drafting off people a lot of times and so this drag coefficient allows you to determine how you typically ride if you're more Arrow you know you might want to go 0.5 and if you wanted to go more you know if if your speeds end up looking too slow or too fast you know in straa or on Garmin or wherever then then it's better to uh then you can adjust this to match more more closely to what you want indoor riding and speed and distance you know it's always virtual so there's no such thing as accurate for speed and distance indoors so something else that's most people want to do here is in apps and devices you can connect to straa put a map on the straa so if you put climbs for example you know these are really intense climbs and so it you know you won't go very fast you'll go 10 kilm per hour 5 km per hour you'll go very slow depending on the amount of power that you're generating and the weight that you weigh if you don't want to go really slow but it it'll put you on some interesting interesting climbs around the world if you just do interesting places that's actually very flat routes you know Miami Beach uh you know other Islands it'll put you on interesting places it'll just put a virtual map on on straa for you there um you can also share two training Peaks so you can share your you know well sorry you can share your compl completed activities we'll go there but you also can send workouts from our platform there so I'll go into that a little bit later because I'm mostly focused on how you use the app directly one thing you can do is if you are using training Peaks or Garmin or sorry training Peaks or intervals ICU you can actually say in mobile app and that what it will do is it will pull your calendar from training Peaks and show it inside of our app and so when you're in our app let's go back here you have this plan tab so this plan tab gives you lots of different options of where the plan comes from so like I said if you if I turn it on here then my plan is going to come from training Peaks if I turn it on here then it's going to come from intervals ICU I also can go to search plans and I can find a plan I can basically let's just say V2 Max booster I can copy it to my plans and you can leave the days as designed this is 7 days a week I wouldn't recommend seven days a week but if it was just for two weeks a booster it might be okay but you can actually convert this plan to a Monday Wednesday Friday plan if you want I can copy it to my plan and now I have a copy of that that's on Monday Tuesday Wednesdays and I can edit that plan and I can say in mobile app so I'll go ahead and just do that um I'll say in mobile app done so now I'll come back here and I'll hit refresh now I can see that I have this plan in the app what it says here is day one day two day three so when you're using my plans um in my plans we don't have the concept of dates this is just a sequence of workouts I have a very if you have a very Dynamic schedule you don't know exactly what days you're going to train on you're not even sure how many days a week you're going to train on this is a very good option right you can just have a once you complete one workout you move to the next you move to the next you move move to the next right so so that's the concept of of my plans but you also can click on send and you can send it to your calendar so we also have a calendar feature here um I'm not going to send this to my plan and I can send specific number of weeks I can send weeks two and three I can send whatever but I'm not going to send it there I'm going to go ahead and go to my calendar and I've got a calendar here and so the calendar is all about doing things on specific days let's just say you know here I'm doing you know a Monday Wednesday Saturday schedule now we do have some unique Fe features you can for example insert a week let's just say you need if you needed to take a week off and you you're not ready to do this week you can say in a week above right and now I've you know taken this I'm going to take this week because I'm sick right or I'm going to take this you know week off or I took this week off because I was sick or you know or I can let's say delete this week and I delete this week and I get that week back so so yeah so once if I want to manage things on specific days and then move them around then a calendar is obviously a great option and then I can basically turn on in mobile app and then if I come back and refresh again in the app I now will see some now I see dates I see September 7th I've got glomba 255 I see today I've got sfr number six right so now I see specific dates tied to my plan and the same is true as if you're using the you know the training Peaks or intervals work out of the day you'll see specific dates that you're supposed to do something because those are calendar based so those are all the options for basically training with training plans you know using any of our 30,000 workouts whether you add them to your favorite lists or whether you search in the app or whether you search on our website when you're searching on our website you've got a lot of opt options you can search by minutes between stress between intensity between you know you can sort by date you can sort by popularity um you can see that this is the most popular workout on our platform you might want to search for a you know let's say what's the most popular V2 Max those Zone V2 Max that's the most popular V2 Max this is the second most popular V2 Max um and so you can find things there then you add them to your libraries we do have Coach Jack here I'm going to do a separate video that talks about all the features of the website what I showed you in this video was the features that were related to the app and how you use the website to use the app and enhance your app experience the next one will go into great detail of the website and all of the different features in the website oh I forgot one more feature now that I'm upgraded I have other options I have a new I have a new Option here which is view workout in real time so if I click on that and I turn it on I can click here and I can share this URL you can see the URL is watch. triner day/ 57 so I can also just type that in here or I can this little live button if I click on live it actually lets me go there as well so I'll go there so now what you see here is you actually see your workout from the app being broadcast to a web page on whatever device you want whatever device let's say a PC a Mac a you know other a tablet you can transmit the data from here to here you could even have your coach watch you you could share share it with a friend and you could train it together and see where you guys are both at together um the other thing you can do so you can shorten this up fairly small you can put it at the bottom of your screen and then you could watch a video on the top if your video happens to be in YouTube you can actually just click on here and you can watch a YouTube video and see it inside of here and go ahead and start it so then you see YouTube videos here this is a new feature and we just launched it and so there's going to be a lot more you know uh Fe we're going to keep enhancing this feature but you can see this broadcast feature um that is part of the paid upgrade and that's it thank you very much",
+    "segments": [
+      {
+        "start": 1.04,
+        "duration": 4.64,
+        "text": "Hello Alex from trainer day here today"
+      },
+      {
+        "start": 3.719,
+        "duration": 5.161,
+        "text": "we're going to go into a deep dive on"
+      },
+      {
+        "start": 5.68,
+        "duration": 5.8,
+        "text": "our mobile training app and our web app"
+      },
+      {
+        "start": 8.88,
+        "duration": 7.36,
+        "text": "so here we are we're looking at the app"
+      },
+      {
+        "start": 11.48,
+        "duration": 7.0,
+        "text": "here we've got a the sign up page and"
+      },
+      {
+        "start": 16.24,
+        "duration": 4.36,
+        "text": "you go ahead and sign up you can see"
+      },
+      {
+        "start": 18.48,
+        "duration": 5.24,
+        "text": "I've got the free version it says you"
+      },
+      {
+        "start": 20.6,
+        "duration": 5.2,
+        "text": "know upgrade if you want it um I'll go"
+      },
+      {
+        "start": 23.72,
+        "duration": 3.879,
+        "text": "ahead and show you the features of the"
+      },
+      {
+        "start": 25.8,
+        "duration": 3.639,
+        "text": "free version and then later in the"
+      },
+      {
+        "start": 27.599,
+        "duration": 4.64,
+        "text": "tutorial I'll show you the extra"
+      },
+      {
+        "start": 29.439,
+        "duration": 4.28,
+        "text": "features that you get from upgrading"
+      },
+      {
+        "start": 32.239,
+        "duration": 3.761,
+        "text": "once we're in here we've got all these"
+      },
+      {
+        "start": 33.719,
+        "duration": 6.32,
+        "text": "workouts but let's go ahead and just"
+      },
+      {
+        "start": 36.0,
+        "duration": 7.28,
+        "text": "configure things first so we could go to"
+      },
+      {
+        "start": 40.039,
+        "duration": 7.641,
+        "text": "settings and then we could set our FTP"
+      },
+      {
+        "start": 43.28,
+        "duration": 6.799,
+        "text": "first of all so if you don't know your"
+      },
+      {
+        "start": 47.68,
+        "duration": 4.039,
+        "text": "FTP you could and you're riding a lot"
+      },
+      {
+        "start": 50.079,
+        "duration": 3.96,
+        "text": "and you you let's say you're a me bike"
+      },
+      {
+        "start": 51.719,
+        "duration": 3.601,
+        "text": "messenger or you really ride ride a lot"
+      },
+      {
+        "start": 54.039,
+        "duration": 3.52,
+        "text": "and you've been writing consist"
+      },
+      {
+        "start": 55.32,
+        "duration": 4.84,
+        "text": "consistently you would probably go ahead"
+      },
+      {
+        "start": 57.559,
+        "duration": 4.64,
+        "text": "and set that to around 200 we we don't"
+      },
+      {
+        "start": 60.16,
+        "duration": 5.6,
+        "text": "know what it is but let's just say set"
+      },
+      {
+        "start": 62.199,
+        "duration": 5.121,
+        "text": "it to 200 or so if you're new to riding"
+      },
+      {
+        "start": 65.76,
+        "duration": 3.8,
+        "text": "or you haven't been riding in a long"
+      },
+      {
+        "start": 67.32,
+        "duration": 4.88,
+        "text": "time you could probably keep it to 100"
+      },
+      {
+        "start": 69.56,
+        "duration": 5.04,
+        "text": "or go ahead and enter the FTP that that"
+      },
+      {
+        "start": 72.2,
+        "duration": 4.52,
+        "text": "you have this is basically the heart"
+      },
+      {
+        "start": 74.6,
+        "duration": 4.72,
+        "text": "rate that you would have if you are"
+      },
+      {
+        "start": 76.72,
+        "duration": 4.96,
+        "text": "riding at a kind of consistent pace for"
+      },
+      {
+        "start": 79.32,
+        "duration": 4.92,
+        "text": "20 minutes or 30 minutes or something"
+      },
+      {
+        "start": 81.68,
+        "duration": 4.2,
+        "text": "like that then we'll go ahead then the"
+      },
+      {
+        "start": 84.24,
+        "duration": 4.48,
+        "text": "next phase so let's just say we enter"
+      },
+      {
+        "start": 85.88,
+        "duration": 7.04,
+        "text": "our FTP of"
+      },
+      {
+        "start": 88.72,
+        "duration": 6.759,
+        "text": "220 then then we add a device so then we"
+      },
+      {
+        "start": 92.92,
+        "duration": 5.12,
+        "text": "click on add devices and you can see"
+      },
+      {
+        "start": 95.479,
+        "duration": 5.6,
+        "text": "I've got an heart rate here a heart rate"
+      },
+      {
+        "start": 98.04,
+        "duration": 5.6,
+        "text": "device my my watch you connect all of"
+      },
+      {
+        "start": 101.079,
+        "duration": 5.761,
+        "text": "your different devices so if you have a"
+      },
+      {
+        "start": 103.64,
+        "duration": 6.24,
+        "text": "separate power meter um and a smart"
+      },
+      {
+        "start": 106.84,
+        "duration": 5.04,
+        "text": "trainer let's say it will automatically"
+      },
+      {
+        "start": 109.88,
+        "duration": 4.32,
+        "text": "our app will automatically take the"
+      },
+      {
+        "start": 111.88,
+        "duration": 4.279,
+        "text": "power from the power meter instead of"
+      },
+      {
+        "start": 114.2,
+        "duration": 6.839,
+        "text": "the instead of the smart trainer so"
+      },
+      {
+        "start": 116.159,
+        "duration": 7.681,
+        "text": "let's just say it it's smart that way um"
+      },
+      {
+        "start": 121.039,
+        "duration": 5.281,
+        "text": "okay and so we've connected our device"
+      },
+      {
+        "start": 123.84,
+        "duration": 5.199,
+        "text": "now we go to"
+      },
+      {
+        "start": 126.32,
+        "duration": 5.44,
+        "text": "workouts if you haven't if you don't"
+      },
+      {
+        "start": 129.039,
+        "duration": 4.2,
+        "text": "know your FTP or you haven't you know"
+      },
+      {
+        "start": 131.76,
+        "duration": 3.8,
+        "text": "you just haven't tested yourself in a"
+      },
+      {
+        "start": 133.239,
+        "duration": 5.321,
+        "text": "long time you may want to go ahead and"
+      },
+      {
+        "start": 135.56,
+        "duration": 6.52,
+        "text": "do a ramp test to start off with um this"
+      },
+      {
+        "start": 138.56,
+        "duration": 6.44,
+        "text": "ramp test this first ramp test will"
+      },
+      {
+        "start": 142.08,
+        "duration": 5.08,
+        "text": "determine your FTP for you it will guide"
+      },
+      {
+        "start": 145.0,
+        "duration": 5.0,
+        "text": "you through it it'll give some popups"
+      },
+      {
+        "start": 147.16,
+        "duration": 4.52,
+        "text": "and and and so forth so I'll just hit"
+      },
+      {
+        "start": 150.0,
+        "duration": 5.68,
+        "text": "ride"
+      },
+      {
+        "start": 151.68,
+        "duration": 5.72,
+        "text": "now and if you have a power meter or a"
+      },
+      {
+        "start": 155.68,
+        "duration": 3.72,
+        "text": "smart trainer and you just start"
+      },
+      {
+        "start": 157.4,
+        "duration": 4.08,
+        "text": "pedaling it's going to automatically"
+      },
+      {
+        "start": 159.4,
+        "duration": 4.119,
+        "text": "start and if you stop pedaling it's"
+      },
+      {
+        "start": 161.48,
+        "duration": 6.08,
+        "text": "going to automatically"
+      },
+      {
+        "start": 163.519,
+        "duration": 5.72,
+        "text": "stop um I don't right now when I'm"
+      },
+      {
+        "start": 167.56,
+        "duration": 3.679,
+        "text": "giving this video I don't have a trainer"
+      },
+      {
+        "start": 169.239,
+        "duration": 4.92,
+        "text": "right here in front of me so I'm just"
+      },
+      {
+        "start": 171.239,
+        "duration": 7.961,
+        "text": "going to go ahead and hit the play"
+      },
+      {
+        "start": 174.159,
+        "duration": 8.121,
+        "text": "button and these ERG slope and"
+      },
+      {
+        "start": 179.2,
+        "duration": 5.24,
+        "text": "resistance modes they're not set ERG is"
+      },
+      {
+        "start": 182.28,
+        "duration": 4.679,
+        "text": "the mode that most people use with a"
+      },
+      {
+        "start": 184.44,
+        "duration": 4.719,
+        "text": "smart trainer and it will be enabled if"
+      },
+      {
+        "start": 186.959,
+        "duration": 4.84,
+        "text": "you don't have a smart trainer these"
+      },
+      {
+        "start": 189.159,
+        "duration": 5.16,
+        "text": "modes won't be enabled so you'll only"
+      },
+      {
+        "start": 191.799,
+        "duration": 4.841,
+        "text": "you'll or you'll only get resistance or"
+      },
+      {
+        "start": 194.319,
+        "duration": 5.361,
+        "text": "slope mode if you you"
+      },
+      {
+        "start": 196.64,
+        "duration": 6.12,
+        "text": "know if you have some trainers only"
+      },
+      {
+        "start": 199.68,
+        "duration": 5.68,
+        "text": "support let's say slope and resistance"
+      },
+      {
+        "start": 202.76,
+        "duration": 4.8,
+        "text": "mode so ERG is the one where it"
+      },
+      {
+        "start": 205.36,
+        "duration": 4.439,
+        "text": "automatically controls your intensity"
+      },
+      {
+        "start": 207.56,
+        "duration": 5.08,
+        "text": "you just pedal and it will automatically"
+      },
+      {
+        "start": 209.799,
+        "duration": 5.681,
+        "text": "set your power correctly if you only"
+      },
+      {
+        "start": 212.64,
+        "duration": 4.84,
+        "text": "have a power meter or or let's say a"
+      },
+      {
+        "start": 215.48,
+        "duration": 4.0,
+        "text": "what they call a dumb trainer meaning"
+      },
+      {
+        "start": 217.48,
+        "duration": 3.8,
+        "text": "like a fluid trainer or something that"
+      },
+      {
+        "start": 219.48,
+        "duration": 5.0,
+        "text": "doesn't automatically control the"
+      },
+      {
+        "start": 221.28,
+        "duration": 6.8,
+        "text": "resistance then you have to change your"
+      },
+      {
+        "start": 224.48,
+        "duration": 5.119,
+        "text": "gears and and and pedal faster you know"
+      },
+      {
+        "start": 228.08,
+        "duration": 4.32,
+        "text": "increase your Cadence in order to"
+      },
+      {
+        "start": 229.599,
+        "duration": 5.48,
+        "text": "increase the intensity and so if you're"
+      },
+      {
+        "start": 232.4,
+        "duration": 5.199,
+        "text": "doing a ramp test it will you know"
+      },
+      {
+        "start": 235.079,
+        "duration": 4.681,
+        "text": "you'll automatically go up in ERG mode"
+      },
+      {
+        "start": 237.599,
+        "duration": 3.92,
+        "text": "or in non ERG mode you just have to man"
+      },
+      {
+        "start": 239.76,
+        "duration": 4.96,
+        "text": "ually increase your"
+      },
+      {
+        "start": 241.519,
+        "duration": 5.761,
+        "text": "intensity when you complete your ramp"
+      },
+      {
+        "start": 244.72,
+        "duration": 4.32,
+        "text": "test you you'll you'll fail at some"
+      },
+      {
+        "start": 247.28,
+        "duration": 4.84,
+        "text": "point in time usually that's somewhere"
+      },
+      {
+        "start": 249.04,
+        "duration": 5.8,
+        "text": "around the 150% Mark so somewhere"
+      },
+      {
+        "start": 252.12,
+        "duration": 6.32,
+        "text": "whatever your line is right here you'll"
+      },
+      {
+        "start": 254.84,
+        "duration": 6.16,
+        "text": "fail somewhere around that um but you"
+      },
+      {
+        "start": 258.44,
+        "duration": 4.68,
+        "text": "know if the test is if you were just"
+      },
+      {
+        "start": 261.0,
+        "duration": 4.0,
+        "text": "guessing at your FTP you might go higher"
+      },
+      {
+        "start": 263.12,
+        "duration": 3.4,
+        "text": "you might go lower we don't we don't"
+      },
+      {
+        "start": 265.0,
+        "duration": 4.84,
+        "text": "know"
+      },
+      {
+        "start": 266.52,
+        "duration": 7.2,
+        "text": "so when you complete it and you stop"
+      },
+      {
+        "start": 269.84,
+        "duration": 5.12,
+        "text": "pedaling then it will automatically"
+      },
+      {
+        "start": 273.72,
+        "duration": 4.44,
+        "text": "calculate your"
+      },
+      {
+        "start": 274.96,
+        "duration": 6.36,
+        "text": "FTP and then you can keep pedaling and"
+      },
+      {
+        "start": 278.16,
+        "duration": 6.84,
+        "text": "cool down if you want and you can accept"
+      },
+      {
+        "start": 281.32,
+        "duration": 8.92,
+        "text": "that FTP change or not so that's the"
+      },
+      {
+        "start": 285.0,
+        "duration": 6.4,
+        "text": "ramp test um if we go to we'll go back"
+      },
+      {
+        "start": 290.24,
+        "duration": 3.679,
+        "text": "to other"
+      },
+      {
+        "start": 291.4,
+        "duration": 7.12,
+        "text": "workouts whoops let's go ahead and"
+      },
+      {
+        "start": 293.919,
+        "duration": 7.601,
+        "text": "discard that so we can say discard no"
+      },
+      {
+        "start": 298.52,
+        "duration": 3.0,
+        "text": "discard"
+      },
+      {
+        "start": 304.96,
+        "duration": 5.679,
+        "text": "um so let's just say we choose another"
+      },
+      {
+        "start": 308.44,
+        "duration": 5.599,
+        "text": "workout now we're ready to train we go"
+      },
+      {
+        "start": 310.639,
+        "duration": 5.201,
+        "text": "ahead and hit ride now if I re remove my"
+      },
+      {
+        "start": 314.039,
+        "duration": 3.841,
+        "text": "devices you can see a test mode I'll"
+      },
+      {
+        "start": 315.84,
+        "duration": 4.639,
+        "text": "remove that device and I'll just hit"
+      },
+      {
+        "start": 317.88,
+        "duration": 6.28,
+        "text": "play and it'll go into test mode and I"
+      },
+      {
+        "start": 320.479,
+        "duration": 6.0,
+        "text": "can see how the how things work and so"
+      },
+      {
+        "start": 324.16,
+        "duration": 5.319,
+        "text": "you can see here that it shows the total"
+      },
+      {
+        "start": 326.479,
+        "duration": 5.921,
+        "text": "workout time here and the remaining you"
+      },
+      {
+        "start": 329.479,
+        "duration": 5.601,
+        "text": "know the remaining time it shows the"
+      },
+      {
+        "start": 332.4,
+        "duration": 7.079,
+        "text": "remaining time in the interval um my"
+      },
+      {
+        "start": 335.08,
+        "duration": 6.44,
+        "text": "target wattage my my actual wattage"
+      },
+      {
+        "start": 339.479,
+        "duration": 6.84,
+        "text": "again this is test mode my heart rate"
+      },
+      {
+        "start": 341.52,
+        "duration": 6.76,
+        "text": "and my RPM or my Cadence so there's"
+      },
+      {
+        "start": 346.319,
+        "duration": 3.801,
+        "text": "little dots on each of these and this"
+      },
+      {
+        "start": 348.28,
+        "duration": 4.52,
+        "text": "just means that each of these fields is"
+      },
+      {
+        "start": 350.12,
+        "duration": 6.359,
+        "text": "changeable so if I click on the"
+      },
+      {
+        "start": 352.8,
+        "duration": 5.399,
+        "text": "Watts for example it now switches to"
+      },
+      {
+        "start": 356.479,
+        "duration": 4.481,
+        "text": "percent of"
+      },
+      {
+        "start": 358.199,
+        "duration": 5.521,
+        "text": "FTP so rather than being the actual"
+      },
+      {
+        "start": 360.96,
+        "duration": 6.44,
+        "text": "watts it's saying I'm trying to hit 45%"
+      },
+      {
+        "start": 363.72,
+        "duration": 6.479,
+        "text": "of my FTP and this is 44% as my target"
+      },
+      {
+        "start": 367.4,
+        "duration": 5.16,
+        "text": "right so so you can change that back and"
+      },
+      {
+        "start": 370.199,
+        "duration": 4.361,
+        "text": "forth um another thing you can do is you"
+      },
+      {
+        "start": 372.56,
+        "duration": 4.079,
+        "text": "can click on these and you can reverse"
+      },
+      {
+        "start": 374.56,
+        "duration": 4.52,
+        "text": "the order so you can change it to going"
+      },
+      {
+        "start": 376.639,
+        "duration": 6.041,
+        "text": "up rather than going down the same here"
+      },
+      {
+        "start": 379.08,
+        "duration": 5.04,
+        "text": "up versus down um if you click on RPM it"
+      },
+      {
+        "start": 382.68,
+        "duration": 3.56,
+        "text": "will actually just let that's like a"
+      },
+      {
+        "start": 384.12,
+        "duration": 5.72,
+        "text": "shortcut to to adding"
+      },
+      {
+        "start": 386.24,
+        "duration": 6.48,
+        "text": "devices and if you click on BPM it will"
+      },
+      {
+        "start": 389.84,
+        "duration": 6.479,
+        "text": "switch to average interval Watts so this"
+      },
+      {
+        "start": 392.72,
+        "duration": 6.479,
+        "text": "is the this is one of these segments is"
+      },
+      {
+        "start": 396.319,
+        "duration": 4.761,
+        "text": "called an interval and it will show you"
+      },
+      {
+        "start": 399.199,
+        "duration": 4.521,
+        "text": "the average that you've done for that"
+      },
+      {
+        "start": 401.08,
+        "duration": 7.399,
+        "text": "entire entire interval when you're using"
+      },
+      {
+        "start": 403.72,
+        "duration": 7.199,
+        "text": "a power meter along with your with your"
+      },
+      {
+        "start": 408.479,
+        "duration": 3.56,
+        "text": "training device you can have a you can"
+      },
+      {
+        "start": 410.919,
+        "duration": 3.881,
+        "text": "have"
+      },
+      {
+        "start": 412.039,
+        "duration": 4.641,
+        "text": "um you can have power match and so there"
+      },
+      {
+        "start": 414.8,
+        "duration": 5.679,
+        "text": "can be a difference between what you"
+      },
+      {
+        "start": 416.68,
+        "duration": 6.16,
+        "text": "actually are doing in non ERG mode or"
+      },
+      {
+        "start": 420.479,
+        "duration": 5.12,
+        "text": "dumb trainers you know you're trying to"
+      },
+      {
+        "start": 422.84,
+        "duration": 7.68,
+        "text": "Target an average number of"
+      },
+      {
+        "start": 425.599,
+        "duration": 7.6,
+        "text": "watts and also when you're in slope mode"
+      },
+      {
+        "start": 430.52,
+        "duration": 5.28,
+        "text": "um you may be trying to Target a"
+      },
+      {
+        "start": 433.199,
+        "duration": 7.321,
+        "text": "specific number of Watts but slope mode"
+      },
+      {
+        "start": 435.8,
+        "duration": 9.119,
+        "text": "you have to control the power via"
+      },
+      {
+        "start": 440.52,
+        "duration": 5.88,
+        "text": "your Cadence and your gear and and also"
+      },
+      {
+        "start": 444.919,
+        "duration": 3.68,
+        "text": "you know you can press the plus down"
+      },
+      {
+        "start": 446.4,
+        "duration": 3.72,
+        "text": "here to increase intensity but I can't"
+      },
+      {
+        "start": 448.599,
+        "duration": 4.0,
+        "text": "show you that because I can't switch"
+      },
+      {
+        "start": 450.12,
+        "duration": 5.96,
+        "text": "modes at the moment um I can show you"
+      },
+      {
+        "start": 452.599,
+        "duration": 3.481,
+        "text": "that if you click plus it does"
+      },
+      {
+        "start": 456.16,
+        "duration": 7.479,
+        "text": "increase so so that's your average Watts"
+      },
+      {
+        "start": 461.08,
+        "duration": 4.959,
+        "text": "um and then you can see up here in the"
+      },
+      {
+        "start": 463.639,
+        "duration": 4.361,
+        "text": "top Corner you've got the the count of"
+      },
+      {
+        "start": 466.039,
+        "duration": 4.0,
+        "text": "number of connected devices I've got no"
+      },
+      {
+        "start": 468.0,
+        "duration": 4.039,
+        "text": "connected and here's a shortcut to"
+      },
+      {
+        "start": 470.039,
+        "duration": 3.72,
+        "text": "getting to your settings if you want to"
+      },
+      {
+        "start": 472.039,
+        "duration": 3.801,
+        "text": "add a device or you want to change"
+      },
+      {
+        "start": 473.759,
+        "duration": 3.88,
+        "text": "something while you're riding you can"
+      },
+      {
+        "start": 475.84,
+        "duration": 3.799,
+        "text": "actually change everything while you're"
+      },
+      {
+        "start": 477.639,
+        "duration": 3.641,
+        "text": "riding"
+      },
+      {
+        "start": 479.639,
+        "duration": 4.12,
+        "text": "so that that's the overview of the"
+      },
+      {
+        "start": 481.28,
+        "duration": 3.96,
+        "text": "workout it will auto pause as I said if"
+      },
+      {
+        "start": 483.759,
+        "duration": 3.321,
+        "text": "you have a power meter and you stop"
+      },
+      {
+        "start": 485.24,
+        "duration": 5.799,
+        "text": "pedaling it will auto pause but you can"
+      },
+      {
+        "start": 487.08,
+        "duration": 6.04,
+        "text": "also manual pause and manual start and"
+      },
+      {
+        "start": 491.039,
+        "duration": 4.56,
+        "text": "you can stop a workout early so if you"
+      },
+      {
+        "start": 493.12,
+        "duration": 4.479,
+        "text": "just hit stop button normally it would"
+      },
+      {
+        "start": 495.599,
+        "duration": 3.841,
+        "text": "pop up with a popup do you want to save"
+      },
+      {
+        "start": 497.599,
+        "duration": 3.681,
+        "text": "this workout because this is test mode"
+      },
+      {
+        "start": 499.44,
+        "duration": 4.199,
+        "text": "it's not asking you if you want to do"
+      },
+      {
+        "start": 501.28,
+        "duration": 4.08,
+        "text": "that so then when I when I stop the"
+      },
+      {
+        "start": 503.639,
+        "duration": 4.12,
+        "text": "workout it actually goes back to what we"
+      },
+      {
+        "start": 505.36,
+        "duration": 4.399,
+        "text": "called the warmup or a quick start so"
+      },
+      {
+        "start": 507.759,
+        "duration": 4.0,
+        "text": "this is just a simple workout so we'll"
+      },
+      {
+        "start": 509.759,
+        "duration": 4.561,
+        "text": "go ahead and select that workout again"
+      },
+      {
+        "start": 511.759,
+        "duration": 5.321,
+        "text": "let's just say I or a different workout"
+      },
+      {
+        "start": 514.32,
+        "duration": 5.519,
+        "text": "uh whatever yeah we'll take this workout"
+      },
+      {
+        "start": 517.08,
+        "duration": 4.48,
+        "text": "so I'll go ahead and start again and"
+      },
+      {
+        "start": 519.839,
+        "duration": 3.32,
+        "text": "show you some of the other features here"
+      },
+      {
+        "start": 521.56,
+        "duration": 5.16,
+        "text": "which is for example we have this"
+      },
+      {
+        "start": 523.159,
+        "duration": 5.36,
+        "text": "forward button so over right here you've"
+      },
+      {
+        "start": 526.72,
+        "duration": 3.88,
+        "text": "got a forward button and when you click"
+      },
+      {
+        "start": 528.519,
+        "duration": 4.041,
+        "text": "on it it skips to the end of your"
+      },
+      {
+        "start": 530.6,
+        "duration": 3.84,
+        "text": "interval so if you want to shorten an"
+      },
+      {
+        "start": 532.56,
+        "duration": 4.839,
+        "text": "interval at any point in time you can"
+      },
+      {
+        "start": 534.44,
+        "duration": 5.0,
+        "text": "just you can just skip"
+      },
+      {
+        "start": 537.399,
+        "duration": 3.481,
+        "text": "forward you know when you're when you're"
+      },
+      {
+        "start": 539.44,
+        "duration": 3.04,
+        "text": "you're done with that interval the other"
+      },
+      {
+        "start": 540.88,
+        "duration": 4.959,
+        "text": "thing you can do is you can extend an"
+      },
+      {
+        "start": 542.48,
+        "duration": 6.64,
+        "text": "interval so over here on plus 10 seconds"
+      },
+      {
+        "start": 545.839,
+        "duration": 6.56,
+        "text": "right now we've got 46 seconds remaining"
+      },
+      {
+        "start": 549.12,
+        "duration": 5.64,
+        "text": "if I click on+ 10 now it's 42 I click on"
+      },
+      {
+        "start": 552.399,
+        "duration": 5.281,
+        "text": "plus 10 now it's 51 I just added 10"
+      },
+      {
+        "start": 554.76,
+        "duration": 4.72,
+        "text": "seconds if you hold this button down for"
+      },
+      {
+        "start": 557.68,
+        "duration": 4.2,
+        "text": "a while you get a popup and you can"
+      },
+      {
+        "start": 559.48,
+        "duration": 5.16,
+        "text": "change that so if I want to ex"
+      },
+      {
+        "start": 561.88,
+        "duration": 5.92,
+        "text": "automatically extend 1 minute now every"
+      },
+      {
+        "start": 564.64,
+        "duration": 5.439,
+        "text": "time I I click on one minute or now"
+      },
+      {
+        "start": 567.8,
+        "duration": 4.719,
+        "text": "every time I click on extend it it will"
+      },
+      {
+        "start": 570.079,
+        "duration": 5.161,
+        "text": "extend it by 1 minute and so I can click"
+      },
+      {
+        "start": 572.519,
+        "duration": 6.081,
+        "text": "on it 4:30 went to"
+      },
+      {
+        "start": 575.24,
+        "duration": 5.76,
+        "text": "5:30 so then I can go ahead and Skip I"
+      },
+      {
+        "start": 578.6,
+        "duration": 4.44,
+        "text": "can skip again the other thing you can"
+      },
+      {
+        "start": 581.0,
+        "duration": 4.64,
+        "text": "see is every time there's an interval"
+      },
+      {
+        "start": 583.04,
+        "duration": 4.2,
+        "text": "change you can see the screen flash you"
+      },
+      {
+        "start": 585.64,
+        "duration": 3.28,
+        "text": "can also turn up the volume on your"
+      },
+      {
+        "start": 587.24,
+        "duration": 4.64,
+        "text": "phone and you can hear a little beep"
+      },
+      {
+        "start": 588.92,
+        "duration": 5.599,
+        "text": "right before the interval changes either"
+      },
+      {
+        "start": 591.88,
+        "duration": 5.84,
+        "text": "going up or going down right here you"
+      },
+      {
+        "start": 594.519,
+        "duration": 6.921,
+        "text": "also see what is my next interval so my"
+      },
+      {
+        "start": 597.72,
+        "duration": 6.359,
+        "text": "next interval is 2 minutes at 114 Watts"
+      },
+      {
+        "start": 601.44,
+        "duration": 5.72,
+        "text": "so that's this little section right here"
+      },
+      {
+        "start": 604.079,
+        "duration": 6.76,
+        "text": "if I'm adding new devices and if I don't"
+      },
+      {
+        "start": 607.16,
+        "duration": 6.76,
+        "text": "have a smart trainer and maybe I have a"
+      },
+      {
+        "start": 610.839,
+        "duration": 5.24,
+        "text": "Speed and Cadence Sensor for example you"
+      },
+      {
+        "start": 613.92,
+        "duration": 4.84,
+        "text": "can you can go ahead and select your"
+      },
+      {
+        "start": 616.079,
+        "duration": 3.681,
+        "text": "speed sensor and when you select your"
+      },
+      {
+        "start": 618.76,
+        "duration": 4.4,
+        "text": "speed"
+      },
+      {
+        "start": 619.76,
+        "duration": 5.8,
+        "text": "sensor it you get an option for virtual"
+      },
+      {
+        "start": 623.16,
+        "duration": 4.08,
+        "text": "power so you can configure your power"
+      },
+      {
+        "start": 625.56,
+        "duration": 4.399,
+        "text": "curve and"
+      },
+      {
+        "start": 627.24,
+        "duration": 7.279,
+        "text": "so let's just say for one specific"
+      },
+      {
+        "start": 629.959,
+        "duration": 8.281,
+        "text": "device if you're going 30 km per hour um"
+      },
+      {
+        "start": 634.519,
+        "duration": 6.481,
+        "text": "you can translate that into Watts so"
+      },
+      {
+        "start": 638.24,
+        "duration": 5.8,
+        "text": "each device has a a power curve and so"
+      },
+      {
+        "start": 641.0,
+        "duration": 5.48,
+        "text": "let's just say 30 km per hour my on your"
+      },
+      {
+        "start": 644.04,
+        "duration": 6.52,
+        "text": "device might be you know let's just say"
+      },
+      {
+        "start": 646.48,
+        "duration": 6.919,
+        "text": "you know 150 watts or something so so we"
+      },
+      {
+        "start": 650.56,
+        "duration": 4.64,
+        "text": "also support virtual power so now I'll"
+      },
+      {
+        "start": 653.399,
+        "duration": 3.12,
+        "text": "go ahead and show you all the different"
+      },
+      {
+        "start": 655.2,
+        "duration": 5.28,
+        "text": "setting"
+      },
+      {
+        "start": 656.519,
+        "duration": 6.201,
+        "text": "options so you've got hour smoothing"
+      },
+      {
+        "start": 660.48,
+        "duration": 5.08,
+        "text": "that will smooth that little line so the"
+      },
+      {
+        "start": 662.72,
+        "duration": 5.239,
+        "text": "little white line that's going there uh"
+      },
+      {
+        "start": 665.56,
+        "duration": 4.36,
+        "text": "let's go back to my training this this"
+      },
+      {
+        "start": 667.959,
+        "duration": 3.641,
+        "text": "white line you can see the white line"
+      },
+      {
+        "start": 669.92,
+        "duration": 3.64,
+        "text": "and the red line are right over the top"
+      },
+      {
+        "start": 671.6,
+        "duration": 4.239,
+        "text": "of each other this is not normal this is"
+      },
+      {
+        "start": 673.56,
+        "duration": 4.68,
+        "text": "just test mode but the white line is the"
+      },
+      {
+        "start": 675.839,
+        "duration": 5.201,
+        "text": "power line and the red line is the is"
+      },
+      {
+        "start": 678.24,
+        "duration": 5.56,
+        "text": "the heart rate line yours won't look"
+      },
+      {
+        "start": 681.04,
+        "duration": 5.16,
+        "text": "like that your heart rate won't jump"
+      },
+      {
+        "start": 683.8,
+        "duration": 5.12,
+        "text": "like that and follow the follow the"
+      },
+      {
+        "start": 686.2,
+        "duration": 5.0,
+        "text": "power line perfectly but that white line"
+      },
+      {
+        "start": 688.92,
+        "duration": 4.88,
+        "text": "when you some trainers have a very let's"
+      },
+      {
+        "start": 691.2,
+        "duration": 4.96,
+        "text": "say bouncy white line or a very Jagged"
+      },
+      {
+        "start": 693.8,
+        "duration": 5.4,
+        "text": "white line and so this power smoothing"
+      },
+      {
+        "start": 696.16,
+        "duration": 7.239,
+        "text": "Smooths out that line we also have here"
+      },
+      {
+        "start": 699.2,
+        "duration": 6.72,
+        "text": "power match if you have a a trainer and"
+      },
+      {
+        "start": 703.399,
+        "duration": 5.44,
+        "text": "a separate power matter"
+      },
+      {
+        "start": 705.92,
+        "duration": 5.76,
+        "text": "meter and the power meter is showing"
+      },
+      {
+        "start": 708.839,
+        "duration": 5.361,
+        "text": "different values which it always does"
+      },
+      {
+        "start": 711.68,
+        "duration": 5.52,
+        "text": "shows different values than"
+      },
+      {
+        "start": 714.2,
+        "duration": 6.56,
+        "text": "your than your smart trainer let's"
+      },
+      {
+        "start": 717.2,
+        "duration": 7.319,
+        "text": "say you can turn on power match and it"
+      },
+      {
+        "start": 720.76,
+        "duration": 7.44,
+        "text": "will match the power in it will increase"
+      },
+      {
+        "start": 724.519,
+        "duration": 6.241,
+        "text": "or decrease your target or your actual"
+      },
+      {
+        "start": 728.2,
+        "duration": 5.72,
+        "text": "um what's sent to the trainer and so it"
+      },
+      {
+        "start": 730.76,
+        "duration": 6.04,
+        "text": "will try to match the power of your of"
+      },
+      {
+        "start": 733.92,
+        "duration": 4.8,
+        "text": "your trainer to your power meter and"
+      },
+      {
+        "start": 736.8,
+        "duration": 3.88,
+        "text": "this doesn't work real good for short"
+      },
+      {
+        "start": 738.72,
+        "duration": 4.04,
+        "text": "intervals but works good for more"
+      },
+      {
+        "start": 740.68,
+        "duration": 4.8,
+        "text": "sustained"
+      },
+      {
+        "start": 742.76,
+        "duration": 6.079,
+        "text": "efforts you also have a a dark theme and"
+      },
+      {
+        "start": 745.48,
+        "duration": 4.28,
+        "text": "a light theme um we we do support"
+      },
+      {
+        "start": 748.839,
+        "duration": 4.36,
+        "text": "different"
+      },
+      {
+        "start": 749.76,
+        "duration": 6.079,
+        "text": "cycling different sports there's a a"
+      },
+      {
+        "start": 753.199,
+        "duration": 6.0,
+        "text": "device called Swim ERG by Vasa that we"
+      },
+      {
+        "start": 755.839,
+        "duration": 4.721,
+        "text": "support we also support uh rowing from"
+      },
+      {
+        "start": 759.199,
+        "duration": 4.76,
+        "text": "concept"
+      },
+      {
+        "start": 760.56,
+        "duration": 6.76,
+        "text": "2 um but I won't go into those here you"
+      },
+      {
+        "start": 763.959,
+        "duration": 6.44,
+        "text": "can change the device language we have"
+      },
+      {
+        "start": 767.32,
+        "duration": 5.68,
+        "text": "different languages here and then in"
+      },
+      {
+        "start": 770.399,
+        "duration": 6.56,
+        "text": "other options we have a a lot of"
+      },
+      {
+        "start": 773.0,
+        "duration": 7.92,
+        "text": "options so Auto extend cool down this"
+      },
+      {
+        "start": 776.959,
+        "duration": 6.521,
+        "text": "first one will"
+      },
+      {
+        "start": 780.92,
+        "duration": 4.919,
+        "text": "will basically at when you get to the"
+      },
+      {
+        "start": 783.48,
+        "duration": 4.24,
+        "text": "end of your workout it'll take the very"
+      },
+      {
+        "start": 785.839,
+        "duration": 3.921,
+        "text": "last segment that you have or the very"
+      },
+      {
+        "start": 787.72,
+        "duration": 4.6,
+        "text": "last interval and it will just keep"
+      },
+      {
+        "start": 789.76,
+        "duration": 4.68,
+        "text": "extending it over and over again you"
+      },
+      {
+        "start": 792.32,
+        "duration": 4.12,
+        "text": "know it'll add five minutes when you get"
+      },
+      {
+        "start": 794.44,
+        "duration": 3.72,
+        "text": "close to the end it'll add 5 minutes add"
+      },
+      {
+        "start": 796.44,
+        "duration": 3.199,
+        "text": "5 minutes add 5 minutes so that you can"
+      },
+      {
+        "start": 798.16,
+        "duration": 3.4,
+        "text": "just keep going you know if you don't"
+      },
+      {
+        "start": 799.639,
+        "duration": 3.64,
+        "text": "want to end if you don't feel like"
+      },
+      {
+        "start": 801.56,
+        "duration": 3.88,
+        "text": "ending right at the end it will just"
+      },
+      {
+        "start": 803.279,
+        "duration": 4.201,
+        "text": "keep going and I think it's a nice"
+      },
+      {
+        "start": 805.44,
+        "duration": 4.519,
+        "text": "option or then you can manually stop"
+      },
+      {
+        "start": 807.48,
+        "duration": 5.4,
+        "text": "whenever you want"
+      },
+      {
+        "start": 809.959,
+        "duration": 7.841,
+        "text": "um double single-sided power some people"
+      },
+      {
+        "start": 812.88,
+        "duration": 8.04,
+        "text": "have um uh dual power meters and the and"
+      },
+      {
+        "start": 817.8,
+        "duration": 6.76,
+        "text": "the power meter we we only read one of"
+      },
+      {
+        "start": 820.92,
+        "duration": 5.919,
+        "text": "them and so one of them might report"
+      },
+      {
+        "start": 824.56,
+        "duration": 4.2,
+        "text": "half as much power and so if you're"
+      },
+      {
+        "start": 826.839,
+        "duration": 4.36,
+        "text": "seeing half as much power as you should"
+      },
+      {
+        "start": 828.76,
+        "duration": 5.04,
+        "text": "be you can double your power power M"
+      },
+      {
+        "start": 831.199,
+        "duration": 6.121,
+        "text": "start on training tab really is smart on"
+      },
+      {
+        "start": 833.8,
+        "duration": 6.0,
+        "text": "start on quick start um I'll explain"
+      },
+      {
+        "start": 837.32,
+        "duration": 5.48,
+        "text": "what that is in general"
+      },
+      {
+        "start": 839.8,
+        "duration": 4.599,
+        "text": "but or actually I'll explain it now"
+      },
+      {
+        "start": 842.8,
+        "duration": 5.2,
+        "text": "let's go ahead and turn that on and that"
+      },
+      {
+        "start": 844.399,
+        "duration": 5.961,
+        "text": "off so start on quick start so down here"
+      },
+      {
+        "start": 848.0,
+        "duration": 5.079,
+        "text": "we'll go ahead and stop this workout and"
+      },
+      {
+        "start": 850.36,
+        "duration": 5.32,
+        "text": "we'll go here so start on quick start or"
+      },
+      {
+        "start": 853.079,
+        "duration": 4.601,
+        "text": "start on training tab means here and so"
+      },
+      {
+        "start": 855.68,
+        "duration": 3.88,
+        "text": "what happens is every time you open the"
+      },
+      {
+        "start": 857.68,
+        "duration": 4.8,
+        "text": "app it just starts here which starts"
+      },
+      {
+        "start": 859.56,
+        "duration": 6.399,
+        "text": "with a warmup and so one of the cool"
+      },
+      {
+        "start": 862.48,
+        "duration": 6.24,
+        "text": "features that we have is if you are"
+      },
+      {
+        "start": 865.959,
+        "duration": 3.88,
+        "text": "training and you start your War your"
+      },
+      {
+        "start": 868.72,
+        "duration": 4.2,
+        "text": "work"
+      },
+      {
+        "start": 869.839,
+        "duration": 4.881,
+        "text": "out you can actually just start pedaling"
+      },
+      {
+        "start": 872.92,
+        "duration": 3.479,
+        "text": "and then you say oh I don't know what I"
+      },
+      {
+        "start": 874.72,
+        "duration": 3.08,
+        "text": "want to do today I want to find"
+      },
+      {
+        "start": 876.399,
+        "duration": 5.081,
+        "text": "something then you can go around and"
+      },
+      {
+        "start": 877.8,
+        "duration": 5.44,
+        "text": "search your library or or and you can go"
+      },
+      {
+        "start": 881.48,
+        "duration": 4.2,
+        "text": "ahead and once you find what you want"
+      },
+      {
+        "start": 883.24,
+        "duration": 4.48,
+        "text": "you can click ride now and what it will"
+      },
+      {
+        "start": 885.68,
+        "duration": 3.719,
+        "text": "do is it will allow you to merge your"
+      },
+      {
+        "start": 887.72,
+        "duration": 3.96,
+        "text": "workouts so the one that you already"
+      },
+      {
+        "start": 889.399,
+        "duration": 4.081,
+        "text": "started the warm-up that you started so"
+      },
+      {
+        "start": 891.68,
+        "duration": 4.44,
+        "text": "you don't so you can just immediately"
+      },
+      {
+        "start": 893.48,
+        "duration": 4.84,
+        "text": "hop on the bike start pedaling start"
+      },
+      {
+        "start": 896.12,
+        "duration": 4.04,
+        "text": "recording then search around and look"
+      },
+      {
+        "start": 898.32,
+        "duration": 3.879,
+        "text": "for what you want want to do so then you"
+      },
+      {
+        "start": 900.16,
+        "duration": 4.0,
+        "text": "click merge workouts and then it would"
+      },
+      {
+        "start": 902.199,
+        "duration": 4.481,
+        "text": "have it merged the previous workout with"
+      },
+      {
+        "start": 904.16,
+        "duration": 4.679,
+        "text": "this new workout and you just keep going"
+      },
+      {
+        "start": 906.68,
+        "duration": 3.839,
+        "text": "so you don't lose that warmup that and"
+      },
+      {
+        "start": 908.839,
+        "duration": 4.041,
+        "text": "it and you don't have like let's say in"
+      },
+      {
+        "start": 910.519,
+        "duration": 4.801,
+        "text": "strav you don't have like a start a"
+      },
+      {
+        "start": 912.88,
+        "duration": 7.12,
+        "text": "warmup a separate workout and a separate"
+      },
+      {
+        "start": 915.32,
+        "duration": 7.639,
+        "text": "cool down or or whatever so so that's"
+      },
+      {
+        "start": 920.0,
+        "duration": 5.639,
+        "text": "what that option so auto"
+      },
+      {
+        "start": 922.959,
+        "duration": 4.32,
+        "text": "start so this yeah so the start on"
+      },
+      {
+        "start": 925.639,
+        "duration": 5.281,
+        "text": "training tab or start on it should say"
+      },
+      {
+        "start": 927.279,
+        "duration": 7.761,
+        "text": "start on quick search will do that um"
+      },
+      {
+        "start": 930.92,
+        "duration": 6.359,
+        "text": "disable auto start stop so if you don't"
+      },
+      {
+        "start": 935.04,
+        "duration": 5.719,
+        "text": "like auto start and stop and you want to"
+      },
+      {
+        "start": 937.279,
+        "duration": 5.401,
+        "text": "manually start and stop you know so that"
+      },
+      {
+        "start": 940.759,
+        "duration": 4.481,
+        "text": "even and when you stop pedaling it just"
+      },
+      {
+        "start": 942.68,
+        "duration": 4.519,
+        "text": "keeps going right so it records zero for"
+      },
+      {
+        "start": 945.24,
+        "duration": 4.039,
+        "text": "a period of time you might for example"
+      },
+      {
+        "start": 947.199,
+        "duration": 3.401,
+        "text": "want a 60-minute workout and in the"
+      },
+      {
+        "start": 949.279,
+        "duration": 2.841,
+        "text": "middle of it you're doing some strength"
+      },
+      {
+        "start": 950.6,
+        "duration": 3.08,
+        "text": "training or some other kind of training"
+      },
+      {
+        "start": 952.12,
+        "duration": 3.6,
+        "text": "you're hopping on something else but you"
+      },
+      {
+        "start": 953.68,
+        "duration": 5.32,
+        "text": "want to actually record the whole"
+      },
+      {
+        "start": 955.72,
+        "duration": 5.599,
+        "text": "time um then you just turn off this this"
+      },
+      {
+        "start": 959.0,
+        "duration": 4.56,
+        "text": "and then vibration just basically when"
+      },
+      {
+        "start": 961.319,
+        "duration": 4.0,
+        "text": "you tap on buttons it gives you a little"
+      },
+      {
+        "start": 963.56,
+        "duration": 4.639,
+        "text": "it gives you a little vibration to just"
+      },
+      {
+        "start": 965.319,
+        "duration": 5.801,
+        "text": "help you know that you that you you"
+      },
+      {
+        "start": 968.199,
+        "duration": 5.961,
+        "text": "clicked we've got HR mode and when"
+      },
+      {
+        "start": 971.12,
+        "duration": 5.68,
+        "text": "you're in heart rate mode basically it"
+      },
+      {
+        "start": 974.16,
+        "duration": 5.96,
+        "text": "kind of sh it shifts the priority so let"
+      },
+      {
+        "start": 976.8,
+        "duration": 6.32,
+        "text": "me show you here heart rate"
+      },
+      {
+        "start": 980.12,
+        "duration": 5.44,
+        "text": "mode um when you're in heart rate mode"
+      },
+      {
+        "start": 983.12,
+        "duration": 3.76,
+        "text": "now you see right here now you see a be"
+      },
+      {
+        "start": 985.56,
+        "duration": 3.759,
+        "text": "your current"
+      },
+      {
+        "start": 986.88,
+        "duration": 4.439,
+        "text": "BPM or your beats per minute or your"
+      },
+      {
+        "start": 989.319,
+        "duration": 5.601,
+        "text": "heart rate and over here you actually"
+      },
+      {
+        "start": 991.319,
+        "duration": 6.161,
+        "text": "see your target heart rate so it doesn't"
+      },
+      {
+        "start": 994.92,
+        "duration": 5.839,
+        "text": "change the device much and it doesn't"
+      },
+      {
+        "start": 997.48,
+        "duration": 6.96,
+        "text": "change how things work um it does show"
+      },
+      {
+        "start": 1000.759,
+        "duration": 7.601,
+        "text": "you your heart rate here so my my"
+      },
+      {
+        "start": 1004.44,
+        "duration": 6.959,
+        "text": "threshold heart rate is 140 and so it's"
+      },
+      {
+        "start": 1008.36,
+        "duration": 5.12,
+        "text": "just a change in Focus uh the way the"
+      },
+      {
+        "start": 1011.399,
+        "duration": 3.68,
+        "text": "device actually works is all pretty much"
+      },
+      {
+        "start": 1013.48,
+        "duration": 2.96,
+        "text": "the same it's just a different kind of"
+      },
+      {
+        "start": 1015.079,
+        "duration": 3.921,
+        "text": "view on"
+      },
+      {
+        "start": 1016.44,
+        "duration": 5.48,
+        "text": "things so"
+      },
+      {
+        "start": 1019.0,
+        "duration": 8.559,
+        "text": "okay that's that's heart rate mode and"
+      },
+      {
+        "start": 1021.92,
+        "duration": 8.639,
+        "text": "show Power zones so power zones is here"
+      },
+      {
+        "start": 1027.559,
+        "duration": 5.961,
+        "text": "so we've got these little lines this is"
+      },
+      {
+        "start": 1030.559,
+        "duration": 7.4,
+        "text": "showing that my my target is actually"
+      },
+      {
+        "start": 1033.52,
+        "duration": 8.2,
+        "text": "Zone one zone one the color is"
+      },
+      {
+        "start": 1037.959,
+        "duration": 6.0,
+        "text": "gray and and this line moves across to"
+      },
+      {
+        "start": 1041.72,
+        "duration": 5.4,
+        "text": "show that it's a little bit 88 is a"
+      },
+      {
+        "start": 1043.959,
+        "duration": 5.921,
+        "text": "little bit towards the upper end of Zone"
+      },
+      {
+        "start": 1047.12,
+        "duration": 5.76,
+        "text": "one it's mostly the middle but it's the"
+      },
+      {
+        "start": 1049.88,
+        "duration": 6.76,
+        "text": "upper end of Zone one and"
+      },
+      {
+        "start": 1052.88,
+        "duration": 6.96,
+        "text": "then the target shows you how close"
+      },
+      {
+        "start": 1056.64,
+        "duration": 6.44,
+        "text": "close you are on to Target so this"
+      },
+      {
+        "start": 1059.84,
+        "duration": 5.88,
+        "text": "little indicator it says that green yes"
+      },
+      {
+        "start": 1063.08,
+        "duration": 5.479,
+        "text": "I'm in zone one right now it's zero"
+      },
+      {
+        "start": 1065.72,
+        "duration": 4.04,
+        "text": "Watts so zero we use Zone one as from"
+      },
+      {
+        "start": 1068.559,
+        "duration": 3.401,
+        "text": "zero"
+      },
+      {
+        "start": 1069.76,
+        "duration": 7.24,
+        "text": "to I don't know what the percentage is"
+      },
+      {
+        "start": 1071.96,
+        "duration": 7.36,
+        "text": "but like 0 to 65% or or 50 55% 0 to 55%"
+      },
+      {
+        "start": 1077.0,
+        "duration": 3.28,
+        "text": "is Zone 1 so it says I'm in zone one cuz"
+      },
+      {
+        "start": 1079.32,
+        "duration": 3.0,
+        "text": "I'm at"
+      },
+      {
+        "start": 1080.28,
+        "duration": 3.72,
+        "text": "zero maybe that's not completely"
+      },
+      {
+        "start": 1082.32,
+        "duration": 4.52,
+        "text": "accurate but it says I'm at the very"
+      },
+      {
+        "start": 1084.0,
+        "duration": 6.96,
+        "text": "bottom of Zone you of accuracy so if I"
+      },
+      {
+        "start": 1086.84,
+        "duration": 6.12,
+        "text": "want to Target this really precisely or"
+      },
+      {
+        "start": 1090.96,
+        "duration": 3.88,
+        "text": "or Target the middle of the Zone really"
+      },
+      {
+        "start": 1092.96,
+        "duration": 5.36,
+        "text": "precisely then I want that arrow in the"
+      },
+      {
+        "start": 1094.84,
+        "duration": 7.36,
+        "text": "middle and this Arrow turns red or or"
+      },
+      {
+        "start": 1098.32,
+        "duration": 5.56,
+        "text": "this little line turns red if I'm not on"
+      },
+      {
+        "start": 1102.2,
+        "duration": 3.0,
+        "text": "target so there you can see I'm in a"
+      },
+      {
+        "start": 1103.88,
+        "duration": 4.36,
+        "text": "Zone 2"
+      },
+      {
+        "start": 1105.2,
+        "duration": 6.76,
+        "text": "Target my Watts I'm in the upper end of"
+      },
+      {
+        "start": 1108.24,
+        "duration": 6.2,
+        "text": "Zone to so anyway that's how that's how"
+      },
+      {
+        "start": 1111.96,
+        "duration": 6.079,
+        "text": "the the zones work we're probably going"
+      },
+      {
+        "start": 1114.44,
+        "duration": 6.239,
+        "text": "to simplify this in the future so here"
+      },
+      {
+        "start": 1118.039,
+        "duration": 5.281,
+        "text": "we've got if you when you're clicking on"
+      },
+      {
+        "start": 1120.679,
+        "duration": 5.721,
+        "text": "these plus buttons when you're clicking"
+      },
+      {
+        "start": 1123.32,
+        "duration": 5.0,
+        "text": "on this screen you've got down here plus"
+      },
+      {
+        "start": 1126.4,
+        "duration": 6.6,
+        "text": "this is jumping up by"
+      },
+      {
+        "start": 1128.32,
+        "duration": 7.96,
+        "text": "10% so if you go to other options when"
+      },
+      {
+        "start": 1133.0,
+        "duration": 7.039,
+        "text": "you it's it's moving up and down 10%"
+      },
+      {
+        "start": 1136.28,
+        "duration": 5.56,
+        "text": "every time in ERG mode slope mode for"
+      },
+      {
+        "start": 1140.039,
+        "duration": 6.441,
+        "text": "example you move up I'm moving up and"
+      },
+      {
+        "start": 1141.84,
+        "duration": 7.88,
+        "text": "down 1% resistance mode is I'm moving up"
+      },
+      {
+        "start": 1146.48,
+        "duration": 7.72,
+        "text": "and down 3% so slope generally Mo on"
+      },
+      {
+        "start": 1149.72,
+        "duration": 5.76,
+        "text": "most trainers goes from like 0 to from 0"
+      },
+      {
+        "start": 1154.2,
+        "duration": 5.88,
+        "text": "to"
+      },
+      {
+        "start": 1155.48,
+        "duration": 5.72,
+        "text": "25% resistance mode is always 0 to 100%"
+      },
+      {
+        "start": 1160.08,
+        "duration": 4.92,
+        "text": "so"
+      },
+      {
+        "start": 1161.2,
+        "duration": 5.52,
+        "text": "100% of the trainer's maximum resistance"
+      },
+      {
+        "start": 1165.0,
+        "duration": 4.64,
+        "text": "so let's just say you have a wahoo or a"
+      },
+      {
+        "start": 1166.72,
+        "duration": 6.68,
+        "text": "Neo Neo your Maxim maximum wattage is"
+      },
+      {
+        "start": 1169.64,
+        "duration": 6.56,
+        "text": "like 2200 Watts so in so it would be in"
+      },
+      {
+        "start": 1173.4,
+        "duration": 5.04,
+        "text": "maximum resistance if you were trying to"
+      },
+      {
+        "start": 1176.2,
+        "duration": 5.0,
+        "text": "do that so you you don't want to"
+      },
+      {
+        "start": 1178.44,
+        "duration": 5.4,
+        "text": "necessarily be you don't ever want to"
+      },
+      {
+        "start": 1181.2,
+        "duration": 4.88,
+        "text": "get to 100% if especially on the hard"
+      },
+      {
+        "start": 1183.84,
+        "duration": 4.68,
+        "text": "trainers now I'll go ahead actually and"
+      },
+      {
+        "start": 1186.08,
+        "duration": 5.2,
+        "text": "just upgrade I'll I'll switch to my"
+      },
+      {
+        "start": 1188.52,
+        "duration": 5.2,
+        "text": "personal account that is already"
+      },
+      {
+        "start": 1191.28,
+        "duration": 5.8,
+        "text": "upgraded so I'll show you real quickly"
+      },
+      {
+        "start": 1193.72,
+        "duration": 7.28,
+        "text": "here we've got our website here if you"
+      },
+      {
+        "start": 1197.08,
+        "duration": 7.04,
+        "text": "go to First of if you register in the"
+      },
+      {
+        "start": 1201.0,
+        "duration": 6.28,
+        "text": "app and then you come to the website you"
+      },
+      {
+        "start": 1204.12,
+        "duration": 5.52,
+        "text": "just log in with that account so I'll go"
+      },
+      {
+        "start": 1207.28,
+        "duration": 4.84,
+        "text": "ahead and do that the best way to"
+      },
+      {
+        "start": 1209.64,
+        "duration": 5.6,
+        "text": "upgrade is to upgrade on our site it we"
+      },
+      {
+        "start": 1212.12,
+        "duration": 4.88,
+        "text": "it gives us more options um as to"
+      },
+      {
+        "start": 1215.24,
+        "duration": 4.16,
+        "text": "flexibility as to how to change things"
+      },
+      {
+        "start": 1217.0,
+        "duration": 4.96,
+        "text": "it gives you a better price so if you"
+      },
+      {
+        "start": 1219.4,
+        "duration": 5.68,
+        "text": "click here upgrade now I'm already"
+      },
+      {
+        "start": 1221.96,
+        "duration": 3.12,
+        "text": "upgraded but let's just"
+      },
+      {
+        "start": 1226.12,
+        "duration": 5.039,
+        "text": "see it it gives me the different options"
+      },
+      {
+        "start": 1228.919,
+        "duration": 4.721,
+        "text": "I can upgrade oh I can switch to$ 3.99 a"
+      },
+      {
+        "start": 1231.159,
+        "duration": 6.76,
+        "text": "month I can switch to"
+      },
+      {
+        "start": 1233.64,
+        "duration": 7.519,
+        "text": "this um so we go ahead and upgrade once"
+      },
+      {
+        "start": 1237.919,
+        "duration": 5.441,
+        "text": "we upgrade it takes it will end up"
+      },
+      {
+        "start": 1241.159,
+        "duration": 6.76,
+        "text": "taking us to"
+      },
+      {
+        "start": 1243.36,
+        "duration": 6.36,
+        "text": "here and in the and at that point in"
+      },
+      {
+        "start": 1247.919,
+        "duration": 4.361,
+        "text": "time I can come here and I can press"
+      },
+      {
+        "start": 1249.72,
+        "duration": 5.0,
+        "text": "this little refresh button at the top"
+      },
+      {
+        "start": 1252.28,
+        "duration": 4.279,
+        "text": "and once I refresh then I'll be upgraded"
+      },
+      {
+        "start": 1254.72,
+        "duration": 4.36,
+        "text": "in the app and I can see my and I can"
+      },
+      {
+        "start": 1256.559,
+        "duration": 6.201,
+        "text": "see my changes and now when you're here"
+      },
+      {
+        "start": 1259.08,
+        "duration": 6.16,
+        "text": "you now have different options across"
+      },
+      {
+        "start": 1262.76,
+        "duration": 5.039,
+        "text": "here as well as rather than only the"
+      },
+      {
+        "start": 1265.24,
+        "duration": 5.039,
+        "text": "free workouts here you actually have all"
+      },
+      {
+        "start": 1267.799,
+        "duration": 5.081,
+        "text": "your lists and let me explain how that"
+      },
+      {
+        "start": 1270.279,
+        "duration": 5.52,
+        "text": "works so or if you're in the"
+      },
+      {
+        "start": 1272.88,
+        "duration": 6.159,
+        "text": "website and you want"
+      },
+      {
+        "start": 1275.799,
+        "duration": 5.441,
+        "text": "to uh add a workout to the app the be"
+      },
+      {
+        "start": 1279.039,
+        "duration": 4.24,
+        "text": "the best way to add workouts to the app"
+      },
+      {
+        "start": 1281.24,
+        "duration": 3.799,
+        "text": "I believe is to come to the website now"
+      },
+      {
+        "start": 1283.279,
+        "duration": 3.721,
+        "text": "you don't have to do it here you can"
+      },
+      {
+        "start": 1285.039,
+        "duration": 4.0,
+        "text": "actually click on this little search"
+      },
+      {
+        "start": 1287.0,
+        "duration": 4.76,
+        "text": "icon uh up here"
+      },
+      {
+        "start": 1289.039,
+        "duration": 7.161,
+        "text": "here and you can search whatever you"
+      },
+      {
+        "start": 1291.76,
+        "duration": 8.24,
+        "text": "want um ramp oops"
+      },
+      {
+        "start": 1296.2,
+        "duration": 5.88,
+        "text": "ramp so I can search it'll show you"
+      },
+      {
+        "start": 1300.0,
+        "duration": 3.52,
+        "text": "what's in your library first and then"
+      },
+      {
+        "start": 1302.08,
+        "duration": 4.479,
+        "text": "it'll show you all of the different"
+      },
+      {
+        "start": 1303.52,
+        "duration": 5.68,
+        "text": "workouts and you can click on one of"
+      },
+      {
+        "start": 1306.559,
+        "duration": 5.161,
+        "text": "these if you want and you can down here"
+      },
+      {
+        "start": 1309.2,
+        "duration": 4.68,
+        "text": "at the bottom down here where it says"
+      },
+      {
+        "start": 1311.72,
+        "duration": 4.0,
+        "text": "added actually this is already in my"
+      },
+      {
+        "start": 1313.88,
+        "duration": 3.88,
+        "text": "library normally you can just add this"
+      },
+      {
+        "start": 1315.72,
+        "duration": 4.48,
+        "text": "to your library to have it available or"
+      },
+      {
+        "start": 1317.76,
+        "duration": 4.799,
+        "text": "you can just write it so now you've got"
+      },
+      {
+        "start": 1320.2,
+        "duration": 5.599,
+        "text": "you know 30,000 workouts you can use in"
+      },
+      {
+        "start": 1322.559,
+        "duration": 4.12,
+        "text": "the app once you've upgraded um 30,000"
+      },
+      {
+        "start": 1325.799,
+        "duration": 3.12,
+        "text": "public"
+      },
+      {
+        "start": 1326.679,
+        "duration": 5.521,
+        "text": "workouts and you can use all your own"
+      },
+      {
+        "start": 1328.919,
+        "duration": 5.321,
+        "text": "private workouts as well so so this is"
+      },
+      {
+        "start": 1332.2,
+        "duration": 5.64,
+        "text": "kind of two different modes when you're"
+      },
+      {
+        "start": 1334.24,
+        "duration": 5.76,
+        "text": "in the upgraded this is this is switch"
+      },
+      {
+        "start": 1337.84,
+        "duration": 3.839,
+        "text": "to list mode is what this button means"
+      },
+      {
+        "start": 1340.0,
+        "duration": 5.24,
+        "text": "or switch to search mode so you can"
+      },
+      {
+        "start": 1341.679,
+        "duration": 7.401,
+        "text": "either see search mode or List mode um"
+      },
+      {
+        "start": 1345.24,
+        "duration": 6.559,
+        "text": "the list mode is the list is my list"
+      },
+      {
+        "start": 1349.08,
+        "duration": 5.079,
+        "text": "so when you come down and you go to grab"
+      },
+      {
+        "start": 1351.799,
+        "duration": 4.24,
+        "text": "a workout you can say add to favorites"
+      },
+      {
+        "start": 1354.159,
+        "duration": 4.081,
+        "text": "you can add it to one of your favorites"
+      },
+      {
+        "start": 1356.039,
+        "duration": 4.88,
+        "text": "or you can add it to a new list and you"
+      },
+      {
+        "start": 1358.24,
+        "duration": 4.919,
+        "text": "can create as many lists as you want and"
+      },
+      {
+        "start": 1360.919,
+        "duration": 6.601,
+        "text": "then you can have those lists available"
+      },
+      {
+        "start": 1363.159,
+        "duration": 8.441,
+        "text": "in in the app"
+      },
+      {
+        "start": 1367.52,
+        "duration": 7.159,
+        "text": "so in the app you've got this drop down"
+      },
+      {
+        "start": 1371.6,
+        "duration": 5.64,
+        "text": "here and it shows you all of your lists"
+      },
+      {
+        "start": 1374.679,
+        "duration": 4.36,
+        "text": "the same list that I'm seeing on this"
+      },
+      {
+        "start": 1377.24,
+        "duration": 2.84,
+        "text": "page uh"
+      },
+      {
+        "start": 1379.039,
+        "duration": 4.841,
+        "text": "and"
+      },
+      {
+        "start": 1380.08,
+        "duration": 7.04,
+        "text": "so you also can have a shortcut to your"
+      },
+      {
+        "start": 1383.88,
+        "duration": 7.039,
+        "text": "lists so these little ones here are"
+      },
+      {
+        "start": 1387.12,
+        "duration": 6.919,
+        "text": "shortcuts to my li to my lists and you"
+      },
+      {
+        "start": 1390.919,
+        "duration": 6.161,
+        "text": "can manage those so let's just say I add"
+      },
+      {
+        "start": 1394.039,
+        "duration": 4.801,
+        "text": "this to a new list and I can say add to"
+      },
+      {
+        "start": 1397.08,
+        "duration": 3.56,
+        "text": "new list and well let's call"
+      },
+      {
+        "start": 1398.84,
+        "duration": 5.04,
+        "text": "it"
+      },
+      {
+        "start": 1400.64,
+        "duration": 6.88,
+        "text": "blah make it short and easy so I click"
+      },
+      {
+        "start": 1403.88,
+        "duration": 7.08,
+        "text": "blah so I just added that to blah and"
+      },
+      {
+        "start": 1407.52,
+        "duration": 3.44,
+        "text": "now when I go to my"
+      },
+      {
+        "start": 1411.32,
+        "duration": 4.28,
+        "text": "workouts uh most of you will not see all"
+      },
+      {
+        "start": 1413.72,
+        "duration": 4.72,
+        "text": "these options let me turn off swimming"
+      },
+      {
+        "start": 1415.6,
+        "duration": 7.079,
+        "text": "and E row ERG"
+      },
+      {
+        "start": 1418.44,
+        "duration": 7.68,
+        "text": "so now when I come in here to my list I"
+      },
+      {
+        "start": 1422.679,
+        "duration": 5.161,
+        "text": "can search blah I can look at blah"
+      },
+      {
+        "start": 1426.12,
+        "duration": 5.159,
+        "text": "here's that workout that I added to the"
+      },
+      {
+        "start": 1427.84,
+        "duration": 8.079,
+        "text": "list blah if I want blah to show up here"
+      },
+      {
+        "start": 1431.279,
+        "duration": 6.161,
+        "text": "at the top I I can click on my lists and"
+      },
+      {
+        "start": 1435.919,
+        "duration": 5.201,
+        "text": "I can add"
+      },
+      {
+        "start": 1437.44,
+        "duration": 7.16,
+        "text": "blah oh I have to enter a short name so"
+      },
+      {
+        "start": 1441.12,
+        "duration": 7.24,
+        "text": "edit all right so now I added a short"
+      },
+      {
+        "start": 1444.6,
+        "duration": 8.439,
+        "text": "name I click on show in app and I click"
+      },
+      {
+        "start": 1448.36,
+        "duration": 8.12,
+        "text": "save now blah is going to show up in in"
+      },
+      {
+        "start": 1453.039,
+        "duration": 6.601,
+        "text": "the app so as I refresh here now you can"
+      },
+      {
+        "start": 1456.48,
+        "duration": 5.4,
+        "text": "see I've got blah here as one of my"
+      },
+      {
+        "start": 1459.64,
+        "duration": 5.84,
+        "text": "favorites or as one of my kind of"
+      },
+      {
+        "start": 1461.88,
+        "duration": 6.56,
+        "text": "shortcuts to my lists okay so that's how"
+      },
+      {
+        "start": 1465.48,
+        "duration": 6.199,
+        "text": "kind of list management works um you can"
+      },
+      {
+        "start": 1468.44,
+        "duration": 7.719,
+        "text": "also we've got like the easiest workout"
+      },
+      {
+        "start": 1471.679,
+        "duration": 7.6,
+        "text": "Creator um and so what you can do is you"
+      },
+      {
+        "start": 1476.159,
+        "duration": 5.441,
+        "text": "can create your own workouts here and"
+      },
+      {
+        "start": 1479.279,
+        "duration": 5.801,
+        "text": "save them and you can assign them to"
+      },
+      {
+        "start": 1481.6,
+        "duration": 6.0,
+        "text": "lists and this is just 10 minutes at 50%"
+      },
+      {
+        "start": 1485.08,
+        "duration": 6.599,
+        "text": "of my FTP 20 minutes at"
+      },
+      {
+        "start": 1487.6,
+        "duration": 7.4,
+        "text": "80% 10 10 minutes at 50% we've got a lot"
+      },
+      {
+        "start": 1491.679,
+        "duration": 5.761,
+        "text": "of workout options I'll and how you can"
+      },
+      {
+        "start": 1495.0,
+        "duration": 4.6,
+        "text": "do this uh sets and Reps is one of the"
+      },
+      {
+        "start": 1497.44,
+        "duration": 6.64,
+        "text": "interesting ones if I want to create a"
+      },
+      {
+        "start": 1499.6,
+        "duration": 7.959,
+        "text": "workout you know with five reps with 1"
+      },
+      {
+        "start": 1504.08,
+        "duration": 7.079,
+        "text": "minute each at 80% and then 50 oops and"
+      },
+      {
+        "start": 1507.559,
+        "duration": 5.881,
+        "text": "then 1 minute each of 50% you can see I"
+      },
+      {
+        "start": 1511.159,
+        "duration": 5.721,
+        "text": "just created a workout"
+      },
+      {
+        "start": 1513.44,
+        "duration": 7.0,
+        "text": "with with with these intervals with five"
+      },
+      {
+        "start": 1516.88,
+        "duration": 6.799,
+        "text": "five repeating intervals real"
+      },
+      {
+        "start": 1520.44,
+        "duration": 5.32,
+        "text": "quickly uh you also can enter Cadence"
+      },
+      {
+        "start": 1523.679,
+        "duration": 3.561,
+        "text": "targets and slope targets and all kinds"
+      },
+      {
+        "start": 1525.76,
+        "duration": 3.88,
+        "text": "of stuff again I'll create a separate"
+      },
+      {
+        "start": 1527.24,
+        "duration": 5.0,
+        "text": "workouts and then I can save that and as"
+      },
+      {
+        "start": 1529.64,
+        "duration": 5.36,
+        "text": "I said you can assign it to a list you"
+      },
+      {
+        "start": 1532.24,
+        "duration": 6.559,
+        "text": "can make it private or public you can"
+      },
+      {
+        "start": 1535.0,
+        "duration": 6.88,
+        "text": "even upload a GPX tcx or fit file that's"
+      },
+      {
+        "start": 1538.799,
+        "duration": 5.721,
+        "text": "that's not a that's a completed"
+      },
+      {
+        "start": 1541.88,
+        "duration": 7.24,
+        "text": "activity and it will automatically"
+      },
+      {
+        "start": 1544.52,
+        "duration": 7.84,
+        "text": "convert that into a a power Based"
+      },
+      {
+        "start": 1549.12,
+        "duration": 8.4,
+        "text": "training effort and and you also can"
+      },
+      {
+        "start": 1552.36,
+        "duration": 8.24,
+        "text": "upload zwo ERC or MRC files so I create"
+      },
+      {
+        "start": 1557.52,
+        "duration": 5.519,
+        "text": "workouts add it to my list so you can"
+      },
+      {
+        "start": 1560.6,
+        "duration": 6.199,
+        "text": "also see now that I have my in the app"
+      },
+      {
+        "start": 1563.039,
+        "duration": 7.081,
+        "text": "I've got my workouts I can see the"
+      },
+      {
+        "start": 1566.799,
+        "duration": 6.36,
+        "text": "history of those workouts I can share"
+      },
+      {
+        "start": 1570.12,
+        "duration": 5.0,
+        "text": "that workout that I can you know if I"
+      },
+      {
+        "start": 1573.159,
+        "duration": 3.961,
+        "text": "want to upload it from here to Garmin"
+      },
+      {
+        "start": 1575.12,
+        "duration": 4.799,
+        "text": "one difference is is that when you share"
+      },
+      {
+        "start": 1577.12,
+        "duration": 5.72,
+        "text": "from here we don't include speed and"
+      },
+      {
+        "start": 1579.919,
+        "duration": 4.921,
+        "text": "distance and if you come to here my"
+      },
+      {
+        "start": 1582.84,
+        "duration": 3.68,
+        "text": "activities"
+      },
+      {
+        "start": 1584.84,
+        "duration": 5.199,
+        "text": "here"
+      },
+      {
+        "start": 1586.52,
+        "duration": 7.36,
+        "text": "oops if you come to my activities here"
+      },
+      {
+        "start": 1590.039,
+        "duration": 7.76,
+        "text": "and you go to it and you click share"
+      },
+      {
+        "start": 1593.88,
+        "duration": 5.44,
+        "text": "here um these do enclude speed and"
+      },
+      {
+        "start": 1597.799,
+        "duration": 4.0,
+        "text": "distance"
+      },
+      {
+        "start": 1599.32,
+        "duration": 4.56,
+        "text": "so one of the interesting things about"
+      },
+      {
+        "start": 1601.799,
+        "duration": 6.281,
+        "text": "our app or one of the special features"
+      },
+      {
+        "start": 1603.88,
+        "duration": 8.56,
+        "text": "let's say is that we do we do speed and"
+      },
+      {
+        "start": 1608.08,
+        "duration": 6.479,
+        "text": "distance based on using your weight so"
+      },
+      {
+        "start": 1612.44,
+        "duration": 5.16,
+        "text": "if you enter your weight here in"
+      },
+      {
+        "start": 1614.559,
+        "duration": 4.921,
+        "text": "kilograms or in pounds and your bike"
+      },
+      {
+        "start": 1617.6,
+        "duration": 4.959,
+        "text": "weight"
+      },
+      {
+        "start": 1619.48,
+        "duration": 5.28,
+        "text": "we create the speed and distance from"
+      },
+      {
+        "start": 1622.559,
+        "duration": 5.36,
+        "text": "the power which is a more accurate way"
+      },
+      {
+        "start": 1624.76,
+        "duration": 5.6,
+        "text": "of doing speed and diff distance the big"
+      },
+      {
+        "start": 1627.919,
+        "duration": 5.281,
+        "text": "the big thing is is we don't know how"
+      },
+      {
+        "start": 1630.36,
+        "duration": 5.039,
+        "text": "you ride you might ride in a super Arrow"
+      },
+      {
+        "start": 1633.2,
+        "duration": 5.24,
+        "text": "position you might ride you know sitting"
+      },
+      {
+        "start": 1635.399,
+        "duration": 5.4,
+        "text": "straight up you might be drafting off"
+      },
+      {
+        "start": 1638.44,
+        "duration": 6.359,
+        "text": "people a lot of times and so this drag"
+      },
+      {
+        "start": 1640.799,
+        "duration": 7.041,
+        "text": "coefficient allows you to determine how"
+      },
+      {
+        "start": 1644.799,
+        "duration": 5.36,
+        "text": "you typically ride if you're more Arrow"
+      },
+      {
+        "start": 1647.84,
+        "duration": 5.8,
+        "text": "you know you might want to go 0.5 and if"
+      },
+      {
+        "start": 1650.159,
+        "duration": 5.721,
+        "text": "you wanted to go more you know if if"
+      },
+      {
+        "start": 1653.64,
+        "duration": 5.2,
+        "text": "your speeds end up looking too slow or"
+      },
+      {
+        "start": 1655.88,
+        "duration": 5.84,
+        "text": "too fast you know in straa or on Garmin"
+      },
+      {
+        "start": 1658.84,
+        "duration": 6.079,
+        "text": "or wherever then then it's better"
+      },
+      {
+        "start": 1661.72,
+        "duration": 5.839,
+        "text": "to uh then you can adjust this to match"
+      },
+      {
+        "start": 1664.919,
+        "duration": 5.281,
+        "text": "more more closely to what you want"
+      },
+      {
+        "start": 1667.559,
+        "duration": 5.521,
+        "text": "indoor riding and speed and distance you"
+      },
+      {
+        "start": 1670.2,
+        "duration": 4.76,
+        "text": "know it's always virtual so there's no"
+      },
+      {
+        "start": 1673.08,
+        "duration": 5.28,
+        "text": "such thing as accurate for speed and"
+      },
+      {
+        "start": 1674.96,
+        "duration": 5.4,
+        "text": "distance indoors so"
+      },
+      {
+        "start": 1678.36,
+        "duration": 4.319,
+        "text": "something else that's most people want"
+      },
+      {
+        "start": 1680.36,
+        "duration": 5.6,
+        "text": "to do here is in apps and"
+      },
+      {
+        "start": 1682.679,
+        "duration": 6.561,
+        "text": "devices you can connect to straa put a"
+      },
+      {
+        "start": 1685.96,
+        "duration": 5.959,
+        "text": "map on the straa so if you put climbs"
+      },
+      {
+        "start": 1689.24,
+        "duration": 5.4,
+        "text": "for example you know these are really"
+      },
+      {
+        "start": 1691.919,
+        "duration": 5.921,
+        "text": "intense climbs and so it you know you"
+      },
+      {
+        "start": 1694.64,
+        "duration": 5.879,
+        "text": "won't go very fast you'll go 10 kilm per"
+      },
+      {
+        "start": 1697.84,
+        "duration": 4.079,
+        "text": "hour 5 km per hour you'll go very slow"
+      },
+      {
+        "start": 1700.519,
+        "duration": 2.721,
+        "text": "depending on the amount of power that"
+      },
+      {
+        "start": 1701.919,
+        "duration": 3.48,
+        "text": "you're generating and the weight that"
+      },
+      {
+        "start": 1703.24,
+        "duration": 4.2,
+        "text": "you weigh if you don't want to go really"
+      },
+      {
+        "start": 1705.399,
+        "duration": 3.361,
+        "text": "slow but it it'll put you on some"
+      },
+      {
+        "start": 1707.44,
+        "duration": 3.76,
+        "text": "interesting"
+      },
+      {
+        "start": 1708.76,
+        "duration": 4.519,
+        "text": "interesting climbs around the world if"
+      },
+      {
+        "start": 1711.2,
+        "duration": 4.719,
+        "text": "you just do interesting places that's"
+      },
+      {
+        "start": 1713.279,
+        "duration": 5.721,
+        "text": "actually very flat routes you know Miami"
+      },
+      {
+        "start": 1715.919,
+        "duration": 4.801,
+        "text": "Beach uh you know other Islands it'll"
+      },
+      {
+        "start": 1719.0,
+        "duration": 5.2,
+        "text": "put you on interesting places it'll just"
+      },
+      {
+        "start": 1720.72,
+        "duration": 7.48,
+        "text": "put a virtual map on on straa for you"
+      },
+      {
+        "start": 1724.2,
+        "duration": 6.719,
+        "text": "there um you can also share two training"
+      },
+      {
+        "start": 1728.2,
+        "duration": 6.76,
+        "text": "Peaks so you can"
+      },
+      {
+        "start": 1730.919,
+        "duration": 6.081,
+        "text": "share your you know well sorry you can"
+      },
+      {
+        "start": 1734.96,
+        "duration": 3.76,
+        "text": "share your compl completed activities"
+      },
+      {
+        "start": 1737.0,
+        "duration": 5.2,
+        "text": "we'll go there"
+      },
+      {
+        "start": 1738.72,
+        "duration": 5.64,
+        "text": "but you also can send workouts from our"
+      },
+      {
+        "start": 1742.2,
+        "duration": 4.079,
+        "text": "platform there so I'll go into that a"
+      },
+      {
+        "start": 1744.36,
+        "duration": 4.72,
+        "text": "little bit later because I'm mostly"
+      },
+      {
+        "start": 1746.279,
+        "duration": 5.961,
+        "text": "focused on how you use the app directly"
+      },
+      {
+        "start": 1749.08,
+        "duration": 7.68,
+        "text": "one thing you can do is if you are using"
+      },
+      {
+        "start": 1752.24,
+        "duration": 8.2,
+        "text": "training Peaks or Garmin or sorry"
+      },
+      {
+        "start": 1756.76,
+        "duration": 7.48,
+        "text": "training Peaks or intervals ICU you can"
+      },
+      {
+        "start": 1760.44,
+        "duration": 6.28,
+        "text": "actually say in mobile app and that what"
+      },
+      {
+        "start": 1764.24,
+        "duration": 5.279,
+        "text": "it will do is it will pull your calendar"
+      },
+      {
+        "start": 1766.72,
+        "duration": 6.319,
+        "text": "from training Peaks and show it inside"
+      },
+      {
+        "start": 1769.519,
+        "duration": 4.961,
+        "text": "of our app and so when you're in our app"
+      },
+      {
+        "start": 1773.039,
+        "duration": 6.041,
+        "text": "let's go back"
+      },
+      {
+        "start": 1774.48,
+        "duration": 8.24,
+        "text": "here you have this plan tab so this plan"
+      },
+      {
+        "start": 1779.08,
+        "duration": 6.52,
+        "text": "tab gives you lots of different options"
+      },
+      {
+        "start": 1782.72,
+        "duration": 5.64,
+        "text": "of where the plan comes from so like I"
+      },
+      {
+        "start": 1785.6,
+        "duration": 4.72,
+        "text": "said if you if I turn it on here then my"
+      },
+      {
+        "start": 1788.36,
+        "duration": 5.319,
+        "text": "plan is going to come from training"
+      },
+      {
+        "start": 1790.32,
+        "duration": 5.92,
+        "text": "Peaks if I turn it on here then it's"
+      },
+      {
+        "start": 1793.679,
+        "duration": 4.961,
+        "text": "going to come from intervals"
+      },
+      {
+        "start": 1796.24,
+        "duration": 6.72,
+        "text": "ICU I also"
+      },
+      {
+        "start": 1798.64,
+        "duration": 5.879,
+        "text": "can go to search"
+      },
+      {
+        "start": 1802.96,
+        "duration": 5.24,
+        "text": "plans"
+      },
+      {
+        "start": 1804.519,
+        "duration": 5.52,
+        "text": "and I can find a plan I can basically"
+      },
+      {
+        "start": 1808.2,
+        "duration": 6.599,
+        "text": "let's just say V2 Max"
+      },
+      {
+        "start": 1810.039,
+        "duration": 7.161,
+        "text": "booster I can copy it to my plans and"
+      },
+      {
+        "start": 1814.799,
+        "duration": 4.921,
+        "text": "you can leave the days as designed this"
+      },
+      {
+        "start": 1817.2,
+        "duration": 4.319,
+        "text": "is 7 days a week I wouldn't recommend"
+      },
+      {
+        "start": 1819.72,
+        "duration": 4.92,
+        "text": "seven days a week but if it was just for"
+      },
+      {
+        "start": 1821.519,
+        "duration": 5.0,
+        "text": "two weeks a booster it might be okay but"
+      },
+      {
+        "start": 1824.64,
+        "duration": 4.919,
+        "text": "you can actually convert this plan to a"
+      },
+      {
+        "start": 1826.519,
+        "duration": 6.481,
+        "text": "Monday Wednesday Friday plan if you want"
+      },
+      {
+        "start": 1829.559,
+        "duration": 3.441,
+        "text": "I can copy it to my"
+      },
+      {
+        "start": 1833.24,
+        "duration": 5.279,
+        "text": "plan and now I have a copy of that"
+      },
+      {
+        "start": 1836.2,
+        "duration": 5.16,
+        "text": "that's on Monday Tuesday Wednesdays and"
+      },
+      {
+        "start": 1838.519,
+        "duration": 6.441,
+        "text": "I can edit that plan and I can say in"
+      },
+      {
+        "start": 1841.36,
+        "duration": 7.48,
+        "text": "mobile app so I'll go ahead and just do"
+      },
+      {
+        "start": 1844.96,
+        "duration": 6.64,
+        "text": "that um I'll say in mobile app"
+      },
+      {
+        "start": 1848.84,
+        "duration": 4.959,
+        "text": "done so now I'll come back here and I'll"
+      },
+      {
+        "start": 1851.6,
+        "duration": 2.199,
+        "text": "hit"
+      },
+      {
+        "start": 1855.6,
+        "duration": 7.199,
+        "text": "refresh now I can see that I have this"
+      },
+      {
+        "start": 1859.159,
+        "duration": 7.64,
+        "text": "plan in the app what it says here is day"
+      },
+      {
+        "start": 1862.799,
+        "duration": 7.201,
+        "text": "one day two day three so when you're"
+      },
+      {
+        "start": 1866.799,
+        "duration": 3.201,
+        "text": "using my"
+      },
+      {
+        "start": 1870.6,
+        "duration": 6.799,
+        "text": "plans um in my plans we don't have the"
+      },
+      {
+        "start": 1874.44,
+        "duration": 5.88,
+        "text": "concept of dates this is just a sequence"
+      },
+      {
+        "start": 1877.399,
+        "duration": 4.921,
+        "text": "of workouts I have a very if you have a"
+      },
+      {
+        "start": 1880.32,
+        "duration": 3.76,
+        "text": "very Dynamic schedule you don't know"
+      },
+      {
+        "start": 1882.32,
+        "duration": 3.8,
+        "text": "exactly what days you're going to train"
+      },
+      {
+        "start": 1884.08,
+        "duration": 3.959,
+        "text": "on you're not even sure how many days a"
+      },
+      {
+        "start": 1886.12,
+        "duration": 3.679,
+        "text": "week you're going to train on this is a"
+      },
+      {
+        "start": 1888.039,
+        "duration": 3.961,
+        "text": "very good option right you can just have"
+      },
+      {
+        "start": 1889.799,
+        "duration": 4.0,
+        "text": "a once you complete one workout you move"
+      },
+      {
+        "start": 1892.0,
+        "duration": 6.039,
+        "text": "to the next you move to the next you"
+      },
+      {
+        "start": 1893.799,
+        "duration": 7.561,
+        "text": "move move to the next right so so that's"
+      },
+      {
+        "start": 1898.039,
+        "duration": 5.201,
+        "text": "the concept of of my plans but you also"
+      },
+      {
+        "start": 1901.36,
+        "duration": 4.64,
+        "text": "can click on"
+      },
+      {
+        "start": 1903.24,
+        "duration": 5.279,
+        "text": "send and you can send it to your"
+      },
+      {
+        "start": 1906.0,
+        "duration": 5.08,
+        "text": "calendar so we also have a calendar"
+      },
+      {
+        "start": 1908.519,
+        "duration": 4.64,
+        "text": "feature here um I'm not going to send"
+      },
+      {
+        "start": 1911.08,
+        "duration": 3.88,
+        "text": "this to my plan and I can send specific"
+      },
+      {
+        "start": 1913.159,
+        "duration": 4.081,
+        "text": "number of weeks I can send weeks two and"
+      },
+      {
+        "start": 1914.96,
+        "duration": 3.719,
+        "text": "three I can send whatever but I'm not"
+      },
+      {
+        "start": 1917.24,
+        "duration": 4.36,
+        "text": "going to send it there I'm going to go"
+      },
+      {
+        "start": 1918.679,
+        "duration": 5.441,
+        "text": "ahead and go to my"
+      },
+      {
+        "start": 1921.6,
+        "duration": 5.919,
+        "text": "calendar and I've got a calendar here"
+      },
+      {
+        "start": 1924.12,
+        "duration": 6.399,
+        "text": "and so the calendar is all about doing"
+      },
+      {
+        "start": 1927.519,
+        "duration": 5.201,
+        "text": "things on specific days let's just say"
+      },
+      {
+        "start": 1930.519,
+        "duration": 4.601,
+        "text": "you know here I'm doing you know a"
+      },
+      {
+        "start": 1932.72,
+        "duration": 5.559,
+        "text": "Monday Wednesday Saturday"
+      },
+      {
+        "start": 1935.12,
+        "duration": 6.559,
+        "text": "schedule now we do have some unique Fe"
+      },
+      {
+        "start": 1938.279,
+        "duration": 4.921,
+        "text": "features you can for example insert a"
+      },
+      {
+        "start": 1941.679,
+        "duration": 3.561,
+        "text": "week let's just say you need if you"
+      },
+      {
+        "start": 1943.2,
+        "duration": 4.88,
+        "text": "needed to take a week off and you you're"
+      },
+      {
+        "start": 1945.24,
+        "duration": 4.039,
+        "text": "not ready to do this week you can say in"
+      },
+      {
+        "start": 1948.08,
+        "duration": 4.4,
+        "text": "a week"
+      },
+      {
+        "start": 1949.279,
+        "duration": 5.0,
+        "text": "above right and now I've you know taken"
+      },
+      {
+        "start": 1952.48,
+        "duration": 3.76,
+        "text": "this I'm going to take this week because"
+      },
+      {
+        "start": 1954.279,
+        "duration": 3.801,
+        "text": "I'm sick right or I'm going to take this"
+      },
+      {
+        "start": 1956.24,
+        "duration": 4.919,
+        "text": "you know week off or I took this week"
+      },
+      {
+        "start": 1958.08,
+        "duration": 5.76,
+        "text": "off because I was sick or you know or I"
+      },
+      {
+        "start": 1961.159,
+        "duration": 5.801,
+        "text": "can let's say delete this"
+      },
+      {
+        "start": 1963.84,
+        "duration": 4.52,
+        "text": "week and I delete this week and I get"
+      },
+      {
+        "start": 1966.96,
+        "duration": 4.4,
+        "text": "that week"
+      },
+      {
+        "start": 1968.36,
+        "duration": 3.0,
+        "text": "back"
+      },
+      {
+        "start": 1971.399,
+        "duration": 6.12,
+        "text": "so so yeah so once if I want to manage"
+      },
+      {
+        "start": 1975.519,
+        "duration": 4.081,
+        "text": "things on specific days and then move"
+      },
+      {
+        "start": 1977.519,
+        "duration": 4.441,
+        "text": "them around then a calendar is obviously"
+      },
+      {
+        "start": 1979.6,
+        "duration": 6.559,
+        "text": "a great option and then I can basically"
+      },
+      {
+        "start": 1981.96,
+        "duration": 7.04,
+        "text": "turn on in mobile app and then if I come"
+      },
+      {
+        "start": 1986.159,
+        "duration": 5.801,
+        "text": "back and refresh again in the app I now"
+      },
+      {
+        "start": 1989.0,
+        "duration": 6.6,
+        "text": "will see some now I see dates I see"
+      },
+      {
+        "start": 1991.96,
+        "duration": 7.48,
+        "text": "September 7th I've got glomba 255 I see"
+      },
+      {
+        "start": 1995.6,
+        "duration": 8.12,
+        "text": "today I've got sfr number"
+      },
+      {
+        "start": 1999.44,
+        "duration": 7.44,
+        "text": "six right so now I see specific dates"
+      },
+      {
+        "start": 2003.72,
+        "duration": 5.72,
+        "text": "tied to my plan and the same is true as"
+      },
+      {
+        "start": 2006.88,
+        "duration": 4.88,
+        "text": "if you're using the you know the"
+      },
+      {
+        "start": 2009.44,
+        "duration": 4.199,
+        "text": "training Peaks or intervals work out of"
+      },
+      {
+        "start": 2011.76,
+        "duration": 3.519,
+        "text": "the day you'll see specific dates that"
+      },
+      {
+        "start": 2013.639,
+        "duration": 3.441,
+        "text": "you're supposed to do something because"
+      },
+      {
+        "start": 2015.279,
+        "duration": 5.961,
+        "text": "those are calendar"
+      },
+      {
+        "start": 2017.08,
+        "duration": 7.28,
+        "text": "based so those are all the options for"
+      },
+      {
+        "start": 2021.24,
+        "duration": 6.0,
+        "text": "basically training with training plans"
+      },
+      {
+        "start": 2024.36,
+        "duration": 4.76,
+        "text": "you know using any of our 30,000"
+      },
+      {
+        "start": 2027.24,
+        "duration": 4.08,
+        "text": "workouts whether you add them to your"
+      },
+      {
+        "start": 2029.12,
+        "duration": 5.12,
+        "text": "favorite lists or whether you search in"
+      },
+      {
+        "start": 2031.32,
+        "duration": 4.959,
+        "text": "the app or whether you search on our"
+      },
+      {
+        "start": 2034.24,
+        "duration": 3.88,
+        "text": "website when you're searching on our"
+      },
+      {
+        "start": 2036.279,
+        "duration": 4.841,
+        "text": "website you've got a lot of opt options"
+      },
+      {
+        "start": 2038.12,
+        "duration": 5.919,
+        "text": "you can search by minutes between stress"
+      },
+      {
+        "start": 2041.12,
+        "duration": 6.44,
+        "text": "between intensity between you know you"
+      },
+      {
+        "start": 2044.039,
+        "duration": 6.161,
+        "text": "can sort by date you can sort by"
+      },
+      {
+        "start": 2047.56,
+        "duration": 5.2,
+        "text": "popularity um you can see that this is"
+      },
+      {
+        "start": 2050.2,
+        "duration": 5.439,
+        "text": "the most popular workout on our"
+      },
+      {
+        "start": 2052.76,
+        "duration": 4.68,
+        "text": "platform you might want to search for a"
+      },
+      {
+        "start": 2055.639,
+        "duration": 6.801,
+        "text": "you know let's say what's the most"
+      },
+      {
+        "start": 2057.44,
+        "duration": 7.159,
+        "text": "popular V2 Max those Zone V2 Max that's"
+      },
+      {
+        "start": 2062.44,
+        "duration": 5.88,
+        "text": "the most popular V2 Max this is the"
+      },
+      {
+        "start": 2064.599,
+        "duration": 5.881,
+        "text": "second most popular V2 Max um and so you"
+      },
+      {
+        "start": 2068.32,
+        "duration": 5.079,
+        "text": "can find things there then you add them"
+      },
+      {
+        "start": 2070.48,
+        "duration": 4.96,
+        "text": "to your libraries we do have Coach Jack"
+      },
+      {
+        "start": 2073.399,
+        "duration": 4.361,
+        "text": "here I'm going to do a separate video"
+      },
+      {
+        "start": 2075.44,
+        "duration": 4.88,
+        "text": "that talks about all the features of the"
+      },
+      {
+        "start": 2077.76,
+        "duration": 4.919,
+        "text": "website what I showed you in this video"
+      },
+      {
+        "start": 2080.32,
+        "duration": 6.4,
+        "text": "was the features that were related to"
+      },
+      {
+        "start": 2082.679,
+        "duration": 6.361,
+        "text": "the app and how you use the website to"
+      },
+      {
+        "start": 2086.72,
+        "duration": 5.08,
+        "text": "use the app and enhance your app"
+      },
+      {
+        "start": 2089.04,
+        "duration": 5.52,
+        "text": "experience the next one will go into"
+      },
+      {
+        "start": 2091.8,
+        "duration": 4.839,
+        "text": "great detail of the website and all of"
+      },
+      {
+        "start": 2094.56,
+        "duration": 5.96,
+        "text": "the different features in the website oh"
+      },
+      {
+        "start": 2096.639,
+        "duration": 8.841,
+        "text": "I forgot one more feature now that I'm"
+      },
+      {
+        "start": 2100.52,
+        "duration": 8.68,
+        "text": "upgraded I have other options I have a"
+      },
+      {
+        "start": 2105.48,
+        "duration": 7.56,
+        "text": "new I have a new Option here which is"
+      },
+      {
+        "start": 2109.2,
+        "duration": 7.76,
+        "text": "view workout in real time so if I click"
+      },
+      {
+        "start": 2113.04,
+        "duration": 8.36,
+        "text": "on that and I turn it on I can click"
+      },
+      {
+        "start": 2116.96,
+        "duration": 8.92,
+        "text": "here and I can share this URL you can"
+      },
+      {
+        "start": 2121.4,
+        "duration": 6.84,
+        "text": "see the URL is watch. triner day/ 57 so"
+      },
+      {
+        "start": 2125.88,
+        "duration": 4.199,
+        "text": "I can also just type that in here or I"
+      },
+      {
+        "start": 2128.24,
+        "duration": 5.2,
+        "text": "can this little live button if I click"
+      },
+      {
+        "start": 2130.079,
+        "duration": 6.481,
+        "text": "on live it actually lets me go there as"
+      },
+      {
+        "start": 2133.44,
+        "duration": 5.399,
+        "text": "well so I'll go there so now what you"
+      },
+      {
+        "start": 2136.56,
+        "duration": 6.279,
+        "text": "see here is you actually"
+      },
+      {
+        "start": 2138.839,
+        "duration": 7.161,
+        "text": "see your workout from the app being"
+      },
+      {
+        "start": 2142.839,
+        "duration": 5.321,
+        "text": "broadcast to a web page on whatever"
+      },
+      {
+        "start": 2146.0,
+        "duration": 5.4,
+        "text": "device you want whatever device let's"
+      },
+      {
+        "start": 2148.16,
+        "duration": 5.679,
+        "text": "say a PC a Mac a you know other a tablet"
+      },
+      {
+        "start": 2151.4,
+        "duration": 5.12,
+        "text": "you can transmit the data from here to"
+      },
+      {
+        "start": 2153.839,
+        "duration": 4.161,
+        "text": "here you could even have your coach"
+      },
+      {
+        "start": 2156.52,
+        "duration": 3.28,
+        "text": "watch you you could share share it with"
+      },
+      {
+        "start": 2158.0,
+        "duration": 3.48,
+        "text": "a friend and you could train it together"
+      },
+      {
+        "start": 2159.8,
+        "duration": 4.64,
+        "text": "and see where you guys are both at"
+      },
+      {
+        "start": 2161.48,
+        "duration": 5.68,
+        "text": "together um the other thing you can do"
+      },
+      {
+        "start": 2164.44,
+        "duration": 4.28,
+        "text": "so you can shorten this up fairly small"
+      },
+      {
+        "start": 2167.16,
+        "duration": 3.8,
+        "text": "you can put it at the bottom of your"
+      },
+      {
+        "start": 2168.72,
+        "duration": 4.92,
+        "text": "screen and then you could watch a video"
+      },
+      {
+        "start": 2170.96,
+        "duration": 5.28,
+        "text": "on the top if your video happens to be"
+      },
+      {
+        "start": 2173.64,
+        "duration": 6.28,
+        "text": "in YouTube you can actually just click"
+      },
+      {
+        "start": 2176.24,
+        "duration": 6.24,
+        "text": "on here and you can watch a YouTube"
+      },
+      {
+        "start": 2179.92,
+        "duration": 5.199,
+        "text": "video and see it inside of here and go"
+      },
+      {
+        "start": 2182.48,
+        "duration": 5.879,
+        "text": "ahead and start"
+      },
+      {
+        "start": 2185.119,
+        "duration": 4.881,
+        "text": "it so then you see YouTube videos here"
+      },
+      {
+        "start": 2188.359,
+        "duration": 3.201,
+        "text": "this is a new feature and we just"
+      },
+      {
+        "start": 2190.0,
+        "duration": 5.119,
+        "text": "launched it and so there's going to be a"
+      },
+      {
+        "start": 2191.56,
+        "duration": 6.0,
+        "text": "lot more you know uh Fe we're going to"
+      },
+      {
+        "start": 2195.119,
+        "duration": 5.72,
+        "text": "keep enhancing this feature but you can"
+      },
+      {
+        "start": 2197.56,
+        "duration": 5.4,
+        "text": "see this broadcast feature um that is"
+      },
+      {
+        "start": 2200.839,
+        "duration": 4.601,
+        "text": "part of the paid"
+      },
+      {
+        "start": 2202.96,
+        "duration": 5.17,
+        "text": "upgrade and that's it thank you very"
+      },
+      {
+        "start": 2205.44,
+        "duration": 5.579,
+        "text": "much"
+      }
+    ],
+    "type": "auto",
+    "segment_count": 812
+  },
+  "processed_at": "2025-07-23T00:13:50.603237"
+}

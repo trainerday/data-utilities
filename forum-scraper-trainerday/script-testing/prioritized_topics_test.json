@@ -1,0 +1,100 @@
+{
+  "generated_at": "2025-07-23T12:00:49.057341",
+  "total_topics": 5,
+  "methodology": {
+    "scoring_factors": {
+      "recency_score": "Recent activity (30d=10, 90d=8, 180d=6, 365d=4, older=2)",
+      "frequency_score": "Number of questions * 2, capped at 10",
+      "engagement_score": "View count (2000+=10, 1000+=8, 500+=6, 200+=4, 50+=2, <50=1)",
+      "discussion_score": "Post count (20+=10, 10+=8, 5+=6, 3+=4, <3=2)"
+    },
+    "priority_score_formula": "recency*0.3 + frequency*0.25 + engagement*0.25 + discussion*0.2"
+  },
+  "topics": [
+    {
+      "rank": 1.0,
+      "topic_id": 53810.0,
+      "title": "Error on convert to HR?",
+      "category": "Technical Issues",
+      "priority_score": 7.8,
+      "views": 653.0,
+      "posts_count": 31.0,
+      "question_count": 8.0,
+      "latest_question_date": "2025-01-30",
+      "recency_score": 6.0,
+      "frequency_score": 10.0,
+      "engagement_score": 6.0,
+      "discussion_score": 10.0,
+      "sample_questions": "The app has many errors in conversion, making it unusable. | The app has many conversion errors making it unusable. | Need to edit the activity to correct the training data. | Need to edit the activity to correct the training values. | The training session is incorrectly categorized due to missing bpm information. | The training is sent wrong to the device after conversion to HR mode. | The training session is incorrectly categorized due to missing bpm information. | The training is sent wrong to the device after conversion to HR mode.",
+      "created_at_original": "2025-01-24T20:55:21.026000"
+    },
+    {
+      "rank": 2.0,
+      "topic_id": 55971.0,
+      "title": "[SOLVED] - Coach Jack not working",
+      "category": "Technical Issues",
+      "priority_score": 6.8,
+      "views": 292.0,
+      "posts_count": 22.0,
+      "question_count": 4.0,
+      "latest_question_date": "2025-02-27",
+      "recency_score": 6.0,
+      "frequency_score": 8.0,
+      "engagement_score": 4.0,
+      "discussion_score": 10.0,
+      "sample_questions": "Blank screen on mobile devices. | Getting a blank page when trying to edit the plan. | Blank screen when accessing Coach Jack. | Getting a blank screen when trying to use Coach Jack.",
+      "created_at_original": "2025-02-23T20:11:49.756000"
+    },
+    {
+      "rank": 3.0,
+      "topic_id": 54703.0,
+      "title": "Removing Ant+ from TrainerDay",
+      "category": "Feature Requests",
+      "priority_score": 6.8,
+      "views": 1185.0,
+      "posts_count": 26.0,
+      "question_count": 2.0,
+      "latest_question_date": "2025-02-15",
+      "recency_score": 6.0,
+      "frequency_score": 4.0,
+      "engagement_score": 8.0,
+      "discussion_score": 10.0,
+      "sample_questions": "Lack of clarity on why ANT+ support is being discontinued despite no personal issues. | Uncertainty about when TrainerDay will stop supporting ANT+.",
+      "created_at_original": "2025-02-05T11:16:15.604000"
+    },
+    {
+      "rank": 4.0,
+      "topic_id": 55120.0,
+      "title": "[SOLVED] - iOS App crashing after peak of TD Ramp Test",
+      "category": "Technical Issues",
+      "priority_score": 6.4,
+      "views": 265.0,
+      "posts_count": 12.0,
+      "question_count": 4.0,
+      "latest_question_date": "2025-03-10",
+      "recency_score": 6.0,
+      "frequency_score": 8.0,
+      "engagement_score": 4.0,
+      "discussion_score": 8.0,
+      "sample_questions": "Discarding the workout also causes the app to crash. | App crashes when trying to save after stopping a workout. | Suspects the issue is related to the iPhone since it works on iPads. | App crashes after reaching the peak of the ramp test.",
+      "created_at_original": "2025-02-11T17:08:13.082000"
+    },
+    {
+      "rank": 5.0,
+      "topic_id": 55203.0,
+      "title": "STARTS Strenght training on bike",
+      "category": "Training Execution",
+      "priority_score": 6.3,
+      "views": 405.0,
+      "posts_count": 22.0,
+      "question_count": 3.0,
+      "latest_question_date": "2025-02-13",
+      "recency_score": 6.0,
+      "frequency_score": 6.0,
+      "engagement_score": 4.0,
+      "discussion_score": 10.0,
+      "sample_questions": "Delay in slope resistance pickup and concerns about risk factors when performing the exercise. | Concerns about the risk of injury and equipment damage while performing STARTS. | Uncertainty about the effectiveness and setup of STARTS strength training on a bike.",
+      "created_at_original": "2025-02-12T15:44:12.864000"
+    }
+  ]
+}

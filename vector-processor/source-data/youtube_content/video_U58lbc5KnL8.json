@@ -1,0 +1,3298 @@
+{
+  "video_id": "U58lbc5KnL8",
+  "title": "TrainerDay Cycling - Deep dive into our web application",
+  "url": "https://www.youtube.com/watch?v=U58lbc5KnL8",
+  "upload_date": null,
+  "duration": 1622.0,
+  "topics": [
+    "general"
+  ],
+  "transcript": {
+    "full_text": "Hello Alex from trainer day here I'm going to go into a deep dive on trainer day the web application and all the features of the web application we also have a deep dive on Coach Jack we have a separate Deep dive on our TR on our training app so this is the third of that which is the Deep dive on our web application here you know one of the initial things that a lot of people do and like to do is they come in and they search workouts and they look at our workouts and by default it's sorted by popularity and you can see what's most popular that doesn't necessarily mean it's what we recommend in a lot of cases you know this is a really hard workout for the right person this might be okay but it you know in a lot of cases it's not necessarily the best workout for a lot of people so you know you can search between if if you have a paid account you get these extra features where you can search minutes between stress between intensity between and you can also hide those extra features right so you can search your library so if you add things to your library let's just say I really like this workout and I add it to my favorites or I can click add to new list so if I add it to a new list you know it will create a new list and add it to that let's just say I add it to favorite it shows I've added it to my favorites and if I want to search my library my library is these lists so I can just come in here and search my library you can also search on the my library tab I'll show you that but come down you see lots of different workouts once you add them to your library if you are using the paid version and you have our premium version you can then see those lists inside of our application so and you can grab those workouts you also can you know send these workouts to other platforms and I'll show that in a little bit um so so yeah so this is my workouts sorry this is search workouts we got lots of pages we've got you know 30 000 shared workouts here probably more than most people need um but yeah so then we have create a workout so our workout Creator is incredibly easy and so you can do like five minutes of 40 for a warm-up 50 minutes oops 50 minutes of uh say 65 as a zone two and you can do five minutes at forty percent now if you prefer to just enter zone two you could just actually come in here and just say type in zone one zone two um for and you could type in in zones you also it once your FTP is set so you can click here to set your FTP uh here's our cycling FTP once your FTP is set if you want to enter actual watts you can set them in here now when you're entering Watts this is ultimately stored still as a percentage of FTP so why enter let's just say 120 watts and it and if I go back here it's going to show that 67 67 percent of my FTP right so it's ultimately still stored as a percentage so as your FTP goes up if you do this workout these workouts will change you know so if you wanted static watts and I want it always to be 200 Watts the the kind of the only way to do that is actually just to leave your FTP the same right so um so then we got other features here like sets and Reps so sets and Reps makes it super fast to create I just want five uh six intervals um with two minutes of work at a hundred percent and two minutes of break at forty percent right so now I've just created you know an interval workout with kind of a minimal amount of code here and again it's still very simple to do uh so so we've got some more advanced features and then ah then I can turn off sets and Reps and you can see it turns it into all of the individual intervals you can see the start and the end of individual intervals so one of the other things you can do is like slope percent so if we turn on Cadence also so I'll turn on both of those so slow percent ultimately Works in our application as well as in zwift how does it work in zwift anyway yeah it works in zwift somehow it will set the slopes in zwift is that true no hmm I think it goes to Free Ride slow mode works in our application and you can say set a slope of five percent so now the other thing I do here if I is if I type slope so typing this slope forces our application to switch to slope mode now you can do it manually you can go in and press the slope button but if you wanted to switch automatically from slope to say ERG you can do that and you could say you know that's 100 we could say that's ten ten ten percent grade versus a five percent grade um that's a huge change but um but you can you can go in but that's ERG anyway so it doesn't matter the slope sorry so slope doesn't do anything in ERG so yeah so you can go in and out of ERG even though you've got a percentage here if you're in slope mode that just means it's kind of your recommended Target wattage this 40 watt 40 or 72 watts is ultimately your target but you're in slope mode so slope mode it works like zwift Hills you change the intensity based on the gearing and the and the pedaling that you do you know and the Cadence that you do so so anyway so that's how that works um we also have here interval comments so let's just say you know so we'll put in an interval comment and the first one will say starts in slope mode set your gearing so this will just pop up on the screen give you some information you know if this is within a specific interval so this is the first interval the second interval if I want multiple messages within the same interval I can do that and this one will have a five second offset and then you know uh five seconds bam bam okay right so it'll just start putting messages up on the screen reminders for yourself you know all kinds of different stuff you could put Cadence reminders if you wanted but we also have a Cadence feature here and you can just say this is between you know 80 and 90 RPM right um so you can and and our app or zwift will tell you hey here you know or or whatever platform you're using will tell you that you need to be within this Cadence zone so then you can save it you can save it as private or you can save it as public you can tag it so that it has a special tag like a test or a or a VO2 max or whatever your tagging system is if you if you make this a public workout and you enter a tag that will be a public tag because you created the workout and it's a public tag you also can do private tags and I'll show you that in a little bit but um you name it you put whatever description you want you also can upload a GPS a tcx or a fit file from a route and it will you know try to approximate the slopes of of what you were doing you know kind of minute by minute and if your power is in that file it will also enter the power so it will create a similar workout to what you did you also can create workouts from zwo ERG MRC files right so so those all work you also can look here you can click on text description and you can see a simple description of what I have here I've got five intervals the two minutes at 180 Watts with two minutes at 72 Watts rest right so you can see that's the main work of that of that uh of that set right and it's easy it's Sim very similar to what you see in sets and Reps right so it's kind of the same it's the same view let's say because it's showing you five intervals rather than showing you them each individually listed so you save and upload you can also assign it to a list right now if you want if you know what list it's supposed to go in right if you if you have a bunch of lists or you even just want to add it to your favorites uh it makes it easier for finding it in our training app if you assign it but you can always just save it let's just say test 5 65 save I have test 65 now I can still add it to a favorite anyway add to favorites whoops and so this was my creations and so that are unlisted because I added it to my favorites it actually moved out of there and moved into my favorites so you can see it here in my favorites now so inside of our app I showed this in the in the app tutorial but you also can manage your lists here and you can create new lists but you can also you know assign a short name so that in our app you get a little Tab and you can click on that little Tab and quickly take you to your favorite list so short name is kind of like favorite list and you have to always make sure you clicked edit and when you add a short name test two it's not a very good short name since that's the name you always have to hit save here and then then that Lit then this particular or that other that list whatever test to list uh would would show up on on those little uh shortcuts so that's create a workout um you've got a lot of features here on my workouts one of them is that you can click here search all work out so if you don't know if you start to get a big list or you don't know what it's on you can click search all workouts and you can just search for test or whatever right so I get all my workouts with the name test in them which is most of my workouts at the moment um actually this is a second account so I have another account with a bunch of more workouts in it or or real workouts not just these tests um the other thing we have over here is we have my activities so my activities is what has been clear completed in our training app so if you use our training app they will show up here the other thing you can see here is we have this little live icon and watch my current training so if you're training and you go into our app and you turn it on you can click here click here and ultimately it will broadcast your power your Cadence and all your stuff across the internet and to this web application and you can view what you're doing on a bigger screen on your PC or on your Mac or any anything with a web browser an iPad let's say on on another screen if you want um and then you also have uh of uh you can watch a video and you can set a YouTube video and create your own favorite YouTube videos that you can use here um and and a lot more features are going to come to this broadcast screen we're going to add a lot more data fields we're going to add some maps we're going to do some other cool stuff soon okay so we integrate with a lot of other products so we you can connect to Strava to training Peaks to Garmin intervals ICU Dropbox you know Google Concept two because the concept 2 is not out yet but it's we're working on it you can turn on Wahoo if you have a wahoo device you can turn that on and then from your calendar you can export plan files I I can show you that but it will allow you to download a plan from your calendar with the dates inside copy and paste it into your wahoo full a folder on your wahoo device and and then you'll have your training plan there you also can use training Peaks if you want to send things to training Peaks and then have it show up in your wahoo you can also do it that way so when you so training peaks in Garmin are the two most complicated let's just say um and we have some different features so we have work out of the day we also actually have this for intervals I should connect to intervals here and show you but we also we have work out of the day if you turn on this workout of the day feature from training peaks in our training app on the plan tab you know you have to press refresh in our app turn this on press Refresh on our app and then you will see your workouts from your calendar in training piece in our app and you can just keep following them and it'll always show you kind of the yesterday's workout today's workout in the next couple days right so it shows you just work out of the day just means a few days worth of workouts it's not showing your whole calendar we also have something called calendar sync and calendar sync is really about syncing our calendar to training Peaks so if you're using our calendar to manage your workouts which I'll show you and there's a lot of benefits too you may want to turn on calendar sync to training Peaks which will then distribute your workouts to other platforms so if you're using training Peaks to manage your your plan or if you have a coach and then then you don't need to turn on this calendar sync feature because you don't need to use our calendar but if you just want to use our mobile app you only need to do this but if you want to use our coach Jack if you want to manage it in the most optimized way then turn on this calendar sync use our calendar and you'll get a bunch of benefits um by by using training Peaks and train and and uh trainer day together that way so and then with Garmin you know you can send all these additional options so if you want to send power 3s or power lap or power 10 seconds or power one second so this is when you're looking at your head unit is it is it taking a one second average and saying are you on or are you off or is it looking at like a 10 second average and saying are you on or are you off or or an entire lap I press the lap button and I go and how how close am I to Target for example um and power range do you want to do exact power so if you're doing indoor workouts you might want to have exact power but if you're doing outdoor workouts you probably wanted a range of plus or minus five to ten percent and on your easy work you probably could get away with a bigger range right and and that's up to you and how you like to train and we also have this calendar sync feature so if you're using our calendar and you want to synchronize it to Garmin you turn on calendar sync and and it will automatically as you make changes in your calendar here it'll automatically make those changes in Garmin right if you want to use Garmin to manage your your plan then you don't need to turn this on instead of syncing to Garmin or syncing to training Peaks you can just send an entire plan there and now I'll show you that so if I go to search plans I can find plans and you know popularity seems to be this one's like two weeks long it seems to be popular because it's two weeks long and and it's every day it's seven days a week 14 workouts and two weeks long so a little bit funny but um it's a VO2 max booster supposedly it probably would work for two weeks you just have to be really careful that you take some time off and you know it's questionable as to whether you'd get the advantage but it's kind of like a training camp in a way let's just say and there's is a reasonable possibility this could give you benefits um so when you click copy to my plans you can change the training day so this is a seven day a week plan but ultimately does it really need to be seven day a week or could I really just do three days a week right and and do the same thing you fear you could actually get more benefit by doing it three days a week than you could buy seven but that's highly individual depends on your situation it's really it's really hard to say but if let's just say you only have three days a week available and you want to do all those workouts you can send it set it for three days a week or you can leave it as design so I click copy plan and now it's created that same plan and moved it to three days a week I can modify it I can add my cool little workout I just did and put it in there right I can get rid of that workout um and once it's in my plans then now this is kind of a reusable plan for yours for life you can just keep using it you can keep doing stuff with it um you you know can keep modifying it and you can keep using it forever and and it's and it's basically free meaning you don't have to still you can store it forever you don't have to pay to store it um if you want certain features then you you need to be a premium member to you to you know so let me show you some of that so if you want to take a plan and you want to send it one you can send it to my calendar two you can send it to trainingbeaks you can send it to Garmin you know you can send it intervals you can send it to Google Calendar if you want your calendar reminders and to remember what's on there so you could send it to you know to your calendar with us but you also could send it to your Google calendar and then you would ultimately you know get the reminders at the same time the other interesting thing here is you can send it to start at a certain time so you can send say when do I want it to start and you can just like for example send one week at a time as a test you might want to just send one week go out do the workout see how it goes feel are they the right intensity for you um and so on and send one week just so that you don't have to deal with a button all you know 16 weeks of workouts there and have to delete them and all kinds of other stuff you may want to send a shorter duration but sending plans like this you can you can download a plan like this you can just download it and you can manually upload it into these platforms right that's a free feature if you want to send it to training piece if you want to send it to Garmin or you want to send it um to any of these platforms then that is actually a paid feature okay so that's my plans you can see your library over here that you can add workouts to it if you create the plan yourself and it's ultimately your plan then you can make that a public plan and share it with other people and all the plans that are here are actually plans that I I think I created one or two of them but other people created a lot more of them right uh than I did uh let's see you can clone a plan again right so you can re-clone you can change the days again if you want from three days a week back to seven days a week or or whatever you want so you can re-clone that redo it yeah you've got a lot of options there Okay so the other main feature that we have here is my calendar uh let me say one more thing actually let me back up a little bit once you have a plan and it's on my plans you can say in mobile app and this will override where your plan comes from so your plan can come from my plans your plan can come from my calendar and if I turn it off here I just turned it off I just turned it off on my my plans so you now see on my plans it's now off so they fight with each other and the same with workout of the day so if you turn it off if you turn it on somewhere else it will turn it off so if I turn it on here right I just turned it off on the calendar now I'll go back to the calendar turn it back off I turned it off I turned off the training Peaks WOD so it's basically choosing where you want to get your plan from and so when you're choosing to get your plan from my plans then in our training app the interesting thing is rather than it being tied to a calendar so even though this says Monday Wednesday Friday and it looks kind of like a calendar ultimately you just do one work there's no date associated with it here you can see it's not a calendar it's really just a kind of a a kind of a recommended sequence let's say and so then you can just execute those workouts one after another as you're available oh I'm not available Monday so I'm going to do it Tuesday oh this week I only did you know I did four workouts and next week I did two workouts it doesn't matter it's really easy on our app to just you just go one workout after the next and it knows when you completed one and it just moves to the next the next time so that's what we call kind of a sequence of workouts right and so that's that's a feature available of my plans if you like a calendar and you really want you know things on very specific days you can and we we've got a lot of fat features in here oh I'm sick this week right so insert a week above it oh you know I'm going on vacation you know let's insert a week above this or let's clear a week oh I missed last week I'm just gonna move ahead anyway rather than you know it's probably not recommended but it's rather than repeat rather than do the work that I missed I'm just going to skip forward a week so then I could clear a week or I want to just change this week to a recovery week or whatever the other thing is is we have like convert to HR so if you want to do heart rate workouts and you want it to sync to Garmin let's say you're syncing your workouts to Garmin or training Peaks and you want to do heart rate based workouts you can just go convert to HR and it's going to convert this whole week to HR workouts they all turn red and so and now they are going to be heart rate based workouts on your device or um or where have you now in our training app our training app isn't super heart rate focused yet we're actually working on that we're going to improve the heart rate experience um but you know you could execute this workout as that heart rate based workout in our app but let's just say we're working on optimizing that even farther you know you can obviously change the month you can move here's month forward um here's some other special kind of features so one is you can delete my plan so if I if I create I'm not showing coach Jack now but coach Jack is a plan Builder and he'll build you a whole plan and you can send it to your calendar and then I can just delete the whole thing in one go I can just click that and boom remove that whole plan from my calendar um you've got compact view you can you can shrink everything up right you got weekly totals I can get rid of that I can share my calendar so I can I can share my calendar with somebody else that could be my coach that could be my friend that could be anybody I can share my calendar and my my coach or whoever wants to see it could actually have a permanent link to my calendar it would be read only they could only view the calendar but they could see your calendar right um you can share it with your friends so come back view um yes so we have some other features here I mentioned this in the in the bike video uh or the bike video the app the app video but you can change your Rider weight your your bike weight your drag coefficient here and these will change the mileage calculation that we use so it's kind of like a watts per kilogram if you're going on a watts per kilogram you know down up a hill it's gonna it's gonna calculate the right the right speed for you right or a fairly accurate speed more accurate than the trainers do by themselves one other feature I didn't mention here on apps and devices is you have routes to your rides so if you connect to Strava we will include a map which is interesting places or climbs now if you choose climbs they're really steep climbs it's you know classic climbs of of six degrees seven degrees that are that are really hard and you're gonna go really slow so if you want long distances and Strava do not click on climbs because you're going to get short distances right interesting places are very flat they're they're they're they're like Miami Beach or or islands in the around the outside of an island or all kinds of things this is really flat route so it gives you good distances um or you can just leave this off if you don't want a map okay that's it that's a deep dive into trainer day our web application with all the features excluding coach Jack which we have a separate video on and excluding our training app which we also have a video on but this should give you a pretty good pretty good idea of how to do things in our out thank you very much",
+    "segments": [
+      {
+        "start": 0.0,
+        "duration": 5.819,
+        "text": "Hello Alex from trainer day here I'm"
+      },
+      {
+        "start": 2.7,
+        "duration": 6.42,
+        "text": "going to go into a deep dive on trainer"
+      },
+      {
+        "start": 5.819,
+        "duration": 5.461,
+        "text": "day the web application and all the"
+      },
+      {
+        "start": 9.12,
+        "duration": 4.679,
+        "text": "features of the web application we also"
+      },
+      {
+        "start": 11.28,
+        "duration": 4.2,
+        "text": "have a deep dive on Coach Jack we have a"
+      },
+      {
+        "start": 13.799,
+        "duration": 4.141,
+        "text": "separate Deep dive on our TR on our"
+      },
+      {
+        "start": 15.48,
+        "duration": 4.98,
+        "text": "training app so this is the third of"
+      },
+      {
+        "start": 17.94,
+        "duration": 4.499,
+        "text": "that which is the Deep dive on our web"
+      },
+      {
+        "start": 20.46,
+        "duration": 3.42,
+        "text": "application here you know one of the"
+      },
+      {
+        "start": 22.439,
+        "duration": 3.18,
+        "text": "initial things that a lot of people do"
+      },
+      {
+        "start": 23.88,
+        "duration": 3.3,
+        "text": "and like to do is they come in and they"
+      },
+      {
+        "start": 25.619,
+        "duration": 4.261,
+        "text": "search workouts and they look at our"
+      },
+      {
+        "start": 27.18,
+        "duration": 4.86,
+        "text": "workouts and by default it's sorted by"
+      },
+      {
+        "start": 29.88,
+        "duration": 4.679,
+        "text": "popularity and you can see what's most"
+      },
+      {
+        "start": 32.04,
+        "duration": 5.64,
+        "text": "popular that doesn't necessarily mean"
+      },
+      {
+        "start": 34.559,
+        "duration": 4.5,
+        "text": "it's what we recommend in a lot of cases"
+      },
+      {
+        "start": 37.68,
+        "duration": 3.539,
+        "text": "you know this is a really hard workout"
+      },
+      {
+        "start": 39.059,
+        "duration": 4.68,
+        "text": "for the right person this might be okay"
+      },
+      {
+        "start": 41.219,
+        "duration": 4.201,
+        "text": "but it you know in a lot of cases it's"
+      },
+      {
+        "start": 43.739,
+        "duration": 3.961,
+        "text": "not necessarily the best workout for a"
+      },
+      {
+        "start": 45.42,
+        "duration": 4.799,
+        "text": "lot of people so you know you can search"
+      },
+      {
+        "start": 47.7,
+        "duration": 4.8,
+        "text": "between if if you have a paid account"
+      },
+      {
+        "start": 50.219,
+        "duration": 5.101,
+        "text": "you get these extra features where you"
+      },
+      {
+        "start": 52.5,
+        "duration": 5.1,
+        "text": "can search minutes between stress"
+      },
+      {
+        "start": 55.32,
+        "duration": 4.8,
+        "text": "between intensity between and you can"
+      },
+      {
+        "start": 57.6,
+        "duration": 5.099,
+        "text": "also hide those extra features right so"
+      },
+      {
+        "start": 60.12,
+        "duration": 4.38,
+        "text": "you can search your library so if you"
+      },
+      {
+        "start": 62.699,
+        "duration": 4.081,
+        "text": "add things to your library let's just"
+      },
+      {
+        "start": 64.5,
+        "duration": 5.58,
+        "text": "say I really like this workout and I add"
+      },
+      {
+        "start": 66.78,
+        "duration": 5.82,
+        "text": "it to my favorites or I can click add to"
+      },
+      {
+        "start": 70.08,
+        "duration": 4.62,
+        "text": "new list so if I add it to a new list"
+      },
+      {
+        "start": 72.6,
+        "duration": 4.98,
+        "text": "you know it will create a new list and"
+      },
+      {
+        "start": 74.7,
+        "duration": 6.059,
+        "text": "add it to that let's just say I add it"
+      },
+      {
+        "start": 77.58,
+        "duration": 5.52,
+        "text": "to favorite it shows I've added it to my"
+      },
+      {
+        "start": 80.759,
+        "duration": 5.581,
+        "text": "favorites and if I want to search my"
+      },
+      {
+        "start": 83.1,
+        "duration": 6.3,
+        "text": "library my library is these lists so I"
+      },
+      {
+        "start": 86.34,
+        "duration": 4.98,
+        "text": "can just come in here and search my"
+      },
+      {
+        "start": 89.4,
+        "duration": 5.16,
+        "text": "library you can also search on the my"
+      },
+      {
+        "start": 91.32,
+        "duration": 5.1,
+        "text": "library tab I'll show you that but"
+      },
+      {
+        "start": 94.56,
+        "duration": 5.16,
+        "text": "come down you see lots of different"
+      },
+      {
+        "start": 96.42,
+        "duration": 5.28,
+        "text": "workouts once you add them to your"
+      },
+      {
+        "start": 99.72,
+        "duration": 3.96,
+        "text": "library if you are using the paid"
+      },
+      {
+        "start": 101.7,
+        "duration": 5.279,
+        "text": "version and you have our premium version"
+      },
+      {
+        "start": 103.68,
+        "duration": 6.06,
+        "text": "you can then see those lists inside of"
+      },
+      {
+        "start": 106.979,
+        "duration": 6.061,
+        "text": "our application so and you can grab"
+      },
+      {
+        "start": 109.74,
+        "duration": 6.48,
+        "text": "those workouts you also can you know"
+      },
+      {
+        "start": 113.04,
+        "duration": 5.939,
+        "text": "send these workouts to other platforms"
+      },
+      {
+        "start": 116.22,
+        "duration": 3.96,
+        "text": "and I'll show that in a little bit"
+      },
+      {
+        "start": 118.979,
+        "duration": 5.041,
+        "text": "um"
+      },
+      {
+        "start": 120.18,
+        "duration": 6.119,
+        "text": "so so yeah so this is my workouts sorry"
+      },
+      {
+        "start": 124.02,
+        "duration": 6.12,
+        "text": "this is search workouts we got lots of"
+      },
+      {
+        "start": 126.299,
+        "duration": 5.58,
+        "text": "pages we've got you know 30"
+      },
+      {
+        "start": 130.14,
+        "duration": 3.54,
+        "text": "000 shared workouts here probably more"
+      },
+      {
+        "start": 131.879,
+        "duration": 6.661,
+        "text": "than most people need"
+      },
+      {
+        "start": 133.68,
+        "duration": 8.04,
+        "text": "um but yeah so then we have"
+      },
+      {
+        "start": 138.54,
+        "duration": 6.12,
+        "text": "create a workout so our workout Creator"
+      },
+      {
+        "start": 141.72,
+        "duration": 7.019,
+        "text": "is incredibly easy and so you can do"
+      },
+      {
+        "start": 144.66,
+        "duration": 9.54,
+        "text": "like five minutes of 40 for a warm-up 50"
+      },
+      {
+        "start": 148.739,
+        "duration": 8.281,
+        "text": "minutes oops 50 minutes of uh say 65 as"
+      },
+      {
+        "start": 154.2,
+        "duration": 6.24,
+        "text": "a zone two and you can do five minutes"
+      },
+      {
+        "start": 157.02,
+        "duration": 5.46,
+        "text": "at forty percent now if you prefer to"
+      },
+      {
+        "start": 160.44,
+        "duration": 4.079,
+        "text": "just enter zone two you could just"
+      },
+      {
+        "start": 162.48,
+        "duration": 4.56,
+        "text": "actually come in here and just say type"
+      },
+      {
+        "start": 164.519,
+        "duration": 3.121,
+        "text": "in zone one zone two"
+      },
+      {
+        "start": 167.04,
+        "duration": 4.08,
+        "text": "um"
+      },
+      {
+        "start": 167.64,
+        "duration": 6.78,
+        "text": "for and you could type in in zones you"
+      },
+      {
+        "start": 171.12,
+        "duration": 6.18,
+        "text": "also it once your FTP is set so you can"
+      },
+      {
+        "start": 174.42,
+        "duration": 6.42,
+        "text": "click here to set your FTP"
+      },
+      {
+        "start": 177.3,
+        "duration": 6.24,
+        "text": "uh here's our cycling FTP once your FTP"
+      },
+      {
+        "start": 180.84,
+        "duration": 5.399,
+        "text": "is set if you want to enter actual watts"
+      },
+      {
+        "start": 183.54,
+        "duration": 6.0,
+        "text": "you can set them in here now when you're"
+      },
+      {
+        "start": 186.239,
+        "duration": 6.36,
+        "text": "entering Watts this is ultimately stored"
+      },
+      {
+        "start": 189.54,
+        "duration": 6.779,
+        "text": "still as a percentage of FTP so why"
+      },
+      {
+        "start": 192.599,
+        "duration": 5.341,
+        "text": "enter let's just say 120 watts and it"
+      },
+      {
+        "start": 196.319,
+        "duration": 6.481,
+        "text": "and if I go back here it's going to show"
+      },
+      {
+        "start": 197.94,
+        "duration": 6.719,
+        "text": "that 67 67 percent of my FTP right so"
+      },
+      {
+        "start": 202.8,
+        "duration": 4.859,
+        "text": "it's ultimately still stored as a"
+      },
+      {
+        "start": 204.659,
+        "duration": 5.701,
+        "text": "percentage so as your FTP goes up if you"
+      },
+      {
+        "start": 207.659,
+        "duration": 5.641,
+        "text": "do this workout these workouts will"
+      },
+      {
+        "start": 210.36,
+        "duration": 5.28,
+        "text": "change you know so if you wanted static"
+      },
+      {
+        "start": 213.3,
+        "duration": 5.04,
+        "text": "watts and I want it always to be 200"
+      },
+      {
+        "start": 215.64,
+        "duration": 4.62,
+        "text": "Watts the the kind of the only way to do"
+      },
+      {
+        "start": 218.34,
+        "duration": 4.86,
+        "text": "that is actually just to leave your FTP"
+      },
+      {
+        "start": 220.26,
+        "duration": 4.559,
+        "text": "the same right so"
+      },
+      {
+        "start": 223.2,
+        "duration": 4.319,
+        "text": "um so then we got other features here"
+      },
+      {
+        "start": 224.819,
+        "duration": 4.681,
+        "text": "like sets and Reps so sets and Reps"
+      },
+      {
+        "start": 227.519,
+        "duration": 5.101,
+        "text": "makes it super fast to create I just"
+      },
+      {
+        "start": 229.5,
+        "duration": 6.42,
+        "text": "want five uh six intervals"
+      },
+      {
+        "start": 232.62,
+        "duration": 6.479,
+        "text": "um with two minutes of work at a hundred"
+      },
+      {
+        "start": 235.92,
+        "duration": 4.44,
+        "text": "percent and two minutes of break at"
+      },
+      {
+        "start": 239.099,
+        "duration": 4.381,
+        "text": "forty percent"
+      },
+      {
+        "start": 240.36,
+        "duration": 5.76,
+        "text": "right so now I've just created"
+      },
+      {
+        "start": 243.48,
+        "duration": 4.44,
+        "text": "you know an interval workout with kind"
+      },
+      {
+        "start": 246.12,
+        "duration": 5.58,
+        "text": "of a minimal amount of code here and"
+      },
+      {
+        "start": 247.92,
+        "duration": 6.66,
+        "text": "again it's still very simple to do"
+      },
+      {
+        "start": 251.7,
+        "duration": 4.74,
+        "text": "uh so so we've got some more advanced"
+      },
+      {
+        "start": 254.58,
+        "duration": 3.54,
+        "text": "features and then ah then I can turn off"
+      },
+      {
+        "start": 256.44,
+        "duration": 4.62,
+        "text": "sets and Reps and you can see it turns"
+      },
+      {
+        "start": 258.12,
+        "duration": 4.44,
+        "text": "it into all of the individual intervals"
+      },
+      {
+        "start": 261.06,
+        "duration": 3.84,
+        "text": "you can see the start and the end of"
+      },
+      {
+        "start": 262.56,
+        "duration": 4.02,
+        "text": "individual intervals so one of the other"
+      },
+      {
+        "start": 264.9,
+        "duration": 5.94,
+        "text": "things you can do is like slope percent"
+      },
+      {
+        "start": 266.58,
+        "duration": 6.619,
+        "text": "so if we turn on Cadence also so I'll"
+      },
+      {
+        "start": 270.84,
+        "duration": 6.419,
+        "text": "turn on both of those so slow percent"
+      },
+      {
+        "start": 273.199,
+        "duration": 6.881,
+        "text": "ultimately Works in our application as"
+      },
+      {
+        "start": 277.259,
+        "duration": 4.921,
+        "text": "well as in zwift how does it work in"
+      },
+      {
+        "start": 280.08,
+        "duration": 5.28,
+        "text": "zwift anyway yeah it works in zwift"
+      },
+      {
+        "start": 282.18,
+        "duration": 8.1,
+        "text": "somehow it will set the slopes in zwift"
+      },
+      {
+        "start": 285.36,
+        "duration": 7.2,
+        "text": "is that true no hmm I think it goes to"
+      },
+      {
+        "start": 290.28,
+        "duration": 4.979,
+        "text": "Free Ride slow mode works in our"
+      },
+      {
+        "start": 292.56,
+        "duration": 6.18,
+        "text": "application and you can say set a slope"
+      },
+      {
+        "start": 295.259,
+        "duration": 6.72,
+        "text": "of five percent so now the other thing I"
+      },
+      {
+        "start": 298.74,
+        "duration": 6.239,
+        "text": "do here if I is if I type slope"
+      },
+      {
+        "start": 301.979,
+        "duration": 6.121,
+        "text": "so typing this slope"
+      },
+      {
+        "start": 304.979,
+        "duration": 4.741,
+        "text": "forces our application to switch to"
+      },
+      {
+        "start": 308.1,
+        "duration": 3.539,
+        "text": "slope mode now you can do it manually"
+      },
+      {
+        "start": 309.72,
+        "duration": 3.24,
+        "text": "you can go in and press the slope button"
+      },
+      {
+        "start": 311.639,
+        "duration": 4.981,
+        "text": "but if you wanted to switch"
+      },
+      {
+        "start": 312.96,
+        "duration": 5.58,
+        "text": "automatically from slope to say ERG you"
+      },
+      {
+        "start": 316.62,
+        "duration": 4.74,
+        "text": "can do that and you could say you know"
+      },
+      {
+        "start": 318.54,
+        "duration": 5.28,
+        "text": "that's 100 we could say that's ten ten"
+      },
+      {
+        "start": 321.36,
+        "duration": 3.779,
+        "text": "ten percent grade versus a five percent"
+      },
+      {
+        "start": 323.82,
+        "duration": 4.02,
+        "text": "grade"
+      },
+      {
+        "start": 325.139,
+        "duration": 5.461,
+        "text": "um that's a huge change but"
+      },
+      {
+        "start": 327.84,
+        "duration": 4.56,
+        "text": "um but you can you can go in but that's"
+      },
+      {
+        "start": 330.6,
+        "duration": 4.08,
+        "text": "ERG anyway so it doesn't matter the"
+      },
+      {
+        "start": 332.4,
+        "duration": 5.0,
+        "text": "slope sorry so slope doesn't do anything"
+      },
+      {
+        "start": 334.68,
+        "duration": 2.72,
+        "text": "in ERG"
+      },
+      {
+        "start": 337.62,
+        "duration": 4.38,
+        "text": "so yeah so you can go in and out of ERG"
+      },
+      {
+        "start": 339.96,
+        "duration": 5.4,
+        "text": "even though you've got a percentage here"
+      },
+      {
+        "start": 342.0,
+        "duration": 5.58,
+        "text": "if you're in slope mode that just means"
+      },
+      {
+        "start": 345.36,
+        "duration": 5.24,
+        "text": "it's kind of your recommended Target"
+      },
+      {
+        "start": 347.58,
+        "duration": 7.619,
+        "text": "wattage this 40 watt 40"
+      },
+      {
+        "start": 350.6,
+        "duration": 6.76,
+        "text": "or 72 watts is ultimately your target"
+      },
+      {
+        "start": 355.199,
+        "duration": 5.34,
+        "text": "but you're in slope mode so slope mode"
+      },
+      {
+        "start": 357.36,
+        "duration": 5.52,
+        "text": "it works like zwift Hills you change the"
+      },
+      {
+        "start": 360.539,
+        "duration": 3.961,
+        "text": "intensity based on the gearing and the"
+      },
+      {
+        "start": 362.88,
+        "duration": 3.539,
+        "text": "and the pedaling that you do you know"
+      },
+      {
+        "start": 364.5,
+        "duration": 3.479,
+        "text": "and the Cadence that you do"
+      },
+      {
+        "start": 366.419,
+        "duration": 4.801,
+        "text": "so"
+      },
+      {
+        "start": 367.979,
+        "duration": 4.081,
+        "text": "so anyway so that's how that works"
+      },
+      {
+        "start": 371.22,
+        "duration": 5.699,
+        "text": "um"
+      },
+      {
+        "start": 372.06,
+        "duration": 7.26,
+        "text": "we also have here interval comments so"
+      },
+      {
+        "start": 376.919,
+        "duration": 3.72,
+        "text": "let's just say you know so we'll put in"
+      },
+      {
+        "start": 379.32,
+        "duration": 6.54,
+        "text": "an interval comment and the first one"
+      },
+      {
+        "start": 380.639,
+        "duration": 9.12,
+        "text": "will say starts in slope mode"
+      },
+      {
+        "start": 385.86,
+        "duration": 5.399,
+        "text": "set your gearing so this will just pop"
+      },
+      {
+        "start": 389.759,
+        "duration": 4.981,
+        "text": "up on the screen give you some"
+      },
+      {
+        "start": 391.259,
+        "duration": 5.16,
+        "text": "information you know if this is within a"
+      },
+      {
+        "start": 394.74,
+        "duration": 4.019,
+        "text": "specific interval so this is the first"
+      },
+      {
+        "start": 396.419,
+        "duration": 4.201,
+        "text": "interval the second interval if I want"
+      },
+      {
+        "start": 398.759,
+        "duration": 3.66,
+        "text": "multiple messages within the same"
+      },
+      {
+        "start": 400.62,
+        "duration": 4.859,
+        "text": "interval I can do that and this one will"
+      },
+      {
+        "start": 402.419,
+        "duration": 4.161,
+        "text": "have a five second offset and then you"
+      },
+      {
+        "start": 405.479,
+        "duration": 6.301,
+        "text": "know"
+      },
+      {
+        "start": 406.58,
+        "duration": 9.04,
+        "text": "uh five seconds bam"
+      },
+      {
+        "start": 411.78,
+        "duration": 5.82,
+        "text": "bam okay right so it'll just start"
+      },
+      {
+        "start": 415.62,
+        "duration": 3.96,
+        "text": "putting messages up on the screen"
+      },
+      {
+        "start": 417.6,
+        "duration": 3.48,
+        "text": "reminders for yourself you know all"
+      },
+      {
+        "start": 419.58,
+        "duration": 4.26,
+        "text": "kinds of different stuff you could put"
+      },
+      {
+        "start": 421.08,
+        "duration": 5.16,
+        "text": "Cadence reminders if you wanted but we"
+      },
+      {
+        "start": 423.84,
+        "duration": 4.919,
+        "text": "also have a Cadence feature here"
+      },
+      {
+        "start": 426.24,
+        "duration": 6.66,
+        "text": "and you can just say this is between you"
+      },
+      {
+        "start": 428.759,
+        "duration": 7.38,
+        "text": "know 80 and 90 RPM right"
+      },
+      {
+        "start": 432.9,
+        "duration": 5.519,
+        "text": "um so you can and and our app or zwift"
+      },
+      {
+        "start": 436.139,
+        "duration": 4.5,
+        "text": "will tell you hey here you know or or"
+      },
+      {
+        "start": 438.419,
+        "duration": 4.62,
+        "text": "whatever platform you're using will tell"
+      },
+      {
+        "start": 440.639,
+        "duration": 4.261,
+        "text": "you that you need to be within this"
+      },
+      {
+        "start": 443.039,
+        "duration": 4.141,
+        "text": "Cadence zone so"
+      },
+      {
+        "start": 444.9,
+        "duration": 5.16,
+        "text": "then you can save it you can save it as"
+      },
+      {
+        "start": 447.18,
+        "duration": 5.28,
+        "text": "private or you can save it as public you"
+      },
+      {
+        "start": 450.06,
+        "duration": 6.18,
+        "text": "can tag it so that it has a special tag"
+      },
+      {
+        "start": 452.46,
+        "duration": 6.6,
+        "text": "like a test or a or a VO2 max or"
+      },
+      {
+        "start": 456.24,
+        "duration": 4.98,
+        "text": "whatever your tagging system is if you"
+      },
+      {
+        "start": 459.06,
+        "duration": 4.8,
+        "text": "if you make this a public workout and"
+      },
+      {
+        "start": 461.22,
+        "duration": 4.919,
+        "text": "you enter a tag that will be a public"
+      },
+      {
+        "start": 463.86,
+        "duration": 4.38,
+        "text": "tag because you created the workout and"
+      },
+      {
+        "start": 466.139,
+        "duration": 4.381,
+        "text": "it's a public tag you also can do"
+      },
+      {
+        "start": 468.24,
+        "duration": 4.019,
+        "text": "private tags and I'll show you that in a"
+      },
+      {
+        "start": 470.52,
+        "duration": 2.399,
+        "text": "little bit but"
+      },
+      {
+        "start": 472.259,
+        "duration": 2.821,
+        "text": "um"
+      },
+      {
+        "start": 472.919,
+        "duration": 6.481,
+        "text": "you name it you put whatever description"
+      },
+      {
+        "start": 475.08,
+        "duration": 7.98,
+        "text": "you want you also can upload a GPS a tcx"
+      },
+      {
+        "start": 479.4,
+        "duration": 6.9,
+        "text": "or a fit file from a route and it will"
+      },
+      {
+        "start": 483.06,
+        "duration": 6.06,
+        "text": "you know try to approximate the slopes"
+      },
+      {
+        "start": 486.3,
+        "duration": 5.459,
+        "text": "of of what you were doing you know kind"
+      },
+      {
+        "start": 489.12,
+        "duration": 4.74,
+        "text": "of minute by minute and if your power is"
+      },
+      {
+        "start": 491.759,
+        "duration": 5.041,
+        "text": "in that file it will also enter the"
+      },
+      {
+        "start": 493.86,
+        "duration": 5.94,
+        "text": "power so it will create a similar"
+      },
+      {
+        "start": 496.8,
+        "duration": 6.42,
+        "text": "workout to what you did you also can"
+      },
+      {
+        "start": 499.8,
+        "duration": 5.94,
+        "text": "create workouts from zwo ERG MRC files"
+      },
+      {
+        "start": 503.22,
+        "duration": 6.3,
+        "text": "right so"
+      },
+      {
+        "start": 505.74,
+        "duration": 5.88,
+        "text": "so those all work you also can look here"
+      },
+      {
+        "start": 509.52,
+        "duration": 5.16,
+        "text": "you can click on text description and"
+      },
+      {
+        "start": 511.62,
+        "duration": 5.4,
+        "text": "you can see a simple description of what"
+      },
+      {
+        "start": 514.68,
+        "duration": 4.38,
+        "text": "I have here I've got five intervals the"
+      },
+      {
+        "start": 517.02,
+        "duration": 5.16,
+        "text": "two minutes at 180 Watts with two"
+      },
+      {
+        "start": 519.06,
+        "duration": 5.76,
+        "text": "minutes at 72 Watts rest right so you"
+      },
+      {
+        "start": 522.18,
+        "duration": 4.68,
+        "text": "can see that's the main work of that"
+      },
+      {
+        "start": 524.82,
+        "duration": 3.54,
+        "text": "of that uh"
+      },
+      {
+        "start": 526.86,
+        "duration": 4.02,
+        "text": "of that set"
+      },
+      {
+        "start": 528.36,
+        "duration": 4.74,
+        "text": "right and it's easy it's Sim very"
+      },
+      {
+        "start": 530.88,
+        "duration": 4.62,
+        "text": "similar to what you see in sets and Reps"
+      },
+      {
+        "start": 533.1,
+        "duration": 5.28,
+        "text": "right so it's kind of the same it's the"
+      },
+      {
+        "start": 535.5,
+        "duration": 4.8,
+        "text": "same view let's say because it's showing"
+      },
+      {
+        "start": 538.38,
+        "duration": 5.1,
+        "text": "you five intervals rather than showing"
+      },
+      {
+        "start": 540.3,
+        "duration": 5.219,
+        "text": "you them each individually listed so you"
+      },
+      {
+        "start": 543.48,
+        "duration": 4.26,
+        "text": "save and upload you can also assign it"
+      },
+      {
+        "start": 545.519,
+        "duration": 3.961,
+        "text": "to a list right now if you want if you"
+      },
+      {
+        "start": 547.74,
+        "duration": 3.96,
+        "text": "know what list it's supposed to go in"
+      },
+      {
+        "start": 549.48,
+        "duration": 3.9,
+        "text": "right if you if you have a bunch of"
+      },
+      {
+        "start": 551.7,
+        "duration": 4.02,
+        "text": "lists or you even just want to add it to"
+      },
+      {
+        "start": 553.38,
+        "duration": 3.959,
+        "text": "your favorites uh it makes it easier for"
+      },
+      {
+        "start": 555.72,
+        "duration": 3.239,
+        "text": "finding it in our training app if you"
+      },
+      {
+        "start": 557.339,
+        "duration": 4.381,
+        "text": "assign it but you can always just save"
+      },
+      {
+        "start": 558.959,
+        "duration": 5.701,
+        "text": "it let's just say test"
+      },
+      {
+        "start": 561.72,
+        "duration": 6.54,
+        "text": "5 65 save"
+      },
+      {
+        "start": 564.66,
+        "duration": 6.38,
+        "text": "I have test 65 now I can still add it to"
+      },
+      {
+        "start": 568.26,
+        "duration": 2.78,
+        "text": "a favorite anyway"
+      },
+      {
+        "start": 571.62,
+        "duration": 7.26,
+        "text": "add to favorites whoops and so this was"
+      },
+      {
+        "start": 575.1,
+        "duration": 6.359,
+        "text": "my creations and so that are unlisted"
+      },
+      {
+        "start": 578.88,
+        "duration": 4.26,
+        "text": "because I added it to my favorites it"
+      },
+      {
+        "start": 581.459,
+        "duration": 3.661,
+        "text": "actually moved out of there and moved"
+      },
+      {
+        "start": 583.14,
+        "duration": 4.44,
+        "text": "into my favorites so you can see it here"
+      },
+      {
+        "start": 585.12,
+        "duration": 5.339,
+        "text": "in my favorites now"
+      },
+      {
+        "start": 587.58,
+        "duration": 5.1,
+        "text": "so inside of our app I showed this in"
+      },
+      {
+        "start": 590.459,
+        "duration": 4.621,
+        "text": "the in the app tutorial but you also can"
+      },
+      {
+        "start": 592.68,
+        "duration": 7.8,
+        "text": "manage your lists here"
+      },
+      {
+        "start": 595.08,
+        "duration": 8.819,
+        "text": "and you can create new lists but you can"
+      },
+      {
+        "start": 600.48,
+        "duration": 5.4,
+        "text": "also you know assign a short name so"
+      },
+      {
+        "start": 603.899,
+        "duration": 3.601,
+        "text": "that in our app you get a little Tab and"
+      },
+      {
+        "start": 605.88,
+        "duration": 3.6,
+        "text": "you can click on that little Tab and"
+      },
+      {
+        "start": 607.5,
+        "duration": 4.14,
+        "text": "quickly take you to your favorite list"
+      },
+      {
+        "start": 609.48,
+        "duration": 3.539,
+        "text": "so short name is kind of like favorite"
+      },
+      {
+        "start": 611.64,
+        "duration": 2.94,
+        "text": "list and you have to always make sure"
+      },
+      {
+        "start": 613.019,
+        "duration": 4.081,
+        "text": "you clicked edit"
+      },
+      {
+        "start": 614.58,
+        "duration": 4.56,
+        "text": "and when you add a short name test"
+      },
+      {
+        "start": 617.1,
+        "duration": 3.96,
+        "text": "two it's not a very good short name"
+      },
+      {
+        "start": 619.14,
+        "duration": 4.56,
+        "text": "since that's the name you always have to"
+      },
+      {
+        "start": 621.06,
+        "duration": 4.74,
+        "text": "hit save here and then then that Lit"
+      },
+      {
+        "start": 623.7,
+        "duration": 4.5,
+        "text": "then this particular or that other that"
+      },
+      {
+        "start": 625.8,
+        "duration": 5.219,
+        "text": "list whatever test to list"
+      },
+      {
+        "start": 628.2,
+        "duration": 5.759,
+        "text": "uh would would show up on on those"
+      },
+      {
+        "start": 631.019,
+        "duration": 5.701,
+        "text": "little uh shortcuts"
+      },
+      {
+        "start": 633.959,
+        "duration": 4.681,
+        "text": "so that's create a workout"
+      },
+      {
+        "start": 636.72,
+        "duration": 5.82,
+        "text": "um you've got a lot of features here on"
+      },
+      {
+        "start": 638.64,
+        "duration": 7.139,
+        "text": "my workouts one of them is that you can"
+      },
+      {
+        "start": 642.54,
+        "duration": 4.979,
+        "text": "click here search all work out so if you"
+      },
+      {
+        "start": 645.779,
+        "duration": 3.481,
+        "text": "don't know if you start to get a big"
+      },
+      {
+        "start": 647.519,
+        "duration": 4.201,
+        "text": "list or you don't know what it's on you"
+      },
+      {
+        "start": 649.26,
+        "duration": 4.38,
+        "text": "can click search all workouts and you"
+      },
+      {
+        "start": 651.72,
+        "duration": 4.02,
+        "text": "can just search for test or whatever"
+      },
+      {
+        "start": 653.64,
+        "duration": 3.9,
+        "text": "right so I get all my workouts with the"
+      },
+      {
+        "start": 655.74,
+        "duration": 4.62,
+        "text": "name test in them which is most of my"
+      },
+      {
+        "start": 657.54,
+        "duration": 4.919,
+        "text": "workouts at the moment"
+      },
+      {
+        "start": 660.36,
+        "duration": 3.659,
+        "text": "um actually this is a second account so"
+      },
+      {
+        "start": 662.459,
+        "duration": 3.481,
+        "text": "I have another account with a bunch of"
+      },
+      {
+        "start": 664.019,
+        "duration": 5.341,
+        "text": "more workouts in it"
+      },
+      {
+        "start": 665.94,
+        "duration": 4.92,
+        "text": "or or real workouts not just these tests"
+      },
+      {
+        "start": 669.36,
+        "duration": 4.2,
+        "text": "um the other thing we have over here is"
+      },
+      {
+        "start": 670.86,
+        "duration": 5.599,
+        "text": "we have my activities so my activities"
+      },
+      {
+        "start": 673.56,
+        "duration": 5.58,
+        "text": "is what has been clear"
+      },
+      {
+        "start": 676.459,
+        "duration": 4.841,
+        "text": "completed in our training app so if you"
+      },
+      {
+        "start": 679.14,
+        "duration": 3.3,
+        "text": "use our training app they will show up"
+      },
+      {
+        "start": 681.3,
+        "duration": 3.42,
+        "text": "here"
+      },
+      {
+        "start": 682.44,
+        "duration": 5.399,
+        "text": "the other thing you can see here is we"
+      },
+      {
+        "start": 684.72,
+        "duration": 5.4,
+        "text": "have this little live icon and watch my"
+      },
+      {
+        "start": 687.839,
+        "duration": 4.44,
+        "text": "current training so if you're training"
+      },
+      {
+        "start": 690.12,
+        "duration": 4.02,
+        "text": "and you go into our app and you turn it"
+      },
+      {
+        "start": 692.279,
+        "duration": 3.361,
+        "text": "on you can click here"
+      },
+      {
+        "start": 694.14,
+        "duration": 5.04,
+        "text": "click here"
+      },
+      {
+        "start": 695.64,
+        "duration": 6.259,
+        "text": "and ultimately it will broadcast your"
+      },
+      {
+        "start": 699.18,
+        "duration": 7.26,
+        "text": "power your Cadence and all your stuff"
+      },
+      {
+        "start": 701.899,
+        "duration": 6.821,
+        "text": "across the internet and to this web"
+      },
+      {
+        "start": 706.44,
+        "duration": 4.92,
+        "text": "application and you can view what you're"
+      },
+      {
+        "start": 708.72,
+        "duration": 4.859,
+        "text": "doing on a bigger screen on your PC or"
+      },
+      {
+        "start": 711.36,
+        "duration": 5.34,
+        "text": "on your Mac or any anything with a web"
+      },
+      {
+        "start": 713.579,
+        "duration": 5.101,
+        "text": "browser an iPad let's say on on another"
+      },
+      {
+        "start": 716.7,
+        "duration": 4.98,
+        "text": "screen if you want"
+      },
+      {
+        "start": 718.68,
+        "duration": 6.42,
+        "text": "um and then you also have"
+      },
+      {
+        "start": 721.68,
+        "duration": 5.219,
+        "text": "uh of uh you can watch a video and you"
+      },
+      {
+        "start": 725.1,
+        "duration": 3.6,
+        "text": "can set a YouTube video and create your"
+      },
+      {
+        "start": 726.899,
+        "duration": 3.421,
+        "text": "own favorite YouTube videos that you can"
+      },
+      {
+        "start": 728.7,
+        "duration": 3.72,
+        "text": "use here"
+      },
+      {
+        "start": 730.32,
+        "duration": 4.019,
+        "text": "um and and a lot more features are going"
+      },
+      {
+        "start": 732.42,
+        "duration": 3.479,
+        "text": "to come to this broadcast screen we're"
+      },
+      {
+        "start": 734.339,
+        "duration": 3.06,
+        "text": "going to add a lot more data fields"
+      },
+      {
+        "start": 735.899,
+        "duration": 4.921,
+        "text": "we're going to add some maps we're going"
+      },
+      {
+        "start": 737.399,
+        "duration": 4.981,
+        "text": "to do some other cool stuff soon"
+      },
+      {
+        "start": 740.82,
+        "duration": 3.3,
+        "text": "okay"
+      },
+      {
+        "start": 742.38,
+        "duration": 4.16,
+        "text": "so"
+      },
+      {
+        "start": 744.12,
+        "duration": 6.899,
+        "text": "we integrate with a lot of other"
+      },
+      {
+        "start": 746.54,
+        "duration": 6.94,
+        "text": "products so we you can connect to Strava"
+      },
+      {
+        "start": 751.019,
+        "duration": 5.961,
+        "text": "to training Peaks to Garmin intervals"
+      },
+      {
+        "start": 753.48,
+        "duration": 6.06,
+        "text": "ICU Dropbox you know Google Concept two"
+      },
+      {
+        "start": 756.98,
+        "duration": 5.68,
+        "text": "because the concept 2 is not out yet but"
+      },
+      {
+        "start": 759.54,
+        "duration": 5.58,
+        "text": "it's we're working on it you can turn on"
+      },
+      {
+        "start": 762.66,
+        "duration": 4.26,
+        "text": "Wahoo if you have a wahoo device you can"
+      },
+      {
+        "start": 765.12,
+        "duration": 5.519,
+        "text": "turn that on and then from your calendar"
+      },
+      {
+        "start": 766.92,
+        "duration": 5.82,
+        "text": "you can export plan files I I can show"
+      },
+      {
+        "start": 770.639,
+        "duration": 4.621,
+        "text": "you that but it will allow you to"
+      },
+      {
+        "start": 772.74,
+        "duration": 5.88,
+        "text": "download a plan from your calendar with"
+      },
+      {
+        "start": 775.26,
+        "duration": 4.94,
+        "text": "the dates inside copy and paste it into"
+      },
+      {
+        "start": 778.62,
+        "duration": 5.519,
+        "text": "your wahoo"
+      },
+      {
+        "start": 780.2,
+        "duration": 5.62,
+        "text": "full a folder on your wahoo device and"
+      },
+      {
+        "start": 784.139,
+        "duration": 3.961,
+        "text": "and then you'll have your training plan"
+      },
+      {
+        "start": 785.82,
+        "duration": 4.319,
+        "text": "there you also can use training Peaks if"
+      },
+      {
+        "start": 788.1,
+        "duration": 4.919,
+        "text": "you want to send things to training"
+      },
+      {
+        "start": 790.139,
+        "duration": 6.32,
+        "text": "Peaks and then have it show up in your"
+      },
+      {
+        "start": 793.019,
+        "duration": 8.221,
+        "text": "wahoo you can also do it that way so"
+      },
+      {
+        "start": 796.459,
+        "duration": 8.081,
+        "text": "when you so training peaks in Garmin are"
+      },
+      {
+        "start": 801.24,
+        "duration": 3.67,
+        "text": "the two most complicated let's just say"
+      },
+      {
+        "start": 804.54,
+        "duration": 1.56,
+        "text": "um"
+      },
+      {
+        "start": 806.1,
+        "duration": 4.02,
+        "text": "and we have some different features so"
+      },
+      {
+        "start": 808.32,
+        "duration": 3.3,
+        "text": "we have work out of the day we also"
+      },
+      {
+        "start": 810.12,
+        "duration": 2.76,
+        "text": "actually have this for intervals I"
+      },
+      {
+        "start": 811.62,
+        "duration": 3.18,
+        "text": "should connect to intervals here and"
+      },
+      {
+        "start": 812.88,
+        "duration": 4.38,
+        "text": "show you but we also we have work out of"
+      },
+      {
+        "start": 814.8,
+        "duration": 3.979,
+        "text": "the day if you turn on this workout of"
+      },
+      {
+        "start": 817.26,
+        "duration": 4.8,
+        "text": "the day"
+      },
+      {
+        "start": 818.779,
+        "duration": 6.221,
+        "text": "feature from training peaks in our"
+      },
+      {
+        "start": 822.06,
+        "duration": 4.56,
+        "text": "training app on the plan tab you know"
+      },
+      {
+        "start": 825.0,
+        "duration": 3.72,
+        "text": "you have to press refresh in our app"
+      },
+      {
+        "start": 826.62,
+        "duration": 5.58,
+        "text": "turn this on press Refresh on our app"
+      },
+      {
+        "start": 828.72,
+        "duration": 5.4,
+        "text": "and then you will see your workouts from"
+      },
+      {
+        "start": 832.2,
+        "duration": 3.72,
+        "text": "your calendar in training piece in our"
+      },
+      {
+        "start": 834.12,
+        "duration": 4.219,
+        "text": "app and you can just keep following them"
+      },
+      {
+        "start": 835.92,
+        "duration": 4.68,
+        "text": "and it'll always show you kind of the"
+      },
+      {
+        "start": 838.339,
+        "duration": 4.0,
+        "text": "yesterday's workout today's workout in"
+      },
+      {
+        "start": 840.6,
+        "duration": 3.239,
+        "text": "the next couple days right so it shows"
+      },
+      {
+        "start": 842.339,
+        "duration": 3.901,
+        "text": "you just work out of the day just means"
+      },
+      {
+        "start": 843.839,
+        "duration": 4.62,
+        "text": "a few days worth of workouts it's not"
+      },
+      {
+        "start": 846.24,
+        "duration": 5.219,
+        "text": "showing your whole calendar we also have"
+      },
+      {
+        "start": 848.459,
+        "duration": 5.761,
+        "text": "something called calendar sync and"
+      },
+      {
+        "start": 851.459,
+        "duration": 7.021,
+        "text": "calendar sync is really about syncing"
+      },
+      {
+        "start": 854.22,
+        "duration": 6.96,
+        "text": "our calendar to training Peaks so if"
+      },
+      {
+        "start": 858.48,
+        "duration": 3.78,
+        "text": "you're using our calendar to manage your"
+      },
+      {
+        "start": 861.18,
+        "duration": 2.94,
+        "text": "workouts"
+      },
+      {
+        "start": 862.26,
+        "duration": 4.259,
+        "text": "which I'll show you and there's a lot of"
+      },
+      {
+        "start": 864.12,
+        "duration": 4.98,
+        "text": "benefits too you may want to turn on"
+      },
+      {
+        "start": 866.519,
+        "duration": 5.581,
+        "text": "calendar sync to training Peaks which"
+      },
+      {
+        "start": 869.1,
+        "duration": 5.82,
+        "text": "will then distribute your workouts to"
+      },
+      {
+        "start": 872.1,
+        "duration": 5.34,
+        "text": "other platforms so if you're using"
+      },
+      {
+        "start": 874.92,
+        "duration": 4.979,
+        "text": "training Peaks to manage your your plan"
+      },
+      {
+        "start": 877.44,
+        "duration": 4.199,
+        "text": "or if you have a coach and then then you"
+      },
+      {
+        "start": 879.899,
+        "duration": 3.18,
+        "text": "don't need to turn on this calendar sync"
+      },
+      {
+        "start": 881.639,
+        "duration": 3.601,
+        "text": "feature because you don't need to use"
+      },
+      {
+        "start": 883.079,
+        "duration": 4.32,
+        "text": "our calendar but if you just want to use"
+      },
+      {
+        "start": 885.24,
+        "duration": 4.98,
+        "text": "our mobile app you only need to do this"
+      },
+      {
+        "start": 887.399,
+        "duration": 4.081,
+        "text": "but if you want to use our coach Jack if"
+      },
+      {
+        "start": 890.22,
+        "duration": 4.14,
+        "text": "you want to manage it in the most"
+      },
+      {
+        "start": 891.48,
+        "duration": 6.0,
+        "text": "optimized way then turn on this calendar"
+      },
+      {
+        "start": 894.36,
+        "duration": 4.62,
+        "text": "sync use our calendar and you'll get a"
+      },
+      {
+        "start": 897.48,
+        "duration": 3.84,
+        "text": "bunch of benefits"
+      },
+      {
+        "start": 898.98,
+        "duration": 4.4,
+        "text": "um by by using training Peaks and train"
+      },
+      {
+        "start": 901.32,
+        "duration": 5.04,
+        "text": "and and"
+      },
+      {
+        "start": 903.38,
+        "duration": 6.1,
+        "text": "uh trainer day together that way"
+      },
+      {
+        "start": 906.36,
+        "duration": 5.339,
+        "text": "so and then with Garmin you know you can"
+      },
+      {
+        "start": 909.48,
+        "duration": 5.219,
+        "text": "send all these additional options so if"
+      },
+      {
+        "start": 911.699,
+        "duration": 5.041,
+        "text": "you want to send power 3s or power lap"
+      },
+      {
+        "start": 914.699,
+        "duration": 3.841,
+        "text": "or power 10 seconds or power one second"
+      },
+      {
+        "start": 916.74,
+        "duration": 4.44,
+        "text": "so this is when you're looking at your"
+      },
+      {
+        "start": 918.54,
+        "duration": 5.28,
+        "text": "head unit is it is it taking a one"
+      },
+      {
+        "start": 921.18,
+        "duration": 4.68,
+        "text": "second average and saying are you on or"
+      },
+      {
+        "start": 923.82,
+        "duration": 4.139,
+        "text": "are you off or is it looking at like a"
+      },
+      {
+        "start": 925.86,
+        "duration": 5.159,
+        "text": "10 second average and saying are you on"
+      },
+      {
+        "start": 927.959,
+        "duration": 5.041,
+        "text": "or are you off or or an entire lap I"
+      },
+      {
+        "start": 931.019,
+        "duration": 5.341,
+        "text": "press the lap button and I go and how"
+      },
+      {
+        "start": 933.0,
+        "duration": 5.579,
+        "text": "how close am I to Target for example"
+      },
+      {
+        "start": 936.36,
+        "duration": 4.56,
+        "text": "um and power range do you want to do"
+      },
+      {
+        "start": 938.579,
+        "duration": 4.081,
+        "text": "exact power so if you're doing indoor"
+      },
+      {
+        "start": 940.92,
+        "duration": 3.659,
+        "text": "workouts you might want to have exact"
+      },
+      {
+        "start": 942.66,
+        "duration": 4.14,
+        "text": "power but if you're doing outdoor"
+      },
+      {
+        "start": 944.579,
+        "duration": 5.461,
+        "text": "workouts you probably wanted a range of"
+      },
+      {
+        "start": 946.8,
+        "duration": 5.399,
+        "text": "plus or minus five to ten percent and on"
+      },
+      {
+        "start": 950.04,
+        "duration": 4.56,
+        "text": "your easy work you probably could get"
+      },
+      {
+        "start": 952.199,
+        "duration": 4.021,
+        "text": "away with a bigger range right and and"
+      },
+      {
+        "start": 954.6,
+        "duration": 3.9,
+        "text": "that's up to you and how you like to"
+      },
+      {
+        "start": 956.22,
+        "duration": 4.38,
+        "text": "train and we also have this calendar"
+      },
+      {
+        "start": 958.5,
+        "duration": 4.26,
+        "text": "sync feature so if you're using our"
+      },
+      {
+        "start": 960.6,
+        "duration": 5.7,
+        "text": "calendar and you want to synchronize it"
+      },
+      {
+        "start": 962.76,
+        "duration": 5.879,
+        "text": "to Garmin you turn on calendar sync and"
+      },
+      {
+        "start": 966.3,
+        "duration": 4.14,
+        "text": "and it will automatically as you make"
+      },
+      {
+        "start": 968.639,
+        "duration": 3.661,
+        "text": "changes in your calendar here it'll"
+      },
+      {
+        "start": 970.44,
+        "duration": 4.5,
+        "text": "automatically make those changes in"
+      },
+      {
+        "start": 972.3,
+        "duration": 5.219,
+        "text": "Garmin right if you want to use Garmin"
+      },
+      {
+        "start": 974.94,
+        "duration": 5.28,
+        "text": "to manage your your plan then you don't"
+      },
+      {
+        "start": 977.519,
+        "duration": 5.701,
+        "text": "need to turn this on instead of syncing"
+      },
+      {
+        "start": 980.22,
+        "duration": 5.1,
+        "text": "to Garmin or syncing to training Peaks"
+      },
+      {
+        "start": 983.22,
+        "duration": 5.52,
+        "text": "you can just send an entire plan there"
+      },
+      {
+        "start": 985.32,
+        "duration": 6.42,
+        "text": "and now I'll show you that"
+      },
+      {
+        "start": 988.74,
+        "duration": 6.599,
+        "text": "so if I go to search plans"
+      },
+      {
+        "start": 991.74,
+        "duration": 6.14,
+        "text": "I can find plans"
+      },
+      {
+        "start": 995.339,
+        "duration": 4.62,
+        "text": "and you know"
+      },
+      {
+        "start": 997.88,
+        "duration": 3.639,
+        "text": "popularity seems to be this one's like"
+      },
+      {
+        "start": 999.959,
+        "duration": 4.74,
+        "text": "two weeks long it seems to be popular"
+      },
+      {
+        "start": 1001.519,
+        "duration": 4.921,
+        "text": "because it's two weeks long and and it's"
+      },
+      {
+        "start": 1004.699,
+        "duration": 3.841,
+        "text": "every day it's seven days a week 14"
+      },
+      {
+        "start": 1006.44,
+        "duration": 3.54,
+        "text": "workouts and two weeks long so a little"
+      },
+      {
+        "start": 1008.54,
+        "duration": 4.32,
+        "text": "bit funny but"
+      },
+      {
+        "start": 1009.98,
+        "duration": 4.74,
+        "text": "um it's a VO2 max booster supposedly it"
+      },
+      {
+        "start": 1012.86,
+        "duration": 4.14,
+        "text": "probably would work for two weeks you"
+      },
+      {
+        "start": 1014.72,
+        "duration": 5.22,
+        "text": "just have to be really careful that you"
+      },
+      {
+        "start": 1017.0,
+        "duration": 4.68,
+        "text": "take some time off and you know it's"
+      },
+      {
+        "start": 1019.94,
+        "duration": 3.959,
+        "text": "questionable as to whether you'd get the"
+      },
+      {
+        "start": 1021.68,
+        "duration": 3.659,
+        "text": "advantage but it's kind of like a"
+      },
+      {
+        "start": 1023.899,
+        "duration": 3.78,
+        "text": "training camp in a way let's just say"
+      },
+      {
+        "start": 1025.339,
+        "duration": 4.261,
+        "text": "and there's is a reasonable"
+      },
+      {
+        "start": 1027.679,
+        "duration": 3.66,
+        "text": "possibility this could"
+      },
+      {
+        "start": 1029.6,
+        "duration": 2.819,
+        "text": "give you benefits"
+      },
+      {
+        "start": 1031.339,
+        "duration": 4.921,
+        "text": "um"
+      },
+      {
+        "start": 1032.419,
+        "duration": 5.581,
+        "text": "so when you click copy to my plans"
+      },
+      {
+        "start": 1036.26,
+        "duration": 4.5,
+        "text": "you"
+      },
+      {
+        "start": 1038.0,
+        "duration": 4.679,
+        "text": "can change the training day so this is a"
+      },
+      {
+        "start": 1040.76,
+        "duration": 3.96,
+        "text": "seven day a week plan but ultimately"
+      },
+      {
+        "start": 1042.679,
+        "duration": 3.721,
+        "text": "does it really need to be seven day a"
+      },
+      {
+        "start": 1044.72,
+        "duration": 4.26,
+        "text": "week or could I really just do three"
+      },
+      {
+        "start": 1046.4,
+        "duration": 4.8,
+        "text": "days a week right and and do the same"
+      },
+      {
+        "start": 1048.98,
+        "duration": 4.38,
+        "text": "thing you fear you could actually get"
+      },
+      {
+        "start": 1051.2,
+        "duration": 4.08,
+        "text": "more benefit by doing it three days a"
+      },
+      {
+        "start": 1053.36,
+        "duration": 3.66,
+        "text": "week than you could buy seven but that's"
+      },
+      {
+        "start": 1055.28,
+        "duration": 3.36,
+        "text": "highly individual depends on your"
+      },
+      {
+        "start": 1057.02,
+        "duration": 3.6,
+        "text": "situation it's really it's really hard"
+      },
+      {
+        "start": 1058.64,
+        "duration": 3.539,
+        "text": "to say but if let's just say you only"
+      },
+      {
+        "start": 1060.62,
+        "duration": 3.0,
+        "text": "have three days a week available and you"
+      },
+      {
+        "start": 1062.179,
+        "duration": 3.781,
+        "text": "want to do all those workouts you can"
+      },
+      {
+        "start": 1063.62,
+        "duration": 4.86,
+        "text": "send it set it for three days a week"
+      },
+      {
+        "start": 1065.96,
+        "duration": 5.18,
+        "text": "or you can leave it as design so I click"
+      },
+      {
+        "start": 1068.48,
+        "duration": 2.66,
+        "text": "copy plan"
+      },
+      {
+        "start": 1071.72,
+        "duration": 4.8,
+        "text": "and now it's created that same plan and"
+      },
+      {
+        "start": 1074.179,
+        "duration": 5.161,
+        "text": "moved it to three days a week"
+      },
+      {
+        "start": 1076.52,
+        "duration": 4.74,
+        "text": "I can modify it I can add my cool little"
+      },
+      {
+        "start": 1079.34,
+        "duration": 6.02,
+        "text": "workout I just did and put it in there"
+      },
+      {
+        "start": 1081.26,
+        "duration": 4.1,
+        "text": "right I can get rid of that workout"
+      },
+      {
+        "start": 1086.0,
+        "duration": 4.5,
+        "text": "um"
+      },
+      {
+        "start": 1086.9,
+        "duration": 6.12,
+        "text": "and once it's in my plans then now this"
+      },
+      {
+        "start": 1090.5,
+        "duration": 4.919,
+        "text": "is kind of a reusable plan for yours for"
+      },
+      {
+        "start": 1093.02,
+        "duration": 4.38,
+        "text": "life you can just keep using it you can"
+      },
+      {
+        "start": 1095.419,
+        "duration": 4.921,
+        "text": "keep doing stuff with it"
+      },
+      {
+        "start": 1097.4,
+        "duration": 4.56,
+        "text": "um you you know can keep modifying it"
+      },
+      {
+        "start": 1100.34,
+        "duration": 4.199,
+        "text": "and you can keep using it forever and"
+      },
+      {
+        "start": 1101.96,
+        "duration": 4.56,
+        "text": "and it's and it's basically free meaning"
+      },
+      {
+        "start": 1104.539,
+        "duration": 3.361,
+        "text": "you don't have to still you can store it"
+      },
+      {
+        "start": 1106.52,
+        "duration": 2.64,
+        "text": "forever you don't have to pay to store"
+      },
+      {
+        "start": 1107.9,
+        "duration": 3.96,
+        "text": "it"
+      },
+      {
+        "start": 1109.16,
+        "duration": 4.62,
+        "text": "um if you want certain features then you"
+      },
+      {
+        "start": 1111.86,
+        "duration": 3.96,
+        "text": "you need to be a premium member to you"
+      },
+      {
+        "start": 1113.78,
+        "duration": 5.759,
+        "text": "to you know so let me show you some of"
+      },
+      {
+        "start": 1115.82,
+        "duration": 5.64,
+        "text": "that so if you want to take a plan and"
+      },
+      {
+        "start": 1119.539,
+        "duration": 4.081,
+        "text": "you want to send it one you can send it"
+      },
+      {
+        "start": 1121.46,
+        "duration": 4.2,
+        "text": "to my calendar two you can send it to"
+      },
+      {
+        "start": 1123.62,
+        "duration": 3.6,
+        "text": "trainingbeaks you can send it to Garmin"
+      },
+      {
+        "start": 1125.66,
+        "duration": 3.36,
+        "text": "you know you can send it intervals you"
+      },
+      {
+        "start": 1127.22,
+        "duration": 3.36,
+        "text": "can send it to Google Calendar if you"
+      },
+      {
+        "start": 1129.02,
+        "duration": 2.76,
+        "text": "want your calendar reminders and to"
+      },
+      {
+        "start": 1130.58,
+        "duration": 3.56,
+        "text": "remember what's on there so you could"
+      },
+      {
+        "start": 1131.78,
+        "duration": 5.399,
+        "text": "send it to you know"
+      },
+      {
+        "start": 1134.14,
+        "duration": 4.24,
+        "text": "to your calendar with us but you also"
+      },
+      {
+        "start": 1137.179,
+        "duration": 3.841,
+        "text": "could send it to your Google calendar"
+      },
+      {
+        "start": 1138.38,
+        "duration": 5.1,
+        "text": "and then you would ultimately you know"
+      },
+      {
+        "start": 1141.02,
+        "duration": 4.019,
+        "text": "get the reminders at the same time the"
+      },
+      {
+        "start": 1143.48,
+        "duration": 4.62,
+        "text": "other interesting thing here is you can"
+      },
+      {
+        "start": 1145.039,
+        "duration": 4.741,
+        "text": "send it to start at a certain time so"
+      },
+      {
+        "start": 1148.1,
+        "duration": 3.36,
+        "text": "you can send say when do I want it to"
+      },
+      {
+        "start": 1149.78,
+        "duration": 4.08,
+        "text": "start and you can just like for example"
+      },
+      {
+        "start": 1151.46,
+        "duration": 4.92,
+        "text": "send one week at a time as a test you"
+      },
+      {
+        "start": 1153.86,
+        "duration": 6.059,
+        "text": "might want to just send one week go out"
+      },
+      {
+        "start": 1156.38,
+        "duration": 6.299,
+        "text": "do the workout see how it goes feel are"
+      },
+      {
+        "start": 1159.919,
+        "duration": 4.861,
+        "text": "they the right intensity for you"
+      },
+      {
+        "start": 1162.679,
+        "duration": 3.481,
+        "text": "um and so on and send one week just so"
+      },
+      {
+        "start": 1164.78,
+        "duration": 3.96,
+        "text": "that you don't have to deal with a"
+      },
+      {
+        "start": 1166.16,
+        "duration": 4.08,
+        "text": "button all you know 16 weeks of workouts"
+      },
+      {
+        "start": 1168.74,
+        "duration": 3.26,
+        "text": "there and have to delete them and all"
+      },
+      {
+        "start": 1170.24,
+        "duration": 4.5,
+        "text": "kinds of other stuff"
+      },
+      {
+        "start": 1172.0,
+        "duration": 6.7,
+        "text": "you may want to send a shorter duration"
+      },
+      {
+        "start": 1174.74,
+        "duration": 6.84,
+        "text": "but sending plans like this you can you"
+      },
+      {
+        "start": 1178.7,
+        "duration": 5.099,
+        "text": "can download a plan like this you can"
+      },
+      {
+        "start": 1181.58,
+        "duration": 4.56,
+        "text": "just download it and you can manually"
+      },
+      {
+        "start": 1183.799,
+        "duration": 5.161,
+        "text": "upload it into these platforms right"
+      },
+      {
+        "start": 1186.14,
+        "duration": 5.1,
+        "text": "that's a free feature if you want to"
+      },
+      {
+        "start": 1188.96,
+        "duration": 5.04,
+        "text": "send it to training piece if you want to"
+      },
+      {
+        "start": 1191.24,
+        "duration": 5.22,
+        "text": "send it to Garmin or you want to send it"
+      },
+      {
+        "start": 1194.0,
+        "duration": 5.96,
+        "text": "um to any of these platforms then that"
+      },
+      {
+        "start": 1196.46,
+        "duration": 3.5,
+        "text": "is actually a paid feature"
+      },
+      {
+        "start": 1200.12,
+        "duration": 6.54,
+        "text": "okay so that's my plans you can see your"
+      },
+      {
+        "start": 1204.98,
+        "duration": 3.72,
+        "text": "library over here that you can add"
+      },
+      {
+        "start": 1206.66,
+        "duration": 4.2,
+        "text": "workouts to it if you create the plan"
+      },
+      {
+        "start": 1208.7,
+        "duration": 4.62,
+        "text": "yourself and it's ultimately your plan"
+      },
+      {
+        "start": 1210.86,
+        "duration": 4.08,
+        "text": "then you can make that a public plan and"
+      },
+      {
+        "start": 1213.32,
+        "duration": 3.359,
+        "text": "share it with other people and all the"
+      },
+      {
+        "start": 1214.94,
+        "duration": 3.72,
+        "text": "plans that are here are actually plans"
+      },
+      {
+        "start": 1216.679,
+        "duration": 4.441,
+        "text": "that I I think I created one or two of"
+      },
+      {
+        "start": 1218.66,
+        "duration": 6.68,
+        "text": "them but other people created a lot more"
+      },
+      {
+        "start": 1221.12,
+        "duration": 4.22,
+        "text": "of them right uh than I did"
+      },
+      {
+        "start": 1225.44,
+        "duration": 5.22,
+        "text": "uh let's see you can clone a plan again"
+      },
+      {
+        "start": 1228.08,
+        "duration": 4.68,
+        "text": "right so you can re-clone you can change"
+      },
+      {
+        "start": 1230.66,
+        "duration": 4.139,
+        "text": "the days again if you want from three"
+      },
+      {
+        "start": 1232.76,
+        "duration": 3.96,
+        "text": "days a week back to seven days a week or"
+      },
+      {
+        "start": 1234.799,
+        "duration": 3.901,
+        "text": "or whatever you want so you can re-clone"
+      },
+      {
+        "start": 1236.72,
+        "duration": 3.9,
+        "text": "that redo it yeah you've got a lot of"
+      },
+      {
+        "start": 1238.7,
+        "duration": 6.0,
+        "text": "options there"
+      },
+      {
+        "start": 1240.62,
+        "duration": 8.52,
+        "text": "Okay so the other main feature that we"
+      },
+      {
+        "start": 1244.7,
+        "duration": 6.12,
+        "text": "have here is my calendar uh let me say"
+      },
+      {
+        "start": 1249.14,
+        "duration": 3.919,
+        "text": "one more thing actually let me back up a"
+      },
+      {
+        "start": 1250.82,
+        "duration": 2.239,
+        "text": "little bit"
+      },
+      {
+        "start": 1254.179,
+        "duration": 5.041,
+        "text": "once you have a plan and it's on my"
+      },
+      {
+        "start": 1258.02,
+        "duration": 4.56,
+        "text": "plans"
+      },
+      {
+        "start": 1259.22,
+        "duration": 7.44,
+        "text": "you can say in mobile app and this will"
+      },
+      {
+        "start": 1262.58,
+        "duration": 7.86,
+        "text": "override where your plan comes from so"
+      },
+      {
+        "start": 1266.66,
+        "duration": 6.78,
+        "text": "your plan can come from my plans your"
+      },
+      {
+        "start": 1270.44,
+        "duration": 4.92,
+        "text": "plan can come from my calendar and if I"
+      },
+      {
+        "start": 1273.44,
+        "duration": 5.22,
+        "text": "turn it off here I just turned it off I"
+      },
+      {
+        "start": 1275.36,
+        "duration": 5.699,
+        "text": "just turned it off on my my plans so you"
+      },
+      {
+        "start": 1278.66,
+        "duration": 4.019,
+        "text": "now see on my plans it's now off so they"
+      },
+      {
+        "start": 1281.059,
+        "duration": 5.401,
+        "text": "fight with each other and the same with"
+      },
+      {
+        "start": 1282.679,
+        "duration": 6.24,
+        "text": "workout of the day so if you turn it off"
+      },
+      {
+        "start": 1286.46,
+        "duration": 4.079,
+        "text": "if you turn it on somewhere else it will"
+      },
+      {
+        "start": 1288.919,
+        "duration": 3.12,
+        "text": "turn it off so if I turn it on here"
+      },
+      {
+        "start": 1290.539,
+        "duration": 2.701,
+        "text": "right I just turned it off on the"
+      },
+      {
+        "start": 1292.039,
+        "duration": 2.941,
+        "text": "calendar now"
+      },
+      {
+        "start": 1293.24,
+        "duration": 3.72,
+        "text": "I'll go back to the calendar turn it"
+      },
+      {
+        "start": 1294.98,
+        "duration": 5.12,
+        "text": "back off I turned it off I turned off"
+      },
+      {
+        "start": 1296.96,
+        "duration": 6.0,
+        "text": "the training Peaks WOD so it's basically"
+      },
+      {
+        "start": 1300.1,
+        "duration": 6.64,
+        "text": "choosing where you want to get your plan"
+      },
+      {
+        "start": 1302.96,
+        "duration": 5.219,
+        "text": "from and so when you're choosing to get"
+      },
+      {
+        "start": 1306.74,
+        "duration": 4.5,
+        "text": "your plan"
+      },
+      {
+        "start": 1308.179,
+        "duration": 4.801,
+        "text": "from my plans"
+      },
+      {
+        "start": 1311.24,
+        "duration": 4.319,
+        "text": "then"
+      },
+      {
+        "start": 1312.98,
+        "duration": 4.98,
+        "text": "in our training app the interesting"
+      },
+      {
+        "start": 1315.559,
+        "duration": 5.401,
+        "text": "thing is rather than it being tied to a"
+      },
+      {
+        "start": 1317.96,
+        "duration": 5.459,
+        "text": "calendar so even though this says Monday"
+      },
+      {
+        "start": 1320.96,
+        "duration": 5.64,
+        "text": "Wednesday Friday and it looks kind of"
+      },
+      {
+        "start": 1323.419,
+        "duration": 5.88,
+        "text": "like a calendar ultimately you just do"
+      },
+      {
+        "start": 1326.6,
+        "duration": 4.38,
+        "text": "one work there's no date associated with"
+      },
+      {
+        "start": 1329.299,
+        "duration": 5.101,
+        "text": "it here you can see it's not a calendar"
+      },
+      {
+        "start": 1330.98,
+        "duration": 5.939,
+        "text": "it's really just a kind of a a kind of a"
+      },
+      {
+        "start": 1334.4,
+        "duration": 4.98,
+        "text": "recommended sequence let's say and so"
+      },
+      {
+        "start": 1336.919,
+        "duration": 5.041,
+        "text": "then you can just execute those workouts"
+      },
+      {
+        "start": 1339.38,
+        "duration": 4.32,
+        "text": "one after another as you're available oh"
+      },
+      {
+        "start": 1341.96,
+        "duration": 3.9,
+        "text": "I'm not available Monday so I'm going to"
+      },
+      {
+        "start": 1343.7,
+        "duration": 4.26,
+        "text": "do it Tuesday oh this week I only did"
+      },
+      {
+        "start": 1345.86,
+        "duration": 3.66,
+        "text": "you know I did four workouts and next"
+      },
+      {
+        "start": 1347.96,
+        "duration": 3.719,
+        "text": "week I did two workouts it doesn't"
+      },
+      {
+        "start": 1349.52,
+        "duration": 4.74,
+        "text": "matter it's really easy on our app to"
+      },
+      {
+        "start": 1351.679,
+        "duration": 4.321,
+        "text": "just you just go one workout after the"
+      },
+      {
+        "start": 1354.26,
+        "duration": 3.419,
+        "text": "next and it knows when you completed one"
+      },
+      {
+        "start": 1356.0,
+        "duration": 3.9,
+        "text": "and it just moves to the next the next"
+      },
+      {
+        "start": 1357.679,
+        "duration": 4.86,
+        "text": "time so that's what we call kind of a"
+      },
+      {
+        "start": 1359.9,
+        "duration": 4.5,
+        "text": "sequence of workouts right and so that's"
+      },
+      {
+        "start": 1362.539,
+        "duration": 4.5,
+        "text": "that's a feature available of my plans"
+      },
+      {
+        "start": 1364.4,
+        "duration": 5.04,
+        "text": "if you like a calendar and you really"
+      },
+      {
+        "start": 1367.039,
+        "duration": 5.701,
+        "text": "want you know things on very specific"
+      },
+      {
+        "start": 1369.44,
+        "duration": 5.76,
+        "text": "days you can and we we've got a lot of"
+      },
+      {
+        "start": 1372.74,
+        "duration": 5.52,
+        "text": "fat features in here oh I'm sick this"
+      },
+      {
+        "start": 1375.2,
+        "duration": 6.599,
+        "text": "week right so insert a week above it oh"
+      },
+      {
+        "start": 1378.26,
+        "duration": 5.76,
+        "text": "you know I'm going on vacation you know"
+      },
+      {
+        "start": 1381.799,
+        "duration": 4.38,
+        "text": "let's insert a week above this or let's"
+      },
+      {
+        "start": 1384.02,
+        "duration": 4.26,
+        "text": "clear a week oh I missed last week I'm"
+      },
+      {
+        "start": 1386.179,
+        "duration": 3.841,
+        "text": "just gonna move ahead anyway rather than"
+      },
+      {
+        "start": 1388.28,
+        "duration": 4.08,
+        "text": "you know it's probably not recommended"
+      },
+      {
+        "start": 1390.02,
+        "duration": 4.08,
+        "text": "but it's rather than repeat rather than"
+      },
+      {
+        "start": 1392.36,
+        "duration": 3.299,
+        "text": "do the work that I missed I'm just going"
+      },
+      {
+        "start": 1394.1,
+        "duration": 3.3,
+        "text": "to skip forward a week so then I could"
+      },
+      {
+        "start": 1395.659,
+        "duration": 4.681,
+        "text": "clear a week or I want to just change"
+      },
+      {
+        "start": 1397.4,
+        "duration": 5.04,
+        "text": "this week to a recovery week or whatever"
+      },
+      {
+        "start": 1400.34,
+        "duration": 4.62,
+        "text": "the other thing is is we have like"
+      },
+      {
+        "start": 1402.44,
+        "duration": 4.44,
+        "text": "convert to HR so if you want to do heart"
+      },
+      {
+        "start": 1404.96,
+        "duration": 3.719,
+        "text": "rate workouts and you want it to sync to"
+      },
+      {
+        "start": 1406.88,
+        "duration": 3.9,
+        "text": "Garmin let's say you're syncing your"
+      },
+      {
+        "start": 1408.679,
+        "duration": 4.081,
+        "text": "workouts to Garmin or training Peaks and"
+      },
+      {
+        "start": 1410.78,
+        "duration": 4.379,
+        "text": "you want to do heart rate based workouts"
+      },
+      {
+        "start": 1412.76,
+        "duration": 4.44,
+        "text": "you can just go convert to HR and it's"
+      },
+      {
+        "start": 1415.159,
+        "duration": 4.801,
+        "text": "going to convert this whole week to HR"
+      },
+      {
+        "start": 1417.2,
+        "duration": 4.5,
+        "text": "workouts they all turn red and so and"
+      },
+      {
+        "start": 1419.96,
+        "duration": 5.28,
+        "text": "now they are going to be heart rate"
+      },
+      {
+        "start": 1421.7,
+        "duration": 6.24,
+        "text": "based workouts on your device or"
+      },
+      {
+        "start": 1425.24,
+        "duration": 4.939,
+        "text": "um or where have you now in our training"
+      },
+      {
+        "start": 1427.94,
+        "duration": 5.58,
+        "text": "app our training app isn't"
+      },
+      {
+        "start": 1430.179,
+        "duration": 4.721,
+        "text": "super heart rate focused yet we're"
+      },
+      {
+        "start": 1433.52,
+        "duration": 4.26,
+        "text": "actually working on that we're going to"
+      },
+      {
+        "start": 1434.9,
+        "duration": 5.82,
+        "text": "improve the heart rate experience"
+      },
+      {
+        "start": 1437.78,
+        "duration": 4.8,
+        "text": "um but you know you could execute this"
+      },
+      {
+        "start": 1440.72,
+        "duration": 4.5,
+        "text": "workout as that heart rate based workout"
+      },
+      {
+        "start": 1442.58,
+        "duration": 5.28,
+        "text": "in our app but let's just say we're"
+      },
+      {
+        "start": 1445.22,
+        "duration": 4.56,
+        "text": "working on optimizing that even farther"
+      },
+      {
+        "start": 1447.86,
+        "duration": 5.58,
+        "text": "you know you can obviously change the"
+      },
+      {
+        "start": 1449.78,
+        "duration": 4.44,
+        "text": "month you can move here's month forward"
+      },
+      {
+        "start": 1453.44,
+        "duration": 2.94,
+        "text": "um"
+      },
+      {
+        "start": 1454.22,
+        "duration": 6.06,
+        "text": "here's some other special kind of"
+      },
+      {
+        "start": 1456.38,
+        "duration": 6.419,
+        "text": "features so one is you can delete my"
+      },
+      {
+        "start": 1460.28,
+        "duration": 4.5,
+        "text": "plan so if I if I create I'm not showing"
+      },
+      {
+        "start": 1462.799,
+        "duration": 3.961,
+        "text": "coach Jack now but coach Jack is a plan"
+      },
+      {
+        "start": 1464.78,
+        "duration": 3.48,
+        "text": "Builder and he'll build you a whole plan"
+      },
+      {
+        "start": 1466.76,
+        "duration": 2.82,
+        "text": "and you can send it to your calendar and"
+      },
+      {
+        "start": 1468.26,
+        "duration": 3.18,
+        "text": "then I can just delete the whole thing"
+      },
+      {
+        "start": 1469.58,
+        "duration": 5.64,
+        "text": "in one go I can just click that and boom"
+      },
+      {
+        "start": 1471.44,
+        "duration": 4.8,
+        "text": "remove that whole plan from my calendar"
+      },
+      {
+        "start": 1475.22,
+        "duration": 3.3,
+        "text": "um"
+      },
+      {
+        "start": 1476.24,
+        "duration": 4.919,
+        "text": "you've got compact view you can you can"
+      },
+      {
+        "start": 1478.52,
+        "duration": 4.62,
+        "text": "shrink everything up right you got"
+      },
+      {
+        "start": 1481.159,
+        "duration": 5.161,
+        "text": "weekly totals I can get rid of that I"
+      },
+      {
+        "start": 1483.14,
+        "duration": 6.3,
+        "text": "can share my calendar so I can I can"
+      },
+      {
+        "start": 1486.32,
+        "duration": 5.099,
+        "text": "share my calendar with somebody else"
+      },
+      {
+        "start": 1489.44,
+        "duration": 3.84,
+        "text": "that could be my coach that could be my"
+      },
+      {
+        "start": 1491.419,
+        "duration": 6.12,
+        "text": "friend that could be anybody I can share"
+      },
+      {
+        "start": 1493.28,
+        "duration": 6.06,
+        "text": "my calendar and my my coach or whoever"
+      },
+      {
+        "start": 1497.539,
+        "duration": 3.961,
+        "text": "wants to see it could actually have a"
+      },
+      {
+        "start": 1499.34,
+        "duration": 4.02,
+        "text": "permanent link to my calendar it would"
+      },
+      {
+        "start": 1501.5,
+        "duration": 3.12,
+        "text": "be read only they could only view the"
+      },
+      {
+        "start": 1503.36,
+        "duration": 3.78,
+        "text": "calendar but they could see your"
+      },
+      {
+        "start": 1504.62,
+        "duration": 5.16,
+        "text": "calendar right"
+      },
+      {
+        "start": 1507.14,
+        "duration": 4.8,
+        "text": "um you can share it with your friends so"
+      },
+      {
+        "start": 1509.78,
+        "duration": 3.24,
+        "text": "come back view"
+      },
+      {
+        "start": 1511.94,
+        "duration": 4.44,
+        "text": "um"
+      },
+      {
+        "start": 1513.02,
+        "duration": 5.58,
+        "text": "yes so we have some other features here"
+      },
+      {
+        "start": 1516.38,
+        "duration": 5.159,
+        "text": "I mentioned this in the in the bike"
+      },
+      {
+        "start": 1518.6,
+        "duration": 5.579,
+        "text": "video uh or the bike video the app the"
+      },
+      {
+        "start": 1521.539,
+        "duration": 6.0,
+        "text": "app video but you can change your Rider"
+      },
+      {
+        "start": 1524.179,
+        "duration": 7.081,
+        "text": "weight your your bike weight your drag"
+      },
+      {
+        "start": 1527.539,
+        "duration": 6.841,
+        "text": "coefficient here and these will change"
+      },
+      {
+        "start": 1531.26,
+        "duration": 4.919,
+        "text": "the mileage calculation that we use so"
+      },
+      {
+        "start": 1534.38,
+        "duration": 4.52,
+        "text": "it's kind of like a watts per kilogram"
+      },
+      {
+        "start": 1536.179,
+        "duration": 6.0,
+        "text": "if you're going on a watts per kilogram"
+      },
+      {
+        "start": 1538.9,
+        "duration": 5.379,
+        "text": "you know down up a hill it's gonna it's"
+      },
+      {
+        "start": 1542.179,
+        "duration": 5.221,
+        "text": "gonna calculate the right the right"
+      },
+      {
+        "start": 1544.279,
+        "duration": 5.52,
+        "text": "speed for you right or a fairly accurate"
+      },
+      {
+        "start": 1547.4,
+        "duration": 5.1,
+        "text": "speed more accurate than the trainers do"
+      },
+      {
+        "start": 1549.799,
+        "duration": 5.281,
+        "text": "by themselves one other feature I didn't"
+      },
+      {
+        "start": 1552.5,
+        "duration": 5.34,
+        "text": "mention here on apps and devices is you"
+      },
+      {
+        "start": 1555.08,
+        "duration": 6.959,
+        "text": "have routes to your rides so if you"
+      },
+      {
+        "start": 1557.84,
+        "duration": 7.62,
+        "text": "connect to Strava we will include a map"
+      },
+      {
+        "start": 1562.039,
+        "duration": 5.461,
+        "text": "which is interesting places or climbs"
+      },
+      {
+        "start": 1565.46,
+        "duration": 4.56,
+        "text": "now if you choose climbs they're really"
+      },
+      {
+        "start": 1567.5,
+        "duration": 5.46,
+        "text": "steep climbs it's you know classic"
+      },
+      {
+        "start": 1570.02,
+        "duration": 4.86,
+        "text": "climbs of of six degrees seven degrees"
+      },
+      {
+        "start": 1572.96,
+        "duration": 3.839,
+        "text": "that are that are really hard and you're"
+      },
+      {
+        "start": 1574.88,
+        "duration": 4.14,
+        "text": "gonna go really slow so if you want long"
+      },
+      {
+        "start": 1576.799,
+        "duration": 3.841,
+        "text": "distances and Strava do not click on"
+      },
+      {
+        "start": 1579.02,
+        "duration": 4.38,
+        "text": "climbs because you're going to get short"
+      },
+      {
+        "start": 1580.64,
+        "duration": 4.26,
+        "text": "distances right interesting places are"
+      },
+      {
+        "start": 1583.4,
+        "duration": 4.56,
+        "text": "very flat they're they're they're"
+      },
+      {
+        "start": 1584.9,
+        "duration": 4.8,
+        "text": "they're like Miami Beach or or islands"
+      },
+      {
+        "start": 1587.96,
+        "duration": 3.839,
+        "text": "in the around the outside of an island"
+      },
+      {
+        "start": 1589.7,
+        "duration": 3.719,
+        "text": "or all kinds of things this is really"
+      },
+      {
+        "start": 1591.799,
+        "duration": 3.0,
+        "text": "flat route so it gives you good"
+      },
+      {
+        "start": 1593.419,
+        "duration": 2.941,
+        "text": "distances"
+      },
+      {
+        "start": 1594.799,
+        "duration": 3.601,
+        "text": "um or you can just leave this off if you"
+      },
+      {
+        "start": 1596.36,
+        "duration": 4.919,
+        "text": "don't want a map"
+      },
+      {
+        "start": 1598.4,
+        "duration": 6.779,
+        "text": "okay that's it that's a deep dive into"
+      },
+      {
+        "start": 1601.279,
+        "duration": 6.361,
+        "text": "trainer day our web application with all"
+      },
+      {
+        "start": 1605.179,
+        "duration": 5.281,
+        "text": "the features excluding coach Jack which"
+      },
+      {
+        "start": 1607.64,
+        "duration": 5.34,
+        "text": "we have a separate video on and"
+      },
+      {
+        "start": 1610.46,
+        "duration": 4.68,
+        "text": "excluding our training app which we also"
+      },
+      {
+        "start": 1612.98,
+        "duration": 4.14,
+        "text": "have a video on but this should give you"
+      },
+      {
+        "start": 1615.14,
+        "duration": 5.84,
+        "text": "a pretty good pretty good idea of how to"
+      },
+      {
+        "start": 1617.12,
+        "duration": 3.86,
+        "text": "do things in our out thank you very much"
+      }
+    ],
+    "type": "auto",
+    "segment_count": 656
+  },
+  "processed_at": "2025-07-23T00:12:15.186765"
+}

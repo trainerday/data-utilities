@@ -1,0 +1,469 @@
+{
+  "video_id": "wByUvf0q7ng",
+  "title": "Trainer Day - Create Open Source Cycling Training Plans",
+  "url": "https://www.youtube.com/watch?v=wByUvf0q7ng",
+  "upload_date": "2019-12-11T11:23:51Z",
+  "description": "This video you will learn how to create training plans using our new cycling training plan creation tool. These can be either open ...",
+  "topics": [
+    "workout-creator",
+    "trainer"
+  ],
+  "transcript": {
+    "full_text": "hello this is alex from trainer day I'm gonna demo our new plans module that's called plans beta at the moment but it's up here it's gonna be a new menu item that's gonna be called training plans and I'm gonna this particular video is showing how to create plans and you know if you're a plan author how to create them you can create either private plans or public plans have plans and I will show that okay so here I am I'm simulated that I have no plans what you can see over here is that I do have my favorite ER gdb workouts and so I've got all my lists here what I do recommend before you create a training plan is to create a bunch of Lists or create some lists and get some workouts in there that you want as a part of your plan so that you're all working eyes so just make sure that you're like my library up here has got workouts in it and then you'll see these over on this side so the first thing I do when I want to create a new plan is obviously quick on click on create a new plan I name it let's just call it Alex's first plan and you pick the plan type if you're not sure you can just say other a base a build a peak or a race these are I'm gonna have definitions of what these are but generally these are the American Standard terms or very common terms in America let's say for for the period type base for example is like maybe a winter time you know low-intensity generally I mean different people have different definitions as to what is base but but it's its base it's it's what you do to kind of build up your aerobic skills during the winter or your aerobic abilities during the winter anyway so I'm just gonna create a four week plan this time just to keep it short and easy let's just say it's on Monday Wednesdays and Fridays we would give some kind of nice description here as to what's the benefits of this plan or what it's for or who it's for and then I'll hit save so now I've got my training plan I've got some workouts here it says that this is now a pride work out so this is private meaning it's only for me and there's nothing in it so it should only be for me once I get it ready then I can switch it to public and then anybody can find it in the search I will show that in a little bit later so I'm gonna start off I I created a couple examples these are some short workouts 20 minutes or around 20 minutes let's just say we're gonna start this is a base plan and let's just say this is a very minimalistic base plan because they're 20 minute workouts I only have one in here right now but I'll go ahead and just drag that on here Monday Wednesday and Fridays so the first week we're just doing something really easy just three recovery rites you know this is for it maybe let's say a total beginner and then maybe the next week we'll start off with one a little bit harder not much and now I'm gonna skip forward to the end of the plan let's see finish it off with a thirty two minutes this is our longest ride of the thing so there's there's a plan and I can just go ahead and make that public so I say okay yes and now it gives me the read-only view and this is very similar to the view that a consumer of your plan now that it's a public plan or an open-source plan this is what a consumer would see and then they would be able to come in and make a clone of it for themselves and modify it if they feel like but that's all there is that's it that's creating a plan thank you very much",
+    "segments": [
+      {
+        "start": 0.439,
+        "duration": 6.521,
+        "text": "hello this is alex from trainer day I'm"
+      },
+      {
+        "start": 3.27,
+        "duration": 5.61,
+        "text": "gonna demo our new plans module that's"
+      },
+      {
+        "start": 6.96,
+        "duration": 3.69,
+        "text": "called plans beta at the moment but it's"
+      },
+      {
+        "start": 8.88,
+        "duration": 3.379,
+        "text": "up here it's gonna be a new menu item"
+      },
+      {
+        "start": 10.65,
+        "duration": 5.6,
+        "text": "that's gonna be called training plans"
+      },
+      {
+        "start": 12.259,
+        "duration": 8.321,
+        "text": "and I'm gonna this particular video is"
+      },
+      {
+        "start": 16.25,
+        "duration": 6.189,
+        "text": "showing how to create plans and you know"
+      },
+      {
+        "start": 20.58,
+        "duration": 3.66,
+        "text": "if you're a plan author how to create"
+      },
+      {
+        "start": 22.439,
+        "duration": 4.41,
+        "text": "them you can create either private plans"
+      },
+      {
+        "start": 24.24,
+        "duration": 5.939,
+        "text": "or public plans have plans and I will"
+      },
+      {
+        "start": 26.849,
+        "duration": 6.691,
+        "text": "show that okay"
+      },
+      {
+        "start": 30.179,
+        "duration": 6.181,
+        "text": "so here I am I'm simulated that I have"
+      },
+      {
+        "start": 33.54,
+        "duration": 5.16,
+        "text": "no plans what you can see over here is"
+      },
+      {
+        "start": 36.36,
+        "duration": 5.67,
+        "text": "that I do have my favorite ER gdb"
+      },
+      {
+        "start": 38.7,
+        "duration": 6.51,
+        "text": "workouts and so I've got all my lists"
+      },
+      {
+        "start": 42.03,
+        "duration": 6.48,
+        "text": "here what I do recommend before you"
+      },
+      {
+        "start": 45.21,
+        "duration": 5.579,
+        "text": "create a training plan is to create a"
+      },
+      {
+        "start": 48.51,
+        "duration": 3.81,
+        "text": "bunch of Lists or create some lists and"
+      },
+      {
+        "start": 50.789,
+        "duration": 3.331,
+        "text": "get some workouts in there that you want"
+      },
+      {
+        "start": 52.32,
+        "duration": 3.719,
+        "text": "as a part of your plan so that you're"
+      },
+      {
+        "start": 54.12,
+        "duration": 4.05,
+        "text": "all working eyes so just make sure that"
+      },
+      {
+        "start": 56.039,
+        "duration": 4.051,
+        "text": "you're like my library up here has got"
+      },
+      {
+        "start": 58.17,
+        "duration": 4.11,
+        "text": "workouts in it and then you'll see these"
+      },
+      {
+        "start": 60.09,
+        "duration": 5.639,
+        "text": "over on this side so the first thing I"
+      },
+      {
+        "start": 62.28,
+        "duration": 5.1,
+        "text": "do when I want to create a new plan is"
+      },
+      {
+        "start": 65.729,
+        "duration": 4.561,
+        "text": "obviously quick on click on create a new"
+      },
+      {
+        "start": 67.38,
+        "duration": 9.15,
+        "text": "plan I name it let's just call it Alex's"
+      },
+      {
+        "start": 70.29,
+        "duration": 8.85,
+        "text": "first plan and you pick the plan type if"
+      },
+      {
+        "start": 76.53,
+        "duration": 5.61,
+        "text": "you're not sure you can just say other a"
+      },
+      {
+        "start": 79.14,
+        "duration": 5.369,
+        "text": "base a build a peak or a race these are"
+      },
+      {
+        "start": 82.14,
+        "duration": 4.86,
+        "text": "I'm gonna have definitions of what these"
+      },
+      {
+        "start": 84.509,
+        "duration": 5.131,
+        "text": "are but generally these are the American"
+      },
+      {
+        "start": 87.0,
+        "duration": 4.71,
+        "text": "Standard terms or very common terms in"
+      },
+      {
+        "start": 89.64,
+        "duration": 5.61,
+        "text": "America let's say for for the period"
+      },
+      {
+        "start": 91.71,
+        "duration": 5.94,
+        "text": "type base for example is like maybe a"
+      },
+      {
+        "start": 95.25,
+        "duration": 4.259,
+        "text": "winter time you know low-intensity"
+      },
+      {
+        "start": 97.65,
+        "duration": 3.48,
+        "text": "generally I mean different people have"
+      },
+      {
+        "start": 99.509,
+        "duration": 5.22,
+        "text": "different definitions as to what is base"
+      },
+      {
+        "start": 101.13,
+        "duration": 6.66,
+        "text": "but but it's its base it's it's what you"
+      },
+      {
+        "start": 104.729,
+        "duration": 4.861,
+        "text": "do to kind of build up your aerobic"
+      },
+      {
+        "start": 107.79,
+        "duration": 3.689,
+        "text": "skills during the winter or your aerobic"
+      },
+      {
+        "start": 109.59,
+        "duration": 3.569,
+        "text": "abilities during the winter anyway so"
+      },
+      {
+        "start": 111.479,
+        "duration": 4.081,
+        "text": "I'm just gonna create a four week plan"
+      },
+      {
+        "start": 113.159,
+        "duration": 4.381,
+        "text": "this time just to keep it short and easy"
+      },
+      {
+        "start": 115.56,
+        "duration": 4.199,
+        "text": "let's just say it's on Monday Wednesdays"
+      },
+      {
+        "start": 117.54,
+        "duration": 4.53,
+        "text": "and Fridays we would give some kind of"
+      },
+      {
+        "start": 119.759,
+        "duration": 4.11,
+        "text": "nice description here as to what's the"
+      },
+      {
+        "start": 122.07,
+        "duration": 5.1,
+        "text": "benefits of this plan or what it's for"
+      },
+      {
+        "start": 123.869,
+        "duration": 6.181,
+        "text": "or who it's for and then I'll hit save"
+      },
+      {
+        "start": 127.17,
+        "duration": 5.88,
+        "text": "so now I've got my training plan I've"
+      },
+      {
+        "start": 130.05,
+        "duration": 3.78,
+        "text": "got some workouts here it says that this"
+      },
+      {
+        "start": 133.05,
+        "duration": 3.75,
+        "text": "is now a pride"
+      },
+      {
+        "start": 133.83,
+        "duration": 4.95,
+        "text": "work out so this is private meaning it's"
+      },
+      {
+        "start": 136.8,
+        "duration": 4.2,
+        "text": "only for me and there's nothing in it so"
+      },
+      {
+        "start": 138.78,
+        "duration": 4.44,
+        "text": "it should only be for me once I get it"
+      },
+      {
+        "start": 141.0,
+        "duration": 4.14,
+        "text": "ready then I can switch it to public and"
+      },
+      {
+        "start": 143.22,
+        "duration": 5.82,
+        "text": "then anybody can find it in the search I"
+      },
+      {
+        "start": 145.14,
+        "duration": 6.06,
+        "text": "will show that in a little bit later so"
+      },
+      {
+        "start": 149.04,
+        "duration": 4.11,
+        "text": "I'm gonna start off I I created a couple"
+      },
+      {
+        "start": 151.2,
+        "duration": 5.07,
+        "text": "examples these are some short workouts"
+      },
+      {
+        "start": 153.15,
+        "duration": 4.47,
+        "text": "20 minutes or around 20 minutes let's"
+      },
+      {
+        "start": 156.27,
+        "duration": 3.03,
+        "text": "just say we're gonna start this is a"
+      },
+      {
+        "start": 157.62,
+        "duration": 3.87,
+        "text": "base plan and let's just say this is a"
+      },
+      {
+        "start": 159.3,
+        "duration": 3.69,
+        "text": "very minimalistic base plan because"
+      },
+      {
+        "start": 161.49,
+        "duration": 3.81,
+        "text": "they're 20 minute workouts I only have"
+      },
+      {
+        "start": 162.99,
+        "duration": 6.39,
+        "text": "one in here right now but I'll go ahead"
+      },
+      {
+        "start": 165.3,
+        "duration": 7.44,
+        "text": "and just drag that on here Monday"
+      },
+      {
+        "start": 169.38,
+        "duration": 5.01,
+        "text": "Wednesday and Fridays so the first week"
+      },
+      {
+        "start": 172.74,
+        "duration": 3.9,
+        "text": "we're just doing something really easy"
+      },
+      {
+        "start": 174.39,
+        "duration": 3.81,
+        "text": "just three recovery rites you know this"
+      },
+      {
+        "start": 176.64,
+        "duration": 4.41,
+        "text": "is for it maybe let's say a total"
+      },
+      {
+        "start": 178.2,
+        "duration": 5.79,
+        "text": "beginner and then maybe the next week"
+      },
+      {
+        "start": 181.05,
+        "duration": 6.33,
+        "text": "we'll start off with one a little bit"
+      },
+      {
+        "start": 183.99,
+        "duration": 5.16,
+        "text": "harder not much and now I'm gonna skip"
+      },
+      {
+        "start": 187.38,
+        "duration": 4.62,
+        "text": "forward to the end of the plan"
+      },
+      {
+        "start": 189.15,
+        "duration": 5.85,
+        "text": "let's see finish it off with a thirty"
+      },
+      {
+        "start": 192.0,
+        "duration": 5.43,
+        "text": "two minutes this is our longest ride of"
+      },
+      {
+        "start": 195.0,
+        "duration": 5.209,
+        "text": "the thing so there's there's a plan and"
+      },
+      {
+        "start": 197.43,
+        "duration": 6.39,
+        "text": "I can just go ahead and make that public"
+      },
+      {
+        "start": 200.209,
+        "duration": 6.191,
+        "text": "so I say okay yes and now it gives me"
+      },
+      {
+        "start": 203.82,
+        "duration": 6.66,
+        "text": "the read-only view and this is very"
+      },
+      {
+        "start": 206.4,
+        "duration": 6.45,
+        "text": "similar to the view that a consumer of"
+      },
+      {
+        "start": 210.48,
+        "duration": 4.91,
+        "text": "your plan now that it's a public plan or"
+      },
+      {
+        "start": 212.85,
+        "duration": 5.82,
+        "text": "an open-source plan this is what a"
+      },
+      {
+        "start": 215.39,
+        "duration": 4.99,
+        "text": "consumer would see and then they would"
+      },
+      {
+        "start": 218.67,
+        "duration": 3.569,
+        "text": "be able to come in and make a clone of"
+      },
+      {
+        "start": 220.38,
+        "duration": 4.53,
+        "text": "it for themselves and modify it if they"
+      },
+      {
+        "start": 222.239,
+        "duration": 5.761,
+        "text": "feel like but that's all there is that's"
+      },
+      {
+        "start": 224.91,
+        "duration": 5.299,
+        "text": "it that's creating a plan thank you very"
+      },
+      {
+        "start": 228.0,
+        "duration": 2.209,
+        "text": "much"
+      }
+    ],
+    "type": "auto",
+    "segment_count": 90
+  },
+  "processed_at": "2025-07-23T07:37:19.645472"
+}

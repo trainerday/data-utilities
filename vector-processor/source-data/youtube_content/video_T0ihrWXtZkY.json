@@ -1,0 +1,828 @@
+{
+  "video_id": "T0ihrWXtZkY",
+  "title": "TrainerDay - Open Source Cycling Training Plans",
+  "url": "https://www.youtube.com/watch?v=T0ihrWXtZkY",
+  "upload_date": "2019-12-11T11:23:22Z",
+  "description": "How to use TrainerDay.com to find and use your perfect training plan.",
+  "topics": [
+    "trainer"
+  ],
+  "transcript": {
+    "full_text": "hello this is alex from trainer day here i'm going to show you our new training plans feature you can call its plans beta in the menu here but it's gonna be called training plans anyway now i'm on what's called featured authors and plans so we've got featured offers and plans we got planned search in my plans my plans is where you kind of create and manage your own plans anyway so so I came to featured authors and plans here's an example of a typical race block a bill a base a build a peak and a race and it's just kind of explaining how that and what it means then there's a button to click to view your featured authors because that's what we were coming for here we're also going to have very soon a block recommendation to also you don't want a base a build a beacon race you want to do you're not looking to race then you might want a different set of blocks anyway here's some featured authors this is just a prototype at the moment it's not actually real but you can come in here and you can say okay Spartan blocks that sounds good okay so I'm gonna click on Spartan base okay so this has taken me to plan search here I could search by different types it's by default it's going to show you the plans that I just clicked on so I clicked on Spartan base right now this is just an example but as you can see the the good thing about in search here is it shows you the dynamics of the plan meaning that seventeen percent of them are threshold twenty nine percent are endurance four percent or tempo and fifty percent of recovery and you can see the council so twelve workouts or recovery anyway this is a very easy plan it's twelve weeks but it's only one hour a week so it's it's very let's say non requires minimum commitment and it's got the stress from eighteen to thirty nine per week it is a base workout so let's go ahead and click on View plan now it tells me the purpose of this is you know for the absolute minimalist in mind with a safety-first approach so it's you can see it starts really easy gets harder anyway and then if I say oh I really like this plan so I'm gonna go ahead and copy that to my plan so it creates a clone of this or a copy of this and then I can edit it and do what I want so I click copy copy it's been a Spartan base copy I'm just gonna call it Spartan bleh my Spartan base Alex's Spartan base although Alex was the original person you can change the description if you want and the interesting thing is you can change the days so it was created as a Wednesday Sunday workout but I know that I'm really busy and I'm I can only do it on weekends so I'm gonna take it as a Saturday Sunday okay save it now it moved all the workouts automatically to Saturday and Sunday and so that's a very unique feature I think and I can edit this plan so if I click on you know I don't actually have any workouts at the moment if I add workouts so if I let's open this in a new tab let's just find a workout let's just say I like that workout I came to workout search I added it to my workouts and now I come back here and i refresh the page and now I have that workout there and so now I could just add that one and say oh I want to workout on this day also so obviously with a bunch of 21 minute workouts and then I throw in a 90 at the beginning that doesn't make any sense but let's just put it at the very end when I'm starting to feel very strong right and if you want to delete a workout you can just grab it and throw it over here and delete it and it's gone so one other thing that you can do here is you can come and click on a specific workout so we could click on this one let's say this one's called 45 60 we could edit the name we could change the description to be whatever you want now this description and this name would then be unique for this particular day if you want to edit the base workout you could either click here that will take you to the to this page and you can then go to the editor page under the more options or you also have a link here that you can actually go to okay so that's how it works or that's how the the modifying the plan works you're not able to turn this public because you cloned it from someone else we don't want everybody creating a bunch of copies and then having a whole bunch of duplicate let's say workouts already duplicate plans you can create a new plan here if you want but you can the interesting thing is is you can download this and so you download it you set a start week so let's just say I want to set start next week you can pick any day of that week and you click download now as of next week by the time anybody's using this you'll be able to set what type of download you want so this is going to download all your MRC files in this particular example but you'll be able to say zlw all files or your ERG files so I click download I get this zip file which I can open and it gives me all of those workouts and it tells me the day so week one day seven six week one day seven week one day six seven you can see all the different you know these are all let's say Saturday and Sunday and all the different workouts and then I can take them into my favorite program whatever I'm using whether it be golden cheetah or trainerroad or you know or whatever program I want to load it into the other interesting thing is it does come with this this spreadsheet that you can open up and just have a review of the entire plan so you can see the stress you can see everything you can see you know all the different details and you can get the link you can just copy a link out of there and paste up here and you can look at it now the one cool thing about this download is you can actually just then take it and import it directly into Google Calendar and you can have the link in the calendar so you can see it so that's like a free way to have a training plan right right between using trainer row training Peaks sorry trainer day I don't know the name of this company thank you very much I hope you enjoyed it I hope we're able to provide you some great training plans some great training and thanks from trainer day",
+    "segments": [
+      {
+        "start": 0.03,
+        "duration": 6.57,
+        "text": "hello this is alex from trainer day here"
+      },
+      {
+        "start": 4.08,
+        "duration": 4.95,
+        "text": "i'm going to show you our new training"
+      },
+      {
+        "start": 6.6,
+        "duration": 4.2,
+        "text": "plans feature you can call its plans"
+      },
+      {
+        "start": 9.03,
+        "duration": 6.87,
+        "text": "beta in the menu here but it's gonna be"
+      },
+      {
+        "start": 10.8,
+        "duration": 7.92,
+        "text": "called training plans anyway now i'm on"
+      },
+      {
+        "start": 15.9,
+        "duration": 4.98,
+        "text": "what's called featured authors and plans"
+      },
+      {
+        "start": 18.72,
+        "duration": 4.2,
+        "text": "so we've got featured offers and plans"
+      },
+      {
+        "start": 20.88,
+        "duration": 3.809,
+        "text": "we got planned search in my plans my"
+      },
+      {
+        "start": 22.92,
+        "duration": 5.55,
+        "text": "plans is where you kind of create and"
+      },
+      {
+        "start": 24.689,
+        "duration": 5.781,
+        "text": "manage your own plans anyway so so I"
+      },
+      {
+        "start": 28.47,
+        "duration": 4.769,
+        "text": "came to featured authors and plans"
+      },
+      {
+        "start": 30.47,
+        "duration": 5.44,
+        "text": "here's an example of a typical race"
+      },
+      {
+        "start": 33.239,
+        "duration": 4.201,
+        "text": "block a bill a base a build a peak and a"
+      },
+      {
+        "start": 35.91,
+        "duration": 4.35,
+        "text": "race and it's just kind of explaining"
+      },
+      {
+        "start": 37.44,
+        "duration": 5.34,
+        "text": "how that and what it means then there's"
+      },
+      {
+        "start": 40.26,
+        "duration": 3.6,
+        "text": "a button to click to view your featured"
+      },
+      {
+        "start": 42.78,
+        "duration": 3.029,
+        "text": "authors because that's what we were"
+      },
+      {
+        "start": 43.86,
+        "duration": 4.109,
+        "text": "coming for here we're also going to have"
+      },
+      {
+        "start": 45.809,
+        "duration": 4.98,
+        "text": "very soon a block recommendation to also"
+      },
+      {
+        "start": 47.969,
+        "duration": 4.651,
+        "text": "you don't want a base a build a beacon"
+      },
+      {
+        "start": 50.789,
+        "duration": 3.481,
+        "text": "race you want to do you're not looking"
+      },
+      {
+        "start": 52.62,
+        "duration": 3.599,
+        "text": "to race then you might want a different"
+      },
+      {
+        "start": 54.27,
+        "duration": 4.35,
+        "text": "set of blocks anyway here's some"
+      },
+      {
+        "start": 56.219,
+        "duration": 3.781,
+        "text": "featured authors this is just a"
+      },
+      {
+        "start": 58.62,
+        "duration": 4.68,
+        "text": "prototype at the moment it's not"
+      },
+      {
+        "start": 60.0,
+        "duration": 5.189,
+        "text": "actually real but you can come in here"
+      },
+      {
+        "start": 63.3,
+        "duration": 3.6,
+        "text": "and you can say okay Spartan blocks that"
+      },
+      {
+        "start": 65.189,
+        "duration": 5.97,
+        "text": "sounds good okay so I'm gonna click on"
+      },
+      {
+        "start": 66.9,
+        "duration": 7.259,
+        "text": "Spartan base okay so this has taken me"
+      },
+      {
+        "start": 71.159,
+        "duration": 5.551,
+        "text": "to plan search here I could search by"
+      },
+      {
+        "start": 74.159,
+        "duration": 4.771,
+        "text": "different types it's by default it's"
+      },
+      {
+        "start": 76.71,
+        "duration": 4.68,
+        "text": "going to show you the plans that I just"
+      },
+      {
+        "start": 78.93,
+        "duration": 5.91,
+        "text": "clicked on so I clicked on Spartan base"
+      },
+      {
+        "start": 81.39,
+        "duration": 5.31,
+        "text": "right now this is just an example but as"
+      },
+      {
+        "start": 84.84,
+        "duration": 4.95,
+        "text": "you can see the the good thing about in"
+      },
+      {
+        "start": 86.7,
+        "duration": 5.4,
+        "text": "search here is it shows you the dynamics"
+      },
+      {
+        "start": 89.79,
+        "duration": 4.829,
+        "text": "of the plan meaning that seventeen"
+      },
+      {
+        "start": 92.1,
+        "duration": 4.1,
+        "text": "percent of them are threshold twenty"
+      },
+      {
+        "start": 94.619,
+        "duration": 4.531,
+        "text": "nine percent are endurance"
+      },
+      {
+        "start": 96.2,
+        "duration": 4.629,
+        "text": "four percent or tempo and fifty percent"
+      },
+      {
+        "start": 99.15,
+        "duration": 5.009,
+        "text": "of recovery and you can see the council"
+      },
+      {
+        "start": 100.829,
+        "duration": 6.091,
+        "text": "so twelve workouts or recovery anyway"
+      },
+      {
+        "start": 104.159,
+        "duration": 5.551,
+        "text": "this is a very easy plan it's twelve"
+      },
+      {
+        "start": 106.92,
+        "duration": 7.229,
+        "text": "weeks but it's only one hour a week so"
+      },
+      {
+        "start": 109.71,
+        "duration": 8.07,
+        "text": "it's it's very let's say non requires"
+      },
+      {
+        "start": 114.149,
+        "duration": 5.701,
+        "text": "minimum commitment and it's got the"
+      },
+      {
+        "start": 117.78,
+        "duration": 5.129,
+        "text": "stress from eighteen to thirty nine per"
+      },
+      {
+        "start": 119.85,
+        "duration": 6.21,
+        "text": "week it is a base workout so let's go"
+      },
+      {
+        "start": 122.909,
+        "duration": 4.981,
+        "text": "ahead and click on View plan now it"
+      },
+      {
+        "start": 126.06,
+        "duration": 4.559,
+        "text": "tells me the purpose of this is you know"
+      },
+      {
+        "start": 127.89,
+        "duration": 5.28,
+        "text": "for the absolute minimalist in mind with"
+      },
+      {
+        "start": 130.619,
+        "duration": 3.361,
+        "text": "a safety-first approach so it's you can"
+      },
+      {
+        "start": 133.17,
+        "duration": 5.67,
+        "text": "see it starts really"
+      },
+      {
+        "start": 133.98,
+        "duration": 6.929,
+        "text": "easy gets harder anyway and then if I"
+      },
+      {
+        "start": 138.84,
+        "duration": 3.99,
+        "text": "say oh I really like this plan so I'm"
+      },
+      {
+        "start": 140.909,
+        "duration": 3.931,
+        "text": "gonna go ahead and copy that to my plan"
+      },
+      {
+        "start": 142.83,
+        "duration": 4.2,
+        "text": "so it creates a clone of this or a copy"
+      },
+      {
+        "start": 144.84,
+        "duration": 4.41,
+        "text": "of this and then I can edit it and do"
+      },
+      {
+        "start": 147.03,
+        "duration": 4.65,
+        "text": "what I want so I click copy copy it's"
+      },
+      {
+        "start": 149.25,
+        "duration": 3.9,
+        "text": "been a Spartan base copy I'm just gonna"
+      },
+      {
+        "start": 151.68,
+        "duration": 6.119,
+        "text": "call it Spartan bleh"
+      },
+      {
+        "start": 153.15,
+        "duration": 6.479,
+        "text": "my Spartan base Alex's Spartan base"
+      },
+      {
+        "start": 157.799,
+        "duration": 3.541,
+        "text": "although Alex was the original person"
+      },
+      {
+        "start": 159.629,
+        "duration": 3.271,
+        "text": "you can change the description if you"
+      },
+      {
+        "start": 161.34,
+        "duration": 4.2,
+        "text": "want and the interesting thing is you"
+      },
+      {
+        "start": 162.9,
+        "duration": 4.74,
+        "text": "can change the days so it was created as"
+      },
+      {
+        "start": 165.54,
+        "duration": 4.32,
+        "text": "a Wednesday Sunday workout but I know"
+      },
+      {
+        "start": 167.64,
+        "duration": 3.84,
+        "text": "that I'm really busy and I'm I can only"
+      },
+      {
+        "start": 169.86,
+        "duration": 7.409,
+        "text": "do it on weekends so I'm gonna take it"
+      },
+      {
+        "start": 171.48,
+        "duration": 7.77,
+        "text": "as a Saturday Sunday okay save it now it"
+      },
+      {
+        "start": 177.269,
+        "duration": 3.481,
+        "text": "moved all the workouts automatically to"
+      },
+      {
+        "start": 179.25,
+        "duration": 6.329,
+        "text": "Saturday and Sunday and so that's a very"
+      },
+      {
+        "start": 180.75,
+        "duration": 7.829,
+        "text": "unique feature I think and I can edit"
+      },
+      {
+        "start": 185.579,
+        "duration": 5.071,
+        "text": "this plan so if I click on you know I"
+      },
+      {
+        "start": 188.579,
+        "duration": 7.921,
+        "text": "don't actually have any workouts at the"
+      },
+      {
+        "start": 190.65,
+        "duration": 10.019,
+        "text": "moment if I add workouts so if I let's"
+      },
+      {
+        "start": 196.5,
+        "duration": 5.4,
+        "text": "open this in a new tab let's just find a"
+      },
+      {
+        "start": 200.669,
+        "duration": 3.63,
+        "text": "workout let's just say I like that"
+      },
+      {
+        "start": 201.9,
+        "duration": 4.679,
+        "text": "workout I came to workout search I added"
+      },
+      {
+        "start": 204.299,
+        "duration": 5.94,
+        "text": "it to my workouts and now I come back"
+      },
+      {
+        "start": 206.579,
+        "duration": 5.761,
+        "text": "here and i refresh the page and now I"
+      },
+      {
+        "start": 210.239,
+        "duration": 3.571,
+        "text": "have that workout there and so now I"
+      },
+      {
+        "start": 212.34,
+        "duration": 3.95,
+        "text": "could just add that one and say oh I"
+      },
+      {
+        "start": 213.81,
+        "duration": 4.98,
+        "text": "want to workout on this day also so"
+      },
+      {
+        "start": 216.29,
+        "duration": 4.3,
+        "text": "obviously with a bunch of 21 minute"
+      },
+      {
+        "start": 218.79,
+        "duration": 2.759,
+        "text": "workouts and then I throw in a 90 at the"
+      },
+      {
+        "start": 220.59,
+        "duration": 4.17,
+        "text": "beginning that doesn't make any sense"
+      },
+      {
+        "start": 221.549,
+        "duration": 5.131,
+        "text": "but let's just put it at the very end"
+      },
+      {
+        "start": 224.76,
+        "duration": 4.949,
+        "text": "when I'm starting to feel very strong"
+      },
+      {
+        "start": 226.68,
+        "duration": 4.919,
+        "text": "right and if you want to delete a"
+      },
+      {
+        "start": 229.709,
+        "duration": 3.9,
+        "text": "workout you can just grab it and throw"
+      },
+      {
+        "start": 231.599,
+        "duration": 4.5,
+        "text": "it over here and delete it and it's gone"
+      },
+      {
+        "start": 233.609,
+        "duration": 5.49,
+        "text": "so one other thing that you can do here"
+      },
+      {
+        "start": 236.099,
+        "duration": 5.131,
+        "text": "is you can come and click on a specific"
+      },
+      {
+        "start": 239.099,
+        "duration": 6.03,
+        "text": "workout so we could click on this one"
+      },
+      {
+        "start": 241.23,
+        "duration": 5.939,
+        "text": "let's say this one's called 45 60 we"
+      },
+      {
+        "start": 245.129,
+        "duration": 4.321,
+        "text": "could edit the name we could change the"
+      },
+      {
+        "start": 247.169,
+        "duration": 5.04,
+        "text": "description to be whatever you want"
+      },
+      {
+        "start": 249.45,
+        "duration": 5.999,
+        "text": "now this description and this name would"
+      },
+      {
+        "start": 252.209,
+        "duration": 6.18,
+        "text": "then be unique for this particular day"
+      },
+      {
+        "start": 255.449,
+        "duration": 4.711,
+        "text": "if you want to edit the base workout you"
+      },
+      {
+        "start": 258.389,
+        "duration": 4.83,
+        "text": "could either click here that will take"
+      },
+      {
+        "start": 260.16,
+        "duration": 5.64,
+        "text": "you to the to this page and you can then"
+      },
+      {
+        "start": 263.219,
+        "duration": 4.891,
+        "text": "go to the editor page under the more"
+      },
+      {
+        "start": 265.8,
+        "duration": 4.98,
+        "text": "options or"
+      },
+      {
+        "start": 268.11,
+        "duration": 7.17,
+        "text": "you also have a link here that you can"
+      },
+      {
+        "start": 270.78,
+        "duration": 7.02,
+        "text": "actually go to okay so that's how it"
+      },
+      {
+        "start": 275.28,
+        "duration": 6.06,
+        "text": "works or that's how the the modifying"
+      },
+      {
+        "start": 277.8,
+        "duration": 5.549,
+        "text": "the plan works you're not able to turn"
+      },
+      {
+        "start": 281.34,
+        "duration": 3.389,
+        "text": "this public because you cloned it from"
+      },
+      {
+        "start": 283.349,
+        "duration": 2.94,
+        "text": "someone else we don't want everybody"
+      },
+      {
+        "start": 284.729,
+        "duration": 3.99,
+        "text": "creating a bunch of copies and then"
+      },
+      {
+        "start": 286.289,
+        "duration": 5.97,
+        "text": "having a whole bunch of duplicate let's"
+      },
+      {
+        "start": 288.719,
+        "duration": 6.48,
+        "text": "say workouts already duplicate plans you"
+      },
+      {
+        "start": 292.259,
+        "duration": 4.861,
+        "text": "can create a new plan here if you want"
+      },
+      {
+        "start": 295.199,
+        "duration": 3.78,
+        "text": "but you can the interesting thing is is"
+      },
+      {
+        "start": 297.12,
+        "duration": 4.5,
+        "text": "you can download this and so you"
+      },
+      {
+        "start": 298.979,
+        "duration": 4.291,
+        "text": "download it you set a start week so"
+      },
+      {
+        "start": 301.62,
+        "duration": 3.15,
+        "text": "let's just say I want to set start next"
+      },
+      {
+        "start": 303.27,
+        "duration": 3.959,
+        "text": "week you can pick any day of that week"
+      },
+      {
+        "start": 304.77,
+        "duration": 4.23,
+        "text": "and you click download now as of next"
+      },
+      {
+        "start": 307.229,
+        "duration": 3.331,
+        "text": "week by the time anybody's using this"
+      },
+      {
+        "start": 309.0,
+        "duration": 3.15,
+        "text": "you'll be able to set what type of"
+      },
+      {
+        "start": 310.56,
+        "duration": 3.81,
+        "text": "download you want so this is going to"
+      },
+      {
+        "start": 312.15,
+        "duration": 4.019,
+        "text": "download all your MRC files in this"
+      },
+      {
+        "start": 314.37,
+        "duration": 5.909,
+        "text": "particular example but you'll be able to"
+      },
+      {
+        "start": 316.169,
+        "duration": 8.821,
+        "text": "say zlw all files or your ERG files so I"
+      },
+      {
+        "start": 320.279,
+        "duration": 8.581,
+        "text": "click download I get this zip file which"
+      },
+      {
+        "start": 324.99,
+        "duration": 7.2,
+        "text": "I can open and it gives me all of those"
+      },
+      {
+        "start": 328.86,
+        "duration": 6.209,
+        "text": "workouts and it tells me the day so week"
+      },
+      {
+        "start": 332.19,
+        "duration": 5.399,
+        "text": "one day seven six week one day seven"
+      },
+      {
+        "start": 335.069,
+        "duration": 4.621,
+        "text": "week one day six seven you can see all"
+      },
+      {
+        "start": 337.589,
+        "duration": 4.8,
+        "text": "the different you know these are all"
+      },
+      {
+        "start": 339.69,
+        "duration": 4.289,
+        "text": "let's say Saturday and Sunday and all"
+      },
+      {
+        "start": 342.389,
+        "duration": 3.0,
+        "text": "the different workouts and then I can"
+      },
+      {
+        "start": 343.979,
+        "duration": 3.331,
+        "text": "take them into my favorite program"
+      },
+      {
+        "start": 345.389,
+        "duration": 5.821,
+        "text": "whatever I'm using whether it be golden"
+      },
+      {
+        "start": 347.31,
+        "duration": 6.62,
+        "text": "cheetah or trainerroad or you know or"
+      },
+      {
+        "start": 351.21,
+        "duration": 5.16,
+        "text": "whatever program I want to load it into"
+      },
+      {
+        "start": 353.93,
+        "duration": 5.169,
+        "text": "the other interesting thing is it does"
+      },
+      {
+        "start": 356.37,
+        "duration": 4.44,
+        "text": "come with this this spreadsheet that you"
+      },
+      {
+        "start": 359.099,
+        "duration": 3.63,
+        "text": "can open up and just have a review of"
+      },
+      {
+        "start": 360.81,
+        "duration": 3.419,
+        "text": "the entire plan so you can see the"
+      },
+      {
+        "start": 362.729,
+        "duration": 3.391,
+        "text": "stress you can see everything you can"
+      },
+      {
+        "start": 364.229,
+        "duration": 3.541,
+        "text": "see you know all the different details"
+      },
+      {
+        "start": 366.12,
+        "duration": 3.659,
+        "text": "and you can get the link you can just"
+      },
+      {
+        "start": 367.77,
+        "duration": 7.019,
+        "text": "copy a link out of there and paste up"
+      },
+      {
+        "start": 369.779,
+        "duration": 6.75,
+        "text": "here and you can look at it now the one"
+      },
+      {
+        "start": 374.789,
+        "duration": 3.62,
+        "text": "cool thing about this download is you"
+      },
+      {
+        "start": 376.529,
+        "duration": 7.41,
+        "text": "can actually just then take it and"
+      },
+      {
+        "start": 378.409,
+        "duration": 7.63,
+        "text": "import it directly into Google Calendar"
+      },
+      {
+        "start": 383.939,
+        "duration": 3.72,
+        "text": "and you can have the link in the"
+      },
+      {
+        "start": 386.039,
+        "duration": 3.451,
+        "text": "calendar so you can see it so that's"
+      },
+      {
+        "start": 387.659,
+        "duration": 3.841,
+        "text": "like a free way to have a training plan"
+      },
+      {
+        "start": 389.49,
+        "duration": 3.66,
+        "text": "right right between using trainer row"
+      },
+      {
+        "start": 391.5,
+        "duration": 4.139,
+        "text": "training Peaks"
+      },
+      {
+        "start": 393.15,
+        "duration": 4.98,
+        "text": "sorry trainer day I don't know the name"
+      },
+      {
+        "start": 395.639,
+        "duration": 5.31,
+        "text": "of this company thank you very much I"
+      },
+      {
+        "start": 398.13,
+        "duration": 3.9,
+        "text": "hope you enjoyed it I hope we're able to"
+      },
+      {
+        "start": 400.949,
+        "duration": 2.911,
+        "text": "provide you some great"
+      },
+      {
+        "start": 402.03,
+        "duration": 5.0,
+        "text": "training plans some great training and"
+      },
+      {
+        "start": 403.86,
+        "duration": 3.17,
+        "text": "thanks from trainer day"
+      }
+    ],
+    "type": "auto",
+    "segment_count": 162
+  },
+  "processed_at": "2025-07-23T07:37:22.065075"
+}

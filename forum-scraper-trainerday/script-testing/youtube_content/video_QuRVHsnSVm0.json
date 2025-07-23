@@ -1,0 +1,279 @@
+{
+  "video_id": "QuRVHsnSVm0",
+  "title": "Garmin Connect - Bulk Delete Workouts",
+  "url": "https://www.youtube.com/watch?v=QuRVHsnSVm0",
+  "upload_date": null,
+  "duration": 132.0,
+  "topics": [
+    "garmin",
+    "setup"
+  ],
+  "transcript": {
+    "full_text": "Hello Alex from trainer day here have you have ever worked in Garmin Connect and you're looking at your training plan workouts and you see you have eight pages or ten Pages or 15 pages of workouts and you want to delete them out delete them we have a script here that you can run that will delete one page at a time because right now if I go to delete I have to go delete are you sure yes okay so for eight pages I would be doing that for an hour and I previously had 20 pages so with our script um you come to the page you sit right click on it and say inspect you now you got your inspector you click on console we can clear that although it doesn't matter what's clear and then I paste I'm doing control V but I have this code in here that I took from our blog which you can find on our blog and I hit enter and then what you see is you see all this delete messages going away so it's basically just deleting one workout at a time and it's doing that for this one page so you can see each time it'll go it's kind of hard to tell but as one workout is disappearing each time and it's going through these 20 workouts or whatever it is and then once it gets done with these 20 then you basically have to come back and you know now it's stopped now I'm on let's go back to this console here make sure I got the console and I right click and I hit paste and I hit enter again and it does it again so pretty soon I'll have you know zero pages of workouts there now one thing to remember is that if some of these workouts are on your calendar right now it will also delete them from your calendar so they're no longer available so this is just a good way to do a bulk cleaning if you ever need to but it is risky because you're going to lose everything and you'll have to re-transfer workouts there thank you very much",
+    "segments": [
+      {
+        "start": 0.12,
+        "duration": 5.28,
+        "text": "Hello Alex from trainer day here have"
+      },
+      {
+        "start": 3.36,
+        "duration": 4.32,
+        "text": "you have ever worked in Garmin Connect"
+      },
+      {
+        "start": 5.4,
+        "duration": 3.9,
+        "text": "and you're looking at your training plan"
+      },
+      {
+        "start": 7.68,
+        "duration": 4.8,
+        "text": "workouts"
+      },
+      {
+        "start": 9.3,
+        "duration": 6.48,
+        "text": "and you see you have eight pages or ten"
+      },
+      {
+        "start": 12.48,
+        "duration": 5.94,
+        "text": "Pages or 15 pages of workouts and you"
+      },
+      {
+        "start": 15.78,
+        "duration": 5.94,
+        "text": "want to delete them out delete them we"
+      },
+      {
+        "start": 18.42,
+        "duration": 5.939,
+        "text": "have a script here that you can run that"
+      },
+      {
+        "start": 21.72,
+        "duration": 5.58,
+        "text": "will delete one page at a time because"
+      },
+      {
+        "start": 24.359,
+        "duration": 4.08,
+        "text": "right now if I go to delete I have to go"
+      },
+      {
+        "start": 27.3,
+        "duration": 5.58,
+        "text": "delete"
+      },
+      {
+        "start": 28.439,
+        "duration": 6.661,
+        "text": "are you sure yes okay so for eight pages"
+      },
+      {
+        "start": 32.88,
+        "duration": 4.5,
+        "text": "I would be doing that for an hour and I"
+      },
+      {
+        "start": 35.1,
+        "duration": 4.139,
+        "text": "previously had 20 pages so with our"
+      },
+      {
+        "start": 37.38,
+        "duration": 3.6,
+        "text": "script"
+      },
+      {
+        "start": 39.239,
+        "duration": 4.32,
+        "text": "um you come to the page you sit right"
+      },
+      {
+        "start": 40.98,
+        "duration": 4.68,
+        "text": "click on it and say inspect"
+      },
+      {
+        "start": 43.559,
+        "duration": 3.84,
+        "text": "you now you got your inspector you click"
+      },
+      {
+        "start": 45.66,
+        "duration": 4.02,
+        "text": "on console"
+      },
+      {
+        "start": 47.399,
+        "duration": 6.601,
+        "text": "we can clear that although it doesn't"
+      },
+      {
+        "start": 49.68,
+        "duration": 6.359,
+        "text": "matter what's clear and then I paste I'm"
+      },
+      {
+        "start": 54.0,
+        "duration": 4.559,
+        "text": "doing control V but I have this code in"
+      },
+      {
+        "start": 56.039,
+        "duration": 5.52,
+        "text": "here that I took from our blog which you"
+      },
+      {
+        "start": 58.559,
+        "duration": 4.68,
+        "text": "can find on our blog and I hit enter"
+      },
+      {
+        "start": 61.559,
+        "duration": 4.021,
+        "text": "and then what you see is you see all"
+      },
+      {
+        "start": 63.239,
+        "duration": 5.161,
+        "text": "this delete messages going away so it's"
+      },
+      {
+        "start": 65.58,
+        "duration": 5.7,
+        "text": "basically just deleting one workout at a"
+      },
+      {
+        "start": 68.4,
+        "duration": 6.74,
+        "text": "time and it's doing that for this one"
+      },
+      {
+        "start": 71.28,
+        "duration": 6.12,
+        "text": "page so you can see each time it'll go"
+      },
+      {
+        "start": 75.14,
+        "duration": 4.96,
+        "text": "it's kind of hard to tell but as one"
+      },
+      {
+        "start": 77.4,
+        "duration": 4.92,
+        "text": "workout is disappearing each time and"
+      },
+      {
+        "start": 80.1,
+        "duration": 4.08,
+        "text": "it's going through these 20 workouts or"
+      },
+      {
+        "start": 82.32,
+        "duration": 4.979,
+        "text": "whatever it is and then once it gets"
+      },
+      {
+        "start": 84.18,
+        "duration": 6.18,
+        "text": "done with these 20 then you basically"
+      },
+      {
+        "start": 87.299,
+        "duration": 4.14,
+        "text": "have to come back and you know now it's"
+      },
+      {
+        "start": 90.36,
+        "duration": 4.38,
+        "text": "stopped"
+      },
+      {
+        "start": 91.439,
+        "duration": 5.341,
+        "text": "now I'm on let's go back to this console"
+      },
+      {
+        "start": 94.74,
+        "duration": 4.559,
+        "text": "here make sure I got the console and I"
+      },
+      {
+        "start": 96.78,
+        "duration": 5.46,
+        "text": "right click and I hit paste and I hit"
+      },
+      {
+        "start": 99.299,
+        "duration": 5.881,
+        "text": "enter again and it does it again so"
+      },
+      {
+        "start": 102.24,
+        "duration": 5.16,
+        "text": "pretty soon I'll have you know zero"
+      },
+      {
+        "start": 105.18,
+        "duration": 5.46,
+        "text": "pages of workouts there now one thing to"
+      },
+      {
+        "start": 107.4,
+        "duration": 5.34,
+        "text": "remember is that if some of these"
+      },
+      {
+        "start": 110.64,
+        "duration": 4.019,
+        "text": "workouts are on your calendar right now"
+      },
+      {
+        "start": 112.74,
+        "duration": 3.54,
+        "text": "it will also delete them from your"
+      },
+      {
+        "start": 114.659,
+        "duration": 4.561,
+        "text": "calendar so they're no longer available"
+      },
+      {
+        "start": 116.28,
+        "duration": 5.879,
+        "text": "so this is just a good way to do a bulk"
+      },
+      {
+        "start": 119.22,
+        "duration": 4.74,
+        "text": "cleaning if you ever need to but it is"
+      },
+      {
+        "start": 122.159,
+        "duration": 3.481,
+        "text": "risky because you're going to lose"
+      },
+      {
+        "start": 123.96,
+        "duration": 3.839,
+        "text": "everything and you'll have to"
+      },
+      {
+        "start": 125.64,
+        "duration": 4.459,
+        "text": "re-transfer workouts there thank you"
+      },
+      {
+        "start": 127.799,
+        "duration": 2.3,
+        "text": "very much"
+      }
+    ],
+    "type": "auto",
+    "segment_count": 52
+  },
+  "processed_at": "2025-07-23T00:14:22.367972"
+}

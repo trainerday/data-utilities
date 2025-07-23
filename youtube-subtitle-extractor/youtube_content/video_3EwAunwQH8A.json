@@ -1,0 +1,268 @@
+{
+  "video_id": "3EwAunwQH8A",
+  "title": "TrainerDay Workout Editor, Copy and Paste from Excel",
+  "url": "https://www.youtube.com/watch?v=3EwAunwQH8A",
+  "upload_date": null,
+  "duration": 127.0,
+  "topics": [
+    "workout-creator"
+  ],
+  "transcript": {
+    "full_text": "okay I've created a really simple spreadsheet here that you can just copy and paste workouts into to get the average power and basically create workouts that have a specific average power so I'll just take a public workout and click copy here but you can edit any of your own the one thing you do need to do is make sure that your 30 seconds shows fractions so there's 30 and so then I just take this these values and I copy and paste it into here it doubles these for some reason and I'm not sure why exactly but anyway so what it does is I should call this average power percent maybe percent um and it calculates all that and it tells me that the average here is 78 or if my FTP is 250 Watts then it's 295 if if my FTP was 300 it would be average of 234 Watts so that's all there is and then if you say oh well I want to you know decrease my average power or increase my average power you know you just come in here you can actually edit it here um and you could even let's just say if you're trying to hit all these 130s you could just say this 130 equals this 130. this is what 120 equals this 130. I could just copy and paste each of these in here like this and then when I change this first 130 to 140 it changes all of them to 140 and you can see my average watch just went to to 260 or if I go 115 I can see my average Watts just went to 225 and then I can just copy and paste this these three rows it ignores kind of that middle row so I just copy and paste these three rows they're all 115s in here I've got my new workout and I can save it and I know my average thanks",
+    "segments": [
+      {
+        "start": 0.599,
+        "duration": 4.081,
+        "text": "okay I've created a really simple"
+      },
+      {
+        "start": 2.28,
+        "duration": 4.499,
+        "text": "spreadsheet here that you can just copy"
+      },
+      {
+        "start": 4.68,
+        "duration": 3.78,
+        "text": "and paste workouts into to get the"
+      },
+      {
+        "start": 6.779,
+        "duration": 3.78,
+        "text": "average power and basically create"
+      },
+      {
+        "start": 8.46,
+        "duration": 4.38,
+        "text": "workouts that have a specific average"
+      },
+      {
+        "start": 10.559,
+        "duration": 4.561,
+        "text": "power so I'll just take a public workout"
+      },
+      {
+        "start": 12.84,
+        "duration": 3.96,
+        "text": "and click copy here but you can edit any"
+      },
+      {
+        "start": 15.12,
+        "duration": 3.48,
+        "text": "of your own the one thing you do need to"
+      },
+      {
+        "start": 16.8,
+        "duration": 3.059,
+        "text": "do is make sure that your 30 seconds"
+      },
+      {
+        "start": 18.6,
+        "duration": 5.28,
+        "text": "shows"
+      },
+      {
+        "start": 19.859,
+        "duration": 7.68,
+        "text": "fractions so there's 30 and so then I"
+      },
+      {
+        "start": 23.88,
+        "duration": 6.78,
+        "text": "just take this these values"
+      },
+      {
+        "start": 27.539,
+        "duration": 4.801,
+        "text": "and I copy and paste it into here it"
+      },
+      {
+        "start": 30.66,
+        "duration": 5.34,
+        "text": "doubles these for some reason and I'm"
+      },
+      {
+        "start": 32.34,
+        "duration": 5.76,
+        "text": "not sure why exactly but anyway so what"
+      },
+      {
+        "start": 36.0,
+        "duration": 4.219,
+        "text": "it does is I should call this average"
+      },
+      {
+        "start": 38.1,
+        "duration": 5.4,
+        "text": "power percent"
+      },
+      {
+        "start": 40.219,
+        "duration": 6.34,
+        "text": "maybe percent"
+      },
+      {
+        "start": 43.5,
+        "duration": 5.76,
+        "text": "um and it calculates all that and it"
+      },
+      {
+        "start": 46.559,
+        "duration": 7.32,
+        "text": "tells me that the average here is 78 or"
+      },
+      {
+        "start": 49.26,
+        "duration": 7.5,
+        "text": "if my FTP is 250 Watts then it's 295 if"
+      },
+      {
+        "start": 53.879,
+        "duration": 5.52,
+        "text": "if my FTP was 300 it would be average of"
+      },
+      {
+        "start": 56.76,
+        "duration": 4.92,
+        "text": "234 Watts so that's all there is and"
+      },
+      {
+        "start": 59.399,
+        "duration": 5.041,
+        "text": "then if you say oh well I want to you"
+      },
+      {
+        "start": 61.68,
+        "duration": 4.979,
+        "text": "know decrease my average power or"
+      },
+      {
+        "start": 64.44,
+        "duration": 3.78,
+        "text": "increase my average power you know you"
+      },
+      {
+        "start": 66.659,
+        "duration": 3.901,
+        "text": "just come in here you can actually edit"
+      },
+      {
+        "start": 68.22,
+        "duration": 4.259,
+        "text": "it here"
+      },
+      {
+        "start": 70.56,
+        "duration": 4.02,
+        "text": "um and you could even let's just say if"
+      },
+      {
+        "start": 72.479,
+        "duration": 5.101,
+        "text": "you're trying to hit all these 130s you"
+      },
+      {
+        "start": 74.58,
+        "duration": 6.6,
+        "text": "could just say this 130 equals this 130."
+      },
+      {
+        "start": 77.58,
+        "duration": 5.579,
+        "text": "this is what 120 equals this 130."
+      },
+      {
+        "start": 81.18,
+        "duration": 4.759,
+        "text": "I could just copy and paste each of"
+      },
+      {
+        "start": 83.159,
+        "duration": 2.78,
+        "text": "these in here"
+      },
+      {
+        "start": 86.939,
+        "duration": 6.0,
+        "text": "like this"
+      },
+      {
+        "start": 89.759,
+        "duration": 5.161,
+        "text": "and then when I change this first 130 to"
+      },
+      {
+        "start": 92.939,
+        "duration": 4.381,
+        "text": "140"
+      },
+      {
+        "start": 94.92,
+        "duration": 5.159,
+        "text": "it changes all of them to 140 and you"
+      },
+      {
+        "start": 97.32,
+        "duration": 5.299,
+        "text": "can see my average watch just went to to"
+      },
+      {
+        "start": 100.079,
+        "duration": 5.521,
+        "text": "260 or if I go"
+      },
+      {
+        "start": 102.619,
+        "duration": 6.761,
+        "text": "115 I can see my average Watts just went"
+      },
+      {
+        "start": 105.6,
+        "duration": 5.339,
+        "text": "to 225 and then I can just copy and"
+      },
+      {
+        "start": 109.38,
+        "duration": 4.08,
+        "text": "paste this"
+      },
+      {
+        "start": 110.939,
+        "duration": 4.921,
+        "text": "these three rows"
+      },
+      {
+        "start": 113.46,
+        "duration": 4.199,
+        "text": "it ignores kind of that middle row so I"
+      },
+      {
+        "start": 115.86,
+        "duration": 5.219,
+        "text": "just copy and paste these three rows"
+      },
+      {
+        "start": 117.659,
+        "duration": 5.581,
+        "text": "they're all 115s in here I've got my new"
+      },
+      {
+        "start": 121.079,
+        "duration": 3.121,
+        "text": "workout and I can save it and I know my"
+      },
+      {
+        "start": 123.24,
+        "duration": 2.3,
+        "text": "average"
+      },
+      {
+        "start": 124.2,
+        "duration": 3.849,
+        "text": "thanks"
+      }
+    ],
+    "type": "auto",
+    "segment_count": 50
+  },
+  "processed_at": "2025-07-23T00:13:18.645300"
+}

@@ -1,0 +1,454 @@
+{
+  "video_id": "OJf-BRbWSm4",
+  "title": "Push Workout Directly from ERGdb to Garmin Connect",
+  "url": "https://www.youtube.com/watch?v=OJf-BRbWSm4",
+  "upload_date": "2019-05-04T14:29:12Z",
+  "description": "After pushing to Garmin Connect you can distribute it to any Garmin devices you have.",
+  "topics": [
+    "workout-creator",
+    "sync"
+  ],
+  "transcript": {
+    "full_text": "okay Here I am at ER gdb and I'm going to show the process of pushing a workout directly to Garmin from with inside a R gdb so I first come down and find a workout let's just say this is the latest workouts I don't have find any there I'm gonna go to recovery and endurance maybe see if I find something interesting there and I got a whole bunch of workouts here let's see if we can find something simple there's something simple 60 minutes ramp at each end I will say the Garmin does not support ramps but but we build our own version of steps we turn steps into ramps anyway I go ahead and add this workout to my favorites you can see it's called 60-minute cycling foundation and I then I come into my library and I can see see that workout here's 60 minute cycling foundation can't see the full name and I click on download and I can down I don't have a download to Garmin or push to Garmin here now but then what I do is I go ahead and come to apps and devices and I go connect to Garmin and I'm already logged into garments so it just says saved normally it would ask me for my username and password click Save I consent then it redirects me back to your gdb and tells me I'm currently connected and I can disconnect if I want here's the video I'm playing but when you click this button you'll be able to watch this video that doesn't exist and I have a couple steps here as to what you do I showed you you already I already added to favorites then I go to my library and I say push to Garmin so go up to my library now that I'm connected you can see that when I click on download I now have pushed to Garmin so I'll go ahead and click on push to Garmin I'm gonna add a success message here very shortly so that's what you'll see and then when I come to Garmin currently I don't have any workouts I think I actually pushed one and they didn't refresh this page yet so a lot of to maybe oh no just that one alright so there's my 60 minute foundation so it's now available in Garmin and I can go ahead and say oh not delete I can just go ahead and say send to device and it says send it to my watch I don't have a site Garmin cycling computer yet I'm waiting for a 5:30 anyway to come out send now ok Here I am on my phone I opened up Garmin Connect I'm gonna go ahead and go to training workouts and I could see that work out there and so I either I can push it also here from if I click up here at the top I can also click it and send it to my device also and it says ready to roll it's gonna sink to my watch so you can do it either from the web or from your phone and then I will open up my watch and I can't see very well here but let's open up my watch and I go to start a workout and I click on bike and then I click here on the menu this is the menu option I click down and I go to training and I click here I see my workouts and I click there and the top one is 60-minute cycling so that's the one I just did and I go ahead and just click start and do work out and that's it start the timer to begin the workout ok there we go I'm at starting at 53 to 64% of FTP anyway it's buzzing because I think I'm not doing it correctly I mean I'm not actually on my bike so anyway stop that I'll stop that here and that's it I'll go ahead and stop this video thanks",
+    "segments": [
+      {
+        "start": 1.159,
+        "duration": 6.281,
+        "text": "okay Here I am at ER gdb and I'm going"
+      },
+      {
+        "start": 5.22,
+        "duration": 4.53,
+        "text": "to show the process of pushing a workout"
+      },
+      {
+        "start": 7.44,
+        "duration": 5.67,
+        "text": "directly to Garmin from with inside a R"
+      },
+      {
+        "start": 9.75,
+        "duration": 4.799,
+        "text": "gdb so I first come down and find a"
+      },
+      {
+        "start": 13.11,
+        "duration": 3.06,
+        "text": "workout let's just say this is the"
+      },
+      {
+        "start": 14.549,
+        "duration": 4.56,
+        "text": "latest workouts I don't have find any"
+      },
+      {
+        "start": 16.17,
+        "duration": 4.74,
+        "text": "there I'm gonna go to recovery and"
+      },
+      {
+        "start": 19.109,
+        "duration": 6.481,
+        "text": "endurance maybe see if I find something"
+      },
+      {
+        "start": 20.91,
+        "duration": 6.869,
+        "text": "interesting there and I got a whole"
+      },
+      {
+        "start": 25.59,
+        "duration": 4.23,
+        "text": "bunch of workouts here let's see if we"
+      },
+      {
+        "start": 27.779,
+        "duration": 3.031,
+        "text": "can find something simple there's"
+      },
+      {
+        "start": 29.82,
+        "duration": 4.05,
+        "text": "something simple"
+      },
+      {
+        "start": 30.81,
+        "duration": 4.98,
+        "text": "60 minutes ramp at each end I will say"
+      },
+      {
+        "start": 33.87,
+        "duration": 4.95,
+        "text": "the Garmin does not support ramps but"
+      },
+      {
+        "start": 35.79,
+        "duration": 5.429,
+        "text": "but we build our own version of steps we"
+      },
+      {
+        "start": 38.82,
+        "duration": 5.309,
+        "text": "turn steps into ramps anyway I go ahead"
+      },
+      {
+        "start": 41.219,
+        "duration": 4.801,
+        "text": "and add this workout to my favorites you"
+      },
+      {
+        "start": 44.129,
+        "duration": 5.941,
+        "text": "can see it's called 60-minute cycling"
+      },
+      {
+        "start": 46.02,
+        "duration": 7.1,
+        "text": "foundation and I then I come into my"
+      },
+      {
+        "start": 50.07,
+        "duration": 5.7,
+        "text": "library and I can see see that workout"
+      },
+      {
+        "start": 53.12,
+        "duration": 5.23,
+        "text": "here's 60 minute cycling foundation"
+      },
+      {
+        "start": 55.77,
+        "duration": 4.679,
+        "text": "can't see the full name and I click on"
+      },
+      {
+        "start": 58.35,
+        "duration": 3.84,
+        "text": "download and I can down I don't have a"
+      },
+      {
+        "start": 60.449,
+        "duration": 4.11,
+        "text": "download to Garmin or push to Garmin"
+      },
+      {
+        "start": 62.19,
+        "duration": 6.96,
+        "text": "here now but then what I do is I go"
+      },
+      {
+        "start": 64.559,
+        "duration": 9.121,
+        "text": "ahead and come to apps and devices and I"
+      },
+      {
+        "start": 69.15,
+        "duration": 6.87,
+        "text": "go connect to Garmin and I'm already"
+      },
+      {
+        "start": 73.68,
+        "duration": 3.93,
+        "text": "logged into garments so it just says"
+      },
+      {
+        "start": 76.02,
+        "duration": 5.029,
+        "text": "saved normally it would ask me for my"
+      },
+      {
+        "start": 77.61,
+        "duration": 9.27,
+        "text": "username and password click Save I"
+      },
+      {
+        "start": 81.049,
+        "duration": 7.271,
+        "text": "consent then it redirects me back to"
+      },
+      {
+        "start": 86.88,
+        "duration": 3.529,
+        "text": "your gdb and tells me I'm currently"
+      },
+      {
+        "start": 88.32,
+        "duration": 4.92,
+        "text": "connected and I can disconnect if I want"
+      },
+      {
+        "start": 90.409,
+        "duration": 4.03,
+        "text": "here's the video I'm playing but when"
+      },
+      {
+        "start": 93.24,
+        "duration": 3.21,
+        "text": "you click this button you'll be able to"
+      },
+      {
+        "start": 94.439,
+        "duration": 4.29,
+        "text": "watch this video that doesn't exist and"
+      },
+      {
+        "start": 96.45,
+        "duration": 3.959,
+        "text": "I have a couple steps here as to what"
+      },
+      {
+        "start": 98.729,
+        "duration": 4.051,
+        "text": "you do I showed you you already I"
+      },
+      {
+        "start": 100.409,
+        "duration": 5.221,
+        "text": "already added to favorites then I go to"
+      },
+      {
+        "start": 102.78,
+        "duration": 5.94,
+        "text": "my library and I say push to Garmin so"
+      },
+      {
+        "start": 105.63,
+        "duration": 7.379,
+        "text": "go up to my library now that I'm"
+      },
+      {
+        "start": 108.72,
+        "duration": 6.859,
+        "text": "connected you can see that when I click"
+      },
+      {
+        "start": 113.009,
+        "duration": 4.831,
+        "text": "on download I now have pushed to Garmin"
+      },
+      {
+        "start": 115.579,
+        "duration": 4.39,
+        "text": "so I'll go ahead and click on push to"
+      },
+      {
+        "start": 117.84,
+        "duration": 3.84,
+        "text": "Garmin I'm gonna add a success message"
+      },
+      {
+        "start": 119.969,
+        "duration": 3.741,
+        "text": "here very shortly so that's what you'll"
+      },
+      {
+        "start": 121.68,
+        "duration": 4.049,
+        "text": "see and then when I come to Garmin"
+      },
+      {
+        "start": 123.71,
+        "duration": 3.49,
+        "text": "currently I don't have any workouts I"
+      },
+      {
+        "start": 125.729,
+        "duration": 3.0,
+        "text": "think I actually pushed one and they"
+      },
+      {
+        "start": 127.2,
+        "duration": 2.89,
+        "text": "didn't refresh this page yet so a lot of"
+      },
+      {
+        "start": 128.729,
+        "duration": 3.971,
+        "text": "to maybe"
+      },
+      {
+        "start": 130.09,
+        "duration": 5.19,
+        "text": "oh no just that one alright so there's"
+      },
+      {
+        "start": 132.7,
+        "duration": 4.77,
+        "text": "my 60 minute foundation so it's now"
+      },
+      {
+        "start": 135.28,
+        "duration": 3.99,
+        "text": "available in Garmin and I can go ahead"
+      },
+      {
+        "start": 137.47,
+        "duration": 4.65,
+        "text": "and say oh not delete I can just go"
+      },
+      {
+        "start": 139.27,
+        "duration": 5.43,
+        "text": "ahead and say send to device and it says"
+      },
+      {
+        "start": 142.12,
+        "duration": 4.619,
+        "text": "send it to my watch I don't have a site"
+      },
+      {
+        "start": 144.7,
+        "duration": 7.88,
+        "text": "Garmin cycling computer yet I'm waiting"
+      },
+      {
+        "start": 146.739,
+        "duration": 5.841,
+        "text": "for a 5:30 anyway to come out send now"
+      },
+      {
+        "start": 153.819,
+        "duration": 5.34,
+        "text": "ok Here I am on my phone I opened up"
+      },
+      {
+        "start": 156.819,
+        "duration": 6.721,
+        "text": "Garmin Connect I'm gonna go ahead and go"
+      },
+      {
+        "start": 159.159,
+        "duration": 6.451,
+        "text": "to training workouts and I could see"
+      },
+      {
+        "start": 163.54,
+        "duration": 5.19,
+        "text": "that work out there and so I either I"
+      },
+      {
+        "start": 165.61,
+        "duration": 4.89,
+        "text": "can push it also here from if I click up"
+      },
+      {
+        "start": 168.73,
+        "duration": 4.02,
+        "text": "here at the top I can also click it and"
+      },
+      {
+        "start": 170.5,
+        "duration": 4.29,
+        "text": "send it to my device also and it says"
+      },
+      {
+        "start": 172.75,
+        "duration": 4.26,
+        "text": "ready to roll it's gonna sink to my"
+      },
+      {
+        "start": 174.79,
+        "duration": 5.16,
+        "text": "watch so you can do it either from the"
+      },
+      {
+        "start": 177.01,
+        "duration": 7.08,
+        "text": "web or from your phone and then I will"
+      },
+      {
+        "start": 179.95,
+        "duration": 7.31,
+        "text": "open up my watch and I can't see very"
+      },
+      {
+        "start": 184.09,
+        "duration": 8.429,
+        "text": "well here but let's open up my watch and"
+      },
+      {
+        "start": 187.26,
+        "duration": 6.789,
+        "text": "I go to start a workout and I click on"
+      },
+      {
+        "start": 192.519,
+        "duration": 5.041,
+        "text": "bike and then I click here on the menu"
+      },
+      {
+        "start": 194.049,
+        "duration": 6.09,
+        "text": "this is the menu option I click down and"
+      },
+      {
+        "start": 197.56,
+        "duration": 5.039,
+        "text": "I go to training and I click here I see"
+      },
+      {
+        "start": 200.139,
+        "duration": 4.41,
+        "text": "my workouts and I click there and the"
+      },
+      {
+        "start": 202.599,
+        "duration": 3.54,
+        "text": "top one is 60-minute cycling so that's"
+      },
+      {
+        "start": 204.549,
+        "duration": 4.8,
+        "text": "the one I just did and I go ahead and"
+      },
+      {
+        "start": 206.139,
+        "duration": 4.74,
+        "text": "just click start and do work out and"
+      },
+      {
+        "start": 209.349,
+        "duration": 4.89,
+        "text": "that's it start the timer to begin the"
+      },
+      {
+        "start": 210.879,
+        "duration": 7.561,
+        "text": "workout ok there we go I'm at starting"
+      },
+      {
+        "start": 214.239,
+        "duration": 5.551,
+        "text": "at 53 to 64% of FTP anyway it's buzzing"
+      },
+      {
+        "start": 218.44,
+        "duration": 3.18,
+        "text": "because I think I'm not doing it"
+      },
+      {
+        "start": 219.79,
+        "duration": 6.12,
+        "text": "correctly I mean I'm not actually on my"
+      },
+      {
+        "start": 221.62,
+        "duration": 8.85,
+        "text": "bike so anyway stop that I'll stop that"
+      },
+      {
+        "start": 225.91,
+        "duration": 7.609,
+        "text": "here and that's it I'll go ahead and"
+      },
+      {
+        "start": 230.47,
+        "duration": 3.049,
+        "text": "stop this video thanks"
+      }
+    ],
+    "type": "auto",
+    "segment_count": 87
+  },
+  "processed_at": "2025-07-23T07:37:25.327497"
+}

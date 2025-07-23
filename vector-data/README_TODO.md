@@ -1,2 +1,0 @@
-
-Now let's create an incremental process.  Meaning I gave you the full website process there.  But when developers do major updates to the site, I should record the video for just that page and then we should process this "new page/feature video" and replace the page with this new video.  So you process this independently and generate a new final output file in this final output directory so now we would have two json files there, we should merge the two into a file called web_final_sitemap.json.  We should also remove the screenshots from the page that is not longer there.

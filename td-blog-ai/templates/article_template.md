@@ -1,15 +1,4 @@
----
-category: [Training|Features|Indoor|Other]
-date: 2025-01-01
-engagement: [Quick|Complete|Geek-Out]
-excerpt: 'Brief description of the article content for previews and SEO'
-permalink: blog/articles/article-url-slug
-tags:
-- tag1
-- tag2
-- tag3
-title: Article Title Here
----
+- **`obsidian-frontmatter-template.yaml`** - YAML structure for Obsidian compatibility (used by both scripts)
 
 # Article Title Here
 
@@ -65,11 +54,3 @@ Technical details and nuances...
 ---
 
 *Keep training smart and stay connected with the TrainerDay community!*
-
-<!-- Article follows TrainerDay content structure:
-- Category: [Training|Features|Indoor|Other] 
-- Engagement: [Quick|Complete|Geek-Out]
-- Tags: Selected from 6 core tag groups
-- Voice: Alex's direct, practical approach
-- Structure: Problem-focused with actionable solutions
--->

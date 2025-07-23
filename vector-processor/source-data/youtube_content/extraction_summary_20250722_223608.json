@@ -1,0 +1,58 @@
+{
+  "channel": "@trainerday",
+  "total_videos_found": 5,
+  "successful_extractions": 5,
+  "failed_extractions": 0,
+  "extraction_date": "2025-07-22T22:36:08.112992",
+  "successful_videos": [
+    {
+      "video_id": "R0A3GQeLDro",
+      "title": "TrainerDay Feature Update:  A New Plan Duration Manager",
+      "topics": [
+        "general"
+      ],
+      "transcript_type": "auto",
+      "text_length": 1047
+    },
+    {
+      "video_id": "0IhJAC6YzCA",
+      "title": "TrainerDay Cycling App - Simplified",
+      "topics": [
+        "mobile-app"
+      ],
+      "transcript_type": "auto",
+      "text_length": 10089
+    },
+    {
+      "video_id": "ByJX9QT-fHs",
+      "title": "TrainerDay Cycling App - Settings in Depth and Highly Dynamic INDOOR Cycling Training",
+      "topics": [
+        "mobile-app"
+      ],
+      "transcript_type": "auto",
+      "text_length": 15646
+    },
+    {
+      "video_id": "rrIc7LZ8Cjk",
+      "title": "Explanation of W-Prime Balance in TrainerDay",
+      "topics": [
+        "general"
+      ],
+      "transcript_type": "auto",
+      "text_length": 5396
+    },
+    {
+      "video_id": "MK87_Seu658",
+      "title": "Automatic Slope, ERG and HR mode switching.  How to create your workout in TrainerDay.",
+      "topics": [
+        "heart-rate",
+        "workout-creator",
+        "trainer",
+        "tutorial"
+      ],
+      "transcript_type": "auto",
+      "text_length": 2034
+    }
+  ],
+  "failed_videos": []
+}

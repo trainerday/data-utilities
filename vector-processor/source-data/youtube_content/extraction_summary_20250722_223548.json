@@ -1,0 +1,60 @@
+{
+  "channel": "@trainerday",
+  "total_videos_found": 5,
+  "successful_extractions": 0,
+  "failed_extractions": 5,
+  "extraction_date": "2025-07-22T22:35:48.181986",
+  "successful_videos": [],
+  "failed_videos": [
+    {
+      "video": {
+        "video_id": "R0A3GQeLDro",
+        "title": "TrainerDay Feature Update:  A New Plan Duration Manager",
+        "url": "https://www.youtube.com/watch?v=R0A3GQeLDro",
+        "duration": 77.0,
+        "upload_date": null
+      },
+      "error": "error: 'FetchedTranscriptSnippet' object is not subscriptable"
+    },
+    {
+      "video": {
+        "video_id": "0IhJAC6YzCA",
+        "title": "TrainerDay Cycling App - Simplified",
+        "url": "https://www.youtube.com/watch?v=0IhJAC6YzCA",
+        "duration": 716.0,
+        "upload_date": null
+      },
+      "error": "error: 'FetchedTranscriptSnippet' object is not subscriptable"
+    },
+    {
+      "video": {
+        "video_id": "ByJX9QT-fHs",
+        "title": "TrainerDay Cycling App - Settings in Depth and Highly Dynamic INDOOR Cycling Training",
+        "url": "https://www.youtube.com/watch?v=ByJX9QT-fHs",
+        "duration": 1137.0,
+        "upload_date": null
+      },
+      "error": "error: 'FetchedTranscriptSnippet' object is not subscriptable"
+    },
+    {
+      "video": {
+        "video_id": "rrIc7LZ8Cjk",
+        "title": "Explanation of W-Prime Balance in TrainerDay",
+        "url": "https://www.youtube.com/watch?v=rrIc7LZ8Cjk",
+        "duration": 383.0,
+        "upload_date": null
+      },
+      "error": "error: 'FetchedTranscriptSnippet' object is not subscriptable"
+    },
+    {
+      "video": {
+        "video_id": "MK87_Seu658",
+        "title": "Automatic Slope, ERG and HR mode switching.  How to create your workout in TrainerDay.",
+        "url": "https://www.youtube.com/watch?v=MK87_Seu658",
+        "duration": 141.0,
+        "upload_date": null
+      },
+      "error": "error: 'FetchedTranscriptSnippet' object is not subscriptable"
+    }
+  ]
+}

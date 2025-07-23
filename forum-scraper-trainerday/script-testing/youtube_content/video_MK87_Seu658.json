@@ -1,0 +1,291 @@
+{
+  "video_id": "MK87_Seu658",
+  "title": "Automatic Slope, ERG and HR mode switching.  How to create your workout in TrainerDay.",
+  "url": "https://www.youtube.com/watch?v=MK87_Seu658",
+  "upload_date": null,
+  "duration": 141.0,
+  "topics": [
+    "heart-rate",
+    "workout-creator",
+    "trainer",
+    "tutorial"
+  ],
+  "transcript": {
+    "type": "auto",
+    "full_text": "I'm going to create a workout here and show you some of the more advanced modes of our workout Creator so I'll start with a 5- minute warm-up I'll do 40 to 65% of FTP and I'll do ERG mode so then we'll do 50 minutes of a heart rate workout and here we just enter a value so visually that we can see what we're doing but it actually doesn't do anything so and we type in HR and say I want to Target 140 BPM and then if cool down of 65 to 40% and we'll go back to ERG mode so there now you can see our app will automatically switch to ERG automatically switch to heart rate assuming that you have a heart rate monitor connected in our app and then switch back to ERG mode for the for the cool down now other interesting things you can do is if you wanted instead of ERG mode if you if you prefer to do a slope mode you could just do a slope of say 3% and so then you in slope mode again this value here 40 to 65% won't do anything it's just visual so that you kind of know what you're targeting or or or what your plan is but ultimately you control the intensity with your gearing and your pedaling just like a hill like a 3% Hill and then at the end it could switch back to ERG mode so you can switch in and out of any of these modes when it switches from slope mode to HR mode what it'll do is it'll start off at the same place and then it will slowly adjust to get your heart rate to the right place right so whether that's up or down so you can create HR intervals here if you wanted so you could do you know a 5 minute HR interval at 160 BPM and then you know do this put this cool down down lower I just did a copy paste and then do like a one minute rest and you could even do a one minute rest in ERG or HR mode we could just do e ERG at 40% and then another 5 minutes at this now it's going to just kind of these are going to kind of slowly go up and down right I mean ERG is going to jump down quickly when you switch to ERG but then in general it's going to slowly build up from that ERG back up to your full 160 so that's it",
+    "segment_count": 54,
+    "segments": [
+      {
+        "start": 0.04,
+        "duration": 3.919,
+        "text": "I'm going to create a workout here and"
+      },
+      {
+        "start": 1.76,
+        "duration": 4.92,
+        "text": "show you some of the more advanced modes"
+      },
+      {
+        "start": 3.959,
+        "duration": 6.281,
+        "text": "of our workout Creator so I'll start"
+      },
+      {
+        "start": 6.68,
+        "duration": 8.44,
+        "text": "with a 5- minute warm-up I'll do 40 to"
+      },
+      {
+        "start": 10.24,
+        "duration": 7.799,
+        "text": "65% of FTP and I'll do ERG mode so then"
+      },
+      {
+        "start": 15.12,
+        "duration": 5.2,
+        "text": "we'll do 50 minutes of a heart rate"
+      },
+      {
+        "start": 18.039,
+        "duration": 4.08,
+        "text": "workout and here we just enter a value"
+      },
+      {
+        "start": 20.32,
+        "duration": 3.16,
+        "text": "so visually that we can see what we're"
+      },
+      {
+        "start": 22.119,
+        "duration": 4.201,
+        "text": "doing but it actually doesn't do"
+      },
+      {
+        "start": 23.48,
+        "duration": 6.279,
+        "text": "anything so and we type in HR and say I"
+      },
+      {
+        "start": 26.32,
+        "duration": 7.12,
+        "text": "want to Target 140 BPM and then if cool"
+      },
+      {
+        "start": 29.759,
+        "duration": 6.161,
+        "text": "down of 65 to 40% and we'll go back to"
+      },
+      {
+        "start": 33.44,
+        "duration": 5.04,
+        "text": "ERG mode so there now you can see our"
+      },
+      {
+        "start": 35.92,
+        "duration": 4.36,
+        "text": "app will automatically switch to ERG"
+      },
+      {
+        "start": 38.48,
+        "duration": 2.919,
+        "text": "automatically switch to heart rate"
+      },
+      {
+        "start": 40.28,
+        "duration": 3.48,
+        "text": "assuming that you have a heart rate"
+      },
+      {
+        "start": 41.399,
+        "duration": 4.881,
+        "text": "monitor connected in our app and then"
+      },
+      {
+        "start": 43.76,
+        "duration": 5.479,
+        "text": "switch back to ERG mode for the for the"
+      },
+      {
+        "start": 46.28,
+        "duration": 5.919,
+        "text": "cool down now other interesting things"
+      },
+      {
+        "start": 49.239,
+        "duration": 5.361,
+        "text": "you can do is if you wanted instead of"
+      },
+      {
+        "start": 52.199,
+        "duration": 4.561,
+        "text": "ERG mode if you if you prefer to do a"
+      },
+      {
+        "start": 54.6,
+        "duration": 7.0,
+        "text": "slope mode you could just do a"
+      },
+      {
+        "start": 56.76,
+        "duration": 9.0,
+        "text": "slope of say 3%"
+      },
+      {
+        "start": 61.6,
+        "duration": 7.32,
+        "text": "and so then you in slope mode again this"
+      },
+      {
+        "start": 65.76,
+        "duration": 4.8,
+        "text": "value here 40 to 65% won't do anything"
+      },
+      {
+        "start": 68.92,
+        "duration": 3.8,
+        "text": "it's just visual so that you kind of"
+      },
+      {
+        "start": 70.56,
+        "duration": 4.96,
+        "text": "know what you're targeting or or or what"
+      },
+      {
+        "start": 72.72,
+        "duration": 5.079,
+        "text": "your plan is but ultimately you control"
+      },
+      {
+        "start": 75.52,
+        "duration": 5.16,
+        "text": "the intensity with your gearing and your"
+      },
+      {
+        "start": 77.799,
+        "duration": 4.481,
+        "text": "pedaling just like a hill like a 3% Hill"
+      },
+      {
+        "start": 80.68,
+        "duration": 4.04,
+        "text": "and then at the end it could switch back"
+      },
+      {
+        "start": 82.28,
+        "duration": 5.76,
+        "text": "to ERG mode so you can switch in and out"
+      },
+      {
+        "start": 84.72,
+        "duration": 7.0,
+        "text": "of any of these modes when it switches"
+      },
+      {
+        "start": 88.04,
+        "duration": 6.119,
+        "text": "from slope mode to HR mode what it'll do"
+      },
+      {
+        "start": 91.72,
+        "duration": 5.48,
+        "text": "is it'll start off at the same place and"
+      },
+      {
+        "start": 94.159,
+        "duration": 5.64,
+        "text": "then it will slowly adjust to get your"
+      },
+      {
+        "start": 97.2,
+        "duration": 5.12,
+        "text": "heart rate to the right place right so"
+      },
+      {
+        "start": 99.799,
+        "duration": 4.841,
+        "text": "whether that's up or down so you can"
+      },
+      {
+        "start": 102.32,
+        "duration": 5.28,
+        "text": "create HR intervals here if you wanted"
+      },
+      {
+        "start": 104.64,
+        "duration": 6.32,
+        "text": "so you could do you know a 5 minute HR"
+      },
+      {
+        "start": 107.6,
+        "duration": 5.08,
+        "text": "interval at 160 BPM and then you know do"
+      },
+      {
+        "start": 110.96,
+        "duration": 4.119,
+        "text": "this put this cool down down lower I"
+      },
+      {
+        "start": 112.68,
+        "duration": 4.52,
+        "text": "just did a copy paste and then do like a"
+      },
+      {
+        "start": 115.079,
+        "duration": 5.0,
+        "text": "one minute rest and you could even do a"
+      },
+      {
+        "start": 117.2,
+        "duration": 6.559,
+        "text": "one minute rest in ERG or HR mode we"
+      },
+      {
+        "start": 120.079,
+        "duration": 5.68,
+        "text": "could just do e ERG at 40% and then"
+      },
+      {
+        "start": 123.759,
+        "duration": 3.241,
+        "text": "another 5 minutes at this now it's going"
+      },
+      {
+        "start": 125.759,
+        "duration": 3.64,
+        "text": "to just kind of these are going to kind"
+      },
+      {
+        "start": 127.0,
+        "duration": 4.64,
+        "text": "of slowly go up and down right I mean"
+      },
+      {
+        "start": 129.399,
+        "duration": 4.281,
+        "text": "ERG is going to jump down quickly when"
+      },
+      {
+        "start": 131.64,
+        "duration": 4.28,
+        "text": "you switch to ERG but then in general"
+      },
+      {
+        "start": 133.68,
+        "duration": 6.4,
+        "text": "it's going to slowly build up from that"
+      },
+      {
+        "start": 135.92,
+        "duration": 6.48,
+        "text": "ERG back up to your full 160 so that's"
+      },
+      {
+        "start": 140.08,
+        "duration": 2.32,
+        "text": "it"
+      }
+    ]
+  },
+  "processed_at": "2025-07-22T22:36:35.136283"
+}

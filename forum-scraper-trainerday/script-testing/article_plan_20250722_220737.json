@@ -1,0 +1,596 @@
+[
+  {
+    "priority": 96.5,
+    "topic": "workout-creator",
+    "title": "Complete Guide to Workout Creator",
+    "category": "Features",
+    "engagement": "Complete",
+    "tags": [
+      "workout-creator",
+      "my-workouts"
+    ],
+    "source_qas": [
+      {
+        "topic_id": 63335,
+        "title": "Batch Download All Workout Files in List",
+        "category": "forum",
+        "question": "I\u2019m not sure if this would be a simple addition or not but, if it is, it would be nice to be able to batch download all of the workout files in a list rather than having to download each workout individually.",
+        "answer": "",
+        "user_language": "I\u2019m not sure if this would be a simple addition or not but, if it is, it would be nice to be able to batch download all of the workout files in a list rather than having to download each workout individually.",
+        "platform_response": "",
+        "content_opportunity": "Article needed: Batch Download All Workout Files in List",
+        "priority_score": 0.1
+      },
+      {
+        "topic_id": 63253,
+        "title": "Watts/FTP% averages per interval option",
+        "category": "forum",
+        "question": "Hey @Alex\nWhat do you think about a 3rd box on the row where target and current Watts/FTP% info lives (on phone live activity display) that showed \u201caverage watts/ftp% this interval\u201d\nI think this would help me finesse my zone 2 power gains via eg knowing when I needed to push a bit more (if I could do so and stay within z2), based on how a given interval was going, on average.\n(Plus, Maybe an option to toggle this box on/off in settings, if there\u2019s a concern that some will miss the more minimalis",
+        "answer": "You need to tell me where you want the boxes. Which screen  my imagination needs to start with that picture.\nThis is our new UI.  Not sure if you tried it yet.\n  \n      \n\n      ride.trainerday.com\n  \n\n  \n    \n\nLIVE TrainerDay\n\n  View your LIVE TrainerDay training on a big screen\n\n\n  \n\n  \n    \n    \n  \n\n  \n\n\nI think you are talking about this.\nimage3454\u00d7598 102 KB\nAnd you would like this just like the app but also with the extra % values.\nimage2032\u00d7848 23.6 KB",
+        "user_language": "Hey @Alex\nWhat do you think about a 3rd box on the row where target and current Watts/FTP% info lives (on phone live activity display) that showed \u201caverage watts/ftp% this interval\u201d\nI think this would help me finesse my zone 2 power gains via eg knowing when I needed to push a bit more (if I could do so and stay within z2), based on how a given interval was going, on average.\n(Plus, Maybe an option to toggle this box on/off in settings, if there\u2019s a concern that some will miss the more minimalist 2-box on row display?)\nThat said, I love the phone and web live dashboards so much.",
+        "platform_response": "You need to tell me where you want the boxes. Which screen  my imagination needs to start with that picture.\nThis is our new UI.  Not sure if you tried it yet.\n  \n      \n\n      ride.trainerday.com\n  \n\n  \n    \n\nLIVE TrainerDay\n\n  View your LIVE TrainerDay training on a big screen\n\n\n  \n\n  \n    \n    \n  \n\n  \n\n\nI think you are talking about this.\nimage3454\u00d7598 102 KB\nAnd you would like this just like the app but also with the extra % values.\nimage2032\u00d7848 23.6 KB",
+        "content_opportunity": "Article needed: Watts/FTP% averages per interval option",
+        "priority_score": 0.6
+      },
+      {
+        "topic_id": 63232,
+        "title": "FTP Ramp test failure",
+        "category": "forum",
+        "question": "I tried doing the FTP ramp test on Tuesday.  I got as far as I could and followed the instructions to stop pedaling, but I never got given a FTP, nor could I move onto a cooldown.  I tried closing the app and then opening it again, but still I couldn\u2019t get any FTP info or it to move on.  2 days on I still can\u2019t get it to exit out of the test.\nCan you please tell me what to do so I can do another workout tomorrow morning?  And any chance you can figure out what my FTP should be?  Thanks!\nIMG_7334",
+        "answer": "Maybe that last screenshot is after he finished and turned off the trainer.",
+        "user_language": "I tried doing the FTP ramp test on Tuesday.  I got as far as I could and followed the instructions to stop pedaling, but I never got given a FTP, nor could I move onto a cooldown.  I tried closing the app and then opening it again, but still I couldn\u2019t get any FTP info or it to move on.  2 days on I still can\u2019t get it to exit out of the test.\nCan you please tell me what to do so I can do another workout tomorrow morning?  And any chance you can figure out what my FTP should be?  Thanks!\nIMG_7334750\u00d71334 71.9 KB\nIMG_9E114669322A-1750\u00d71334 104 KB",
+        "platform_response": "Maybe that last screenshot is after he finished and turned off the trainer.",
+        "content_opportunity": "Article needed: FTP Ramp test failure",
+        "priority_score": 1.0
+      },
+      {
+        "topic_id": 63175,
+        "title": "How to View Workout Cadence During Workout?",
+        "category": "forum",
+        "question": "I\u2019m not sure if I am doing something wrong or if I\u2019m perhaps not looking in the right place\u2026but during workouts with a cadence indicated, I am not seeing the cadence displayed anywhere on the workout screen.\nI am guessing I either have something entered wrong for the workout or perhaps I need to do something on the workout screen to have it displayed so I know if I am riding at the indicated rpms.\ncadence558\u00d7559 37.3 KB",
+        "answer": "You can put a range for cadence 95-100 for example.",
+        "user_language": "I\u2019m not sure if I am doing something wrong or if I\u2019m perhaps not looking in the right place\u2026but during workouts with a cadence indicated, I am not seeing the cadence displayed anywhere on the workout screen.\nI am guessing I either have something entered wrong for the workout or perhaps I need to do something on the workout screen to have it displayed so I know if I am riding at the indicated rpms.\ncadence558\u00d7559 37.3 KB",
+        "platform_response": "You can put a range for cadence 95-100 for example.",
+        "content_opportunity": "Article needed: How to View Workout Cadence During Workout?",
+        "priority_score": 0.3
+      },
+      {
+        "topic_id": 62955,
+        "title": "[SOLVED] - App shows different plan workout than Website",
+        "category": "forum",
+        "question": "When I look at the App (iphone and ipad), it shows one workout, but when I look on the website, it shows a different one.\nThe app shows workouts numbered\u2026 #1, #2, etc\u2026 but not on the calendar??\nVery confused.  Why doesn\u2019t the app show the scheduled workouts like the website?",
+        "answer": "Sounds like you are logged in on two different accounts",
+        "user_language": "When I look at the App (iphone and ipad), it shows one workout, but when I look on the website, it shows a different one.\nThe app shows workouts numbered\u2026 #1, #2, etc\u2026 but not on the calendar??\nVery confused.  Why doesn\u2019t the app show the scheduled workouts like the website?",
+        "platform_response": "Sounds like you are logged in on two different accounts",
+        "content_opportunity": "Article needed: [SOLVED] - App shows different plan workout than Website",
+        "priority_score": 0.7
+      }
+    ],
+    "sample_questions": [
+      "I\u2019m not sure if this would be a simple addition or not but, if it is, it would be nice to be able to batch download all of the workout files in a list rather than having to download each workout individually.",
+      "Hey @Alex\nWhat do you think about a 3rd box on the row where target and current Watts/FTP% info lives (on phone live activity display) that showed \u201caverage watts/ftp% this interval\u201d\nI think this would help me finesse my zone 2 power gains via eg knowing when I needed to push a bit more (if I could do so and stay within z2), based on how a given interval was going, on average.\n(Plus, Maybe an option to toggle this box on/off in settings, if there\u2019s a concern that some will miss the more minimalis",
+      "I tried doing the FTP ramp test on Tuesday.  I got as far as I could and followed the instructions to stop pedaling, but I never got given a FTP, nor could I move onto a cooldown.  I tried closing the app and then opening it again, but still I couldn\u2019t get any FTP info or it to move on.  2 days on I still can\u2019t get it to exit out of the test.\nCan you please tell me what to do so I can do another workout tomorrow morning?  And any chance you can figure out what my FTP should be?  Thanks!\nIMG_7334"
+    ],
+    "content_type": "gap_fill"
+  },
+  {
+    "priority": 79.7,
+    "topic": "mobile-app",
+    "title": "Complete Guide to Mobile App",
+    "category": "Features",
+    "engagement": "Complete",
+    "tags": [
+      "mobile-app",
+      "training"
+    ],
+    "source_qas": [
+      {
+        "topic_id": 63253,
+        "title": "Watts/FTP% averages per interval option",
+        "category": "forum",
+        "question": "Hey @Alex\nWhat do you think about a 3rd box on the row where target and current Watts/FTP% info lives (on phone live activity display) that showed \u201caverage watts/ftp% this interval\u201d\nI think this would help me finesse my zone 2 power gains via eg knowing when I needed to push a bit more (if I could do so and stay within z2), based on how a given interval was going, on average.\n(Plus, Maybe an option to toggle this box on/off in settings, if there\u2019s a concern that some will miss the more minimalis",
+        "answer": "You need to tell me where you want the boxes. Which screen  my imagination needs to start with that picture.\nThis is our new UI.  Not sure if you tried it yet.\n  \n      \n\n      ride.trainerday.com\n  \n\n  \n    \n\nLIVE TrainerDay\n\n  View your LIVE TrainerDay training on a big screen\n\n\n  \n\n  \n    \n    \n  \n\n  \n\n\nI think you are talking about this.\nimage3454\u00d7598 102 KB\nAnd you would like this just like the app but also with the extra % values.\nimage2032\u00d7848 23.6 KB",
+        "user_language": "Hey @Alex\nWhat do you think about a 3rd box on the row where target and current Watts/FTP% info lives (on phone live activity display) that showed \u201caverage watts/ftp% this interval\u201d\nI think this would help me finesse my zone 2 power gains via eg knowing when I needed to push a bit more (if I could do so and stay within z2), based on how a given interval was going, on average.\n(Plus, Maybe an option to toggle this box on/off in settings, if there\u2019s a concern that some will miss the more minimalist 2-box on row display?)\nThat said, I love the phone and web live dashboards so much.",
+        "platform_response": "You need to tell me where you want the boxes. Which screen  my imagination needs to start with that picture.\nThis is our new UI.  Not sure if you tried it yet.\n  \n      \n\n      ride.trainerday.com\n  \n\n  \n    \n\nLIVE TrainerDay\n\n  View your LIVE TrainerDay training on a big screen\n\n\n  \n\n  \n    \n    \n  \n\n  \n\n\nI think you are talking about this.\nimage3454\u00d7598 102 KB\nAnd you would like this just like the app but also with the extra % values.\nimage2032\u00d7848 23.6 KB",
+        "content_opportunity": "Article needed: Watts/FTP% averages per interval option",
+        "priority_score": 0.6
+      },
+      {
+        "topic_id": 63232,
+        "title": "FTP Ramp test failure",
+        "category": "forum",
+        "question": "I tried doing the FTP ramp test on Tuesday.  I got as far as I could and followed the instructions to stop pedaling, but I never got given a FTP, nor could I move onto a cooldown.  I tried closing the app and then opening it again, but still I couldn\u2019t get any FTP info or it to move on.  2 days on I still can\u2019t get it to exit out of the test.\nCan you please tell me what to do so I can do another workout tomorrow morning?  And any chance you can figure out what my FTP should be?  Thanks!\nIMG_7334",
+        "answer": "Maybe that last screenshot is after he finished and turned off the trainer.",
+        "user_language": "I tried doing the FTP ramp test on Tuesday.  I got as far as I could and followed the instructions to stop pedaling, but I never got given a FTP, nor could I move onto a cooldown.  I tried closing the app and then opening it again, but still I couldn\u2019t get any FTP info or it to move on.  2 days on I still can\u2019t get it to exit out of the test.\nCan you please tell me what to do so I can do another workout tomorrow morning?  And any chance you can figure out what my FTP should be?  Thanks!\nIMG_7334750\u00d71334 71.9 KB\nIMG_9E114669322A-1750\u00d71334 104 KB",
+        "platform_response": "Maybe that last screenshot is after he finished and turned off the trainer.",
+        "content_opportunity": "Article needed: FTP Ramp test failure",
+        "priority_score": 1.0
+      },
+      {
+        "topic_id": 63225,
+        "title": "Newbie Saris H3 plus fixed gear bike",
+        "category": "forum",
+        "question": "My first post here, please excuse if the answer is obvious.\nI\u2019m looking simple how-to guide for those of use that have a fixed gear bike and how to get things setup and working correctly.\nI think I need a method to set the cadence without gear shifting. Is there a control within the app to do this? For example if I want to train at 125w with a cadence of 60rpm can I adjust things to allow?\nThanks for any help",
+        "answer": "This is how ERG mode works, it automatically controls effort/power based on your target, so you can pedal any cadence you want and the effort will either be easy or hard.  Now that said it\u2019s possible that your fixie is not the perfect gearing so you can\u2019t go easy enough but if you are reasonably strong then it\u2019s unlikely that is a problem.  Just notice if you have an easy target and it won\u2019t go as easy as prescribed automatically then that could be the reason.  I have never done the math and don",
+        "user_language": "My first post here, please excuse if the answer is obvious.\nI\u2019m looking simple how-to guide for those of use that have a fixed gear bike and how to get things setup and working correctly.\nI think I need a method to set the cadence without gear shifting. Is there a control within the app to do this? For example if I want to train at 125w with a cadence of 60rpm can I adjust things to allow?\nThanks for any help",
+        "platform_response": "This is how ERG mode works, it automatically controls effort/power based on your target, so you can pedal any cadence you want and the effort will either be easy or hard.  Now that said it\u2019s possible that your fixie is not the perfect gearing so you can\u2019t go easy enough but if you are reasonably strong then it\u2019s unlikely that is a problem.  Just notice if you have an easy target and it won\u2019t go as easy as prescribed automatically then that could be the reason.  I have never done the math and don\u2019t know your exact gearing but I would not be surpirized if 50watts or something is not the easiest but for most, this is fine.\nI am not sure how this works from a cassette standpoint meaning you need a cassette that will mount to your Saris but also has the same tooth size as the chain on your bike.  Maybe this is not a problem in general.  I know Zwift Ride solves this problem at some level but I don\u2019t know if that works on the Saris.",
+        "content_opportunity": "Article needed: Newbie Saris H3 plus fixed gear bike",
+        "priority_score": 0.4
+      },
+      {
+        "topic_id": 62955,
+        "title": "[SOLVED] - App shows different plan workout than Website",
+        "category": "forum",
+        "question": "When I look at the App (iphone and ipad), it shows one workout, but when I look on the website, it shows a different one.\nThe app shows workouts numbered\u2026 #1, #2, etc\u2026 but not on the calendar??\nVery confused.  Why doesn\u2019t the app show the scheduled workouts like the website?",
+        "answer": "Sounds like you are logged in on two different accounts",
+        "user_language": "When I look at the App (iphone and ipad), it shows one workout, but when I look on the website, it shows a different one.\nThe app shows workouts numbered\u2026 #1, #2, etc\u2026 but not on the calendar??\nVery confused.  Why doesn\u2019t the app show the scheduled workouts like the website?",
+        "platform_response": "Sounds like you are logged in on two different accounts",
+        "content_opportunity": "Article needed: [SOLVED] - App shows different plan workout than Website",
+        "priority_score": 0.7
+      },
+      {
+        "topic_id": 62926,
+        "title": "[SOLVED] - Entries in My Calendar appear twice when scrolling",
+        "category": "forum",
+        "question": "When scrolling back in \u201cMy Calendar\u201d on the web app, entries are shown twice in weeks that include the first day of a month (see the screenshot below). This occurs on macOS in both Safari and Chrome, and only affects entries that were not visible prior to scrolling.\nInterestingly, if I switch to another browser tab and then return to the Trainer Day page, the duplicate entries disappear. However, they reappear after reloading the page and scrolling back again.\nTD-My Calendar1920\u00d71138 138 KB",
+        "answer": "Wow\u2026 I see the same thing\u2026 Strange we will get that fixed ASAP.",
+        "user_language": "When scrolling back in \u201cMy Calendar\u201d on the web app, entries are shown twice in weeks that include the first day of a month (see the screenshot below). This occurs on macOS in both Safari and Chrome, and only affects entries that were not visible prior to scrolling.\nInterestingly, if I switch to another browser tab and then return to the Trainer Day page, the duplicate entries disappear. However, they reappear after reloading the page and scrolling back again.\nTD-My Calendar1920\u00d71138 138 KB",
+        "platform_response": "Wow\u2026 I see the same thing\u2026 Strange we will get that fixed ASAP.",
+        "content_opportunity": "Article needed: [SOLVED] - Entries in My Calendar appear twice when scrolling",
+        "priority_score": 0.3
+      }
+    ],
+    "sample_questions": [
+      "Hey @Alex\nWhat do you think about a 3rd box on the row where target and current Watts/FTP% info lives (on phone live activity display) that showed \u201caverage watts/ftp% this interval\u201d\nI think this would help me finesse my zone 2 power gains via eg knowing when I needed to push a bit more (if I could do so and stay within z2), based on how a given interval was going, on average.\n(Plus, Maybe an option to toggle this box on/off in settings, if there\u2019s a concern that some will miss the more minimalis",
+      "I tried doing the FTP ramp test on Tuesday.  I got as far as I could and followed the instructions to stop pedaling, but I never got given a FTP, nor could I move onto a cooldown.  I tried closing the app and then opening it again, but still I couldn\u2019t get any FTP info or it to move on.  2 days on I still can\u2019t get it to exit out of the test.\nCan you please tell me what to do so I can do another workout tomorrow morning?  And any chance you can figure out what my FTP should be?  Thanks!\nIMG_7334",
+      "My first post here, please excuse if the answer is obvious.\nI\u2019m looking simple how-to guide for those of use that have a fixed gear bike and how to get things setup and working correctly.\nI think I need a method to set the cadence without gear shifting. Is there a control within the app to do this? For example if I want to train at 125w with a cadence of 60rpm can I adjust things to allow?\nThanks for any help"
+    ],
+    "content_type": "gap_fill"
+  },
+  {
+    "priority": 70.7,
+    "topic": "power-zones",
+    "title": "Master Power Zone Training with TrainerDay",
+    "category": "Training",
+    "engagement": "Complete",
+    "tags": [
+      "training",
+      "ftp",
+      "power-zones"
+    ],
+    "source_qas": [
+      {
+        "topic_id": 63253,
+        "title": "Watts/FTP% averages per interval option",
+        "category": "forum",
+        "question": "Hey @Alex\nWhat do you think about a 3rd box on the row where target and current Watts/FTP% info lives (on phone live activity display) that showed \u201caverage watts/ftp% this interval\u201d\nI think this would help me finesse my zone 2 power gains via eg knowing when I needed to push a bit more (if I could do so and stay within z2), based on how a given interval was going, on average.\n(Plus, Maybe an option to toggle this box on/off in settings, if there\u2019s a concern that some will miss the more minimalis",
+        "answer": "You need to tell me where you want the boxes. Which screen  my imagination needs to start with that picture.\nThis is our new UI.  Not sure if you tried it yet.\n  \n      \n\n      ride.trainerday.com\n  \n\n  \n    \n\nLIVE TrainerDay\n\n  View your LIVE TrainerDay training on a big screen\n\n\n  \n\n  \n    \n    \n  \n\n  \n\n\nI think you are talking about this.\nimage3454\u00d7598 102 KB\nAnd you would like this just like the app but also with the extra % values.\nimage2032\u00d7848 23.6 KB",
+        "user_language": "Hey @Alex\nWhat do you think about a 3rd box on the row where target and current Watts/FTP% info lives (on phone live activity display) that showed \u201caverage watts/ftp% this interval\u201d\nI think this would help me finesse my zone 2 power gains via eg knowing when I needed to push a bit more (if I could do so and stay within z2), based on how a given interval was going, on average.\n(Plus, Maybe an option to toggle this box on/off in settings, if there\u2019s a concern that some will miss the more minimalist 2-box on row display?)\nThat said, I love the phone and web live dashboards so much.",
+        "platform_response": "You need to tell me where you want the boxes. Which screen  my imagination needs to start with that picture.\nThis is our new UI.  Not sure if you tried it yet.\n  \n      \n\n      ride.trainerday.com\n  \n\n  \n    \n\nLIVE TrainerDay\n\n  View your LIVE TrainerDay training on a big screen\n\n\n  \n\n  \n    \n    \n  \n\n  \n\n\nI think you are talking about this.\nimage3454\u00d7598 102 KB\nAnd you would like this just like the app but also with the extra % values.\nimage2032\u00d7848 23.6 KB",
+        "content_opportunity": "Article needed: Watts/FTP% averages per interval option",
+        "priority_score": 0.6
+      },
+      {
+        "topic_id": 63232,
+        "title": "FTP Ramp test failure",
+        "category": "forum",
+        "question": "I tried doing the FTP ramp test on Tuesday.  I got as far as I could and followed the instructions to stop pedaling, but I never got given a FTP, nor could I move onto a cooldown.  I tried closing the app and then opening it again, but still I couldn\u2019t get any FTP info or it to move on.  2 days on I still can\u2019t get it to exit out of the test.\nCan you please tell me what to do so I can do another workout tomorrow morning?  And any chance you can figure out what my FTP should be?  Thanks!\nIMG_7334",
+        "answer": "Maybe that last screenshot is after he finished and turned off the trainer.",
+        "user_language": "I tried doing the FTP ramp test on Tuesday.  I got as far as I could and followed the instructions to stop pedaling, but I never got given a FTP, nor could I move onto a cooldown.  I tried closing the app and then opening it again, but still I couldn\u2019t get any FTP info or it to move on.  2 days on I still can\u2019t get it to exit out of the test.\nCan you please tell me what to do so I can do another workout tomorrow morning?  And any chance you can figure out what my FTP should be?  Thanks!\nIMG_7334750\u00d71334 71.9 KB\nIMG_9E114669322A-1750\u00d71334 104 KB",
+        "platform_response": "Maybe that last screenshot is after he finished and turned off the trainer.",
+        "content_opportunity": "Article needed: FTP Ramp test failure",
+        "priority_score": 1.0
+      },
+      {
+        "topic_id": 62897,
+        "title": "Cj workout customization with Z2 part",
+        "category": "forum",
+        "question": "Could it make sense to add a setting to cj to allow to create workouts with an initial Z2 part after warm-up?\nFor my next plan I\u2019m really thinking to something like\n10m Warm-up, 1h z2, rest Vo2max or threshold or SS or OU, cooldown\nBeing able to always add a fixed amount of Z2 training could help a lot, IMO.",
+        "answer": "Yes exactly!!! I want to add more solid hard core z2 options to CJ, both power based (for users using other apps) and HR based for people using our app with HR+ to automatically control the power base on HR\u2026 this is a pretty big task and a lot going on for the next few months.",
+        "user_language": "Could it make sense to add a setting to cj to allow to create workouts with an initial Z2 part after warm-up?\nFor my next plan I\u2019m really thinking to something like\n10m Warm-up, 1h z2, rest Vo2max or threshold or SS or OU, cooldown\nBeing able to always add a fixed amount of Z2 training could help a lot, IMO.",
+        "platform_response": "Yes exactly!!! I want to add more solid hard core z2 options to CJ, both power based (for users using other apps) and HR based for people using our app with HR+ to automatically control the power base on HR\u2026 this is a pretty big task and a lot going on for the next few months.",
+        "content_opportunity": "Article needed: Cj workout customization with Z2 part",
+        "priority_score": 0.3
+      },
+      {
+        "topic_id": 62730,
+        "title": "Round power targets to nearest supported value",
+        "category": "forum",
+        "question": "Hi TrainerDay team,\nFirst of all \u2013 thank you for this app. It\u2019s been a real game changer for structured training.\nI wanted to suggest a feature that I think could help users with certain types of smart bikes or trainers \u2013 like mine \u2013 that only support specific power increments.\nIn my case, my indoor bike connects via BLE and only accepts power values starting at 25 W, with increments of 5 W (i.e. 25, 30, 35, 40\u2026 etc.). When TrainerDay sends a target like 137 W, the bike just rounds it internally",
+        "answer": "Interesting.  What bike is that?  Also, if we smooth to 5w then it would be the same as your bike smoothing to 5w, so stop manually adjusting and it would be the same workout right (for your body)? Just visually it would match.  Just making sure I understand.",
+        "user_language": "Hi TrainerDay team,\nFirst of all \u2013 thank you for this app. It\u2019s been a real game changer for structured training.\nI wanted to suggest a feature that I think could help users with certain types of smart bikes or trainers \u2013 like mine \u2013 that only support specific power increments.\nIn my case, my indoor bike connects via BLE and only accepts power values starting at 25 W, with increments of 5 W (i.e. 25, 30, 35, 40\u2026 etc.). When TrainerDay sends a target like 137 W, the bike just rounds it internally, which can lead to inconsistent resistance and makes workouts feel a bit off. For example, even when the app sends 139 W, the bike still holds at 135 W \u2013 only once the app reaches 140 W does the trainer adjust to that level. I know this seems like a small detail, but it adds up over time.\nSome types of workouts make this even more difficult \u2013 especially those with gradual power ramps that increase by 1 watt every few seconds. Since my bike can only accept steps of 5 W, it doesn\u2019t follow those small changes correctly, and I have to manually adjust the resistance on the bike just to stay close to the intended target. This breaks focus and takes away from the training experience.\nWould it be possible to add an option in the settings or when building workouts that automatically rounds all power targets to the nearest supported value, based on a user-defined minimum and step (e.g. 25 W min, 5 W step)? Alternatively, this could happen dynamically during workout execution if TrainerDay detects the trainer\u2019s limitations.\nIt wouldn\u2019t affect users with full ERG resolution, but for people like me it would greatly improve consistency and experience.\nThanks for considering it!",
+        "platform_response": "Interesting.  What bike is that?  Also, if we smooth to 5w then it would be the same as your bike smoothing to 5w, so stop manually adjusting and it would be the same workout right (for your body)? Just visually it would match.  Just making sure I understand.",
+        "content_opportunity": "Article needed: Round power targets to nearest supported value",
+        "priority_score": 0.3
+      },
+      {
+        "topic_id": 62716,
+        "title": "Outdoor/Road vs. Indoor Trainer",
+        "category": "forum",
+        "question": "Last 3 months I have been mainly riding out on road. Getting stronger and doing lots of climbing. Due to time limit I did my ride on my trainer using same workout that I used on trainer many times in winter at same FTP. I was surprised as I could not complete the workout as the same wattage\u2019s used in winter where much more difficult. could barely spin the pedals at highest watts in workout.\nHas any else experienced this? Any reasons why?\nI would of thought workout would of been easier as I feel ",
+        "answer": "What workout?",
+        "user_language": "Last 3 months I have been mainly riding out on road. Getting stronger and doing lots of climbing. Due to time limit I did my ride on my trainer using same workout that I used on trainer many times in winter at same FTP. I was surprised as I could not complete the workout as the same wattage\u2019s used in winter where much more difficult. could barely spin the pedals at highest watts in workout.\nHas any else experienced this? Any reasons why?\nI would of thought workout would of been easier as I feel stronger on the road.\nThanks!!",
+        "platform_response": "What workout?",
+        "content_opportunity": "Article needed: Outdoor/Road vs. Indoor Trainer",
+        "priority_score": 0.7
+      }
+    ],
+    "sample_questions": [
+      "Hey @Alex\nWhat do you think about a 3rd box on the row where target and current Watts/FTP% info lives (on phone live activity display) that showed \u201caverage watts/ftp% this interval\u201d\nI think this would help me finesse my zone 2 power gains via eg knowing when I needed to push a bit more (if I could do so and stay within z2), based on how a given interval was going, on average.\n(Plus, Maybe an option to toggle this box on/off in settings, if there\u2019s a concern that some will miss the more minimalis",
+      "I tried doing the FTP ramp test on Tuesday.  I got as far as I could and followed the instructions to stop pedaling, but I never got given a FTP, nor could I move onto a cooldown.  I tried closing the app and then opening it again, but still I couldn\u2019t get any FTP info or it to move on.  2 days on I still can\u2019t get it to exit out of the test.\nCan you please tell me what to do so I can do another workout tomorrow morning?  And any chance you can figure out what my FTP should be?  Thanks!\nIMG_7334",
+      "Could it make sense to add a setting to cj to allow to create workouts with an initial Z2 part after warm-up?\nFor my next plan I\u2019m really thinking to something like\n10m Warm-up, 1h z2, rest Vo2max or threshold or SS or OU, cooldown\nBeing able to always add a fixed amount of Z2 training could help a lot, IMO."
+    ],
+    "content_type": "gap_fill"
+  },
+  {
+    "priority": 70.7,
+    "topic": "power-zones",
+    "title": "Advanced Power Analysis and Zone Optimization",
+    "category": "Training",
+    "engagement": "Geek-Out",
+    "tags": [
+      "training",
+      "ftp",
+      "power-zones"
+    ],
+    "source_qas": [
+      {
+        "topic_id": 63253,
+        "title": "Watts/FTP% averages per interval option",
+        "category": "forum",
+        "question": "Hey @Alex\nWhat do you think about a 3rd box on the row where target and current Watts/FTP% info lives (on phone live activity display) that showed \u201caverage watts/ftp% this interval\u201d\nI think this would help me finesse my zone 2 power gains via eg knowing when I needed to push a bit more (if I could do so and stay within z2), based on how a given interval was going, on average.\n(Plus, Maybe an option to toggle this box on/off in settings, if there\u2019s a concern that some will miss the more minimalis",
+        "answer": "You need to tell me where you want the boxes. Which screen  my imagination needs to start with that picture.\nThis is our new UI.  Not sure if you tried it yet.\n  \n      \n\n      ride.trainerday.com\n  \n\n  \n    \n\nLIVE TrainerDay\n\n  View your LIVE TrainerDay training on a big screen\n\n\n  \n\n  \n    \n    \n  \n\n  \n\n\nI think you are talking about this.\nimage3454\u00d7598 102 KB\nAnd you would like this just like the app but also with the extra % values.\nimage2032\u00d7848 23.6 KB",
+        "user_language": "Hey @Alex\nWhat do you think about a 3rd box on the row where target and current Watts/FTP% info lives (on phone live activity display) that showed \u201caverage watts/ftp% this interval\u201d\nI think this would help me finesse my zone 2 power gains via eg knowing when I needed to push a bit more (if I could do so and stay within z2), based on how a given interval was going, on average.\n(Plus, Maybe an option to toggle this box on/off in settings, if there\u2019s a concern that some will miss the more minimalist 2-box on row display?)\nThat said, I love the phone and web live dashboards so much.",
+        "platform_response": "You need to tell me where you want the boxes. Which screen  my imagination needs to start with that picture.\nThis is our new UI.  Not sure if you tried it yet.\n  \n      \n\n      ride.trainerday.com\n  \n\n  \n    \n\nLIVE TrainerDay\n\n  View your LIVE TrainerDay training on a big screen\n\n\n  \n\n  \n    \n    \n  \n\n  \n\n\nI think you are talking about this.\nimage3454\u00d7598 102 KB\nAnd you would like this just like the app but also with the extra % values.\nimage2032\u00d7848 23.6 KB",
+        "content_opportunity": "Article needed: Watts/FTP% averages per interval option",
+        "priority_score": 0.6
+      },
+      {
+        "topic_id": 63232,
+        "title": "FTP Ramp test failure",
+        "category": "forum",
+        "question": "I tried doing the FTP ramp test on Tuesday.  I got as far as I could and followed the instructions to stop pedaling, but I never got given a FTP, nor could I move onto a cooldown.  I tried closing the app and then opening it again, but still I couldn\u2019t get any FTP info or it to move on.  2 days on I still can\u2019t get it to exit out of the test.\nCan you please tell me what to do so I can do another workout tomorrow morning?  And any chance you can figure out what my FTP should be?  Thanks!\nIMG_7334",
+        "answer": "Maybe that last screenshot is after he finished and turned off the trainer.",
+        "user_language": "I tried doing the FTP ramp test on Tuesday.  I got as far as I could and followed the instructions to stop pedaling, but I never got given a FTP, nor could I move onto a cooldown.  I tried closing the app and then opening it again, but still I couldn\u2019t get any FTP info or it to move on.  2 days on I still can\u2019t get it to exit out of the test.\nCan you please tell me what to do so I can do another workout tomorrow morning?  And any chance you can figure out what my FTP should be?  Thanks!\nIMG_7334750\u00d71334 71.9 KB\nIMG_9E114669322A-1750\u00d71334 104 KB",
+        "platform_response": "Maybe that last screenshot is after he finished and turned off the trainer.",
+        "content_opportunity": "Article needed: FTP Ramp test failure",
+        "priority_score": 1.0
+      },
+      {
+        "topic_id": 62897,
+        "title": "Cj workout customization with Z2 part",
+        "category": "forum",
+        "question": "Could it make sense to add a setting to cj to allow to create workouts with an initial Z2 part after warm-up?\nFor my next plan I\u2019m really thinking to something like\n10m Warm-up, 1h z2, rest Vo2max or threshold or SS or OU, cooldown\nBeing able to always add a fixed amount of Z2 training could help a lot, IMO.",
+        "answer": "Yes exactly!!! I want to add more solid hard core z2 options to CJ, both power based (for users using other apps) and HR based for people using our app with HR+ to automatically control the power base on HR\u2026 this is a pretty big task and a lot going on for the next few months.",
+        "user_language": "Could it make sense to add a setting to cj to allow to create workouts with an initial Z2 part after warm-up?\nFor my next plan I\u2019m really thinking to something like\n10m Warm-up, 1h z2, rest Vo2max or threshold or SS or OU, cooldown\nBeing able to always add a fixed amount of Z2 training could help a lot, IMO.",
+        "platform_response": "Yes exactly!!! I want to add more solid hard core z2 options to CJ, both power based (for users using other apps) and HR based for people using our app with HR+ to automatically control the power base on HR\u2026 this is a pretty big task and a lot going on for the next few months.",
+        "content_opportunity": "Article needed: Cj workout customization with Z2 part",
+        "priority_score": 0.3
+      },
+      {
+        "topic_id": 62730,
+        "title": "Round power targets to nearest supported value",
+        "category": "forum",
+        "question": "Hi TrainerDay team,\nFirst of all \u2013 thank you for this app. It\u2019s been a real game changer for structured training.\nI wanted to suggest a feature that I think could help users with certain types of smart bikes or trainers \u2013 like mine \u2013 that only support specific power increments.\nIn my case, my indoor bike connects via BLE and only accepts power values starting at 25 W, with increments of 5 W (i.e. 25, 30, 35, 40\u2026 etc.). When TrainerDay sends a target like 137 W, the bike just rounds it internally",
+        "answer": "Interesting.  What bike is that?  Also, if we smooth to 5w then it would be the same as your bike smoothing to 5w, so stop manually adjusting and it would be the same workout right (for your body)? Just visually it would match.  Just making sure I understand.",
+        "user_language": "Hi TrainerDay team,\nFirst of all \u2013 thank you for this app. It\u2019s been a real game changer for structured training.\nI wanted to suggest a feature that I think could help users with certain types of smart bikes or trainers \u2013 like mine \u2013 that only support specific power increments.\nIn my case, my indoor bike connects via BLE and only accepts power values starting at 25 W, with increments of 5 W (i.e. 25, 30, 35, 40\u2026 etc.). When TrainerDay sends a target like 137 W, the bike just rounds it internally, which can lead to inconsistent resistance and makes workouts feel a bit off. For example, even when the app sends 139 W, the bike still holds at 135 W \u2013 only once the app reaches 140 W does the trainer adjust to that level. I know this seems like a small detail, but it adds up over time.\nSome types of workouts make this even more difficult \u2013 especially those with gradual power ramps that increase by 1 watt every few seconds. Since my bike can only accept steps of 5 W, it doesn\u2019t follow those small changes correctly, and I have to manually adjust the resistance on the bike just to stay close to the intended target. This breaks focus and takes away from the training experience.\nWould it be possible to add an option in the settings or when building workouts that automatically rounds all power targets to the nearest supported value, based on a user-defined minimum and step (e.g. 25 W min, 5 W step)? Alternatively, this could happen dynamically during workout execution if TrainerDay detects the trainer\u2019s limitations.\nIt wouldn\u2019t affect users with full ERG resolution, but for people like me it would greatly improve consistency and experience.\nThanks for considering it!",
+        "platform_response": "Interesting.  What bike is that?  Also, if we smooth to 5w then it would be the same as your bike smoothing to 5w, so stop manually adjusting and it would be the same workout right (for your body)? Just visually it would match.  Just making sure I understand.",
+        "content_opportunity": "Article needed: Round power targets to nearest supported value",
+        "priority_score": 0.3
+      },
+      {
+        "topic_id": 62716,
+        "title": "Outdoor/Road vs. Indoor Trainer",
+        "category": "forum",
+        "question": "Last 3 months I have been mainly riding out on road. Getting stronger and doing lots of climbing. Due to time limit I did my ride on my trainer using same workout that I used on trainer many times in winter at same FTP. I was surprised as I could not complete the workout as the same wattage\u2019s used in winter where much more difficult. could barely spin the pedals at highest watts in workout.\nHas any else experienced this? Any reasons why?\nI would of thought workout would of been easier as I feel ",
+        "answer": "What workout?",
+        "user_language": "Last 3 months I have been mainly riding out on road. Getting stronger and doing lots of climbing. Due to time limit I did my ride on my trainer using same workout that I used on trainer many times in winter at same FTP. I was surprised as I could not complete the workout as the same wattage\u2019s used in winter where much more difficult. could barely spin the pedals at highest watts in workout.\nHas any else experienced this? Any reasons why?\nI would of thought workout would of been easier as I feel stronger on the road.\nThanks!!",
+        "platform_response": "What workout?",
+        "content_opportunity": "Article needed: Outdoor/Road vs. Indoor Trainer",
+        "priority_score": 0.7
+      }
+    ],
+    "sample_questions": [
+      "Hey @Alex\nWhat do you think about a 3rd box on the row where target and current Watts/FTP% info lives (on phone live activity display) that showed \u201caverage watts/ftp% this interval\u201d\nI think this would help me finesse my zone 2 power gains via eg knowing when I needed to push a bit more (if I could do so and stay within z2), based on how a given interval was going, on average.\n(Plus, Maybe an option to toggle this box on/off in settings, if there\u2019s a concern that some will miss the more minimalis",
+      "I tried doing the FTP ramp test on Tuesday.  I got as far as I could and followed the instructions to stop pedaling, but I never got given a FTP, nor could I move onto a cooldown.  I tried closing the app and then opening it again, but still I couldn\u2019t get any FTP info or it to move on.  2 days on I still can\u2019t get it to exit out of the test.\nCan you please tell me what to do so I can do another workout tomorrow morning?  And any chance you can figure out what my FTP should be?  Thanks!\nIMG_7334",
+      "Could it make sense to add a setting to cj to allow to create workouts with an initial Z2 part after warm-up?\nFor my next plan I\u2019m really thinking to something like\n10m Warm-up, 1h z2, rest Vo2max or threshold or SS or OU, cooldown\nBeing able to always add a fixed amount of Z2 training could help a lot, IMO."
+    ],
+    "content_type": "gap_fill"
+  },
+  {
+    "priority": 51.7,
+    "topic": "coach-jack",
+    "title": "Coach Jack AI Training Plans - Complete Guide",
+    "category": "Features",
+    "engagement": "Complete",
+    "tags": [
+      "coach-jack",
+      "plan-creator",
+      "training"
+    ],
+    "source_qas": [
+      {
+        "topic_id": 63104,
+        "title": "Which training plan should I choose?",
+        "category": "forum",
+        "question": "Hello Alex,\nHere is my situation: I\u2019m 63 years old and have been regularly riding a road bike on Saturdays for the past 13 years, always covering between 60 and 90 km (zones 2 and 3). I\u2019ve just joined TrainerDay and bought a turbo trainer. I\u2019m available to train 2 or 3 times per week.\nWhich training plan should I choose? I don\u2019t have any specific goals like races, etc. My objective is simply to stay in shape and, of course, if possible, improve a bit in terms of strength or endurance.\nThank you ",
+        "answer": "Hi, congrads on the new trainer.  I would say these 3 things factor into how you should choose a plan\n\nWhat is fun for you and keeps you motivated\nWhat is safe and smart\nWhat helps you achieve your goals\n\nOverall most people should have some form of periodization although if just staying in shape is the goal and you are not killing yourself with intensity then you have a lot of flexibility.  You could do the same thing all year long and meet those goals.  To improve performance then following a ",
+        "user_language": "Hello Alex,\nHere is my situation: I\u2019m 63 years old and have been regularly riding a road bike on Saturdays for the past 13 years, always covering between 60 and 90 km (zones 2 and 3). I\u2019ve just joined TrainerDay and bought a turbo trainer. I\u2019m available to train 2 or 3 times per week.\nWhich training plan should I choose? I don\u2019t have any specific goals like races, etc. My objective is simply to stay in shape and, of course, if possible, improve a bit in terms of strength or endurance.\nThank you very much and best regards,\nRui M.",
+        "platform_response": "Hi, congrads on the new trainer.  I would say these 3 things factor into how you should choose a plan\n\nWhat is fun for you and keeps you motivated\nWhat is safe and smart\nWhat helps you achieve your goals\n\nOverall most people should have some form of periodization although if just staying in shape is the goal and you are not killing yourself with intensity then you have a lot of flexibility.  You could do the same thing all year long and meet those goals.  To improve performance then following a plan that increases volume over time, say has 6 months or a longer duration with different blocks and intensities (periodization) and gives you variety during the build and peak phases.  If you don\u2019t want all this and just want simple and it sounds like you are healthy and not injured I would just do the serious italian for 16 weeks.  It gives the widest variety and is my favorite block.  But again if you love hard training then you could choose something harder or increase the starting intensity.  I suggest starting at intensity 1 but that depends on what is fun for you.  It won\u2019t feel hard in the beginning but will be moderately hard by the end.  Start with an FTP ramp test so you know your FTP\u2026\nFor some people just doing zone 2 indoors with our HR+ feature and watching TV and doing something easy is a great plan and save the harder efforts for outdoor.  Yearly consistency is much more important than the actual plan.",
+        "content_opportunity": "Article needed: Which training plan should I choose?",
+        "priority_score": 0.3
+      },
+      {
+        "topic_id": 63035,
+        "title": "Garmin calendar sync sending wrong workouts?",
+        "category": "forum",
+        "question": "Hi,\nTrying to sync a coach jack plan to Garmin.  I have gamin sync enabled. I send a plan to my calendar and it syncs to Garmin, however, it\u2019s sending mostly incorrect workouts.   Example below.\nI\u2019ve tried multiple plans and the same type of behavior.\nTD\nimage1005\u00d7273 26.4 KB\nGarmin\nimage1581\u00d7212 16.6 KB\nThoughts on what may be wrong?\nThanks",
+        "answer": "Bizare, sorry.  Let us check.   For now you can go to view plan and click send to garmin and manually send a week or something until we get this fixed.",
+        "user_language": "Hi,\nTrying to sync a coach jack plan to Garmin.  I have gamin sync enabled. I send a plan to my calendar and it syncs to Garmin, however, it\u2019s sending mostly incorrect workouts.   Example below.\nI\u2019ve tried multiple plans and the same type of behavior.\nTD\nimage1005\u00d7273 26.4 KB\nGarmin\nimage1581\u00d7212 16.6 KB\nThoughts on what may be wrong?\nThanks",
+        "platform_response": "Bizare, sorry.  Let us check.   For now you can go to view plan and click send to garmin and manually send a week or something until we get this fixed.",
+        "content_opportunity": "Article needed: Garmin calendar sync sending wrong workouts?",
+        "priority_score": 0.3
+      },
+      {
+        "topic_id": 62897,
+        "title": "Cj workout customization with Z2 part",
+        "category": "forum",
+        "question": "Could it make sense to add a setting to cj to allow to create workouts with an initial Z2 part after warm-up?\nFor my next plan I\u2019m really thinking to something like\n10m Warm-up, 1h z2, rest Vo2max or threshold or SS or OU, cooldown\nBeing able to always add a fixed amount of Z2 training could help a lot, IMO.",
+        "answer": "Yes exactly!!! I want to add more solid hard core z2 options to CJ, both power based (for users using other apps) and HR based for people using our app with HR+ to automatically control the power base on HR\u2026 this is a pretty big task and a lot going on for the next few months.",
+        "user_language": "Could it make sense to add a setting to cj to allow to create workouts with an initial Z2 part after warm-up?\nFor my next plan I\u2019m really thinking to something like\n10m Warm-up, 1h z2, rest Vo2max or threshold or SS or OU, cooldown\nBeing able to always add a fixed amount of Z2 training could help a lot, IMO.",
+        "platform_response": "Yes exactly!!! I want to add more solid hard core z2 options to CJ, both power based (for users using other apps) and HR based for people using our app with HR+ to automatically control the power base on HR\u2026 this is a pretty big task and a lot going on for the next few months.",
+        "content_opportunity": "Article needed: Cj workout customization with Z2 part",
+        "priority_score": 0.3
+      },
+      {
+        "topic_id": 62827,
+        "title": "My experience with my first Coach Jack plan",
+        "category": "forum",
+        "question": "Hello,\nHere I share my experience with the first CJ plan I\u2019ve created in January and finished in June.\nThe plan is a 16 weeks plan (I had some vacation during the plan), based on two workouts per week (on Tuesday and Saturday). I used it only for indoor workouts on a Tacx Neo 2T Home Trainer.\nDuring the same period I also had two outdoor workouts per week (on Thursday and long day on Sunday).\nFor training I was not using TD app (except for AeT test to use HR mode), but loading the workouts on Tr",
+        "answer": "Amazing!!! Thanks for sharing.  I still need to respond to your other thread.  I will respond more in general soon.",
+        "user_language": "Hello,\nHere I share my experience with the first CJ plan I\u2019ve created in January and finished in June.\nThe plan is a 16 weeks plan (I had some vacation during the plan), based on two workouts per week (on Tuesday and Saturday). I used it only for indoor workouts on a Tacx Neo 2T Home Trainer.\nDuring the same period I also had two outdoor workouts per week (on Thursday and long day on Sunday).\nFor training I was not using TD app (except for AeT test to use HR mode), but loading the workouts on TrainingPeaks and from there to MyWhoosh.\nCJ worked pretty well. In the beginning I had some troubles in trying to allocate the amount of time I had on the training days I allocated for the plan, but with some help of @Alex I made it working.\nThe plan started with 158 TSS per week and ended with 285 TSS. I selected SFR on Tuesday and Threshold on Saturday and initial intensity Level for block at max (10):\n\nMy experience is very very positive and I\u2019ve also recommended CJ to my friends. If you\u2019re very consistent you\u2019ll see the results.\nI started in January with an FTP of 230W and finished in June with 277W. I\u2019m happy with the 20% increment achieved half an year. I don\u2019t expect to see the same increment for my next plan, of course, but I would be happy to see another nice 10%. Aerobic form is also improving, you can find my posts on the forum at How to test AeT efficiency - #140 by BlackTek\nIf you\u2019ve any question I\u2019m here",
+        "platform_response": "Amazing!!! Thanks for sharing.  I still need to respond to your other thread.  I will respond more in general soon.",
+        "content_opportunity": "Article needed: My experience with my first Coach Jack plan",
+        "priority_score": 1.0
+      },
+      {
+        "topic_id": 61769,
+        "title": "Target HR zone not updating with HR workout",
+        "category": "forum",
+        "question": "Hi there,\nToday I\u2019ve created a new plan with 3 workout. All are planned to be done indoors on a smarttrainer.\n2 HR workout (endurance) and 1 indoor training (HITT).\nWhile trying to do 1 of the HR workouts today I don\u2019t seem to manage to have the Target HR zones be updated according to the workout. It\u2019s always on 80, the start value which seems quite low in itself.\nGraph also doesn\u2019t show correctly in some cases, see images.\nWhile browsing the calendar via the webapp it clearly shows it\u2019s a HR wo",
+        "answer": "Hi yes HR workouts are only for garmin and trainingpeaks (outside mostly). Our app har HR+ but that is something different and for your reference doing high intensity workouts via HR does not work in generally work. HR reacts too slowly and they are anaerobic so without oxygen (hr)\nHR+ is something you can design yourself and this is for smart trainers and long steady state efforts. We used to have HR mode in our app but hardly anyone used it and it caused other users confusion.\nWhy not use powe",
+        "user_language": "Hi there,\nToday I\u2019ve created a new plan with 3 workout. All are planned to be done indoors on a smarttrainer.\n2 HR workout (endurance) and 1 indoor training (HITT).\nWhile trying to do 1 of the HR workouts today I don\u2019t seem to manage to have the Target HR zones be updated according to the workout. It\u2019s always on 80, the start value which seems quite low in itself.\nGraph also doesn\u2019t show correctly in some cases, see images.\nWhile browsing the calendar via the webapp it clearly shows it\u2019s a HR workout, but on mobile/tablet it shows as a regular power workout. Even after switching to HR+ mode the target BPM sticks at 80.\nAm I doing something wrong?\nIMG_00722732\u00d72048 205 KB\nIMG_1244828\u00d71792 79 KB\nScreenshot 2025-06-10 at 19.19.05878\u00d7569 27.2 KB",
+        "platform_response": "Hi yes HR workouts are only for garmin and trainingpeaks (outside mostly). Our app har HR+ but that is something different and for your reference doing high intensity workouts via HR does not work in generally work. HR reacts too slowly and they are anaerobic so without oxygen (hr)\nHR+ is something you can design yourself and this is for smart trainers and long steady state efforts. We used to have HR mode in our app but hardly anyone used it and it caused other users confusion.\nWhy not use power?",
+        "content_opportunity": "Article needed: Target HR zone not updating with HR workout",
+        "priority_score": 0.5
+      }
+    ],
+    "sample_questions": [
+      "Hello Alex,\nHere is my situation: I\u2019m 63 years old and have been regularly riding a road bike on Saturdays for the past 13 years, always covering between 60 and 90 km (zones 2 and 3). I\u2019ve just joined TrainerDay and bought a turbo trainer. I\u2019m available to train 2 or 3 times per week.\nWhich training plan should I choose? I don\u2019t have any specific goals like races, etc. My objective is simply to stay in shape and, of course, if possible, improve a bit in terms of strength or endurance.\nThank you ",
+      "Hi,\nTrying to sync a coach jack plan to Garmin.  I have gamin sync enabled. I send a plan to my calendar and it syncs to Garmin, however, it\u2019s sending mostly incorrect workouts.   Example below.\nI\u2019ve tried multiple plans and the same type of behavior.\nTD\nimage1005\u00d7273 26.4 KB\nGarmin\nimage1581\u00d7212 16.6 KB\nThoughts on what may be wrong?\nThanks",
+      "Could it make sense to add a setting to cj to allow to create workouts with an initial Z2 part after warm-up?\nFor my next plan I\u2019m really thinking to something like\n10m Warm-up, 1h z2, rest Vo2max or threshold or SS or OU, cooldown\nBeing able to always add a fixed amount of Z2 training could help a lot, IMO."
+    ],
+    "content_type": "gap_fill"
+  },
+  {
+    "priority": 37.9,
+    "topic": "heart-rate",
+    "title": "Complete Guide to Heart Rate",
+    "category": "Training",
+    "engagement": "Complete",
+    "tags": [
+      "heart-rate",
+      "training"
+    ],
+    "source_qas": [
+      {
+        "topic_id": 62894,
+        "title": "BT doesn't work anymore",
+        "category": "forum",
+        "question": "The app has stopped connecting to any Bluetooth devices\u2014it doesn\u2019t detect anything, neither the trainer nor the heart rate sensor. Restarting, clearing the cache, and wiping all data haven\u2019t helped. Today my workout is lost because there\u2019s no way for me to do it \nenvironment:\nRedmi Note 9 Pro\nAndroid 11 - system and all apps up to date",
+        "answer": "Sorry about your training.  I would guess your trainer is connected to something else.  Or location services is not allowed for our app.",
+        "user_language": "The app has stopped connecting to any Bluetooth devices\u2014it doesn\u2019t detect anything, neither the trainer nor the heart rate sensor. Restarting, clearing the cache, and wiping all data haven\u2019t helped. Today my workout is lost because there\u2019s no way for me to do it \nenvironment:\nRedmi Note 9 Pro\nAndroid 11 - system and all apps up to date",
+        "platform_response": "Sorry about your training.  I would guess your trainer is connected to something else.  Or location services is not allowed for our app.",
+        "content_opportunity": "Article needed: BT doesn't work anymore",
+        "priority_score": 0.2
+      },
+      {
+        "topic_id": 62827,
+        "title": "My experience with my first Coach Jack plan",
+        "category": "forum",
+        "question": "Hello,\nHere I share my experience with the first CJ plan I\u2019ve created in January and finished in June.\nThe plan is a 16 weeks plan (I had some vacation during the plan), based on two workouts per week (on Tuesday and Saturday). I used it only for indoor workouts on a Tacx Neo 2T Home Trainer.\nDuring the same period I also had two outdoor workouts per week (on Thursday and long day on Sunday).\nFor training I was not using TD app (except for AeT test to use HR mode), but loading the workouts on Tr",
+        "answer": "Amazing!!! Thanks for sharing.  I still need to respond to your other thread.  I will respond more in general soon.",
+        "user_language": "Hello,\nHere I share my experience with the first CJ plan I\u2019ve created in January and finished in June.\nThe plan is a 16 weeks plan (I had some vacation during the plan), based on two workouts per week (on Tuesday and Saturday). I used it only for indoor workouts on a Tacx Neo 2T Home Trainer.\nDuring the same period I also had two outdoor workouts per week (on Thursday and long day on Sunday).\nFor training I was not using TD app (except for AeT test to use HR mode), but loading the workouts on TrainingPeaks and from there to MyWhoosh.\nCJ worked pretty well. In the beginning I had some troubles in trying to allocate the amount of time I had on the training days I allocated for the plan, but with some help of @Alex I made it working.\nThe plan started with 158 TSS per week and ended with 285 TSS. I selected SFR on Tuesday and Threshold on Saturday and initial intensity Level for block at max (10):\n\nMy experience is very very positive and I\u2019ve also recommended CJ to my friends. If you\u2019re very consistent you\u2019ll see the results.\nI started in January with an FTP of 230W and finished in June with 277W. I\u2019m happy with the 20% increment achieved half an year. I don\u2019t expect to see the same increment for my next plan, of course, but I would be happy to see another nice 10%. Aerobic form is also improving, you can find my posts on the forum at How to test AeT efficiency - #140 by BlackTek\nIf you\u2019ve any question I\u2019m here",
+        "platform_response": "Amazing!!! Thanks for sharing.  I still need to respond to your other thread.  I will respond more in general soon.",
+        "content_opportunity": "Article needed: My experience with my first Coach Jack plan",
+        "priority_score": 1.0
+      },
+      {
+        "topic_id": 61936,
+        "title": "[SOLVED] - HR Zones too Low",
+        "category": "forum",
+        "question": "I don\u2019t have a power meter on my bike, so I\u2019ve been attempting to use the Convert to HR and sending to my computer via TrainingPeaks. When I do this, the heartrates are way too low for the exected zones, meaning following the workouts is rather pointless. If I adjust the HR zone bands in TD to realistic HR zones, then the when I convert the workout the HRs still don\u2019t correspond to the expected zones.\nPlease help, as this is driving me crazy and putting off an otherwise great training app!",
+        "answer": "Hi, you can set your own conversion values in our profile settings but we send zones to TP so you have to make sure you zones are right in TP also. I will send more info soon when i am at the computer.",
+        "user_language": "I don\u2019t have a power meter on my bike, so I\u2019ve been attempting to use the Convert to HR and sending to my computer via TrainingPeaks. When I do this, the heartrates are way too low for the exected zones, meaning following the workouts is rather pointless. If I adjust the HR zone bands in TD to realistic HR zones, then the when I convert the workout the HRs still don\u2019t correspond to the expected zones.\nPlease help, as this is driving me crazy and putting off an otherwise great training app!",
+        "platform_response": "Hi, you can set your own conversion values in our profile settings but we send zones to TP so you have to make sure you zones are right in TP also. I will send more info soon when i am at the computer.",
+        "content_opportunity": "Article needed: [SOLVED] - HR Zones too Low",
+        "priority_score": 1.0
+      },
+      {
+        "topic_id": 61869,
+        "title": "Coach Jack - Boost HRV - Lower RHR",
+        "category": "forum",
+        "question": "Hi together,\ni started with TD end of March.\nMy real first FTP was 123 and recently, in a new ramp test, i reached 173. I think this is quite good progress.\nMy main goals are actually to lower my RHR and boost my HRV.\nI started with some CJ Plans but they felt all to easy, it was never a challenge for me.\nI started to create my own (boring) trainings and changed to HR Training, when i red about lowering RHR is connected to time in HR Zone 4/5.\nI am aiming for 30-45 mins in that HR Zone. Rest (4h",
+        "answer": "Hi Abrams, you are generally asking for incompatible items at some level    Lowering your RHR is mostly about huge amounts of time at low intensities\u2026 Overall you are talking about aerobic optimization which I would say the most proven ways to do this is \u201czone 2\u201d and HIIT both bring different aerobic advantages.  You are not alone, a significant # of people feel like they are getting no benefit if they are not working a bit.  The funny thing this is fairly far from the truth.\nYou have this conce",
+        "user_language": "Hi together,\ni started with TD end of March.\nMy real first FTP was 123 and recently, in a new ramp test, i reached 173. I think this is quite good progress.\nMy main goals are actually to lower my RHR and boost my HRV.\nI started with some CJ Plans but they felt all to easy, it was never a challenge for me.\nI started to create my own (boring) trainings and changed to HR Training, when i red about lowering RHR is connected to time in HR Zone 4/5.\nI am aiming for 30-45 mins in that HR Zone. Rest (4h) is HR Zone 1-3 (weekly goals).\nI recognized good improvements.\nMy RHR was/is generally high. It dropped from 73 avg to 67 meanwhile and tendency falling.\nHRV increased from 34 to 39 in avg.\nThis achievements shall prove me right, that i do the right thing.\nHowever, i recognized knee issues after the HR4/5 Trainings.\nToday i did 1h15 min ride in HR Zone 2 (70% of my FTP) and no issues but far from higher HR Zones.\nI am a little bit overwhelmed by the numerous options in CJ.\nTherefore reaching out to you guys, what settings you recommend me to reach my goals to lower my RHR and boost my HRV (to increase overall fitness).\nI also want to feel tired after a workout and i like a good varity but also wont and cannot ride several hours. Main focus should be in any case to avoid injuries ofc.\nLooking forward to your suggestions.\nThanks, Abrams.",
+        "platform_response": "Hi Abrams, you are generally asking for incompatible items at some level    Lowering your RHR is mostly about huge amounts of time at low intensities\u2026 Overall you are talking about aerobic optimization which I would say the most proven ways to do this is \u201czone 2\u201d and HIIT both bring different aerobic advantages.  You are not alone, a significant # of people feel like they are getting no benefit if they are not working a bit.  The funny thing this is fairly far from the truth.\nYou have this concept that drives Zone 2 which is called \u201cFatMax\u201d which means the point at which you burn the maximum amount of fat.  You can get lab tested to find this point but this aligns with the same idea as zone 2 and in your case probably falls between 65-75% of max HR which is very easy feeling.  One way I have seen significant aerobic gains is by doing this intensity (really 60-65% of max HR at that time) 7 days a week for 30-60 minutes, usually closer to 30 but for sure you would get more from 60.\nYou could do this for 6 months and only this.  The problem is if it is not fun, you don\u2019t enjoy it and that causes you to be inconsistent or stop then it defeats the whole purpose.  I think having fun is important.  Overall just keep doing anything as much as you can and over time your RHR should go down and automatically with this your HRV will go up.  zone 2 is just the most efficient way to do this, but zone 3 or even a bit of interval training will still cause these adaptions it just takes longer but if it is more fun, I would seriously consider the fun factor.  As your RHR goes down, your power goes up, it actually gets easier and easier.   Pro cyclists will tell you zone 2 is not easy and after a long upper zone 2 interval then need a rest.\nSo you have to decide what is more important (fun with some intensity) or maximum efficiency to improving your aerobic base.  So 6 days a week with zone 2 and one HIIT day per week is likely the fastest way to improve your aerobic function.\nYou feel a lot stronger with some regular intensity is another motivational benefit.  Once you answer the above question I can help you pick a plan.",
+        "content_opportunity": "Article needed: Coach Jack - Boost HRV - Lower RHR",
+        "priority_score": 1.0
+      },
+      {
+        "topic_id": 61808,
+        "title": "Color of the zones in training even indoors",
+        "category": "forum",
+        "question": "Hi, I don\u2019t think it\u2019s already been requested but I think it could be useful.\nIt would be useful, for indoor workouts, as already happens for workouts created in HR, to color the various sections instead of blue, with the color of the area, so green Z2, yellow Threshold etc.\nDo you think it\u2019s possible? I think it could be useful for both users and coaches.\nThank you very much\nGabriele",
+        "answer": "This has been a serious struggle for me.  I have taken the TrainerRoad approach to this thinking as I really think they did it right    Some times there is the \u201cright way\u201d and some times their is the way most/many users want\u2026 \nThe reason I avoid this is because to me, many others and the TrainerRoad crew, this paints a inaccurate picture.  There is arguably (?) no difference between a workout performed at 75% or 76% of FTP, yet showing them as 2 different colors would make it seem like their is ",
+        "user_language": "Hi, I don\u2019t think it\u2019s already been requested but I think it could be useful.\nIt would be useful, for indoor workouts, as already happens for workouts created in HR, to color the various sections instead of blue, with the color of the area, so green Z2, yellow Threshold etc.\nDo you think it\u2019s possible? I think it could be useful for both users and coaches.\nThank you very much\nGabriele",
+        "platform_response": "This has been a serious struggle for me.  I have taken the TrainerRoad approach to this thinking as I really think they did it right    Some times there is the \u201cright way\u201d and some times their is the way most/many users want\u2026 \nThe reason I avoid this is because to me, many others and the TrainerRoad crew, this paints a inaccurate picture.  There is arguably (?) no difference between a workout performed at 75% or 76% of FTP, yet showing them as 2 different colors would make it seem like their is a big difference.\nWith ERG mode this becomes even more true because it can hold you to a very consistent level of power. So I think Zones are great from a conversational perspective I think they are poor from a choosing/analyzing a workout perspective when you are talking about strict power numbers.  Now I feel a bit differently in HR because it\u2019s inherently in less strict and when we push workouts to Garmin for example with push the whole zone which gives  you a wide range that you are likely to target the difference.\nAgain this comes potentially down to a flaw in my and some others thinking that can\u2019t let go of this power target / zone problem.    I think most \u201cexperts\u201d would agree more than 3 zones is inherently a construct that has no physiological relevance but I still believe a 5-7 zone model is excellent for conversations and represents the nature of our intensities\u2026\nSorry\u2026 not sure this helps.  Just something I am passionate about and wish someone would change my mind on this   Some how I think the colors look friendly and attractive to normal humans",
+        "content_opportunity": "Article needed: Color of the zones in training even indoors",
+        "priority_score": 0.4
+      }
+    ],
+    "sample_questions": [
+      "The app has stopped connecting to any Bluetooth devices\u2014it doesn\u2019t detect anything, neither the trainer nor the heart rate sensor. Restarting, clearing the cache, and wiping all data haven\u2019t helped. Today my workout is lost because there\u2019s no way for me to do it \nenvironment:\nRedmi Note 9 Pro\nAndroid 11 - system and all apps up to date",
+      "Hello,\nHere I share my experience with the first CJ plan I\u2019ve created in January and finished in June.\nThe plan is a 16 weeks plan (I had some vacation during the plan), based on two workouts per week (on Tuesday and Saturday). I used it only for indoor workouts on a Tacx Neo 2T Home Trainer.\nDuring the same period I also had two outdoor workouts per week (on Thursday and long day on Sunday).\nFor training I was not using TD app (except for AeT test to use HR mode), but loading the workouts on Tr",
+      "I don\u2019t have a power meter on my bike, so I\u2019ve been attempting to use the Convert to HR and sending to my computer via TrainingPeaks. When I do this, the heartrates are way too low for the exected zones, meaning following the workouts is rather pointless. If I adjust the HR zone bands in TD to realistic HR zones, then the when I convert the workout the HRs still don\u2019t correspond to the expected zones.\nPlease help, as this is driving me crazy and putting off an otherwise great training app!"
+    ],
+    "content_type": "gap_fill"
+  },
+  {
+    "priority": 29.9,
+    "topic": "general",
+    "title": "Complete Guide to General",
+    "category": "Features",
+    "engagement": "Complete",
+    "tags": [
+      "training"
+    ],
+    "source_qas": [
+      {
+        "topic_id": 62356,
+        "title": "[Solved] training on a big screen not working",
+        "category": "forum",
+        "question": "Boa tarde Alex !\nHoje no meu treino pela manh\u00e3 a visualiza\u00e7\u00e3o do treino no PC n\u00e3o funcionou corretamente.\nSaberia me informar pq ocorre isso ?\nWi Fi ?\nBluetooth ?\nConex\u00e3o Internet ?\n???",
+        "answer": "No idea.  Works fine for me.",
+        "user_language": "Boa tarde Alex !\nHoje no meu treino pela manh\u00e3 a visualiza\u00e7\u00e3o do treino no PC n\u00e3o funcionou corretamente.\nSaberia me informar pq ocorre isso ?\nWi Fi ?\nBluetooth ?\nConex\u00e3o Internet ?\n???",
+        "platform_response": "No idea.  Works fine for me.",
+        "content_opportunity": "Article needed: [Solved] training on a big screen not working",
+        "priority_score": 1.0
+      },
+      {
+        "topic_id": 62014,
+        "title": "Show AM/PM and/or 24H time for an activity",
+        "category": "forum",
+        "question": "When I look at the list of activities (on the website) the date and time is shown in the upper left corner but the time does not indicate if it is AM or PM nor can I find a setting to switch between AM/PM and 24 hour display for time. It only shows the timezone when I hover it. Am I missing something here?",
+        "answer": "Good point   We will probably switch to 24 hour format since we have a lot more non-Americans than Americans (nothing against you, I am American too :))\n\nI will get my developer to fix this.  I would take a lot longer to make it a user preference.",
+        "user_language": "When I look at the list of activities (on the website) the date and time is shown in the upper left corner but the time does not indicate if it is AM or PM nor can I find a setting to switch between AM/PM and 24 hour display for time. It only shows the timezone when I hover it. Am I missing something here?",
+        "platform_response": "Good point   We will probably switch to 24 hour format since we have a lot more non-Americans than Americans (nothing against you, I am American too :))\n\nI will get my developer to fix this.  I would take a lot longer to make it a user preference.",
+        "content_opportunity": "Article needed: Show AM/PM and/or 24H time for an activity",
+        "priority_score": 0.5
+      },
+      {
+        "topic_id": 61994,
+        "title": "Editar Treinamento (How to edit a CJ Plan)",
+        "category": "forum",
+        "question": "Bom dia Alex !\nN\u00e3o estou conseguindo editar um treino criado no CJ.\nAntes poderia ser feito.\nPreciso alterar a ordem dos treinos.\nimage1100\u00d7676 68.2 KB\nimage1134\u00d7424 36.5 KB\nTamb\u00e9m n\u00e3o encontrei onde eu altero a nomenclatura do treino.\nimage887\u00d7309 22.5 KB\nBastante altera\u00e7\u00e3o e agora n\u00e3o sei como fazer.\nPoderia me ajudar nisso?",
+        "answer": "Hi, not sure why.  Do you see this?\nimage2642\u00d7604 93.1 KB\nYou can\u2019t change the name of a workout without cloning it and renaming the new one adding it to calendar and removing the other one, but edit in CJ won\u2019t work for that single workout at that point.",
+        "user_language": "Bom dia Alex !\nN\u00e3o estou conseguindo editar um treino criado no CJ.\nAntes poderia ser feito.\nPreciso alterar a ordem dos treinos.\nimage1100\u00d7676 68.2 KB\nimage1134\u00d7424 36.5 KB\nTamb\u00e9m n\u00e3o encontrei onde eu altero a nomenclatura do treino.\nimage887\u00d7309 22.5 KB\nBastante altera\u00e7\u00e3o e agora n\u00e3o sei como fazer.\nPoderia me ajudar nisso?",
+        "platform_response": "Hi, not sure why.  Do you see this?\nimage2642\u00d7604 93.1 KB\nYou can\u2019t change the name of a workout without cloning it and renaming the new one adding it to calendar and removing the other one, but edit in CJ won\u2019t work for that single workout at that point.",
+        "content_opportunity": "Article needed: Editar Treinamento (How to edit a CJ Plan)",
+        "priority_score": 1.0
+      },
+      {
+        "topic_id": 61202,
+        "title": "[SOLVED] - View workout in real-time on PC",
+        "category": "forum",
+        "question": "Bom dia Alex !\nHoje n\u00e3o consegui visualizar o treino no meu PC. Verifiquei as configura\u00e7\u00f5es mas n\u00e3o deu certo, tela sem nenhuma informa\u00e7\u00e3o do treino.\nPoderia verificar isso por favor?\nimage579\u00d7747 75.4 KB\nimage874\u00d7713 59 KB",
+        "answer": "Oh no, we will get that fixed asap and I will add a check to make sure it is not going down.",
+        "user_language": "Bom dia Alex !\nHoje n\u00e3o consegui visualizar o treino no meu PC. Verifiquei as configura\u00e7\u00f5es mas n\u00e3o deu certo, tela sem nenhuma informa\u00e7\u00e3o do treino.\nPoderia verificar isso por favor?\nimage579\u00d7747 75.4 KB\nimage874\u00d7713 59 KB",
+        "platform_response": "Oh no, we will get that fixed asap and I will add a check to make sure it is not going down.",
+        "content_opportunity": "Article needed: [SOLVED] - View workout in real-time on PC",
+        "priority_score": 0.6
+      },
+      {
+        "topic_id": 61192,
+        "title": "Cadence target bug and training plan advice",
+        "category": "forum",
+        "question": "I was about to analyze the training that I will have to do today and I noticed that the first block has 30 pedal strokes per minute. I don\u2019t think that\u2019s correct, right?",
+        "answer": "No, there is something wrong with your account and RPM targets.  My developer is looking at this.  How did your race go?",
+        "user_language": "I was about to analyze the training that I will have to do today and I noticed that the first block has 30 pedal strokes per minute. I don\u2019t think that\u2019s correct, right?",
+        "platform_response": "No, there is something wrong with your account and RPM targets.  My developer is looking at this.  How did your race go?",
+        "content_opportunity": "Article needed: Cadence target bug and training plan advice",
+        "priority_score": 1.0
+      }
+    ],
+    "sample_questions": [
+      "Boa tarde Alex !\nHoje no meu treino pela manh\u00e3 a visualiza\u00e7\u00e3o do treino no PC n\u00e3o funcionou corretamente.\nSaberia me informar pq ocorre isso ?\nWi Fi ?\nBluetooth ?\nConex\u00e3o Internet ?\n???",
+      "When I look at the list of activities (on the website) the date and time is shown in the upper left corner but the time does not indicate if it is AM or PM nor can I find a setting to switch between AM/PM and 24 hour display for time. It only shows the timezone when I hover it. Am I missing something here?",
+      "Bom dia Alex !\nN\u00e3o estou conseguindo editar um treino criado no CJ.\nAntes poderia ser feito.\nPreciso alterar a ordem dos treinos.\nimage1100\u00d7676 68.2 KB\nimage1134\u00d7424 36.5 KB\nTamb\u00e9m n\u00e3o encontrei onde eu altero a nomenclatura do treino.\nimage887\u00d7309 22.5 KB\nBastante altera\u00e7\u00e3o e agora n\u00e3o sei como fazer.\nPoderia me ajudar nisso?"
+    ],
+    "content_type": "gap_fill"
+  },
+  {
+    "priority": 19.1,
+    "topic": "sync",
+    "title": "Complete Guide to Sync",
+    "category": "Features",
+    "engagement": "Complete",
+    "tags": [
+      "export",
+      "integrations"
+    ],
+    "source_qas": [
+      {
+        "topic_id": 63035,
+        "title": "Garmin calendar sync sending wrong workouts?",
+        "category": "forum",
+        "question": "Hi,\nTrying to sync a coach jack plan to Garmin.  I have gamin sync enabled. I send a plan to my calendar and it syncs to Garmin, however, it\u2019s sending mostly incorrect workouts.   Example below.\nI\u2019ve tried multiple plans and the same type of behavior.\nTD\nimage1005\u00d7273 26.4 KB\nGarmin\nimage1581\u00d7212 16.6 KB\nThoughts on what may be wrong?\nThanks",
+        "answer": "Bizare, sorry.  Let us check.   For now you can go to view plan and click send to garmin and manually send a week or something until we get this fixed.",
+        "user_language": "Hi,\nTrying to sync a coach jack plan to Garmin.  I have gamin sync enabled. I send a plan to my calendar and it syncs to Garmin, however, it\u2019s sending mostly incorrect workouts.   Example below.\nI\u2019ve tried multiple plans and the same type of behavior.\nTD\nimage1005\u00d7273 26.4 KB\nGarmin\nimage1581\u00d7212 16.6 KB\nThoughts on what may be wrong?\nThanks",
+        "platform_response": "Bizare, sorry.  Let us check.   For now you can go to view plan and click send to garmin and manually send a week or something until we get this fixed.",
+        "content_opportunity": "Article needed: Garmin calendar sync sending wrong workouts?",
+        "priority_score": 0.3
+      },
+      {
+        "topic_id": 62527,
+        "title": "Would you integrate with Amazfit/Zepp",
+        "category": "forum",
+        "question": "Please add the ability to send completed workouts to Zepp/Amazfit, they have an API that you need to be an organisation to apply for auth of, but otherwise I think it is straightforward REST API.\nThey just launched a low cost Wahoo competitor, so this could become desirable if the uptake on that device is strong.",
+        "answer": "",
+        "user_language": "Please add the ability to send completed workouts to Zepp/Amazfit, they have an API that you need to be an organisation to apply for auth of, but otherwise I think it is straightforward REST API.\nThey just launched a low cost Wahoo competitor, so this could become desirable if the uptake on that device is strong.",
+        "platform_response": "",
+        "content_opportunity": "Article needed: Would you integrate with Amazfit/Zepp",
+        "priority_score": 0.1
+      },
+      {
+        "topic_id": 62498,
+        "title": "Slope mode setup via uploaded .ERG file",
+        "category": "forum",
+        "question": "Hey, I\u2019ve been trying to figure out how to add slope mode data into an erg file (or zwo or mrc) and upload to Trainerday. Even though the file has it, TrainerDay seems to not read the slope data.\nWhen I download a workout from trainerday that has slope data manually added from \u2018Create Workout\u2019 section, it does not show slope information in the file.\nCan you share a sample file which has slope data added that I can use as reference?",
+        "answer": "None of these file formats support slope mode zwift is the closest with freeride but you can\u2019t specify the slope.  I have not tried it with slopes but in the past designing in excel and copy paste to our app would be the only alternative.  It should work. First create one in TD then copy paste that into excel from the UI then you should be able to work back and forth.  So in this case you could create them in CSV and then to excel / copy paste\u2026",
+        "user_language": "Hey, I\u2019ve been trying to figure out how to add slope mode data into an erg file (or zwo or mrc) and upload to Trainerday. Even though the file has it, TrainerDay seems to not read the slope data.\nWhen I download a workout from trainerday that has slope data manually added from \u2018Create Workout\u2019 section, it does not show slope information in the file.\nCan you share a sample file which has slope data added that I can use as reference?",
+        "platform_response": "None of these file formats support slope mode zwift is the closest with freeride but you can\u2019t specify the slope.  I have not tried it with slopes but in the past designing in excel and copy paste to our app would be the only alternative.  It should work. First create one in TD then copy paste that into excel from the UI then you should be able to work back and forth.  So in this case you could create them in CSV and then to excel / copy paste\u2026",
+        "content_opportunity": "Article needed: Slope mode setup via uploaded .ERG file",
+        "priority_score": 0.2
+      },
+      {
+        "topic_id": 62478,
+        "title": "New Cool Calculators - Best Bike Split Calc for Non-racers (and kind of for racers too)",
+        "category": "forum",
+        "question": "So I built a calculator that currently does not exist.  I did some basic validation and it looks good.  If anyone wants to help test it it would be ideal.  It\u2019s similar to Best Bike Split but made for average people not just racers.  How long are you likely to finish a route based on your riding style.\nhttps://cycling-calculators.trainerday.com/route-speed-calculator\nYou can download your route from strava and upload here to test it out\nimage1594\u00d71912 104 KB\nSee strava below (I am sure most know",
+        "answer": "Cool.  Thanks.  Yes everyone has said seems reasonably accurate to them.  Generally this math is very predictable but I added extra \u201csmall\u201d stuff to it for example for people not pushing FTP Wattage downhill\u2026",
+        "user_language": "So I built a calculator that currently does not exist.  I did some basic validation and it looks good.  If anyone wants to help test it it would be ideal.  It\u2019s similar to Best Bike Split but made for average people not just racers.  How long are you likely to finish a route based on your riding style.\nhttps://cycling-calculators.trainerday.com/route-speed-calculator\nYou can download your route from strava and upload here to test it out\nimage1594\u00d71912 104 KB\nSee strava below (I am sure most know this)\nimage764\u00d7568 41.9 KB",
+        "platform_response": "Cool.  Thanks.  Yes everyone has said seems reasonably accurate to them.  Generally this math is very predictable but I added extra \u201csmall\u201d stuff to it for example for people not pushing FTP Wattage downhill\u2026",
+        "content_opportunity": "Article needed: New Cool Calculators - Best Bike Split Calc for Non-racers (and kind of for racers too)",
+        "priority_score": 1.0
+      },
+      {
+        "topic_id": 61594,
+        "title": "[Solved] - Connection to TrainingPeaks",
+        "category": "forum",
+        "question": "Hi, Alex, I add a jack plan to my calendar and add connection to peaks.\nHowever, there are no wod option in pages and my calendar not sync with training peaks. I\u2019m not sure what to do next and don\u2019t find simmilar ques in issues. \n2221920\u00d7919 168 KB\n31308\u00d7679 156 KB\n41121\u00d7497 62.6 KB\n11920\u00d7919 159 KB",
+        "answer": "Sorry I don\u2019t understand. Calendar sync is 1 day at a time in the morning for day of workout. You are not connected to TP. WOD for TD is something else, that is for our app. What are you trying to do? Start by connecting to TP.",
+        "user_language": "Hi, Alex, I add a jack plan to my calendar and add connection to peaks.\nHowever, there are no wod option in pages and my calendar not sync with training peaks. I\u2019m not sure what to do next and don\u2019t find simmilar ques in issues. \n2221920\u00d7919 168 KB\n31308\u00d7679 156 KB\n41121\u00d7497 62.6 KB\n11920\u00d7919 159 KB",
+        "platform_response": "Sorry I don\u2019t understand. Calendar sync is 1 day at a time in the morning for day of workout. You are not connected to TP. WOD for TD is something else, that is for our app. What are you trying to do? Start by connecting to TP.",
+        "content_opportunity": "Article needed: [Solved] - Connection to TrainingPeaks",
+        "priority_score": 0.7
+      }
+    ],
+    "sample_questions": [
+      "Hi,\nTrying to sync a coach jack plan to Garmin.  I have gamin sync enabled. I send a plan to my calendar and it syncs to Garmin, however, it\u2019s sending mostly incorrect workouts.   Example below.\nI\u2019ve tried multiple plans and the same type of behavior.\nTD\nimage1005\u00d7273 26.4 KB\nGarmin\nimage1581\u00d7212 16.6 KB\nThoughts on what may be wrong?\nThanks",
+      "Please add the ability to send completed workouts to Zepp/Amazfit, they have an API that you need to be an organisation to apply for auth of, but otherwise I think it is straightforward REST API.\nThey just launched a low cost Wahoo competitor, so this could become desirable if the uptake on that device is strong.",
+      "Hey, I\u2019ve been trying to figure out how to add slope mode data into an erg file (or zwo or mrc) and upload to Trainerday. Even though the file has it, TrainerDay seems to not read the slope data.\nWhen I download a workout from trainerday that has slope data manually added from \u2018Create Workout\u2019 section, it does not show slope information in the file.\nCan you share a sample file which has slope data added that I can use as reference?"
+    ],
+    "content_type": "gap_fill"
+  }
+]

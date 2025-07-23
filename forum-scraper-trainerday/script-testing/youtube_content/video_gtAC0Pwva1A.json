@@ -1,0 +1,339 @@
+{
+  "video_id": "gtAC0Pwva1A",
+  "title": "Using TrainerDay open source cycling training plans in Zwift",
+  "url": "https://www.youtube.com/watch?v=gtAC0Pwva1A",
+  "upload_date": "2019-12-11T11:23:12Z",
+  "description": "If you are looking for a new source for Training plans TrainerDay has just launched open-source training plans for cycling. I would ...",
+  "topics": [
+    "trainer",
+    "zwift"
+  ],
+  "transcript": {
+    "full_text": "okay this is Alex from trainer day I'm here on plans search this is still in beta but you might see this video when it's out of beta I'm gonna come in and I'm gonna pick a plan so here's a plan I'm gonna click on View plan because I'm logged in it gives me a copy to my plans you need to be logged in to be able to do this and then when you copy it to your plans you can choose the days that you want to work out on let's just I'll just go ahead and leave it the same calls it base build or copy I can always change that I'll just go ahead and hit save now it created it here for me and I can go through let's just say I can go through and see all the different days that it's on and I can download this plan so now I download it and I'll download it as as ewo for Swift I will pick the start date well it's actually the start week so let's go to next week and we'll just say well pick this week it doesn't matter this third week so we click download it creates us a zip file which I will base builder copy which I will open up okay so here's another cool trick that you can actually just take this downloaded file the base builder you could rename it I could actually put like trainer day and it and if you take that whole folder and drag it into your lift folder this folder is actually created by Swift when you install Swift on your computer and then when you open up Swift or reload Swift all the workouts from there will be inside of swift and synchronous re synchronize across your other devices then it will actually be a folder when you open up Swift so the next time you restart Swift it will actually it will actually be a folder in there so now I'll just go ahead and pause the video waiting persist to open which takes a little while as you know okay now we've got Swift open here I'll go ahead and click on training when I click on training it actually opened up out of me mathematically but you can see under custom workouts I've got base builder trainer today the one that the folder I copied in there and you can see it's work out one day one workout hour week one day day one week to week one day to week 1 day 3 and so on week 2 day 1 and so that makes it very easy and once you've finished the workout you can actually come back in here and just delete it if you want so that you remember what you've completed or what you have next makes it really easy anyway have some great training thanks from trainer day",
+    "segments": [
+      {
+        "start": 0.41,
+        "duration": 5.74,
+        "text": "okay this is Alex from trainer day I'm"
+      },
+      {
+        "start": 3.509,
+        "duration": 4.351,
+        "text": "here on plans search this is still in"
+      },
+      {
+        "start": 6.15,
+        "duration": 4.8,
+        "text": "beta but you might see this video when"
+      },
+      {
+        "start": 7.86,
+        "duration": 6.75,
+        "text": "it's out of beta I'm gonna come in and"
+      },
+      {
+        "start": 10.95,
+        "duration": 7.499,
+        "text": "I'm gonna pick a plan so here's a plan"
+      },
+      {
+        "start": 14.61,
+        "duration": 6.36,
+        "text": "I'm gonna click on View plan because I'm"
+      },
+      {
+        "start": 18.449,
+        "duration": 4.021,
+        "text": "logged in it gives me a copy to my plans"
+      },
+      {
+        "start": 20.97,
+        "duration": 3.36,
+        "text": "you need to be logged in to be able to"
+      },
+      {
+        "start": 22.47,
+        "duration": 3.42,
+        "text": "do this and then when you copy it to"
+      },
+      {
+        "start": 24.33,
+        "duration": 4.17,
+        "text": "your plans you can choose the days that"
+      },
+      {
+        "start": 25.89,
+        "duration": 5.63,
+        "text": "you want to work out on let's just I'll"
+      },
+      {
+        "start": 28.5,
+        "duration": 5.579,
+        "text": "just go ahead and leave it the same"
+      },
+      {
+        "start": 31.52,
+        "duration": 4.18,
+        "text": "calls it base build or copy I can always"
+      },
+      {
+        "start": 34.079,
+        "duration": 5.491,
+        "text": "change that I'll just go ahead and hit"
+      },
+      {
+        "start": 35.7,
+        "duration": 6.449,
+        "text": "save now it created it here for me and I"
+      },
+      {
+        "start": 39.57,
+        "duration": 3.75,
+        "text": "can go through let's just say I can go"
+      },
+      {
+        "start": 42.149,
+        "duration": 4.141,
+        "text": "through and see all the different days"
+      },
+      {
+        "start": 43.32,
+        "duration": 5.88,
+        "text": "that it's on and I can download this"
+      },
+      {
+        "start": 46.29,
+        "duration": 6.449,
+        "text": "plan so now I download it and I'll"
+      },
+      {
+        "start": 49.2,
+        "duration": 7.98,
+        "text": "download it as as ewo for Swift I will"
+      },
+      {
+        "start": 52.739,
+        "duration": 7.05,
+        "text": "pick the start date well it's actually"
+      },
+      {
+        "start": 57.18,
+        "duration": 5.399,
+        "text": "the start week so let's go to next week"
+      },
+      {
+        "start": 59.789,
+        "duration": 4.59,
+        "text": "and we'll just say well pick this week"
+      },
+      {
+        "start": 62.579,
+        "duration": 4.97,
+        "text": "it doesn't matter this third week so we"
+      },
+      {
+        "start": 64.379,
+        "duration": 6.33,
+        "text": "click download it creates us a zip file"
+      },
+      {
+        "start": 67.549,
+        "duration": 5.71,
+        "text": "which I will base builder copy which I"
+      },
+      {
+        "start": 70.709,
+        "duration": 5.01,
+        "text": "will open up okay"
+      },
+      {
+        "start": 73.259,
+        "duration": 4.981,
+        "text": "so here's another cool trick that you"
+      },
+      {
+        "start": 75.719,
+        "duration": 5.731,
+        "text": "can actually just take this downloaded"
+      },
+      {
+        "start": 78.24,
+        "duration": 6.359,
+        "text": "file the base builder you could rename"
+      },
+      {
+        "start": 81.45,
+        "duration": 6.959,
+        "text": "it I could actually put like trainer day"
+      },
+      {
+        "start": 84.599,
+        "duration": 7.2,
+        "text": "and it and if you take that whole folder"
+      },
+      {
+        "start": 88.409,
+        "duration": 7.14,
+        "text": "and drag it into your lift folder this"
+      },
+      {
+        "start": 91.799,
+        "duration": 5.791,
+        "text": "folder is actually created by Swift when"
+      },
+      {
+        "start": 95.549,
+        "duration": 4.95,
+        "text": "you install Swift on your computer and"
+      },
+      {
+        "start": 97.59,
+        "duration": 5.43,
+        "text": "then when you open up Swift or reload"
+      },
+      {
+        "start": 100.499,
+        "duration": 6.33,
+        "text": "Swift all the workouts from there will"
+      },
+      {
+        "start": 103.02,
+        "duration": 5.839,
+        "text": "be inside of swift and synchronous re"
+      },
+      {
+        "start": 106.829,
+        "duration": 4.86,
+        "text": "synchronize across your other devices"
+      },
+      {
+        "start": 108.859,
+        "duration": 5.92,
+        "text": "then it will actually be a folder when"
+      },
+      {
+        "start": 111.689,
+        "duration": 5.55,
+        "text": "you open up Swift so the next time you"
+      },
+      {
+        "start": 114.779,
+        "duration": 5.46,
+        "text": "restart Swift it will actually it will"
+      },
+      {
+        "start": 117.239,
+        "duration": 4.44,
+        "text": "actually be a folder in there so now"
+      },
+      {
+        "start": 120.239,
+        "duration": 3.42,
+        "text": "I'll just go ahead and pause the video"
+      },
+      {
+        "start": 121.679,
+        "duration": 4.71,
+        "text": "waiting persist to open which takes a"
+      },
+      {
+        "start": 123.659,
+        "duration": 5.88,
+        "text": "little while as you know okay now we've"
+      },
+      {
+        "start": 126.389,
+        "duration": 5.19,
+        "text": "got Swift open here I'll go ahead and"
+      },
+      {
+        "start": 129.539,
+        "duration": 4.351,
+        "text": "click on training when I click on"
+      },
+      {
+        "start": 131.579,
+        "duration": 4.771,
+        "text": "training it actually opened up out of me"
+      },
+      {
+        "start": 133.89,
+        "duration": 4.7,
+        "text": "mathematically but you can see under"
+      },
+      {
+        "start": 136.35,
+        "duration": 4.71,
+        "text": "custom workouts I've got base builder"
+      },
+      {
+        "start": 138.59,
+        "duration": 3.97,
+        "text": "trainer today the one that the folder I"
+      },
+      {
+        "start": 141.06,
+        "duration": 4.2,
+        "text": "copied in there and you can see it's"
+      },
+      {
+        "start": 142.56,
+        "duration": 6.509,
+        "text": "work out one day one workout hour week"
+      },
+      {
+        "start": 145.26,
+        "duration": 7.56,
+        "text": "one day day one week to week one day to"
+      },
+      {
+        "start": 149.069,
+        "duration": 5.941,
+        "text": "week 1 day 3 and so on week 2 day 1 and"
+      },
+      {
+        "start": 152.82,
+        "duration": 3.6,
+        "text": "so that makes it very easy and once"
+      },
+      {
+        "start": 155.01,
+        "duration": 3.42,
+        "text": "you've finished the workout you can"
+      },
+      {
+        "start": 156.42,
+        "duration": 4.05,
+        "text": "actually come back in here and just"
+      },
+      {
+        "start": 158.43,
+        "duration": 3.66,
+        "text": "delete it if you want so that you"
+      },
+      {
+        "start": 160.47,
+        "duration": 3.86,
+        "text": "remember what you've completed or what"
+      },
+      {
+        "start": 162.09,
+        "duration": 5.79,
+        "text": "you have next makes it really easy"
+      },
+      {
+        "start": 164.33,
+        "duration": 6.18,
+        "text": "anyway have some great training thanks"
+      },
+      {
+        "start": 167.88,
+        "duration": 2.63,
+        "text": "from trainer day"
+      }
+    ],
+    "type": "auto",
+    "segment_count": 64
+  },
+  "processed_at": "2025-07-23T07:37:21.303091"
+}
