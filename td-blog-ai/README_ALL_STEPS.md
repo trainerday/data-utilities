@@ -84,12 +84,20 @@ End-to-end workflow for generating, fact-checking, and enhancing TrainerDay blog
 - Enhanced versions saved to ai-updated directory with same filenames
 - Progress tracking and statistics
 
-## Phase 6: Publication Pipeline
+## Phase 6: Final Review and Publishing
 
 ### Human Tasks
-28. **Review enhanced articles** - Final editorial review of articles in ai-updated directory
-29. **Approve for publication** - Move approved articles to publication system
-30. **Update article metadata** - Ensure proper categorization and tags
+28. **Review all enhanced articles** - Editorial review of articles in ai-updated directory
+29. **Review unenhanced articles** - Check articles remaining in ai-created for quality
+30. **Final content editing** - Polish language, fix any issues, ensure consistency
+31. **Add images and media** - Insert screenshots, diagrams, and visual content
+32. **Move approved articles** - Transfer finalized articles to FINAL directory
+33. **Run blog creation process** - Execute blog generation in the main blog project
+
+### Outputs
+- Finalized articles ready for publication in FINAL directory
+- Enhanced articles with images, proper formatting, and editorial polish
+- Complete set of high-quality blog content ready for main blog project workflow
 
 ## Key Files and Locations
 
@@ -109,6 +117,7 @@ End-to-end workflow for generating, fact-checking, and enhancing TrainerDay blog
 - **Original articles**: `/Users/alex/Documents/bm-projects/TD-Business/blog/articles-ai/ai-created/`
 - **Enhanced articles**: `/Users/alex/Documents/bm-projects/TD-Business/blog/articles-ai/ai-updated/`
 - **Later processing**: `/Users/alex/Documents/bm-projects/TD-Business/blog/articles-ai/ai-created-later/`
+- **Final ready articles**: `/Users/alex/Documents/bm-projects/TD-Business/blog/articles-ai/FINAL/`
 - **Priority lists**: `/Users/alex/Documents/bm-projects/TD-Business/blog/in-progress/`
 - **Database**: PostgreSQL with pgvector extension
 - **Google Sheets**: Shared spreadsheet for fact review
@@ -140,11 +149,15 @@ python script-testing/populate_td_blog_facts.py
 - **Fact extraction**: ~1 hour for all articles
 - **Human fact review**: 2-4 hours depending on complexity
 - **Article enhancement**: ~2 hours for all articles (automated)
-- **Final review**: 1-2 hours for human editorial review
+- **Final review and editing**: 3-4 hours for comprehensive review
+- **Image addition and formatting**: 2-3 hours depending on complexity
+- **Blog creation process**: 1-2 hours in main blog project
 
 ## Success Metrics
 - 68 articles generated with consistent voice and format
 - ~1000+ facts extracted and reviewed for accuracy
 - Enhanced articles saved only when improvements detected
 - Complete audit trail from generation to publication
-- High-quality, factually accurate content ready for publication
+- Final articles polished with images and proper formatting
+- High-quality, factually accurate content ready for blog publication
+- Seamless handoff to main blog creation workflow

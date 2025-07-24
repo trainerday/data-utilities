@@ -229,13 +229,26 @@ def compare_and_save_article(original_content, enhanced_content, original_path):
     
     # Check if Claude said no changes needed (exact token or within response)
     if enhanced_content.strip() == "NO_CHANGES_NEEDED" or "NO_CHANGES_NEEDED" in enhanced_content:
-        print(f"✅ No changes needed for {original_path.name}")
+        print(f"✅ No changes needed for {original_path.name} - keeping original in ai-created")
         return False, None
     
     # Also check if Claude returned explanation instead of actual article
     # Real articles should start with YAML frontmatter (---)
     if not enhanced_content.strip().startswith('---'):
-        print(f"✅ Claude indicated no changes needed for {original_path.name}")
+        print(f"✅ Claude returned explanation instead of article for {original_path.name} - keeping original")
+        return False, None
+    
+    # Additional check: look for explanatory phrases that indicate no real enhancement
+    explanation_indicators = [
+        "After reviewing",  
+        "I notice that",
+        "Since this is the only",
+        "[Note:",
+        "The only change made was"
+    ]
+    
+    if any(indicator in enhanced_content for indicator in explanation_indicators):
+        print(f"✅ Claude returned explanation instead of enhanced article for {original_path.name} - keeping original")
         return False, None
     
     # Compare content (ignore minor whitespace differences)
