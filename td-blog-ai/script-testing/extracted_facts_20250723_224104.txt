@@ -1,0 +1,38 @@
+FACT EXTRACTION RESULTS
+==================================================
+Article: How to Use the Workout Creator
+File: F001-how-to-use-the-workout-creator.md
+Extraction Time: 2025-07-23 22:41:04
+Total Facts: 13
+
+EXTRACTED FACTS:
+------------------------------
+ 1. The workout creator is a core feature of TrainerDay.
+ 2. The workout creator uses a grid system for programming intervals.
+ 3. Each row in the grid system represents a segment of the workout.
+ 4. The workout creator supports automatic switching between ERG mode, slope mode, and heart rate mode.
+ 5. The system supports heart rate-based intervals.
+ 6. The workout creator integrates with W'bal calculations.
+ 7. Created workouts are saved to the user's library in TrainerDay.
+ 8. Users can add workouts to favorites or create custom lists to organize them.
+ 9. The workout creator has a duplication feature which is activated by holding the ALT key and dragging.
+10. The workout creator primarily supports cycling workouts but also supports different sport profiles with separate FTP settings.
+11. TrainerDay allows exporting workouts to other platforms and importing from various sources.
+12. The workout creator allows users to specify the number of repetitions for repeated intervals.
+13. The workout creator allows users to use their actual FTP, heart rate zones, and W' values to create workouts.
+
+RAW CLAUDE RESPONSE:
+------------------------------
+FACT: The workout creator is a core feature of TrainerDay.
+FACT: The workout creator uses a grid system for programming intervals.
+FACT: Each row in the grid system represents a segment of the workout.
+FACT: The workout creator supports automatic switching between ERG mode, slope mode, and heart rate mode.
+FACT: The system supports heart rate-based intervals.
+FACT: The workout creator integrates with W'bal calculations.
+FACT: Created workouts are saved to the user's library in TrainerDay.
+FACT: Users can add workouts to favorites or create custom lists to organize them.
+FACT: The workout creator has a duplication feature which is activated by holding the ALT key and dragging.
+FACT: The workout creator primarily supports cycling workouts but also supports different sport profiles with separate FTP settings.
+FACT: TrainerDay allows exporting workouts to other platforms and importing from various sources.
+FACT: The workout creator allows users to specify the number of repetitions for repeated intervals.
+FACT: The workout creator allows users to use their actual FTP, heart rate zones, and W' values to create workouts.

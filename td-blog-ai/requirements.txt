@@ -11,6 +11,10 @@ numpy==1.24.3
 pathlib
 hashlib
 
+# Google Sheets integration
+gspread>=5.0.0
+google-auth>=2.0.0
+
 # Optional utilities
 argparse
 json
