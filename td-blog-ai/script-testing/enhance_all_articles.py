@@ -21,11 +21,13 @@ load_dotenv()
 # Add parent directory to path for imports
 sys.path.append(str(Path(__file__).parent.parent))
 
+
 def load_all_articles():
     """Find and load all F###-*.md articles"""
     
     content_output_path = os.getenv('CONTENT_OUTPUT_PATH', '')
-    articles_dir = Path(content_output_path) / "articles-ai"
+    articles_base_dir = Path(content_output_path) / "articles-ai"
+    articles_dir = articles_base_dir / "ai-created"
     
     print(f"🔍 Searching for articles in: {articles_dir}")
     
@@ -179,18 +181,26 @@ def compare_and_save_article(original_content, enhanced_content, original_path, 
     print(f"   Original length: {len(original_content)} chars")
     print(f"   Enhanced length: {len(enhanced_content)} chars")
     
-    # Create UPDATED subdirectory in the same parent as original
-    updated_dir = original_path.parent / "UPDATED"
+    # Create ai-updated directory in the articles-ai parent directory
+    updated_dir = original_path.parent.parent / "ai-updated"
     updated_dir.mkdir(exist_ok=True)
     
-    # Save with same filename in UPDATED directory
+    # Save with same filename in ai-updated directory
     updated_path = updated_dir / original_path.name
     
     try:
         with open(updated_path, 'w', encoding='utf-8') as f:
             f.write(enhanced_content)
         
-        print(f"✅ F{article_num:03d}: Enhanced article saved to UPDATED/{original_path.name}")
+        print(f"✅ F{article_num:03d}: Enhanced article saved to ai-updated/{original_path.name}")
+        
+        # Delete original file from ai-created since we saved enhanced version
+        try:
+            original_path.unlink()
+            print(f"🗑️  F{article_num:03d}: Deleted original from ai-created (enhanced version saved)")
+        except Exception as e:
+            print(f"⚠️  F{article_num:03d}: Could not delete original from ai-created: {e}")
+        
         return True, updated_path
         
     except Exception as e:

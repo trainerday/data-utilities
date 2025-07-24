@@ -22,7 +22,7 @@ End-to-end workflow for generating, fact-checking, and enhancing TrainerDay blog
 6. **Save to articles-ai** - Creates F001-F068 files with status "new-article"
 
 ### Outputs
-- 68 articles in `/Users/alex/Documents/bm-projects/TD-Business/blog/articles-ai/`
+- 68 articles in `/Users/alex/Documents/bm-projects/TD-Business/blog/articles-ai/ai-created/`
 - YAML frontmatter with metadata
 - 500-800 word articles in Alex's founder voice
 
@@ -64,7 +64,7 @@ End-to-end workflow for generating, fact-checking, and enhancing TrainerDay blog
 21. **Update article status** - Change from "new-article" to "edit-complete"
 
 ### Outputs
-- Enhanced articles in `UPDATED/` subdirectory
+- Enhanced articles in `ai-updated/` subdirectory
 - Only articles with actual improvements saved
 
 ## Phase 5: Comprehensive Article Enhancement
@@ -81,13 +81,13 @@ End-to-end workflow for generating, fact-checking, and enhancing TrainerDay blog
 
 ### Outputs
 - All 67 articles processed through enhancement pipeline
-- Enhanced versions saved to UPDATED directory with same filenames
+- Enhanced versions saved to ai-updated directory with same filenames
 - Progress tracking and statistics
 
 ## Phase 6: Publication Pipeline
 
 ### Human Tasks
-28. **Review enhanced articles** - Final editorial review of articles in UPDATED directory
+28. **Review enhanced articles** - Final editorial review of articles in ai-updated directory
 29. **Approve for publication** - Move approved articles to publication system
 30. **Update article metadata** - Ensure proper categorization and tags
 
@@ -106,8 +106,9 @@ End-to-end workflow for generating, fact-checking, and enhancing TrainerDay blog
 - `templates/article-enhancement-prompt-template.txt` - Enhancement prompts
 
 ### Data Locations
-- **Original articles**: `/Users/alex/Documents/bm-projects/TD-Business/blog/articles-ai/`
-- **Enhanced articles**: `/Users/alex/Documents/bm-projects/TD-Business/blog/articles-ai/UPDATED/`
+- **Original articles**: `/Users/alex/Documents/bm-projects/TD-Business/blog/articles-ai/ai-created/`
+- **Enhanced articles**: `/Users/alex/Documents/bm-projects/TD-Business/blog/articles-ai/ai-updated/`
+- **Later processing**: `/Users/alex/Documents/bm-projects/TD-Business/blog/articles-ai/ai-created-later/`
 - **Priority lists**: `/Users/alex/Documents/bm-projects/TD-Business/blog/in-progress/`
 - **Database**: PostgreSQL with pgvector extension
 - **Google Sheets**: Shared spreadsheet for fact review

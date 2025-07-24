@@ -22,6 +22,7 @@ load_dotenv()
 # Add parent directory to path for imports
 sys.path.append(str(Path(__file__).parent.parent))
 
+
 def read_facts_from_sheets():
     """Read all facts from Google Sheets with their review status"""
     
@@ -122,7 +123,7 @@ def load_article_content(article_filename):
     content_output_path = os.getenv('CONTENT_OUTPUT_PATH', '')
     
     possible_paths = [
-        Path(content_output_path) / "articles-ai" / article_filename,
+        Path(content_output_path) / "articles-ai" / "ai-created" / article_filename,
         Path(content_output_path) / article_filename,
         Path(__file__).parent.parent / "output" / article_filename,
         Path(article_filename)  # Direct path
@@ -270,6 +271,14 @@ def compare_and_save_article(original_content, enhanced_content, original_path):
             f.write(enhanced_content)
         
         print(f"✅ Enhanced article saved: {updated_path}")
+        
+        # Delete original file from ai-created since we saved enhanced version
+        try:
+            original_path.unlink()
+            print(f"🗑️  Deleted original from ai-created (enhanced version saved)")
+        except Exception as e:
+            print(f"⚠️  Could not delete original from ai-created: {e}")
+        
         return True, updated_path
         
     except Exception as e:
@@ -324,10 +333,10 @@ def main():
     print(f"📊 Processed {len(facts_by_article)} articles")
     
     # Show final summary
-    updated_dir = Path(os.getenv('CONTENT_OUTPUT_PATH', '')) / "articles-ai" / "UPDATED"
+    updated_dir = Path(os.getenv('CONTENT_OUTPUT_PATH', '')) / "articles-ai" / "ai-updated"
     if updated_dir.exists():
         updated_files = list(updated_dir.glob("*.md"))
-        print(f"✅ {len(updated_files)} articles enhanced and saved to UPDATED directory")
+        print(f"✅ {len(updated_files)} articles enhanced and saved to ai-updated directory")
         for file in sorted(updated_files):
             print(f"   📄 {file.name}")
     else:
