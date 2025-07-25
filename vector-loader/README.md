@@ -28,6 +28,43 @@ Vector Loader is the **data loading component** of the TrainerDay knowledge base
 
 **Total Knowledge Base**: 5,904 documents
 
+## 🚀 Data Loading Architecture
+
+### Two Loading Approaches
+
+#### 1. **Individual Data Loaders (Production-Ready)** ✅
+Located in `production/data_loaders/`, these loaders write to the unified `llamaindex_knowledge_base` table:
+- `facts_data_loader.py` - Google Sheets facts with validation status
+- `blog_data_loader.py` - Blog articles from markdown files
+- `youtube_data_loader.py` - YouTube transcripts from database
+- `forum_data_loader_step1.py` - Forum content with dual strategy
+
+**To load all data sources properly:**
+```bash
+# Run each loader individually for complete data loading
+python production/data_loaders/facts_data_loader.py
+python production/data_loaders/blog_data_loader.py
+python production/data_loaders/youtube_data_loader.py
+python production/data_loaders/forum_data_loader_step1.py
+```
+
+#### 2. **Full Data Loader (Partial Coverage)** ⚠️
+`llamaindex_full_data_loader.py` - A convenience loader that loads:
+- ✅ Blog articles
+- ✅ YouTube transcripts
+- ✅ Forum Q&A pairs
+- ❌ **Missing: Facts from Google Sheets**
+
+This loader uses a different table (`llamaindex_full_content`) and is missing the critical facts data source.
+
+### Why LlamaIndex Over LangChain?
+
+After systematic analysis, **LlamaIndex was chosen over LangChain** because:
+- **Purpose-built for RAG**: Exactly what we need (knowledge base → blog content)
+- **Better out-of-box performance** for document retrieval and fact extraction
+- **Simpler configuration** for pure RAG applications
+- **Working system already proven** with initial blog article integration
+
 ## 🚀 Key Features
 
 ### 1. Priority-Based Retrieval
@@ -53,11 +90,8 @@ Vector Loader is the **data loading component** of the TrainerDay knowledge base
 ## 📁 Project Structure
 
 ```
-vector-llama/
+vector-loader/
 ├── README.md                        # This file
-├── README_llamaindex_step1.md       # Initial implementation plan
-├── README_facts.md                  # Fact extraction system docs
-├── README_data_load.md              # Data loading guide
 │
 ├── production/                      # Production-ready scripts
 │   ├── data_loaders/               # Data loading scripts
@@ -88,9 +122,8 @@ vector-llama/
 │   ├── source-data/              # Source content files
 │   └── unified_content_processor.py
 │
-├── llamaindex_query_system.py     # Main query interface
-├── llamaindex_full_data_loader.py # Complete data loader
-└── test_alt_key_query.py         # Query testing script
+├── llamaindex_full_data_loader.py # Partial data loader (missing facts)
+└── script-testing/                # Test and development scripts
 ```
 
 ## 🔧 Setup & Installation
@@ -138,62 +171,79 @@ GOOGLE_SHEETS_ID=your_sheets_id
 
 ## 📊 Data Loading Process
 
-### 1. Load All Data Sources
-```bash
-# Run the full data loader
-python llamaindex_full_data_loader.py
-```
+### Complete Data Loading (Recommended)
 
-This will:
-- Connect to production database (read-only)
-- Extract forum Q&A pairs and discussions
-- Process blog articles from markdown files
-- Load YouTube transcripts
-- Fetch facts from Google Sheets
-- Create embeddings and store in PostgreSQL
-- Build LlamaIndex with priority metadata
+Run all individual loaders for complete knowledge base:
 
-### 2. Individual Data Loaders
 ```bash
-# Load specific data sources
-python production/data_loaders/forum_data_loader_step1.py
-python production/data_loaders/blog_data_loader.py
-python production/data_loaders/youtube_data_loader.py
+# 1. Load facts from Google Sheets (highest priority)
 python production/data_loaders/facts_data_loader.py
+
+# 2. Load blog articles (critical priority)
+python production/data_loaders/blog_data_loader.py
+
+# 3. Load YouTube transcripts (critical priority)
+python production/data_loaders/youtube_data_loader.py
+
+# 4. Load forum content with dual strategy
+python production/data_loaders/forum_data_loader_step1.py
 ```
 
-### 3. Monitor Progress
+### Monitor Progress
 ```bash
 # Check loading progress
 python production/utilities/monitor_progress.py
+
+# Verify data in database
+python production/utilities/test_unified_knowledge_base.py
 ```
 
-## 🔍 Using the Query System
+### Data Loading Details
 
-### Basic Query Example
+#### Forum Data Loading (Dual Strategy)
+The forum loader implements a sophisticated dual document strategy:
+
+**Q&A Structured (High Priority)**
 ```python
-from llamaindex_query_system import TrainerDayKnowledgeBase
-
-# Initialize knowledge base
-kb = TrainerDayKnowledgeBase()
-
-# Extract facts
-facts = kb.extract_facts("How do I sync workouts to Garmin?")
-
-# Generate blog content
-content = kb.generate_blog_content("Zone 2 training benefits")
-
-# Search with custom parameters
-results = kb.search("Coach Jack features", top_k=10)
+doc = Document(
+    text=qa_content,
+    metadata={
+        "source": "forum",
+        "content_type": "forum_qa_structured", 
+        "priority": "high",
+        "similarity_threshold": 0.4,
+        "authority": "community"
+    }
+)
 ```
 
-### Query Testing
-```bash
-# Test queries with alternative keys
-python test_alt_key_query.py
+**Raw Discussions (Medium Priority)**
+```python
+doc = Document(
+    text=full_discussion,
+    metadata={
+        "source": "forum",
+        "content_type": "forum_discussion",
+        "priority": "medium", 
+        "similarity_threshold": 0.6,
+        "authority": "community"
+    }
+)
+```
 
-# Interactive query testing
-python llamaindex_query_system.py
+#### Facts Data Loading (False Fact Prevention)
+The facts loader includes critical misinformation prevention:
+
+```python
+# Valid Facts
+if status != 'WRONG':
+    document_text = f"Fact: {fact_text}"
+    content_type = "valid_fact"
+
+# False Facts (Corrective Warnings)
+else:
+    document_text = f"DO NOT USE IN ARTICLES: This is incorrect information - {fact_text}"
+    content_type = "wrong_fact"
 ```
 
 ## 📈 Performance & Costs
@@ -263,46 +313,34 @@ python production/utilities/check_facts_status.py
 - Metadata preserved for attribution
 - Duplicate content prevented across sources
 
-## 📚 Key Scripts Documentation
+## 📚 Database Schema
 
-### `llamaindex_query_system.py`
-Main query interface for the knowledge base
-- Fact extraction engine
-- Blog content generation engine  
-- Customizable retrieval parameters
+```sql
+CREATE TABLE llamaindex_knowledge_base (
+    node_id VARCHAR PRIMARY KEY,
+    text TEXT NOT NULL,
+    metadata_ JSONB,
+    embedding VECTOR(1536)
+);
 
-### `llamaindex_full_data_loader.py`
-Complete data loading pipeline
-- Loads all content sources
-- Progress tracking and resumption
-- Error handling and logging
+CREATE INDEX llamaindex_knowledge_base_embedding_idx 
+ON llamaindex_knowledge_base 
+USING ivfflat (embedding vector_cosine_ops);
+```
 
-### `production/data_loaders/facts_data_loader.py`
-Facts loading with validation
-- Google Sheets integration
-- Status-based content prefixing
-- False fact warning system
-
-### `production/data_loaders/forum_data_loader_step1.py`
-Dual strategy forum loading
-- Structured Q&A extraction
-- Raw discussion preservation
-- Cross-reference by topic ID
-
-## 🔮 Future Enhancements
-
-### Planned Features
-1. Real-time content synchronization
-2. Feature map integration
-3. Advanced query analytics
-4. Multi-language support
-5. Content versioning
-
-### Scaling Considerations
-- Horizontal database sharding
-- Distributed vector search
-- Caching layer for frequent queries
-- Incremental index updates
+### Metadata Structure
+```json
+{
+    "source": "forum|blog|youtube|facts",
+    "content_type": "forum_qa_structured|forum_discussion|article|video_transcript|valid_fact|wrong_fact",
+    "priority": "highest|critical|high|medium",
+    "similarity_threshold": 0.2|0.3|0.4|0.6,
+    "authority": "official|community|corrective",
+    "title": "Content title",
+    "category": "Content category (forum only)",
+    "fact_status": "validated|ADD|WRONG (facts only)"
+}
+```
 
 ## 🐛 Troubleshooting
 
@@ -358,6 +396,21 @@ LIMIT 10;
 - Track embedding generation speed
 - Check vector index performance
 - Review error logs regularly
+
+## 🔮 Future Enhancements
+
+### Planned Features
+1. Real-time content synchronization
+2. Feature map integration
+3. Advanced query analytics
+4. Multi-language support
+5. Content versioning
+
+### Scaling Considerations
+- Horizontal database sharding
+- Distributed vector search
+- Caching layer for frequent queries
+- Incremental index updates
 
 ---
 
