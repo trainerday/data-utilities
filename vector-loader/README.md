@@ -266,14 +266,30 @@ else:
 ## 🛠️ Development Workflow
 
 ### 1. Fact Management
-```bash
-# Extract facts from new articles
-python production/facts_system/extract_facts_to_database.py
 
-# Update fact statuses from Google Sheets
+#### Fact Review Process (Used by td-blog-ai)
+When the td-blog-ai project generates articles, it extracts facts that need review. The fact update process:
+
+```bash
+# 1. Update fact statuses from Google Sheets (after human review)
 python production/facts_system/update_facts_preserve_status.py
 
-# Enhance articles with validated facts
+# 2. Reload facts to LlamaIndex with appropriate prefixes
+python production/data_loaders/facts_data_loader.py
+```
+
+**Fact Status Handling:**
+- **NEW** → Added as normal facts
+- **WRONG** → Added with "DO NOT USE IN ARTICLES:" prefix
+- **USELESS** → Added with "USELESS FACT - DO NOT INCLUDE:" prefix
+- **CORRECT** → Status after processing
+
+#### Other Fact Operations
+```bash
+# Extract facts from existing articles (one-time operation)
+python production/facts_system/extract_facts_to_database.py
+
+# Enhance articles with validated facts (legacy workflow)
 python production/facts_system/enhance_all_articles.py
 ```
 

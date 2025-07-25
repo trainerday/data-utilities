@@ -20,21 +20,23 @@
    - **WRONG** - Incorrect information
    - **USELESS** - True but not valuable
 
-### Phase 4: Process Review Results
-10. **Read Google Sheets updates** - Get reviewed facts
-11. **Update LlamaIndex knowledge base**:
-    - Add NEW facts to knowledge base
-    - Add WRONG facts with warning prefix
-    - Add USELESS facts with exclusion prefix
-    - Update status to CORRECT after adding
+### Phase 4: Process Review Results (vector-loader project)
+10. **Run fact update in vector-loader** - `cd ../vector-loader && python production/facts_system/update_facts_preserve_status.py`
+11. **Reload facts to LlamaIndex** - `python production/data_loaders/facts_data_loader.py`
+    - Adds NEW facts to knowledge base
+    - Adds WRONG facts with warning prefix
+    - Adds USELESS facts with exclusion prefix
+    - Updates status to CORRECT after adding
+
+### Phase 5: Article Re-generation
 12. **Re-generate article** - Generate again with updated knowledge base
 
-### Phase 5: Article Finalization
+### Phase 6: Article Finalization
 13. **Manual review/edit** - Review regenerated article
 14. **Split into sub-articles** - Break into 5-10 focused pieces (500-800 words each)
 15. **Review sub-articles** - Check coherence and flow
 
-### Phase 6: Prepare for Publishing
+### Phase 7: Prepare for Publishing
 16. **Add media** - Screenshots, diagrams, videos (AUTOMATE THIS... with vector media match...)
 17. **Final formatting** - Ensure consistency
 18. **Update status** - Mark as edit-complete
@@ -44,7 +46,7 @@
 
 ## Key Scripts
 
-### Article Generation
+### Article Generation (td-blog-ai)
 ```bash
 # Generate comprehensive article
 python generate_comprehensive_article_llamaindex.py "workout-features"
@@ -53,28 +55,51 @@ python generate_comprehensive_article_llamaindex.py "workout-features"
 python batch_process_articles.py 1 2 3
 ```
 
-### Fact Processing
+### Fact Processing (td-blog-ai)
 ```bash
 # Extract new facts from article
 python extract_new_facts.py output/workout-features-comprehensive.md
+```
 
-# Update knowledge base from Google Sheets
-python update_facts_from_sheets.py
+### Fact Updates (vector-loader)
+```bash
+# Switch to vector-loader project
+cd ../vector-loader
+
+# Update facts from Google Sheets review
+python production/facts_system/update_facts_preserve_status.py
+
+# Reload facts to LlamaIndex knowledge base
+python production/data_loaders/facts_data_loader.py
+```
+
+### Article Re-generation (td-blog-ai)
+```bash
+# Back to td-blog-ai
+cd ../td-blog-ai
 
 # Re-generate article with updated facts
 python regenerate_article.py output/workout-features-comprehensive.md
-```
 
-### Article Splitting
-```bash
 # Split comprehensive article into sub-articles
 python split_comprehensive_article.py output/workout-features-comprehensive.md
-
-# Review and organize sub-articles
-python organize_subarticles.py output/workout-features/
 ```
 
 ## Important Information
+
+### Project Responsibilities
+
+**td-blog-ai project:**
+- Article generation and content creation
+- Fact extraction from generated articles
+- Article splitting and formatting
+- Final article output
+
+**vector-loader project:**
+- Knowledge base management
+- Fact loading and updates
+- Google Sheets synchronization
+- LlamaIndex vector store maintenance
 
 ### Fact Status Lifecycle
 
@@ -98,6 +123,19 @@ Facts are **global across all articles**:
 - **Normal facts**: "Fact: [fact text]"
 - **Wrong facts**: "DO NOT USE IN ARTICLES: This is incorrect information - [fact text]"
 - **Useless facts**: "USELESS FACT - DO NOT INCLUDE: [fact text]"
+
+### Fact Update Process Detail
+
+1. **td-blog-ai** extracts facts and adds to Google Sheets
+2. **Human** reviews in Google Sheets
+3. **vector-loader/production/facts_system/update_facts_preserve_status.py**:
+   - Reads Google Sheets with status updates
+   - Preserves existing user modifications
+   - Identifies new facts to add
+4. **vector-loader/production/data_loaders/facts_data_loader.py**:
+   - Loads facts with appropriate prefixes based on status
+   - Updates LlamaIndex knowledge base
+   - Makes facts available for all future queries
 
 ### Article Output Structure
 
@@ -131,9 +169,10 @@ output/
 - **Article generation**: ~5 minutes per comprehensive article
 - **Fact extraction**: ~2 minutes per article
 - **Human fact review**: 15-30 minutes for batch of new facts
+- **Fact update & reload**: ~5 minutes in vector-loader
 - **Re-generation**: ~5 minutes per article
 - **Splitting & review**: 20-30 minutes per comprehensive article
-- **Total**: ~2 hours for 3 comprehensive articles → 15-30 sub-articles
+- **Total**: ~2.5 hours for 3 comprehensive articles → 15-30 sub-articles
 
 ### Migration from Old System
 
@@ -148,3 +187,4 @@ Benefits:
 - Faster end-to-end process
 - Simpler codebase
 - Better quality control
+- Clear separation of concerns between projects
