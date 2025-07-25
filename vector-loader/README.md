@@ -1,8 +1,10 @@
-# Vector-Llama: TrainerDay LlamaIndex Knowledge Base System
+# Vector Loader: TrainerDay Data Loading System
 
 ## 🎯 Project Overview
 
-Vector-Llama is a comprehensive knowledge base system built with LlamaIndex for TrainerDay content generation. It implements a priority-based retrieval strategy with false fact detection across multiple content sources to power high-quality blog article generation.
+Vector Loader is the **data loading component** of the TrainerDay knowledge base system. It handles loading content from multiple sources (blog articles, YouTube transcripts, forum discussions, and validated facts) into a PostgreSQL database with pgvector for vector similarity search.
+
+**Note**: This project handles data loading only. For querying the knowledge base and generating articles, see the `td-blog-ai` folder and its `README_vector.md` documentation.
 
 ## 📊 System Architecture
 
