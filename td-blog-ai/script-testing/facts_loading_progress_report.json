@@ -1,0 +1,22 @@
+{
+  "timestamp": "2025-07-25T16:22:52.546839",
+  "progress": {
+    "start_time": "2025-07-25 16:19:49.895771",
+    "facts_processed": 432,
+    "valid_facts": 396,
+    "wrong_facts": 36,
+    "excluded_facts": 34,
+    "total_facts": 466,
+    "embedding_cost_estimate": 0.0014906449999999999,
+    "errors": []
+  },
+  "local_db_config": {
+    "host": "localhost",
+    "port": 5432,
+    "database": "trainerday_local",
+    "user": "alex"
+  },
+  "spreadsheet_id": "1YJyAVVaPUM6uhd9_DIRLAB0tE106gExTSD0sUMV5LLc",
+  "table_name": "llamaindex_knowledge_base",
+  "embedding_model": "text-embedding-3-large"
+}

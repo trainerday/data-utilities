@@ -11,7 +11,7 @@ def monitor_progress():
     # Get all possible articles
     content_output_path = os.getenv('CONTENT_OUTPUT_PATH', '/Users/alex/Documents/bm-projects/TD-Business/blog')
     articles_base_dir = Path(content_output_path) / "articles-ai"
-    articles_dir = articles_base_dir / "ai-created"
+    articles_dir = articles_base_dir / "ai-created-the-queue"
     updated_dir = articles_base_dir / "ai-updated"
     
     # Find all original articles

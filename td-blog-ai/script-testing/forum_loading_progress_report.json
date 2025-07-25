@@ -1,0 +1,20 @@
+{
+  "timestamp": "2025-07-25T15:39:54.061487",
+  "progress": {
+    "start_time": "2025-07-25 15:19:04.210351",
+    "qa_docs_processed": 1500,
+    "raw_docs_processed": 1440,
+    "total_qa_docs": 1458,
+    "total_raw_docs": 1482,
+    "embedding_cost_estimate": 0.23498228,
+    "errors": []
+  },
+  "local_db_config": {
+    "host": "localhost",
+    "port": 5432,
+    "database": "trainerday_local",
+    "user": "alex"
+  },
+  "embedding_model": "text-embedding-3-large",
+  "embedding_dimensions": 1536
+}

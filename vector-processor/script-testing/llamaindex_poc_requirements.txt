@@ -1,0 +1,15 @@
+# LlamaIndex POC Requirements
+llama-index>=0.10.0
+llama-index-vector-stores-postgres>=0.1.0
+llama-index-embeddings-openai>=0.1.0
+llama-index-llms-openai>=0.1.0
+
+# Keep existing dependencies
+openai>=1.0.0
+python-dotenv>=1.0.0
+psycopg2-binary>=2.9.0
+python-frontmatter>=1.0.0
+
+# Additional for document processing
+pypdf>=4.0.0
+python-multipart>=0.0.6

@@ -1,0 +1,82 @@
+{
+  "started_at": "2025-07-25T14:34:03.893888",
+  "current_phase": "completed",
+  "completed_phases": [
+    "blog_articles",
+    "youtube_videos",
+    "creating_index"
+  ],
+  "stats": {
+    "blog_articles": {
+      "loaded": 69,
+      "total": 69,
+      "errors": 0
+    },
+    "youtube_videos": {
+      "loaded": 0,
+      "total": 54,
+      "errors": 54
+    }
+  },
+  "errors": [
+    "YouTube video_Rpt4IL_Bfs8.json: 'str' object has no attribute 'get'",
+    "YouTube video_MmKAeeY_M84.json: 'str' object has no attribute 'get'",
+    "YouTube video_iba2fSN_33E.json: 'str' object has no attribute 'get'",
+    "YouTube video_K6HNgO53s0g.json: 'str' object has no attribute 'get'",
+    "YouTube video_JL1Xyb8sC38.json: 'str' object has no attribute 'get'",
+    "YouTube video_21iexRqLTi8.json: 'str' object has no attribute 'get'",
+    "YouTube video_gu5zeOATpu0.json: 'str' object has no attribute 'get'",
+    "YouTube video_-PBU7lkf36E.json: 'str' object has no attribute 'get'",
+    "YouTube video_219kAd_EHz8.json: 'str' object has no attribute 'get'",
+    "YouTube video_jDGK5Tc-F3w.json: 'str' object has no attribute 'get'",
+    "YouTube video_c1pY9sKuSLk.json: 'str' object has no attribute 'get'",
+    "YouTube video_T0ihrWXtZkY.json: 'str' object has no attribute 'get'",
+    "YouTube video_cu8VpQq3xk0.json: 'str' object has no attribute 'get'",
+    "YouTube video_yxnxxnh7Qfo.json: 'str' object has no attribute 'get'",
+    "YouTube video_5T4bxSBIOH8.json: 'str' object has no attribute 'get'",
+    "YouTube video_D7Jq2TaJD_A.json: 'str' object has no attribute 'get'",
+    "YouTube video_VNvXMw7LhGc.json: 'str' object has no attribute 'get'",
+    "YouTube video_OAP_V4zL6Bc.json: 'str' object has no attribute 'get'",
+    "YouTube video_U58lbc5KnL8.json: 'str' object has no attribute 'get'",
+    "YouTube video_xYBr2IhILUE.json: 'str' object has no attribute 'get'",
+    "YouTube video_0IhJAC6YzCA.json: 'str' object has no attribute 'get'",
+    "YouTube video_iTAdMdZKyIM.json: 'str' object has no attribute 'get'",
+    "YouTube video_R0A3GQeLDro.json: 'str' object has no attribute 'get'",
+    "YouTube video_a87bgB57gCY.json: 'str' object has no attribute 'get'",
+    "YouTube video_UaNTxbT7dJk.json: 'str' object has no attribute 'get'",
+    "YouTube video_2yxHNLaO2RA.json: 'str' object has no attribute 'get'",
+    "YouTube video_AZEGoa9p-iU.json: 'str' object has no attribute 'get'",
+    "YouTube video_cwswFbIXMkM.json: 'str' object has no attribute 'get'",
+    "YouTube video_QuRVHsnSVm0.json: 'str' object has no attribute 'get'",
+    "YouTube video_IF8oKG9Xh1E.json: 'str' object has no attribute 'get'",
+    "YouTube video_ttn1einzmyE.json: 'str' object has no attribute 'get'",
+    "YouTube video_zSAhJQp7oCE.json: 'str' object has no attribute 'get'",
+    "YouTube video_wByUvf0q7ng.json: 'str' object has no attribute 'get'",
+    "YouTube video_PT53Vff1Eig.json: 'str' object has no attribute 'get'",
+    "YouTube video_OZ8jrfEvV64.json: 'str' object has no attribute 'get'",
+    "YouTube video_JNu388zRQ5w.json: 'str' object has no attribute 'get'",
+    "YouTube video_OJf-BRbWSm4.json: 'str' object has no attribute 'get'",
+    "YouTube video_Za0oSWZYKDM.json: 'str' object has no attribute 'get'",
+    "YouTube video_ByJX9QT-fHs.json: 'str' object has no attribute 'get'",
+    "YouTube video_zgPjMqYf9nM.json: 'str' object has no attribute 'get'",
+    "YouTube video_3EwAunwQH8A.json: 'str' object has no attribute 'get'",
+    "YouTube video_w7QudSb5LV8.json: 'str' object has no attribute 'get'",
+    "YouTube video_2JCTTc0qysk.json: 'str' object has no attribute 'get'",
+    "YouTube video_rrIc7LZ8Cjk.json: 'str' object has no attribute 'get'",
+    "YouTube video_gtAC0Pwva1A.json: 'str' object has no attribute 'get'",
+    "YouTube video_dDZ2iVj_bTQ.json: 'str' object has no attribute 'get'",
+    "YouTube video_S-5R_O7BJ3w.json: 'str' object has no attribute 'get'",
+    "YouTube video_VFLWQ6W-Jfk.json: 'str' object has no attribute 'get'",
+    "YouTube video_qn1ldhRkrrA.json: 'str' object has no attribute 'get'",
+    "YouTube video_pv_QiS1oV1w.json: 'str' object has no attribute 'get'",
+    "YouTube video_X82zJTSbpzA.json: 'str' object has no attribute 'get'",
+    "YouTube video_lN0bLHye9z4.json: 'str' object has no attribute 'get'",
+    "YouTube video_W4qP_RGD_Ic.json: 'str' object has no attribute 'get'",
+    "YouTube video_MK87_Seu658.json: 'str' object has no attribute 'get'"
+  ],
+  "embedding_costs": {
+    "estimated_tokens": 50758,
+    "estimated_cost": 0.00659854
+  },
+  "completed_at": "2025-07-25T14:34:07.504074"
+}

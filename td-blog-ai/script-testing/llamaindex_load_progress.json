@@ -1,0 +1,35 @@
+{
+  "started_at": "2025-07-25T14:31:54.038498",
+  "current_phase": "completed",
+  "completed_phases": [
+    "blog_articles",
+    "youtube_videos",
+    "forum_qa",
+    "creating_index"
+  ],
+  "stats": {
+    "blog_articles": {
+      "loaded": 0,
+      "total": 0,
+      "errors": 0
+    },
+    "youtube_videos": {
+      "loaded": 0,
+      "total": 0,
+      "errors": 0
+    },
+    "forum_qa": {
+      "loaded": 0,
+      "total": 0,
+      "errors": 0
+    }
+  },
+  "errors": [
+    "Forum database: relation \"forum_analysis\" does not exist\nLINE 1: SELECT COUNT(*) FROM forum_analysis WHERE question IS NOT NU...\n                             ^\n"
+  ],
+  "embedding_costs": {
+    "estimated_tokens": 0,
+    "estimated_cost": 0.0
+  },
+  "completed_at": "2025-07-25T14:31:55.169972"
+}

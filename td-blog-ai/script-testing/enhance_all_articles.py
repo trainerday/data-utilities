@@ -27,7 +27,7 @@ def load_all_articles():
     
     content_output_path = os.getenv('CONTENT_OUTPUT_PATH', '')
     articles_base_dir = Path(content_output_path) / "articles-ai"
-    articles_dir = articles_base_dir / "ai-created"
+    articles_dir = articles_base_dir / "ai-created-the-queue"
     
     print(f"🔍 Searching for articles in: {articles_dir}")
     
@@ -160,7 +160,7 @@ def compare_and_save_article(original_content, enhanced_content, original_path, 
     
     # Check if Claude said no changes needed (exact token or within response)
     if enhanced_content.strip() == "NO_CHANGES_NEEDED" or "NO_CHANGES_NEEDED" in enhanced_content:
-        print(f"✅ F{article_num:03d}: No changes needed - keeping original in ai-created")
+        print(f"✅ F{article_num:03d}: No changes needed - keeping original in ai-created-the-queue")
         return False, None
     
     # Also check if Claude returned explanation instead of actual article
@@ -207,12 +207,12 @@ def compare_and_save_article(original_content, enhanced_content, original_path, 
         
         print(f"✅ F{article_num:03d}: Enhanced article saved to ai-updated/{original_path.name}")
         
-        # Delete original file from ai-created since we saved enhanced version
+        # Delete original file from ai-created-the-queue since we saved enhanced version
         try:
             original_path.unlink()
-            print(f"🗑️  F{article_num:03d}: Deleted original from ai-created (enhanced version saved)")
+            print(f"🗑️  F{article_num:03d}: Deleted original from ai-created-the-queue (enhanced version saved)")
         except Exception as e:
-            print(f"⚠️  F{article_num:03d}: Could not delete original from ai-created: {e}")
+            print(f"⚠️  F{article_num:03d}: Could not delete original from ai-created-the-queue: {e}")
         
         return True, updated_path
         

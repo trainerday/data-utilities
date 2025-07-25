@@ -22,7 +22,7 @@ End-to-end workflow for generating, fact-checking, and enhancing TrainerDay blog
 6. **Save to articles-ai** - Creates F001-F068 files with status "new-article"
 
 ### Outputs
-- 68 articles in `/Users/alex/Documents/bm-projects/TD-Business/blog/articles-ai/ai-created/`
+- 68 articles in `/Users/alex/Documents/bm-projects/TD-Business/blog/articles-ai/ai-created-the-queue/`
 - YAML frontmatter with metadata
 - 500-800 word articles in Alex's founder voice
 
@@ -88,7 +88,7 @@ End-to-end workflow for generating, fact-checking, and enhancing TrainerDay blog
 
 ### Human Tasks
 28. **Review all enhanced articles** - Editorial review of articles in ai-updated directory
-29. **Review unenhanced articles** - Check articles remaining in ai-created for quality
+29. **Review unenhanced articles** - Check articles remaining in ai-created-the-queue for quality
 30. **Final content editing** - Polish language, fix any issues, ensure consistency
 31. **Add images and media** - Insert screenshots, diagrams, and visual content
 32. **Move approved articles** - Transfer finalized articles to FINAL directory
@@ -114,7 +114,7 @@ End-to-end workflow for generating, fact-checking, and enhancing TrainerDay blog
 - `templates/article-enhancement-prompt-template.txt` - Enhancement prompts
 
 ### Data Locations
-- **Original articles**: `/Users/alex/Documents/bm-projects/TD-Business/blog/articles-ai/ai-created/`
+- **Original articles**: `/Users/alex/Documents/bm-projects/TD-Business/blog/articles-ai/ai-created-the-queue/`
 - **Enhanced articles**: `/Users/alex/Documents/bm-projects/TD-Business/blog/articles-ai/ai-updated/`
 - **Later processing**: `/Users/alex/Documents/bm-projects/TD-Business/blog/articles-ai/ai-created-later/`
 - **Final ready articles**: `/Users/alex/Documents/bm-projects/TD-Business/blog/articles-ai/FINAL/`

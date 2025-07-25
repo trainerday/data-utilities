@@ -1,0 +1,18 @@
+{
+  "timestamp": "2025-07-25T15:48:31.405843",
+  "progress": {
+    "start_time": "2025-07-25 15:47:57.165179",
+    "blog_docs_processed": 69,
+    "total_blog_docs": 69,
+    "embedding_cost_estimate": 0.006723372499999999,
+    "errors": []
+  },
+  "local_db_config": {
+    "host": "localhost",
+    "port": 5432,
+    "database": "trainerday_local",
+    "user": "alex"
+  },
+  "table_name": "llamaindex_knowledge_base",
+  "embedding_model": "text-embedding-3-large"
+}
