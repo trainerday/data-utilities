@@ -96,10 +96,14 @@ class EditFinalizer:
                 # Extract metadata from URL and alt text
                 metadata = self._extract_image_metadata(url, alt_text, context)
                 
+                # Determine if this is a local path or URL
+                is_local = url.startswith('./') or url.startswith('../') or not url.startswith('http')
+                
                 image_info = {
-                    "url": url,
+                    "url": url,  # TODO: Rename to "path" in future update
                     "alt_text": alt_text,
                     "type": "article_level" if is_article_level else "inline",
+                    "is_local": is_local,
                     "line_number": i + 1,
                     "context": context,
                     "metadata": metadata
@@ -287,7 +291,8 @@ Return a JSON object with this structure:
                 total_images_found += len(images)
                 print(f"    🖼️  Found {len(images)} images")
                 for img in images:
-                    print(f"       - {img['type']}: {img['url'][:50]}...")
+                    img_type = "local" if img.get('is_local', False) else "url"
+                    print(f"       - {img['type']} ({img_type}): {img['url'][:50]}...")
             
             # Extract edit instructions if we have an original
             if original_content:
@@ -327,14 +332,15 @@ Return a JSON object with this structure:
         return articles_processed, articles_with_edits, total_images_found
     
     def copy_to_blog(self):
-        """Copy edited articles to blog system"""
+        """Copy edited articles and assets folder to blog system"""
         
-        print(f"\n📦 Copying articles to blog system...")
+        print(f"\n📦 Copying articles and assets to blog system...")
         
         # Get all article files
         article_files = sorted(self.output_dir.glob("s*.md"))
         copied_count = 0
         
+        # Copy articles
         for article_file in article_files:
             destination = self.blog_destination / article_file.name
             
@@ -345,6 +351,26 @@ Return a JSON object with this structure:
                 copied_count += 1
             except Exception as e:
                 print(f"  ❌ Error copying {article_file.name}: {e}")
+        
+        # Copy assets folder if it exists
+        assets_source = self.output_dir / 'assets'
+        assets_destination = self.blog_destination / 'assets'
+        
+        if assets_source.exists() and assets_source.is_dir():
+            try:
+                # Remove existing assets folder at destination if it exists
+                if assets_destination.exists():
+                    shutil.rmtree(assets_destination)
+                    print(f"  🗑️  Removed existing assets folder at destination")
+                
+                # Copy entire assets folder
+                shutil.copytree(assets_source, assets_destination)
+                asset_count = len(list(assets_source.rglob('*')))
+                print(f"  ✅ Copied assets folder ({asset_count} files)")
+            except Exception as e:
+                print(f"  ❌ Error copying assets folder: {e}")
+        else:
+            print(f"  ℹ️  No assets folder found at {assets_source}")
         
         print(f"\n✅ Copied {copied_count} articles to: {self.blog_destination}")
         

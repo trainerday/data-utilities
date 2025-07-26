@@ -14,7 +14,7 @@ Runs the complete 5-step pipeline to generate styled articles.
 
 ### 2. Alex Edits
 
-Review and manually edit articles in `output/articles-ai/`
+Review and manually edit articles in `output/articles-ai/` using Typora (recommended for better markdown editing and image handling)
 
 ### 3. Finalize and Move
 
@@ -92,6 +92,7 @@ Captures your edits, tracks images, and copies articles to blog system.
   - Searchable metadata (keywords, features)
 - Saves edits and images to `article-queries/edits/workout-edits.json`
 - Copies final articles to blog system at configured location
+- Copies assets folder (containing all images) to blog system
 - Enables automatic reapplication of edits and image reinsertion in future regenerations
 
 ## Edit Tracking System
@@ -237,9 +238,11 @@ This generates articles with:
 
 ### Phase 2: Manual Review and Editing
 
-1. **Review styled articles** in `output/articles-ai/`
-2. **Make manual edits** directly to the files
+1. **Open articles in Typora** from `output/articles-ai/`
+2. **Make manual edits** including adding images (drag & drop local images into Typora)
 3. **Save your changes**
+
+**Note:** When adding images in Typora, they will be saved as local paths (e.g., `./images/feature-screenshot.png`). This is expected behavior.
 
 ### Phase 3: Finalize and Track Edits
 
@@ -251,9 +254,10 @@ This script:
 
 - Compares your edited versions with _originals
 - Extracts edit instructions using GPT-4o
-- Extracts and tracks all image URLs and metadata
+- Extracts and tracks all images (both URLs and local paths)
 - Saves edits and images to `article-queries/edits/workout-edits.json`
 - Copies final articles to blog system
+- Copies assets folder (containing images) to blog system
 
 ### Future Regenerations
 
@@ -288,3 +292,8 @@ When you run the generation pipeline again:
 - **Style consistency**: Claude ensures consistent voice across articles
 - **Edit tracking**: Always run step8-edits-move-images.py after manual changes
 - **Image preservation**: Step 8 tracks all images for automatic reinsertion in future regenerations
+- **Typora usage**: Use Typora for editing markdown files - it provides better image handling and WYSIWYG editing
+
+## TODO
+
+- **Local Image Handling**: Update Step 8 to properly handle local image paths created by Typora (currently optimized for URLs)
