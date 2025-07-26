@@ -329,7 +329,7 @@ class WorkoutFeatureQuery:
         
         # Save results
         output_dir = Path("./script-testing/workout_query_results")
-        output_dir.mkdir(exist_ok=True)
+        output_dir.mkdir(parents=True, exist_ok=True)
         
         # Save detailed results
         timestamp = datetime.now().strftime("%Y%m%d_%H%M%S")

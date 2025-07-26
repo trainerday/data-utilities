@@ -15,6 +15,10 @@ from dotenv import load_dotenv
 import openai
 from anthropic import Anthropic
 
+# Import utilities
+sys.path.append(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
+from utils.google_sheets_client import get_bad_facts_for_article_generation
+
 # LlamaIndex imports
 from llama_index.core import VectorStoreIndex, Settings
 from llama_index.vector_stores.postgres import PGVectorStore
@@ -61,39 +65,19 @@ class LlamaIndexArticleGenerator:
         self.output_path = Path(os.getenv('CONTENT_OUTPUT_PATH', 'output'))
         self.templates_path = Path("templates")
         
-    def load_article_config(self, article_number: int, category: str = "features") -> Dict:
-        """Load article configuration from priority list"""
+    def load_query_results(self) -> Dict:
+        """Load query results from article_features.json"""
         
-        # Map category to file
-        category_files = {
-            "features": "ai-articles-features.md",
-            "issues": "ai-articles-issues.md",
-            "training": "ai-articles-training.md",
-            "other": "ai-articles-other.md"
-        }
+        results_file = Path("article-temp-files/article_features.json")
         
-        file_path = self.priority_lists_path / category_files.get(category, "ai-articles-features.md")
+        if not results_file.exists():
+            raise FileNotFoundError(
+                f"Query results not found at {results_file}. "
+                "Please run: python scripts/query_all_article_features.py workout-queries"
+            )
         
-        # Parse markdown table to find article
-        # This is simplified - in production, use proper markdown parsing
-        with open(file_path, 'r') as f:
-            lines = f.readlines()
-            
-        # Find the row for this article number
-        for line in lines:
-            if line.startswith(f"| {article_number} |"):
-                parts = [p.strip() for p in line.split('|')]
-                return {
-                    'number': int(parts[1]),
-                    'include': parts[2],
-                    'title': parts[3],
-                    'category': parts[4],
-                    'engagement': parts[5],
-                    'tags': parts[6],
-                    'user_question': parts[7]
-                }
-        
-        raise ValueError(f"Article {article_number} not found in {category} list")
+        with open(results_file, 'r') as f:
+            return json.load(f)
     
     def generate_search_queries(self, title: str, user_question: str) -> List[str]:
         """Generate multiple search queries for comprehensive retrieval"""
@@ -115,38 +99,67 @@ class LlamaIndexArticleGenerator:
         
         return list(set(queries))  # Remove duplicates
     
-    def query_knowledge_base(self, queries: List[str]) -> List[Any]:
-        """Query LlamaIndex for relevant content"""
+    def extract_content_from_results(self, query_results: Dict) -> Dict[str, Any]:
+        """Extract and organize content from query results"""
         
-        all_nodes = []
-        seen_ids = set()
+        content = {
+            'facts': [],
+            'blog_quotes': [],
+            'forum_questions': [],
+            'video_references': [],
+            'all_features': []
+        }
         
-        for query in queries:
-            print(f"🔍 Querying: {query}")
-            response = self.query_engine.query(query)
-            
-            for node in response.source_nodes:
-                if node.node_id not in seen_ids:
-                    all_nodes.append(node)
-                    seen_ids.add(node.node_id)
+        # Process each category and feature
+        for category, features in query_results.items():
+            for feature_name, results in features.items():
+                content['all_features'].append({
+                    'category': category,
+                    'feature': feature_name,
+                    'results': results
+                })
+                
+                # Process individual results
+                for result in results:
+                    source = result.get('source', '')
+                    text = result.get('text', '')
+                    
+                    if source == 'facts':
+                        content['facts'].append({
+                            'text': text,
+                            'feature': feature_name,
+                            'score': result.get('distance', 0)
+                        })
+                    
+                    elif source == 'blog':
+                        content['blog_quotes'].append({
+                            'quote': text[:500] + '...' if len(text) > 500 else text,
+                            'title': result.get('title', 'Blog Article'),
+                            'feature': feature_name,
+                            'score': result.get('distance', 0)
+                        })
+                    
+                    elif source == 'forum':
+                        content['forum_questions'].append({
+                            'question': text[:200] + '...' if len(text) > 200 else text,
+                            'answer': text[200:500] + '...' if len(text) > 200 else '',
+                            'feature': feature_name,
+                            'score': result.get('distance', 0)
+                        })
+                    
+                    elif source == 'youtube':
+                        content['video_references'].append({
+                            'title': result.get('title', 'Video'),
+                            'excerpt': text[:300] + '...' if len(text) > 300 else text,
+                            'feature': feature_name,
+                            'score': result.get('distance', 0)
+                        })
         
-        # Sort by relevance score
-        all_nodes.sort(key=lambda x: x.score, reverse=True)
+        # Sort by relevance (lower distance = more relevant)
+        for key in ['facts', 'blog_quotes', 'forum_questions', 'video_references']:
+            content[key].sort(key=lambda x: x.get('score', 1))
         
-        print(f"📊 Found {len(all_nodes)} unique content pieces")
-        
-        # Group by source
-        by_source = {}
-        for node in all_nodes:
-            source = node.metadata.get('source', 'unknown')
-            if source not in by_source:
-                by_source[source] = []
-            by_source[source].append(node)
-        
-        for source, nodes in by_source.items():
-            print(f"  - {source}: {len(nodes)} pieces")
-        
-        return all_nodes[:50]  # Return top 50
+        return content
     
     def extract_key_content(self, nodes: List[Any]) -> Dict[str, Any]:
         """Extract key content from retrieved nodes"""
@@ -210,39 +223,58 @@ class LlamaIndexArticleGenerator:
         return content
     
     def generate_article(self, config: Dict, content: Dict) -> str:
-        """Generate article using Claude with template"""
+        """Generate comprehensive article using Claude with template"""
         
-        # Load template
-        template_path = self.templates_path / "individual-article-prompt-template.txt"
+        # Load comprehensive template
+        template_path = self.templates_path / "comprehensive-article-template.txt"
         with open(template_path, 'r') as f:
             template = f.read()
         
-        # Build context sections
-        facts_section = "\n".join([f"- {fact['text']}" for fact in content['facts'][:10]])
+        # Get bad facts from Google Sheets
+        bad_facts_section = get_bad_facts_for_article_generation()
         
-        blog_section = "\n".join([
-            f"From '{q['title']}':\n\"{q['quote']}\""
-            for q in content['blog_quotes'][:5]
-        ])
+        # Organize all content by source type
+        content_sections = []
         
-        forum_section = "\n".join([
-            f"Q: {q['question']}\nA: {q['answer']}"
-            for q in content['forum_questions'][:5]
-        ])
+        # Facts section
+        if content['facts']:
+            facts_text = "\n".join([f"- {fact['text']}" for fact in content['facts'][:30]])
+            content_sections.append(f"## FACTS FROM KNOWLEDGE BASE\n{facts_text}")
         
-        # Fill template
+        # Blog content
+        if content['blog_quotes']:
+            blog_text = "\n\n".join([
+                f"From '{q['title']}':\n\"{q['quote']}\""
+                for q in content['blog_quotes'][:10]
+            ])
+            content_sections.append(f"## BLOG CONTENT\n{blog_text}")
+        
+        # Forum discussions
+        if content['forum_questions']:
+            forum_text = "\n\n".join([
+                f"Q: {q['question']}\nA: {q['answer']}"
+                for q in content['forum_questions'][:10]
+            ])
+            content_sections.append(f"## FORUM DISCUSSIONS\n{forum_text}")
+        
+        # Video content
+        if content['video_references']:
+            video_text = "\n\n".join([
+                f"Video: {v['title']}\n{v['excerpt']}"
+                for v in content['video_references'][:5]
+            ])
+            content_sections.append(f"## VIDEO CONTENT\n{video_text}")
+        
+        # Fill comprehensive template
         prompt = template.format(
-            article_title=config['title'],
-            user_question=config['user_question'],
-            facts_content=facts_section or "No specific facts found.",
-            blog_content=blog_section or "No relevant blog content found.",
-            forum_content=forum_section or "No relevant forum discussions found.",
-            key_points="\n".join([f"- {point}" for point in list(content['key_points'])[:10]])
+            title=config['title'],
+            content_sections="\n\n".join(content_sections),
+            bad_facts_section=bad_facts_section
         )
         
         # Generate with Claude
         response = self.anthropic_client.messages.create(
-            model="claude-3-sonnet-20240229",
+            model="claude-sonnet-4-20250514",
             max_tokens=4000,
             messages=[{
                 "role": "user",
@@ -253,22 +285,10 @@ class LlamaIndexArticleGenerator:
         return response.content[0].text
     
     def save_article(self, content: str, config: Dict):
-        """Save article with metadata"""
+        """Save article without metadata"""
         
-        # Create filename
-        filename = f"{config['category'][0]}{config['number']:03d}-{config['title'].lower().replace(' ', '-')[:50]}.md"
-        
-        # Add frontmatter
-        frontmatter = f"""---
-title: "{config['title']}"
-category: {config['category']}
-engagement: {config['engagement']}
-tags: {config['tags']}
-status: new-article
-created: {datetime.now().strftime('%Y-%m-%d')}
----
-
-"""
+        # Simple filename
+        filename = "article.md"
         
         # Save to output directory
         output_dir = self.output_path / "articles-ai"
@@ -276,30 +296,31 @@ created: {datetime.now().strftime('%Y-%m-%d')}
         
         output_file = output_dir / filename
         with open(output_file, 'w') as f:
-            f.write(frontmatter + content)
+            f.write(content)
         
         print(f"✅ Saved article to: {output_file}")
     
-    def generate(self, article_number: int, category: str = "features"):
-        """Main generation workflow"""
+    def generate(self, title: str = "TrainerDay Workout Creation and Management Features"):
+        """Main generation workflow using query results"""
         
-        print(f"\n🚀 Generating article #{article_number} from {category} category")
+        print(f"\n🚀 Generating comprehensive article: {title}")
         
-        # Load article config
-        config = self.load_article_config(article_number, category)
-        print(f"📋 Title: {config['title']}")
-        print(f"❓ Question: {config['user_question']}")
+        # Load query results
+        print("📄 Loading query results from article_features.json...")
+        query_results = self.load_query_results()
         
-        # Generate search queries
-        queries = self.generate_search_queries(config['title'], config['user_question'])
-        print(f"🔎 Generated {len(queries)} search queries")
+        # Extract content from results
+        content = self.extract_content_from_results(query_results)
+        print(f"📝 Extracted: {len(content['facts'])} facts, {len(content['blog_quotes'])} blog quotes, {len(content['forum_questions'])} forum Q&As, {len(content['video_references'])} video references")
         
-        # Query knowledge base
-        nodes = self.query_knowledge_base(queries)
-        
-        # Extract key content
-        content = self.extract_key_content(nodes)
-        print(f"📝 Extracted: {len(content['facts'])} facts, {len(content['blog_quotes'])} blog quotes, {len(content['forum_questions'])} forum Q&As")
+        # Create config for the article
+        config = {
+            'title': title,
+            'category': 'features',
+            'engagement': 'high',
+            'tags': 'workouts, training, features',
+            'number': 1
+        }
         
         # Generate article
         print("🤖 Generating article with Claude...")
@@ -312,16 +333,11 @@ created: {datetime.now().strftime('%Y-%m-%d')}
 
 
 def main():
-    if len(sys.argv) < 2:
-        print("Usage: python generate_article_llamaindex.py <article_number> [category]")
-        print("Categories: features (default), issues, training, other")
-        sys.exit(1)
-    
-    article_number = int(sys.argv[1])
-    category = sys.argv[2] if len(sys.argv) > 2 else "features"
+    # Optional title argument
+    title = sys.argv[1] if len(sys.argv) > 1 else "TrainerDay Workout Creation and Management Features"
     
     generator = LlamaIndexArticleGenerator()
-    generator.generate(article_number, category)
+    generator.generate(title)
 
 
 if __name__ == "__main__":

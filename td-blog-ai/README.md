@@ -49,6 +49,17 @@
 
 ## Key Scripts
 
+### Query Scripts (td-blog-ai)
+```bash
+# Query features using a query file
+python scripts/query_all_article_features.py <query-file-name>
+
+# Example: Query workout features
+python scripts/query_all_article_features.py workout-queries
+
+# Results saved to article-temp-files/article_features.json
+```
+
 ### Article Generation (td-blog-ai)
 ```bash
 # Initial generation
@@ -86,6 +97,33 @@ cd ../vector-loader
 python production/facts_system/update_facts_preserve_status.py
 python production/data_loaders/facts_data_loader.py
 ```
+
+## Query System
+
+### Article Query Files
+Query files are stored in the `article-queries/` directory and use a markdown format:
+
+```markdown
+# Query Title
+
+## Category Name
+
+### Feature Name
+- "query string 1"
+- "query string 2"
+- "query string 3"
+```
+
+### Running Queries
+```bash
+# Query features from a markdown file
+python scripts/query_all_article_features.py <query-file-name>
+
+# Example: workout-queries.md
+python scripts/query_all_article_features.py workout-queries
+```
+
+Query results are saved to `article-temp-files/article_features.json`.
 
 ## Important Information
 
