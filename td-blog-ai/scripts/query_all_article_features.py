@@ -124,15 +124,15 @@ class ComprehensiveWorkoutQuery:
                             FROM llamaindex_knowledge_base 
                             WHERE embedding IS NOT NULL
                             AND (
-                                (metadata_->>'source' = 'facts' AND embedding <=> %s::vector <= 0.6) OR
-                                (metadata_->>'source' = 'blog' AND embedding <=> %s::vector <= 0.6) OR
-                                (metadata_->>'source' = 'youtube' AND embedding <=> %s::vector <= 0.65) OR
-                                (metadata_->>'source' = 'forum' AND embedding <=> %s::vector <= 0.7)
+                                (metadata_->>'source' = 'facts' AND embedding <=> %s::vector <= 0.75) OR
+                                (metadata_->>'source' = 'blog' AND embedding <=> %s::vector <= 0.75) OR
+                                (metadata_->>'source' = 'youtube' AND embedding <=> %s::vector <= 0.8) OR
+                                (metadata_->>'source' = 'forum' AND embedding <=> %s::vector <= 0.85)
                             )
                         )
                         SELECT * FROM ranked_results
                         ORDER BY distance
-                        LIMIT 10
+                        LIMIT 30
                     """, (query_embedding, query_embedding, query_embedding, query_embedding, query_embedding))
                     
                     results = cur.fetchall()
