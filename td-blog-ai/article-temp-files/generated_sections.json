@@ -1,0 +1,62 @@
+[
+  {
+    "filename": "s01-Workout_Editor_Basics.md",
+    "section_name": "Workout Editor Basics",
+    "category": "Core"
+  },
+  {
+    "filename": "s02-Control_Modes_ERG_Slope_Resistance_HR.md",
+    "section_name": "Control Modes ERG Slope Resistance HR",
+    "category": "Core"
+  },
+  {
+    "filename": "s03-Mixed-Mode_Workouts.md",
+    "section_name": "Mixed-Mode Workouts",
+    "category": "Core"
+  },
+  {
+    "filename": "s04-Workout_Library_Organization.md",
+    "section_name": "Workout Library Organization",
+    "category": "Core"
+  },
+  {
+    "filename": "s05-Import_Export_and_Sharing.md",
+    "section_name": "Import Export and Sharing",
+    "category": "Core"
+  },
+  {
+    "filename": "s06-Sets_and_Reps_Editor.md",
+    "section_name": "Sets and Reps Editor",
+    "category": "Secondary"
+  },
+  {
+    "filename": "s07-Route_Importing.md",
+    "section_name": "Route Importing",
+    "category": "Secondary"
+  },
+  {
+    "filename": "s08-Interval_Comments.md",
+    "section_name": "Interval Comments",
+    "category": "Secondary"
+  },
+  {
+    "filename": "s09-Wbal_Integration.md",
+    "section_name": "Wbal Integration",
+    "category": "Secondary"
+  },
+  {
+    "filename": "s10-Ramps_and_Steps.md",
+    "section_name": "Ramps and Steps",
+    "category": "Secondary"
+  },
+  {
+    "filename": "s11-Free_Ride_Intervals.md",
+    "section_name": "Free Ride Intervals",
+    "category": "Secondary"
+  },
+  {
+    "filename": "s12-Target_Modes.md",
+    "section_name": "Target Modes",
+    "category": "Secondary"
+  }
+]

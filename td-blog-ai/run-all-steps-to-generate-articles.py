@@ -64,22 +64,22 @@ def main():
             "description": "Generates main content for each article section (LLM call)"
         },
         {
-            "name": "Step 3: Generate YAML Metadata",
-            "script": "scripts/step3-generate-yaml-metadata.py",
-            "args": None,
-            "description": "Adds YAML front matter to each article (LLM call)"
-        },
-        {
-            "name": "Step 4: Apply Style and Edits",
+            "name": "Step 3: Apply Style and Edits",
             "script": "scripts/step4-apply-style-and-edits.py",
             "args": None,
             "description": "Applies Alex's writing style and user edits (LLM call)"
         },
         {
-            "name": "Step 5: Generate Overview",
+            "name": "Step 4: Generate Overview",
             "script": "scripts/step5-generate-overview.py",
             "args": None,
             "description": "Creates overview article linking to all sections (LLM call)"
+        },
+        {
+            "name": "Step 5: Add YAML Metadata",
+            "script": "scripts/step3-generate-yaml-metadata.py",
+            "args": None,
+            "description": "Adds YAML front matter to ALL articles (LLM call)"
         }
     ]
     

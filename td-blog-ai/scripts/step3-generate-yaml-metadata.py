@@ -13,6 +13,8 @@ from datetime import datetime
 
 from dotenv import load_dotenv
 import openai
+import frontmatter
+import yaml
 
 load_dotenv()
 
@@ -23,29 +25,45 @@ class YAMLMetadataGenerator:
         self.openai_client = openai.OpenAI()
         self.output_path = Path(os.getenv('CONTENT_OUTPUT_PATH', 'output'))
         
-    def load_section_info(self) -> list:
-        """Load section information from previous step"""
-        section_info_file = Path("article-temp-files/generated_sections.json")
+    def discover_articles(self) -> list:
+        """Discover all articles from output directory"""
+        output_dir = self.output_path / "articles-ai"
+        articles = []
         
-        if not section_info_file.exists():
-            raise FileNotFoundError(f"Section info not found at {section_info_file}")
+        if output_dir.exists():
+            # Get ALL markdown files
+            article_files = sorted(output_dir.glob("s*.md"))
+            
+            for article_file in article_files:
+                # Extract section name from filename
+                if article_file.name == "s00-overview.md":
+                    section_name = "TrainerDay Features Overview"
+                else:
+                    # e.g., s01-Workout_Editor_Basics.md -> Workout Editor Basics
+                    filename_parts = article_file.stem.split('-', 1)
+                    if len(filename_parts) > 1:
+                        section_name = filename_parts[1].replace('_', ' ')
+                    else:
+                        section_name = article_file.stem
+                
+                articles.append({
+                    "filename": article_file.name,
+                    "section_name": section_name,
+                    "file_path": article_file
+                })
         
-        with open(section_info_file, 'r') as f:
-            return json.load(f)
+        if not articles:
+            raise FileNotFoundError("No articles found to add YAML metadata to")
+        
+        return articles
     
-    def generate_yaml_metadata(self, section_name: str, content: str, category: str) -> str:
+    def generate_yaml_metadata(self, section_name: str, content: str) -> dict:
         """Generate YAML metadata for the article using GPT"""
         
         # Load hierarchy rules
         hierarchy_file = Path("/Users/alex/Documents/bm-projects/TD-Business/blog/articles-ai/category-sub-categories/_hierarchy_rules_json.md")
         with open(hierarchy_file, 'r') as f:
             hierarchy_content = f.read()
-        
-        # Determine engagement based on category
-        if category == 'Core':
-            engagement = 'quick-post'
-        else:
-            engagement = None  # Let GPT decide
         
         prompt = f"""Based on this article content about "{section_name}", generate appropriate YAML metadata.
 
@@ -58,24 +76,16 @@ Available metadata options from our hierarchy:
 Generate YAML metadata with:
 1. title: A clear, descriptive title for the article
 2. tags: Choose 3-5 relevant tags from the available tags list
-3. engagement: {f'Must be: {engagement}' if engagement else 'Choose one of: quick-post, complete-post, or geek-post based on the article\'s depth'}
+3. engagement: Choose one of: quick-post, complete-post, or geek-post based on the article's depth and complexity
 4. excerpt: A 1-2 sentence summary of the article
 
-Return ONLY the YAML front matter in this exact format:
----
-title: [title]
-date: {datetime.now().strftime('%Y-%m-%dT%H:%M:%S.000Z')}
-blog-group: Features
-engagement: [engagement]
-tags:
-  - [tag1]
-  - [tag2]
-  - [tag3]
-excerpt: >-
-  [excerpt]
-permalink: blog/articles/ai/{section_name.lower().replace(' ', '-').replace('(', '').replace(')', '').replace(',', '')}
-author: AI
----"""
+Return the metadata as a JSON object with these fields:
+{{
+  "title": "...",
+  "tags": ["tag1", "tag2", "tag3"],
+  "engagement": "...",
+  "excerpt": "..."
+}}"""
         
         try:
             response = self.openai_client.chat.completions.create(
@@ -85,66 +95,70 @@ author: AI
                     "role": "user",
                     "content": prompt
                 }],
-                temperature=0.3
+                temperature=0.3,
+                response_format={"type": "json_object"}
             )
-            return response.choices[0].message.content
+            
+            metadata = json.loads(response.choices[0].message.content)
+            
+            # Add fixed fields
+            metadata['date'] = datetime.now().strftime('%Y-%m-%dT%H:%M:%S.000Z')
+            metadata['blog-group'] = 'Features'
+            metadata['permalink'] = f"blog/articles/ai/{section_name.lower().replace(' ', '-').replace('(', '').replace(')', '').replace(',', '')}"
+            metadata['author'] = 'AI'
+            
+            return metadata
+            
         except Exception as e:
             print(f"Error generating YAML metadata: {e}")
-            # Fallback YAML
-            return f"""---
-title: {section_name}
-date: {datetime.now().strftime('%Y-%m-%dT%H:%M:%S.000Z')}
-blog-group: Features
-engagement: complete-post
-tags:
-  - web-app
-  - mobile-app
-  - workout-creator
-excerpt: >-
-  A comprehensive guide to {section_name} in TrainerDay.
-permalink: blog/articles/ai/{section_name.lower().replace(' ', '-').replace('(', '').replace(')', '').replace(',', '')}
-author: AI
----"""
+            # Fallback metadata
+            return {
+                'title': section_name,
+                'date': datetime.now().strftime('%Y-%m-%dT%H:%M:%S.000Z'),
+                'blog-group': 'Features',
+                'engagement': 'complete-post',
+                'tags': ['web-app', 'mobile-app', 'workout-creator'],
+                'excerpt': f'A comprehensive guide to {section_name} in TrainerDay.',
+                'permalink': f"blog/articles/ai/{section_name.lower().replace(' ', '-').replace('(', '').replace(')', '').replace(',', '')}",
+                'author': 'AI'
+            }
     
     def add_yaml_to_articles(self):
         """Add YAML metadata to all generated articles"""
-        print("\n🏷️  Step 3: Adding YAML Metadata")
+        print("\n🏷️  Step 5: Adding YAML Metadata to ALL Articles")
         print("=" * 50)
         
-        # Load section info
-        section_info = self.load_section_info()
+        # Discover all articles in the output folder
+        articles = self.discover_articles()
         
-        print(f"📝 Adding metadata to {len(section_info)} articles...")
+        print(f"📝 Found {len(articles)} articles to process...")
         
-        output_dir = self.output_path / "articles-ai"
-        
-        for section in section_info:
-            filename = section['filename']
-            section_name = section['section_name']
-            category = section['category']
+        for article in articles:
+            filename = article['filename']
+            section_name = article['section_name']
+            file_path = article['file_path']
             
-            file_path = output_dir / filename
-            
-            # Read the article content
+            # Read the article content using frontmatter
             with open(file_path, 'r') as f:
-                content = f.read()
+                post = frontmatter.load(f)
             
             # Check if YAML already exists
-            if content.startswith('---'):
-                print(f"  ⏭️  {filename} already has metadata, skipping...")
-                continue
+            if post.metadata:
+                print(f"  🔄 {filename} has metadata, removing and regenerating...")
+                # Clear existing metadata
+                post.metadata = {}
+            else:
+                print(f"  📝 Processing {filename}...")
             
-            print(f"  Processing {filename}...")
+            # Generate YAML metadata based on content
+            metadata = self.generate_yaml_metadata(section_name, post.content)
             
-            # Generate YAML metadata
-            yaml_metadata = self.generate_yaml_metadata(section_name, content, category)
+            # Update the post metadata
+            post.metadata = metadata
             
-            # Combine YAML and content
-            updated_content = yaml_metadata + "\n" + content
-            
-            # Write back to file
+            # Write back to file using frontmatter
             with open(file_path, 'w') as f:
-                f.write(updated_content)
+                f.write(frontmatter.dumps(post))
             
             print(f"    ✅ Added metadata")
             time.sleep(1)  # Rate limiting
