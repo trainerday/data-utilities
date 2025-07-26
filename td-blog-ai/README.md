@@ -19,10 +19,10 @@ Review and manually edit articles in `output/articles-ai/`
 ### 3. Finalize and Move
 
 ```bash
-python scripts/finalize_edits.py
+python scripts/step8-edits-move-images.py
 ```
 
-Captures your edits and copies articles to blog system.
+Captures your edits, tracks images, and copies articles to blog system.
 
 ## Complete Workflow Steps
 
@@ -80,14 +80,29 @@ Captures your edits and copies articles to blog system.
 - Organizes by Core Features and Additional Features
 - Saves as `output/articles-ai/s00-overview.md`
 
+### Step 8: Extract Edits, Track Images, and Move to Blog
+
+**Script:** `scripts/step8-edits-move-images.py`
+
+- Compares edited articles with originals in `_originals/`
+- Extracts edit instructions using GPT-4o (LLM call)
+- Identifies and tracks all image URLs with metadata:
+  - Article-level vs inline images
+  - Context and location
+  - Searchable metadata (keywords, features)
+- Saves edits and images to `article-queries/edits/workout-edits.json`
+- Copies final articles to blog system at configured location
+- Enables automatic reapplication of edits and image reinsertion in future regenerations
+
 ## Edit Tracking System
 
 ### Making Edits
 
 1. Edit articles directly in `output/articles-ai/`
-2. Run `python scripts/finalize_edits.py` to:
+2. Run `python scripts/step8-edits-move-images.py` to:
    - Compare edited versions with originals
    - Extract edit instructions using GPT-4o
+   - Track all image URLs and metadata
    - Save to `article-queries/edits/workout-edits.json`
    - Copy articles to blog system
 
@@ -149,8 +164,9 @@ td-blog-ai/
 │   ├── step3-generate-yaml-metadata.py
 │   ├── step4-apply-style-and-edits.py
 │   ├── step5-generate-overview.py
-│   ├── finalize_edits.py
-│   └── ...
+│   ├── step8-edits-move-images.py
+│   └── archive/
+│       └── (old unused scripts)
 ├── templates/
 │   ├── section-generation-template.txt
 │   ├── overview-template.txt
@@ -228,14 +244,15 @@ This generates articles with:
 ### Phase 3: Finalize and Track Edits
 
 ```bash
-python scripts/finalize_edits.py
+python scripts/step8-edits-move-images.py
 ```
 
 This script:
 
 - Compares your edited versions with _originals
 - Extracts edit instructions using GPT-4o
-- Saves edits to `article-queries/edits/workout-edits.json`
+- Extracts and tracks all image URLs and metadata
+- Saves edits and images to `article-queries/edits/workout-edits.json`
 - Copies final articles to blog system
 
 ### Future Regenerations
@@ -248,12 +265,15 @@ When you run the generation pipeline again:
 
 ## LLM Usage Summary
 
-- **4 LLM calls per article**:
+- **4 LLM calls per article during generation**:
 
   1. Content generation (GPT-4o)
   2. YAML metadata (GPT-4o)
   3. Style application (Claude)
   4. Overview generation (GPT-4o)
+  
+- **1 additional LLM call in Step 8**:
+  - Edit extraction (GPT-4o) when comparing edited vs original
 - **Token estimates**:
 
   - Content: ~4000 tokens per article
@@ -266,4 +286,5 @@ When you run the generation pipeline again:
 - **Query optimization**: More specific queries yield better results
 - **Bad facts**: Review generated articles for incorrect terminology
 - **Style consistency**: Claude ensures consistent voice across articles
-- **Edit tracking**: Always run finalize_edits.py after manual changes
+- **Edit tracking**: Always run step8-edits-move-images.py after manual changes
+- **Image preservation**: Step 8 tracks all images for automatic reinsertion in future regenerations
