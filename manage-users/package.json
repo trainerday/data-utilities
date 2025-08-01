@@ -6,7 +6,7 @@
     "start": "./node_modules/forever/bin/forever ./bin/www"
   },
   "dependencies": {
-    "@api/bigmailer": "file:.api/apis/bigmailer",
+    "@api/bigmailer": "file:./bigmailer",
     "axios": "^1.7.7",
     "cookie-parser": "~1.4.4",
     "debug": "~2.6.9",

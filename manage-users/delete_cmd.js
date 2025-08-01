@@ -1,3 +1,4 @@
+require('dotenv').config()
 var deleteUser = require('./common/deleteUser')
 
 
